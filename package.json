@@ -1,5 +1,5 @@
 {
-  "name": "regional-hub-template",
+  "name": "pestcontrolcamdencounty",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.39.0",
-    "next": "15.1.0",
+    "next": "16.1.6",
     "react": "^19",
     "react-dom": "^19"
   },
