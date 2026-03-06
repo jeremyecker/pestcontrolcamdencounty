@@ -108,7 +108,6 @@ export const NAV_LINKS = [
   { label: 'Home', href: '/' },
   { label: 'Services', href: '/services' },
   { label: 'Service Areas', href: '/service-areas' },
-  { label: 'Reviews', href: '/reviews' },
   { label: 'Blog', href: '/blog' },
   { label: 'About', href: '/about' },
   { label: 'Contact', href: '/contact' },
@@ -124,9 +123,7 @@ export const FOOTER_LINKS = {
   ],
   company: [
     { label: 'About Us', href: '/about' },
-    { label: 'Reviews', href: '/reviews' },
     { label: 'Contact', href: '/contact' },
-    { label: 'Reviews', href: '/reviews' },
   { label: 'Blog', href: '/blog' },
   ],
   legal: [
