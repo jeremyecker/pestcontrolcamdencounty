@@ -1,42 +1,104 @@
-import { MetadataRoute } from 'next';
-import { BRAND, REGIONS } from '@/hub.config';
+import type { MetadataRoute } from 'next';
 import { SERVICES } from '@/lib/services';
+import { REGIONS } from '@/hub.config';
+
+const BASE_URL = 'https://pestcontrolcamdencounty.com';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = `https://${BRAND.domain}`;
-  const entries: MetadataRoute.Sitemap = [
-    { url: base, lastModified: new Date(), changeFrequency: 'weekly', priority: 1 },
+  const now = new Date().toISOString();
+
+  // Static pages
+  const staticPages: MetadataRoute.Sitemap = [
+    {
+      url: BASE_URL,
+      lastModified: now,
+      changeFrequency: 'weekly',
+      priority: 1.0,
+    },
+    {
+      url: `${BASE_URL}/contact`,
+      lastModified: now,
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: `${BASE_URL}/about`,
+      lastModified: now,
+      changeFrequency: 'monthly',
+      priority: 0.6,
+    },
+    {
+      url: `${BASE_URL}/service-areas`,
+      lastModified: now,
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    // High-intent lead capture pages
+    {
+      url: `${BASE_URL}/pest-control-near-me`,
+      lastModified: now,
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: `${BASE_URL}/exterminator-near-me`,
+      lastModified: now,
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: `${BASE_URL}/emergency-pest-control`,
+      lastModified: now,
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: `${BASE_URL}/same-day-pest-control`,
+      lastModified: now,
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
+      url: `${BASE_URL}/termite-inspection`,
+      lastModified: now,
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
+      url: `${BASE_URL}/free-pest-inspection`,
+      lastModified: now,
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
   ];
 
-  for (const region of REGIONS) {
-    const regionBase = `${base}/${region.slug}`;
-    entries.push(
-      { url: `${regionBase}/`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
-      { url: `${regionBase}/services/`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-      { url: `${regionBase}/service-areas/`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
-      { url: `${regionBase}/about/`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.6 },
-      { url: `${regionBase}/contact/`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
-    );
+  // Service pages
+  const servicePages: MetadataRoute.Sitemap = SERVICES.map((service) => ({
+    url: `${BASE_URL}/services/${service.slug}`,
+    lastModified: now,
+    changeFrequency: 'monthly' as const,
+    priority: 0.8,
+  }));
 
-    for (const service of SERVICES) {
-      entries.push({
-        url: `${regionBase}/services/${service.slug}/`,
-        lastModified: new Date(),
-        changeFrequency: 'monthly',
-        priority: 0.7,
-      });
-    }
+  // County page
+  const countyPages: MetadataRoute.Sitemap = [
+    {
+      url: `${BASE_URL}/camden-county`,
+      lastModified: now,
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+  ];
 
-    for (const town of region.towns) {
-      const townSlug = town.toLowerCase().replace(/\s+/g, '-');
-      entries.push({
-        url: `${regionBase}/${townSlug}/`,
-        lastModified: new Date(),
-        changeFrequency: 'monthly',
-        priority: 0.6,
-      });
-    }
-  }
+  // Town pages
+  const townPages: MetadataRoute.Sitemap = REGIONS.flatMap((region) =>
+    region.towns.map((town) => ({
+      url: `${BASE_URL}/camden-county/${town.slug}`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    }))
+  );
 
-  return entries;
+  return [...staticPages, ...servicePages, ...countyPages, ...townPages];
 }
