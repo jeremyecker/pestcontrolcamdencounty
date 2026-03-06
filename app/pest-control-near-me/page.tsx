@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { BRAND, REGIONS } from '@/hub.config';
 import { SERVICES } from '@/lib/services';
-import TrustBar from '@/components/TrustBar';
+import TrustBar from '@/components/sections/TrustBar';
 
 export const metadata: Metadata = {
   title: 'Pest Control Near Me in Camden County NJ | Same-Day Service',
