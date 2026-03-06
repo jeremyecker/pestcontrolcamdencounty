@@ -19,7 +19,7 @@ export const BRAND = {
   primaryColor: '#1A365D',
   secondaryColor: '#2B6CB0',
   accentColor: '#DD6B20',
-  yearFounded: 2024,
+  yearFounded: 2011,
   region: 'Camden County, NJ',
   webhookUrl: '',
 } as const;
