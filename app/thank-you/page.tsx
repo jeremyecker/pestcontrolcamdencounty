@@ -1,10 +1,10 @@
 import Link from 'next/link';
-import { SITE_CONFIG } from '@/lib/site.config';
+import { BRAND } from '@/hub.config';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: `Thank You | ${SITE_CONFIG.businessName}`,
-  description: `Thank you for contacting ${SITE_CONFIG.businessName}. We'll get back to you ASAP.`,
+  title: `Thank You | ${BRAND.name}`,
+  description: `Thank you for contacting ${BRAND.name}. We'll get back to you ASAP.`,
   robots: { index: false, follow: false },
 };
 
@@ -69,10 +69,10 @@ export default function ThankYouPage() {
             For urgent pest emergencies, give us a call directly. We offer same-day and next-day service.
           </p>
           <a
-            href={`tel:${SITE_CONFIG.phone.replace(/[^\d+]/g, '')}`}
+            href={`tel:+1${BRAND.phone}`}
             className="inline-flex items-center gap-2 bg-brand-accent text-white px-8 py-4 rounded-lg text-xl font-bold hover:bg-orange-600 transition-colors shadow-lg"
           >
-            📞 Call {SITE_CONFIG.phone}
+            📞 Call {BRAND.phoneFormatted}
           </a>
         </div>
       </section>
