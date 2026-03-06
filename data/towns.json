@@ -1,0 +1,29 @@
+{
+  "regions": [
+    {
+      "regionSlug": "camden-county",
+      "county": "Camden County",
+      "state": "New Jersey",
+      "stateCode": "NJ",
+      "towns": [
+        { "name": "Cherry Hill", "slug": "cherry-hill" },
+        { "name": "Voorhees", "slug": "voorhees" },
+        { "name": "Marlton", "slug": "marlton" },
+        { "name": "Mount Laurel", "slug": "mount-laurel" },
+        { "name": "Haddonfield", "slug": "haddonfield" },
+        { "name": "Collingswood", "slug": "collingswood" },
+        { "name": "Pennsauken", "slug": "pennsauken" },
+        { "name": "Gloucester Township", "slug": "gloucester-township" },
+        { "name": "Winslow Township", "slug": "winslow-township" },
+        { "name": "Lindenwold", "slug": "lindenwold" },
+        { "name": "Bellmawr", "slug": "bellmawr" },
+        { "name": "Audubon", "slug": "audubon" },
+        { "name": "Barrington", "slug": "barrington" },
+        { "name": "Somerdale", "slug": "somerdale" },
+        { "name": "Runnemede", "slug": "runnemede" },
+        { "name": "Clementon", "slug": "clementon" }
+      ]
+    }
+  ],
+  "totalTowns": 16
+}
