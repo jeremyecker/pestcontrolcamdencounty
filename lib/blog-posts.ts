@@ -2251,3 +2251,8 @@ Call Pest Control Camden County when wildlife crosses the line from neighbor to 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {
   return blogPosts.find(post => post.slug === slug);
 }
+
+
+export function getAllBlogPosts(): BlogPost[] {
+  return blogPosts;
+}
