@@ -109,5 +109,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  return [...staticPages, ...servicePages, ...countyPages, ...townPages, ...blogPages];
+  // Commercial pages
+  const commercialPages: MetadataRoute.Sitemap = [
+    '/commercial',
+    '/commercial/restaurants',
+    '/commercial/office-buildings',
+    '/commercial/warehouses',
+    '/commercial/healthcare',
+    '/commercial/schools',
+    '/commercial/retail',
+    '/commercial/food-processing',
+    '/commercial/property-management',
+    '/commercial/hospitality',
+    '/commercial/apartment-complexes',
+  ].map((path) => ({
+    url: `${BASE_URL}${path}`,
+    lastModified: now,
+    changeFrequency: 'monthly' as const,
+    priority: 0.8,
+  }));
+
+  return [...staticPages, ...servicePages, ...countyPages, ...townPages, ...blogPages, ...commercialPages];
 }
