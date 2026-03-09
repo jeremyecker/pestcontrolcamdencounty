@@ -7,9 +7,9 @@ import TrustBar from '@/components/sections/TrustBar';
 export const metadata: Metadata = {
   title: 'Emergency Pest Control Camden County NJ | 24/7 Response',
   description:
-    'Emergency pest control in Camden County NJ. Wasps, rats, bed bugs, termite swarms — we respond fast when you need us most. Call (856) 600-0812 now.',
+    'Emergency pest control in Camden County NJ. Same-day response for bed bugs, wasps, rodents, and other urgent pest situations. Call (856) 600-0812 now.',
   keywords:
-    'emergency pest control, emergency exterminator Camden County, 24/7 pest control NJ, urgent pest removal Cherry Hill, emergency rat removal',
+    'emergency pest control, emergency exterminator Camden County, 24 hour pest control NJ, same day exterminator Cherry Hill, emergency pest control Camden NJ',
 };
 
 export default function EmergencyPestControl() {
@@ -25,381 +25,433 @@ export default function EmergencyPestControl() {
       </nav>
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-[#1A365D] to-[#2B6CB0] text-white py-16">
+      <section className="bg-gradient-to-br from-red-900 to-red-700 text-white py-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
+          <div className="text-5xl mb-4">🚨</div>
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
             Emergency Pest Control in Camden County, NJ
           </h1>
-          <p className="text-xl text-blue-100 mb-4">
-            Some pest situations cannot wait. When you are dealing with a wasp attack, a rat inside your living space,
-            a bat in your bedroom, or a termite swarm — call us immediately.
-          </p>
-          <p className="text-2xl font-bold text-[#DD6B20] mb-8">
-            Fast Response — Evenings & Weekends Available
+          <p className="text-xl text-red-100 mb-8">
+            Pest emergencies do not wait for business hours. Our licensed Camden County technicians respond
+            quickly to urgent infestations — including evenings and weekends.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="tel:+18566000812"
               className="bg-[#DD6B20] hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors animate-pulse"
             >
-              🚨 Call Now: (856) 600-0812
+              🚨 EMERGENCY: (856) 600-0812
             </a>
             <Link
               href="/contact"
-              className="bg-white text-[#1A365D] font-bold py-4 px-8 rounded-lg text-xl hover:bg-gray-100 transition-colors"
+              className="bg-white text-red-900 font-bold py-4 px-8 rounded-lg text-xl hover:bg-gray-100 transition-colors"
             >
               Request Emergency Service
             </Link>
           </div>
+          <p className="text-red-200 mt-4">
+            Camden County, NJ · Fast Response · NJDEP Licensed
+          </p>
         </div>
       </section>
 
       {/* Main Content */}
       <main className="max-w-4xl mx-auto px-4 py-16">
 
-        {/* When to Call */}
+        {/* What Constitutes a Pest Emergency */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-[#1A365D] mb-6">
-            When Is a Pest Situation an Emergency?
+            What Constitutes a Pest Emergency in Camden County, NJ?
           </h2>
           <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            Not every pest sighting requires an emergency call — but some situations are genuinely urgent and should not
-            be delayed until Monday morning. A pest emergency exists when there is an immediate threat to your health,
-            safety, or property, or when delay will dramatically worsen the problem. In Camden County, we see emergency
-            pest situations year-round, driven by the region&apos;s climate, older housing stock, and proximity to
-            wooded and waterway habitats. Here are the most common emergencies we respond to:
+            Not every pest sighting is an emergency — but many infestations in Camden County homes and businesses can
+            rapidly escalate from inconvenience to serious health hazard or structural threat. As a local, NJDEP-licensed
+            pest control provider, we have responded to hundreds of genuine pest emergencies throughout{' '}
+            <Link href="/camden-county/cherry-hill" className="text-[#2B6CB0] hover:underline">Cherry Hill</Link>,{' '}
+            <Link href="/camden-county/camden" className="text-[#2B6CB0] hover:underline">Camden</Link>,{' '}
+            <Link href="/camden-county/pennsauken" className="text-[#2B6CB0] hover:underline">Pennsauken</Link>, and{' '}
+            <Link href="/camden-county/gloucester-township" className="text-[#2B6CB0] hover:underline">Gloucester Township</Link>.
+            Here is a clear guide to what warrants an emergency call:
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-            <div className="bg-red-50 border border-red-200 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-red-800 mb-3">🐝 Wasp or Hornet Attack</h3>
-              <p className="text-gray-700 mb-3">
-                A wasp nest over a doorway, inside a wall void, or in a ground cavity near a play area is a serious
-                safety hazard — especially for children and anyone with allergies. Yellow jackets, paper wasps, and
-                bald-faced hornets are aggressive when their nests are disturbed, and a single nest can contain
-                hundreds or thousands of stinging insects. Do not attempt to remove a nest yourself.
-              </p>
-              <Link href="/services/wasp-hornet-removal" className="text-[#2B6CB0] font-semibold hover:underline">
-                Learn about our wasp & hornet removal →
-              </Link>
+          {/* Bed Bug Emergency */}
+          <div className="bg-red-50 border border-red-200 rounded-xl p-6 mb-6">
+            <h3 className="text-2xl font-bold text-red-800 mb-3">🚨 Bed Bug Outbreak</h3>
+            <p className="text-gray-700 mb-3">
+              Bed bugs are one of the most psychologically distressing and behaviorally challenging pests in New Jersey.
+              Camden County has seen a significant increase in bed bug cases over the past decade, driven largely by
+              the region&apos;s high population density and frequent travel. A bed bug outbreak is an emergency when:
+            </p>
+            <ul className="text-gray-700 space-y-2 mb-3">
+              <li className="flex gap-2"><span className="text-red-600 font-bold">→</span> You discover bites on multiple family members or wake up with unexplained welts</li>
+              <li className="flex gap-2"><span className="text-red-600 font-bold">→</span> You see live bed bugs on your mattress, box spring, or bedding</li>
+              <li className="flex gap-2"><span className="text-red-600 font-bold">→</span> You find blood smears or dark fecal spots on your sheets or furniture</li>
+              <li className="flex gap-2"><span className="text-red-600 font-bold">→</span> An infestation is discovered in a hotel, rental property, or care facility you operate</li>
+              <li className="flex gap-2"><span className="text-red-600 font-bold">→</span> A tenant reports bed bugs and your rental property is occupied</li>
+            </ul>
+            <p className="text-gray-700">
+              Bed bugs reproduce rapidly — a single fertilized female can produce a colony of hundreds within weeks.
+              Delaying treatment by even a few days allows the infestation to spread to adjacent rooms and units. Early
+              emergency response is critical to containing the outbreak before it becomes a building-wide problem.
+            </p>
+          </div>
+
+          {/* Wasp/Stinging Insects Emergency */}
+          <div className="bg-yellow-50 border border-yellow-300 rounded-xl p-6 mb-6">
+            <h3 className="text-2xl font-bold text-yellow-800 mb-3">🐝 Wasp Nest Near Children, Pets, or High-Traffic Areas</h3>
+            <p className="text-gray-700 mb-3">
+              New Jersey&apos;s hot summers produce explosive populations of yellow jackets, bald-faced hornets, and paper
+              wasps. Most stinging insect nests are manageable when discovered early — but a large wasp or hornet nest
+              in a high-risk location is a genuine emergency requiring same-day response:
+            </p>
+            <ul className="text-gray-700 space-y-2 mb-3">
+              <li className="flex gap-2"><span className="text-yellow-700 font-bold">→</span> A wasp or hornet nest is located within 10 feet of a door, window, outdoor play area, or high-traffic walkway</li>
+              <li className="flex gap-2"><span className="text-yellow-700 font-bold">→</span> A child, pet, or family member with known bee or wasp allergies (anaphylaxis risk) is present in the household</li>
+              <li className="flex gap-2"><span className="text-yellow-700 font-bold">→</span> A nest inside a wall void, attic, or crawl space is already releasing wasps into living areas</li>
+              <li className="flex gap-2"><span className="text-yellow-700 font-bold">→</span> Ground-nesting yellow jackets have been accidentally disturbed and are aggressively defending their colony</li>
+              <li className="flex gap-2"><span className="text-yellow-700 font-bold">→</span> A large bald-faced hornet or European hornet nest is within reach of children&apos;s outdoor play equipment</li>
+            </ul>
+            <p className="text-gray-700">
+              Do not attempt to remove a large wasp, hornet, or yellow jacket nest yourself. An agitated colony of
+              several hundred stinging insects can deliver hundreds of stings in seconds, which is potentially fatal
+              even for people without known allergies. Our emergency team responds with full protective equipment and
+              professional-strength treatments to eliminate the nest quickly and completely.
+            </p>
+          </div>
+
+          {/* Rodent Food Contamination Emergency */}
+          <div className="bg-orange-50 border border-orange-200 rounded-xl p-6 mb-6">
+            <h3 className="text-2xl font-bold text-orange-800 mb-3">🐀 Rodent Infestation with Active Food Contamination</h3>
+            <p className="text-gray-700 mb-3">
+              Mice and rats are not merely a nuisance in Camden County homes and businesses — they are a genuine public
+              health threat. A rodent infestation with evidence of food contamination requires emergency intervention:
+            </p>
+            <ul className="text-gray-700 space-y-2 mb-3">
+              <li className="flex gap-2"><span className="text-orange-700 font-bold">→</span> Rodent droppings found in kitchen cabinets, food pantries, or on food preparation surfaces</li>
+              <li className="flex gap-2"><span className="text-orange-700 font-bold">→</span> Gnaw marks on food packaging, bread bags, cereal boxes, or produce</li>
+              <li className="flex gap-2"><span className="text-orange-700 font-bold">→</span> Rodent activity in a commercial kitchen, restaurant, grocery store, or food service establishment</li>
+              <li className="flex gap-2"><span className="text-orange-700 font-bold">→</span> Evidence of rodents in a child care center, school, or elder care facility</li>
+              <li className="flex gap-2"><span className="text-orange-700 font-bold">→</span> Rodent urine smell or visible tracks on food shelving</li>
+            </ul>
+            <p className="text-gray-700 mb-3">
+              Rodents carry and spread Hantavirus, Salmonella, Leptospirosis, and other serious diseases through their
+              droppings, urine, and saliva. Once a rodent has contaminated food storage or preparation areas, the
+              contamination risk extends well beyond what is visually apparent. For food businesses in Camden County,
+              a rodent emergency also carries immediate regulatory consequences — health department inspections,
+              temporary closures, and licensing violations.
+            </p>
+            <p className="text-gray-700">
+              Our emergency rodent response includes assessment of contamination extent, immediate trapping and
+              exclusion measures, and detailed sanitation and decontamination recommendations to ensure food-safe
+              conditions are restored as quickly as possible.
+            </p>
+          </div>
+
+          {/* Wildlife Emergency */}
+          <div className="bg-purple-50 border border-purple-200 rounded-xl p-6 mb-6">
+            <h3 className="text-2xl font-bold text-purple-800 mb-3">🦝 Wildlife in Living Spaces</h3>
+            <p className="text-gray-700 mb-3">
+              When wildlife enters living areas — rather than confined to an attic or crawl space — it is an emergency.
+              These situations require immediate professional response:
+            </p>
+            <ul className="text-gray-700 space-y-2">
+              <li className="flex gap-2"><span className="text-purple-700 font-bold">→</span> A bat found flying in a bedroom or other living area (potential rabies exposure — NJ Department of Health recommends testing)</li>
+              <li className="flex gap-2"><span className="text-purple-700 font-bold">→</span> A raccoon inside a home, particularly if it is behaving erratically (potential distemper or rabies)</li>
+              <li className="flex gap-2"><span className="text-purple-700 font-bold">→</span> A skunk trapped inside a structure or garage</li>
+              <li className="flex gap-2"><span className="text-purple-700 font-bold">→</span> Squirrels or raccoons that have damaged wiring, insulation, or structural components in the attic</li>
+            </ul>
+          </div>
+
+          <p className="text-gray-700 text-lg leading-relaxed mt-4">
+            If your situation matches any of the above scenarios — or if you have a gut feeling that your pest problem
+            cannot wait — call us now at{' '}
+            <a href="tel:+18566000812" className="text-[#2B6CB0] font-bold hover:underline">(856) 600-0812</a>.
+            Our emergency line is answered by a real person who can assess your situation and dispatch a technician
+            immediately. We serve all of Camden County, including Cherry Hill, Pennsauken, Camden, Gloucester Township,
+            and surrounding communities.
+          </p>
+        </section>
+
+        {/* Why Emergency Response Matters */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-[#1A365D] mb-6">
+            Why Fast Emergency Pest Response Matters in New Jersey
+          </h2>
+          <p className="text-gray-700 text-lg leading-relaxed mb-4">
+            New Jersey&apos;s dense population, older housing stock, and humid climate create conditions where pest problems
+            escalate rapidly. What starts as a small mouse problem in October can become a full structural infestation
+            by November. A handful of bed bugs brought home from a trip can multiply into a hundred-insect colony within
+            a month. A wasp nest discovered in June can grow to contain thousands of workers by August.
+          </p>
+          <p className="text-gray-700 text-lg leading-relaxed mb-4">
+            For Camden County residents, the older homes in Pennsauken, the densely packed neighborhoods of Camden City,
+            and the mixed commercial-residential corridors throughout Gloucester Township create specific pathways for
+            rapid pest spread. When a pest emergency is identified, every hour of delay increases both the extent of the
+            infestation and the cost of remediation.
+          </p>
+          <p className="text-gray-700 text-lg leading-relaxed mb-4">
+            For businesses in Camden County — especially food service establishments, healthcare facilities, child care
+            centers, and hospitality businesses — a pest emergency carries additional urgency. New Jersey Department of
+            Health regulations require immediate notification and treatment for certain pest situations. A delayed
+            response can result in forced temporary closure, revenue loss, and reputational damage that takes months to
+            recover from.
+          </p>
+          <p className="text-gray-700 text-lg leading-relaxed">
+            Camden County Pest Control maintains emergency response capacity specifically because we understand these
+            stakes. We are not a 9-to-5 operation that sends you to voicemail after hours. When you call our emergency
+            line, you reach a licensed technician who can assess your situation immediately and respond that same day —
+            including evenings, weekends, and holidays.
+          </p>
+        </section>
+
+        {/* What We Treat as Emergency */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-[#1A365D] mb-6">
+            Emergency Services We Provide Across Camden County
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+            <div className="bg-gray-50 rounded-lg p-5">
+              <h3 className="font-semibold text-[#1A365D] mb-3">🛏️ Bed Bug Emergencies</h3>
+              <p className="text-gray-700 text-sm">Emergency inspections, heat treatment scheduling, and interim containment protocols for hotels, apartments, and residences throughout Camden County.</p>
             </div>
-            <div className="bg-red-50 border border-red-200 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-red-800 mb-3">🐀 Rat or Mouse in Living Space</h3>
-              <p className="text-gray-700 mb-3">
-                A rat running across your kitchen floor or a mouse scratching inside your bedroom wall is not just
-                disturbing — it indicates a likely larger infestation. Rodents carry diseases (hantavirus,
-                leptospirosis, salmonella), contaminate food, and chew through electrical wiring, creating fire hazards.
-                In <Link href="/camden-county/cherry-hill" className="text-[#2B6CB0] hover:underline">Cherry Hill</Link>,{' '}
-                <Link href="/camden-county/pennsauken" className="text-[#2B6CB0] hover:underline">Pennsauken</Link>, and
-                older Camden County neighborhoods, rodent emergencies spike in fall and winter.
-              </p>
-              <Link href="/services/rodent-control" className="text-[#2B6CB0] font-semibold hover:underline">
-                Learn about our rodent control →
-              </Link>
+            <div className="bg-gray-50 rounded-lg p-5">
+              <h3 className="font-semibold text-[#1A365D] mb-3">🐝 Stinging Insect Removal</h3>
+              <p className="text-gray-700 text-sm">Same-day removal of wasp nests, hornet colonies, and yellow jacket ground nests from dangerous locations near people, pets, and children.</p>
             </div>
-            <div className="bg-red-50 border border-red-200 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-red-800 mb-3">🛏️ Bed Bug Discovery</h3>
-              <p className="text-gray-700 mb-3">
-                Discovering bed bugs — live insects, shed skins, or blood spots on your sheets — requires immediate
-                professional treatment. Every night you wait, bed bugs reproduce and spread to adjacent rooms. A small,
-                contained problem on Monday can become a whole-house infestation by Friday. Bed bugs are resistant to
-                most over-the-counter products, making professional heat treatment or targeted chemical applications
-                essential.
-              </p>
-              <Link href="/services/bed-bug-removal" className="text-[#2B6CB0] font-semibold hover:underline">
-                Learn about our bed bug removal →
-              </Link>
+            <div className="bg-gray-50 rounded-lg p-5">
+              <h3 className="font-semibold text-[#1A365D] mb-3">🐀 Emergency Rodent Control</h3>
+              <p className="text-gray-700 text-sm">Immediate trapping, exclusion, and contamination assessment for mice and rat infestations with active food contact or structural access.</p>
             </div>
-            <div className="bg-red-50 border border-red-200 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-red-800 mb-3">🪵 Termite Swarm</h3>
-              <p className="text-gray-700 mb-3">
-                If you see hundreds of winged insects emerging from your walls, floors, or foundation, you are witnessing
-                a termite swarm — a sign that a mature colony has been silently damaging your home for years. In Camden
-                County, termite swarms typically occur from March through May when soil temperatures rise. This is a
-                true emergency because it confirms active, established structural damage. Contact us immediately for
-                a <Link href="/termite-inspection" className="text-[#2B6CB0] hover:underline">termite inspection</Link>.
-              </p>
-              <Link href="/services/termite-treatment" className="text-[#2B6CB0] font-semibold hover:underline">
-                Learn about our termite treatment →
-              </Link>
+            <div className="bg-gray-50 rounded-lg p-5">
+              <h3 className="font-semibold text-[#1A365D] mb-3">🦇 Bat Removal</h3>
+              <p className="text-gray-700 text-sm">Emergency bat removal from living spaces with guidance on NJ Department of Health rabies exposure protocols when human contact has occurred.</p>
             </div>
-            <div className="bg-red-50 border border-red-200 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-red-800 mb-3">🦇 Bat Inside Your Home</h3>
-              <p className="text-gray-700 mb-3">
-                A bat flying through your living space is an emergency because of the rabies risk. New Jersey has
-                confirmed rabid bats every year. If anyone in the home was asleep or a child was in the room with the
-                bat, the NJ Department of Health may recommend rabies post-exposure prophylaxis. Do not release the bat —
-                it may need to be tested. Call us immediately, and we will safely capture the bat and help you coordinate
-                with local health authorities.
-              </p>
-              <Link href="/services/bat-removal" className="text-[#2B6CB0] font-semibold hover:underline">
-                Learn about our bat removal →
-              </Link>
+            <div className="bg-gray-50 rounded-lg p-5">
+              <h3 className="font-semibold text-[#1A365D] mb-3">🦝 Wildlife in Structure</h3>
+              <p className="text-gray-700 text-sm">Emergency wildlife trapping and removal for raccoons, squirrels, opossums, or skunks that have entered living areas of a home or business.</p>
             </div>
-            <div className="bg-red-50 border border-red-200 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-red-800 mb-3">🦝 Wildlife in Living Space</h3>
-              <p className="text-gray-700 mb-3">
-                A raccoon in your attic, a squirrel that has chewed through your ceiling, or an opossum trapped in your
-                garage demands professional handling. Cornered wildlife can be aggressive and may carry rabies or other
-                diseases. In wooded areas of <Link href="/camden-county/winslow-township" className="text-[#2B6CB0] hover:underline">Winslow Township</Link>,{' '}
-                <Link href="/camden-county/clementon" className="text-[#2B6CB0] hover:underline">Clementon</Link>, and{' '}
-                <Link href="/camden-county/gloucester-township" className="text-[#2B6CB0] hover:underline">Gloucester Township</Link>,
-                wildlife emergencies are common year-round.
-              </p>
-              <Link href="/services/wildlife-removal" className="text-[#2B6CB0] font-semibold hover:underline">
-                Learn about our wildlife removal →
-              </Link>
+            <div className="bg-gray-50 rounded-lg p-5">
+              <h3 className="font-semibold text-[#1A365D] mb-3">🏢 Commercial Food Safety</h3>
+              <p className="text-gray-700 text-sm">Emergency pest management for food service businesses facing imminent health inspection, regulatory violation, or active contamination event.</p>
             </div>
+          </div>
+          <div className="text-center">
+            <a
+              href="tel:+18566000812"
+              className="inline-block bg-[#DD6B20] hover:bg-orange-600 text-white font-bold py-4 px-10 rounded-lg text-xl transition-colors"
+            >
+              🚨 Call Emergency Line: (856) 600-0812
+            </a>
           </div>
         </section>
 
-        {/* Our Emergency Response */}
+        {/* How Our Emergency Response Works */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-[#1A365D] mb-6">
             How Our Emergency Response Works
           </h2>
-          <p className="text-gray-700 text-lg leading-relaxed mb-6">
-            When you call Camden County Pest Control with a pest emergency, here is exactly what happens — and how
-            we are different from companies that make you wait:
-          </p>
           <div className="space-y-6">
             <div className="flex gap-4 items-start">
               <div className="bg-red-600 text-white font-bold rounded-full w-10 h-10 flex items-center justify-center shrink-0">1</div>
               <div>
-                <h3 className="text-lg font-semibold text-[#1A365D]">Immediate Phone Assessment</h3>
+                <h3 className="text-lg font-semibold text-[#1A365D]">Call — Any Time</h3>
                 <p className="text-gray-700">
-                  When you call <a href="tel:+18566000812" className="text-[#2B6CB0] font-semibold hover:underline">(856) 600-0812</a>,
-                  you speak with a knowledgeable team member who assesses the urgency of your situation. We ask specific
-                  questions to identify the pest, evaluate the safety risk, and determine the fastest appropriate
-                  response. If you are in immediate danger (e.g., a wasp nest over the only exit, or a bat in a room
-                  with a child), we prioritize your call above routine appointments.
+                  Call <a href="tel:+18566000812" className="text-[#2B6CB0] font-semibold hover:underline">(856) 600-0812</a>.
+                  Our emergency line is answered by a real person — not a recording or an answering service.
+                  Describe the pest and situation as clearly as possible. If you can send a photo, that helps us
+                  prepare the right equipment and products before we arrive.
                 </p>
               </div>
             </div>
             <div className="flex gap-4 items-start">
               <div className="bg-red-600 text-white font-bold rounded-full w-10 h-10 flex items-center justify-center shrink-0">2</div>
               <div>
-                <h3 className="text-lg font-semibold text-[#1A365D]">Rapid Technician Dispatch</h3>
+                <h3 className="text-lg font-semibold text-[#1A365D]">Same-Day Dispatch</h3>
                 <p className="text-gray-700">
-                  Because our technicians are based throughout Camden County, we can often have someone at your door
-                  within hours — not days. Our emergency response covers evenings and weekends because pest emergencies
-                  do not wait for business hours. Whether you are in{' '}
-                  <Link href="/camden-county/voorhees" className="text-[#2B6CB0] hover:underline">Voorhees</Link>,{' '}
-                  <Link href="/camden-county/haddonfield" className="text-[#2B6CB0] hover:underline">Haddonfield</Link>, or{' '}
-                  <Link href="/camden-county/mount-laurel" className="text-[#2B6CB0] hover:underline">Mount Laurel</Link>,
-                  help is close by.
+                  We dispatch the closest available licensed technician to your location in Camden County.
+                  Our coverage of Cherry Hill, Camden, Pennsauken, and Gloucester Township means we can reach
+                  most locations within 1-2 hours during business hours. Evening and weekend response times may
+                  vary depending on technician availability, but we always prioritize true emergencies.
                 </p>
               </div>
             </div>
             <div className="flex gap-4 items-start">
               <div className="bg-red-600 text-white font-bold rounded-full w-10 h-10 flex items-center justify-center shrink-0">3</div>
               <div>
-                <h3 className="text-lg font-semibold text-[#1A365D]">On-Site Emergency Treatment</h3>
+                <h3 className="text-lg font-semibold text-[#1A365D]">On-Site Assessment &amp; Treatment</h3>
                 <p className="text-gray-700">
-                  Our technician arrives fully equipped for the specific emergency — wasp suits and rapid knockdown
-                  products for stinging insects, live traps and exclusion materials for wildlife, inspection tools for
-                  termite swarms, or heat treatment equipment for bed bugs. We handle the immediate threat on the
-                  first visit, not just "assess" and schedule a return trip.
+                  Upon arrival, our technician performs a rapid but thorough assessment, identifies the pest, evaluates
+                  the scope of the emergency, and implements immediate treatment. We carry emergency supplies for bed bug
+                  initial containment, wasp nest removal, rodent snap trapping, and wildlife exclusion materials on
+                  every vehicle, so we can begin treatment immediately without waiting for a return visit.
                 </p>
               </div>
             </div>
             <div className="flex gap-4 items-start">
               <div className="bg-red-600 text-white font-bold rounded-full w-10 h-10 flex items-center justify-center shrink-0">4</div>
               <div>
-                <h3 className="text-lg font-semibold text-[#1A365D]">Follow-Up & Prevention Plan</h3>
+                <h3 className="text-lg font-semibold text-[#1A365D]">Follow-Up Plan</h3>
                 <p className="text-gray-700">
-                  After the immediate emergency is resolved, we schedule a comprehensive follow-up inspection to
-                  address the underlying cause. Emergency treatment stops the crisis; the follow-up treatment ensures
-                  it does not happen again. This may include exclusion work, structural repairs, ongoing monitoring,
-                  or a maintenance plan to protect your property long-term.
+                  After the emergency treatment, we develop a follow-up plan to ensure the problem is fully resolved
+                  and does not recur. For bed bugs, this typically includes a comprehensive heat or chemical treatment
+                  protocol. For rodents, it includes exclusion and long-term trapping. For wildlife, it includes
+                  full exclusion after all animals have been removed. We schedule follow-up visits and stand behind our
+                  work with a satisfaction guarantee.
                 </p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Why Every Hour Counts */}
+        {/* Coverage Map */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-[#1A365D] mb-6">
-            Why Every Hour Counts in a Pest Emergency
+            Emergency Pest Control Coverage — Camden County
           </h2>
           <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            Pest emergencies worsen exponentially with delay. Understanding why timing matters can help you make the
-            right call when it counts:
+            We maintain emergency coverage across all of Camden County. Our technicians are strategically distributed
+            throughout the county to minimize response times. Key service areas for emergency pest control include:
           </p>
-          <div className="space-y-4">
-            <div className="bg-gray-50 rounded-lg p-5">
-              <h3 className="font-semibold text-[#1A365D] mb-2">Bed Bugs Reproduce Rapidly</h3>
-              <p className="text-gray-700">
-                A single female bed bug lays 1–5 eggs per day and up to 500 in her lifetime. Within weeks, a handful
-                of bed bugs becomes hundreds. Every day you delay treatment, the infestation expands to new rooms and
-                furniture, increasing treatment complexity and cost. Our{' '}
-                <Link href="/services/bed-bug-removal" className="text-[#2B6CB0] hover:underline">bed bug removal</Link>{' '}
-                program uses heat treatment that kills all life stages in a single visit.
-              </p>
-            </div>
-            <div className="bg-gray-50 rounded-lg p-5">
-              <h3 className="font-semibold text-[#1A365D] mb-2">Termite Damage Is Ongoing and Silent</h3>
-              <p className="text-gray-700">
-                A mature termite colony consumes wood 24 hours a day, 7 days a week. By the time you see a swarm,
-                the colony has likely been active for 3–5 years. Every day of continued activity adds to the structural
-                damage — damage that can cost tens of thousands of dollars to repair. Scheduling a{' '}
-                <Link href="/termite-inspection" className="text-[#2B6CB0] hover:underline">termite inspection</Link>{' '}
-                immediately after a swarm event limits additional damage.
-              </p>
-            </div>
-            <div className="bg-gray-50 rounded-lg p-5">
-              <h3 className="font-semibold text-[#1A365D] mb-2">Stinging Insects Are Dangerous</h3>
-              <p className="text-gray-700">
-                According to the CDC, stinging insects send more than 500,000 people to the emergency room annually
-                in the United States. For individuals with venom allergies, a single sting can be life-threatening.
-                If you have a wasp or hornet nest near an entry point, play area, or high-traffic zone, do not wait.
-                Our <Link href="/services/wasp-hornet-removal" className="text-[#2B6CB0] hover:underline">wasp and hornet removal</Link>{' '}
-                team eliminates the threat safely.
-              </p>
-            </div>
-            <div className="bg-gray-50 rounded-lg p-5">
-              <h3 className="font-semibold text-[#1A365D] mb-2">Rodents Cause Fires and Disease</h3>
-              <p className="text-gray-700">
-                Rodents gnaw on electrical wiring, which is estimated to cause up to 25% of undetermined house fires.
-                They also contaminate food preparation surfaces with urine and droppings carrying dangerous pathogens.
-                A rat inside your home tonight will bring others — rodents are social animals that follow pheromone
-                trails. Our <Link href="/services/rodent-control" className="text-[#2B6CB0] hover:underline">rodent control</Link>{' '}
-                team responds quickly with trapping and exclusion.
-              </p>
-            </div>
-            <div className="bg-gray-50 rounded-lg p-5">
-              <h3 className="font-semibold text-[#1A365D] mb-2">Wildlife Carries Rabies</h3>
-              <p className="text-gray-700">
-                New Jersey confirms rabies cases in raccoons, bats, skunks, and foxes every year. If a bat is found
-                inside your home, or a raccoon or other wildlife is behaving erratically, the rabies risk is real.
-                The NJ Department of Health provides guidelines for potential rabies exposure, and our team can safely
-                capture the animal for testing. Our{' '}
-                <Link href="/services/raccoon-removal" className="text-[#2B6CB0] hover:underline">raccoon removal</Link>{' '}
-                and <Link href="/services/bat-removal" className="text-[#2B6CB0] hover:underline">bat removal</Link>{' '}
-                technicians handle these situations daily.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        {/* Emergency Coverage Area */}
-        <section className="mb-12">
-          <h2 className="text-3xl font-bold text-[#1A365D] mb-6">
-            Emergency Pest Control Across All of Camden County
-          </h2>
-          <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            Our emergency response covers every community in <Link href="/camden-county" className="text-[#2B6CB0] hover:underline">Camden County</Link>.
-            Because we have technicians based throughout the region, response times are short regardless of your location:
-          </p>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-6">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-3 mb-6">
             {[
               { name: 'Cherry Hill', slug: 'cherry-hill' },
+              { name: 'Camden', slug: 'camden' },
+              { name: 'Pennsauken', slug: 'pennsauken' },
+              { name: 'Gloucester Township', slug: 'gloucester-township' },
               { name: 'Voorhees', slug: 'voorhees' },
+              { name: 'Winslow Township', slug: 'winslow-township' },
               { name: 'Haddonfield', slug: 'haddonfield' },
               { name: 'Collingswood', slug: 'collingswood' },
-              { name: 'Marlton', slug: 'marlton' },
-              { name: 'Mount Laurel', slug: 'mount-laurel' },
-              { name: 'Pennsauken', slug: 'pennsauken' },
-              { name: 'Gloucester Twp', slug: 'gloucester-township' },
-              { name: 'Winslow Twp', slug: 'winslow-township' },
               { name: 'Lindenwold', slug: 'lindenwold' },
               { name: 'Bellmawr', slug: 'bellmawr' },
-              { name: 'Audubon', slug: 'audubon' },
-              { name: 'Barrington', slug: 'barrington' },
-              { name: 'Somerdale', slug: 'somerdale' },
-              { name: 'Runnemede', slug: 'runnemede' },
-              { name: 'Clementon', slug: 'clementon' },
+              { name: 'Mount Laurel', slug: 'mount-laurel' },
+              { name: 'Marlton', slug: 'marlton' },
             ].map((town) => (
               <Link
                 key={town.slug}
                 href={`/camden-county/${town.slug}`}
-                className="bg-red-50 hover:bg-red-100 text-[#1A365D] font-medium py-2 px-3 rounded-lg text-center transition-colors text-sm"
+                className="bg-red-50 hover:bg-red-100 text-[#1A365D] font-medium py-3 px-4 rounded-lg text-center transition-colors text-sm"
               >
                 {town.name}
               </Link>
             ))}
           </div>
-          <p className="text-gray-700 text-lg leading-relaxed">
-            Whether you are near the Delaware River in Pennsauken, deep in the wooded subdivisions of Winslow Township,
-            or in a townhome community in <Link href="/camden-county/lindenwold" className="text-[#2B6CB0] hover:underline">Lindenwold</Link>{' '}
-            or <Link href="/camden-county/somerdale" className="text-[#2B6CB0] hover:underline">Somerdale</Link>,
-            our emergency team can reach you quickly. For non-emergency pest problems that still need fast attention,
-            check our <Link href="/same-day-pest-control" className="text-[#2B6CB0] hover:underline">same-day pest control</Link>{' '}
-            service.
-          </p>
         </section>
 
-        {/* What To Do While Waiting */}
+        {/* FAQ Section */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-[#1A365D] mb-6">
-            What to Do While Waiting for Emergency Pest Control
+            Frequently Asked Questions — Emergency Pest Control in Camden County
           </h2>
-          <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            After you call us, here are some steps you can take to stay safe and minimize damage while our technician
-            is en route:
-          </p>
-          <div className="space-y-4">
-            <div className="flex gap-3 items-start">
-              <span className="text-[#DD6B20] font-bold text-lg">→</span>
-              <div>
-                <strong className="text-[#1A365D]">Stinging insects:</strong>{' '}
-                <span className="text-gray-700">Keep everyone away from the nest area. Close windows and doors near the nest. Do not spray the nest with water or retail insecticide — this will agitate the colony and make them more aggressive.</span>
-              </div>
+          <div className="space-y-6">
+            <div className="border-b border-gray-200 pb-6">
+              <h3 className="text-lg font-semibold text-[#1A365D] mb-2">What counts as a pest control emergency in New Jersey?</h3>
+              <p className="text-gray-700">
+                A pest emergency is any situation posing an immediate health, safety, or public health risk that cannot
+                wait for a scheduled appointment. In Camden County, this includes: bed bug outbreaks in occupied
+                residences, large wasp or hornet nests near children or people with allergies, rodent infestations with
+                active food contamination, bats found in living spaces, wildlife inside the home, and cockroach or rodent
+                infestations in food service businesses facing regulatory scrutiny. If you are unsure whether your
+                situation qualifies, call us — we will assess it honestly.
+              </p>
             </div>
-            <div className="flex gap-3 items-start">
-              <span className="text-[#DD6B20] font-bold text-lg">→</span>
-              <div>
-                <strong className="text-[#1A365D]">Rodents in living space:</strong>{' '}
-                <span className="text-gray-700">Confine the rodent to one room if possible by closing doors. Do not corner it — cornered rodents can bite. Keep pets and children away from the area.</span>
-              </div>
+            <div className="border-b border-gray-200 pb-6">
+              <h3 className="text-lg font-semibold text-[#1A365D] mb-2">How fast can you respond to an emergency in Camden County?</h3>
+              <p className="text-gray-700">
+                For calls received during business hours (7 AM – 7 PM), we typically dispatch a technician within 1-2
+                hours to Cherry Hill, Camden, Pennsauken, and Gloucester Township. We offer evening and weekend
+                response for genuine emergencies. Call our emergency line at{' '}
+                <a href="tel:+18566000812" className="text-[#2B6CB0] font-semibold hover:underline">(856) 600-0812</a>{' '}
+                and we will give you an honest ETA based on current technician availability.
+              </p>
             </div>
-            <div className="flex gap-3 items-start">
-              <span className="text-[#DD6B20] font-bold text-lg">→</span>
-              <div>
-                <strong className="text-[#1A365D]">Bats:</strong>{' '}
-                <span className="text-gray-700">Close the bat into one room and open a window in that room. Do not handle the bat with bare hands. If anyone may have been bitten or scratched, contact your physician or local health department immediately.</span>
-              </div>
+            <div className="border-b border-gray-200 pb-6">
+              <h3 className="text-lg font-semibold text-[#1A365D] mb-2">Can you treat a wasp nest the same day I call?</h3>
+              <p className="text-gray-700">
+                Yes. Wasp, hornet, and yellow jacket nest removal is one of our most common same-day emergency calls.
+                Our technicians carry the specialized protective equipment and professional-grade wasp/hornet products
+                on every vehicle. We can typically remove nests of any size — paper wasp nests, bald-faced hornet
+                aerial nests, and ground-nesting yellow jacket colonies — in a single visit.
+              </p>
             </div>
-            <div className="flex gap-3 items-start">
-              <span className="text-[#DD6B20] font-bold text-lg">→</span>
-              <div>
-                <strong className="text-[#1A365D]">Bed bugs:</strong>{' '}
-                <span className="text-gray-700">Do not move bedding, furniture, or clothing to other rooms — this spreads the infestation. Avoid using bug bombs or retail sprays, which scatter bed bugs and make professional treatment harder.</span>
-              </div>
+            <div className="border-b border-gray-200 pb-6">
+              <h3 className="text-lg font-semibold text-[#1A365D] mb-2">What should I do if I find a bat in my bedroom in NJ?</h3>
+              <p className="text-gray-700">
+                Do not release the bat outside. Per New Jersey Department of Health guidelines, a bat found in a room
+                where people were sleeping should be captured for rabies testing if there is any possibility of
+                exposure (particularly for sleeping people, children, or anyone who cannot reliably report a bite).
+                Contain the bat in the room by closing doors, and call us immediately. We will respond as an emergency
+                and coordinate with local health authorities if rabies testing is required. This is an extremely
+                time-sensitive situation.
+              </p>
             </div>
-            <div className="flex gap-3 items-start">
-              <span className="text-[#DD6B20] font-bold text-lg">→</span>
-              <div>
-                <strong className="text-[#1A365D]">Termite swarms:</strong>{' '}
-                <span className="text-gray-700">Collect several swarmers in a plastic bag for identification. Note exactly where they emerged. The swarm itself is harmless — the swarmers do not bite or damage wood — but it confirms a hidden colony that needs professional treatment.</span>
-              </div>
+            <div className="border-b border-gray-200 pb-6">
+              <h3 className="text-lg font-semibold text-[#1A365D] mb-2">My restaurant has rodents before a health inspection — what do I do?</h3>
+              <p className="text-gray-700">
+                Call us immediately at{' '}
+                <a href="tel:+18566000812" className="text-[#2B6CB0] font-semibold hover:underline">(856) 600-0812</a>.
+                We provide emergency pest control for food service establishments throughout Camden County and
+                understand the regulatory environment in NJ. We can respond same-day to implement trapping, exclusion,
+                and documentation of corrective action. We also provide service documentation that can support your
+                communication with the Camden County Health Department inspector.
+              </p>
             </div>
-            <div className="flex gap-3 items-start">
-              <span className="text-[#DD6B20] font-bold text-lg">→</span>
-              <div>
-                <strong className="text-[#1A365D]">Wildlife:</strong>{' '}
-                <span className="text-gray-700">Do not attempt to trap, handle, or approach the animal. Keep a safe distance, close off access to the rest of the house, and wait for our licensed wildlife control technician.</span>
-              </div>
+            <div className="border-b border-gray-200 pb-6">
+              <h3 className="text-lg font-semibold text-[#1A365D] mb-2">Is emergency pest control treatment family-friendly?</h3>
+              <p className="text-gray-700">
+                Yes. Even in emergency situations, we use EPA-registered products applied by NJDEP-licensed technicians
+                according to label requirements. We will always advise you on any necessary precautions — such as
+                temporarily vacating a treated area or keeping pets away from a treated surface — before we apply any
+                product. Our emergency treatments are both family-friendly and effective.
+              </p>
             </div>
           </div>
         </section>
 
-        {/* Emergency CTA */}
-        <section className="bg-red-50 border-2 border-red-300 rounded-xl p-8 text-center mb-12">
-          <h2 className="text-2xl font-bold text-red-800 mb-4">
-            🚨 Do Not Wait — Call Now for Emergency Pest Control
+        {/* Related Pages */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-[#1A365D] mb-6">
+            Related Services
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <Link href="/same-day-pest-control" className="block bg-blue-50 hover:bg-blue-100 rounded-lg p-5 transition-colors">
+              <h3 className="font-semibold text-[#1A365D] mb-1">Same-Day Pest Control →</h3>
+              <p className="text-gray-600 text-sm">Book a same-day exterminator visit across Camden County</p>
+            </Link>
+            <Link href="/pest-control-near-me" className="block bg-blue-50 hover:bg-blue-100 rounded-lg p-5 transition-colors">
+              <h3 className="font-semibold text-[#1A365D] mb-1">Pest Control Near Me →</h3>
+              <p className="text-gray-600 text-sm">Local pest control for every pest in Camden County</p>
+            </Link>
+            <Link href="/exterminator-near-me" className="block bg-blue-50 hover:bg-blue-100 rounded-lg p-5 transition-colors">
+              <h3 className="font-semibold text-[#1A365D] mb-1">Exterminator Near Me →</h3>
+              <p className="text-gray-600 text-sm">Licensed, NJDEP-certified exterminators throughout Camden County</p>
+            </Link>
+            <Link href="/free-pest-inspection" className="block bg-blue-50 hover:bg-blue-100 rounded-lg p-5 transition-colors">
+              <h3 className="font-semibold text-[#1A365D] mb-1">Free Pest Inspection →</h3>
+              <p className="text-gray-600 text-sm">No-cost, no-obligation property inspection for Camden County</p>
+            </Link>
+            <Link href="/services/bed-bug-removal" className="block bg-blue-50 hover:bg-blue-100 rounded-lg p-5 transition-colors">
+              <h3 className="font-semibold text-[#1A365D] mb-1">Bed Bug Removal →</h3>
+              <p className="text-gray-600 text-sm">Heat treatment and chemical protocols for bed bug elimination</p>
+            </Link>
+          </div>
+        </section>
+
+        {/* Final CTA */}
+        <section className="bg-red-50 border border-red-200 rounded-xl p-8 text-center">
+          <h2 className="text-2xl font-bold text-[#1A365D] mb-4">
+            Pest Emergency? Do Not Wait.
           </h2>
           <p className="text-gray-700 text-lg mb-6">
-            Our emergency team is ready to respond to your Camden County pest emergency. Fast dispatch, professional
-            treatment, and guaranteed results.
+            Every hour matters when you are dealing with a pest emergency in Camden County. Call now for immediate
+            response from a licensed, local pest control professional.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="tel:+18566000812"
               className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors"
             >
-              🚨 Call (856) 600-0812 Now
+              🚨 Call (856) 600-0812 NOW
             </a>
             <Link
               href="/contact"
@@ -409,39 +461,20 @@ export default function EmergencyPestControl() {
             </Link>
           </div>
         </section>
-
-        {/* Related Pages */}
-        <section className="mb-12">
-          <h2 className="text-3xl font-bold text-[#1A365D] mb-6">Related Services</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <Link href="/same-day-pest-control" className="block bg-blue-50 hover:bg-blue-100 rounded-lg p-5 transition-colors">
-              <h3 className="font-semibold text-[#1A365D] mb-1">Same-Day Service →</h3>
-              <p className="text-gray-600 text-sm">For urgent but non-emergency pest problems</p>
-            </Link>
-            <Link href="/pest-control-near-me" className="block bg-blue-50 hover:bg-blue-100 rounded-lg p-5 transition-colors">
-              <h3 className="font-semibold text-[#1A365D] mb-1">Pest Control Near Me →</h3>
-              <p className="text-gray-600 text-sm">Full-service pest control for Camden County</p>
-            </Link>
-            <Link href="/free-pest-inspection" className="block bg-blue-50 hover:bg-blue-100 rounded-lg p-5 transition-colors">
-              <h3 className="font-semibold text-[#1A365D] mb-1">Free Inspection →</h3>
-              <p className="text-gray-600 text-sm">Schedule a no-cost pest inspection</p>
-            </Link>
-          </div>
-        </section>
       </main>
 
       {/* CTA Banner */}
       <section className="bg-[#1A365D] text-white py-12">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4">Pest Emergency? We Are Here.</h2>
+          <h2 className="text-3xl font-bold mb-4">Camden County Emergency Pest Control</h2>
           <p className="text-blue-200 text-lg mb-6">
-            Fast, professional emergency pest control for all of Camden County. Evenings and weekends available.
+            NJDEP-licensed technicians. Fast response. All of Camden County.
           </p>
           <a
             href="tel:+18566000812"
             className="inline-block bg-[#DD6B20] hover:bg-orange-600 text-white font-bold py-4 px-10 rounded-lg text-xl transition-colors"
           >
-            📞 Call (856) 600-0812
+            🚨 Emergency Line: (856) 600-0812
           </a>
         </div>
       </section>
@@ -452,30 +485,71 @@ export default function EmergencyPestControl() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             '@context': 'https://schema.org',
-            '@type': 'PestControlService',
-            name: 'Camden County Pest Control - Emergency Services',
-            telephone: '(856) 600-0812',
-            url: 'https://pestcontrolcamdencounty.com/emergency-pest-control',
-            description:
-              'Emergency pest control services in Camden County, NJ. Fast response for wasps, rodents, bed bugs, termite swarms, bats, and wildlife emergencies.',
-            areaServed: {
-              '@type': 'County',
-              name: 'Camden County',
-              containedInPlace: {
-                '@type': 'State',
-                name: 'New Jersey',
+            '@graph': [
+              {
+                '@type': 'EmergencyService',
+                name: 'Camden County Pest Control — Emergency Services',
+                telephone: '(856) 600-0812',
+                url: 'https://pestcontrolcamdencounty.com/emergency-pest-control',
+                description:
+                  'Emergency pest control services in Camden County, NJ. Same-day response for bed bugs, wasps, rodents, and other urgent pest emergencies.',
+                areaServed: {
+                  '@type': 'County',
+                  name: 'Camden County',
+                  containedInPlace: {
+                    '@type': 'State',
+                    name: 'New Jersey',
+                  },
+                },
+                openingHours: 'Mo-Su 00:00-24:00',
+                serviceType: 'Emergency Pest Control',
               },
-            },
-            serviceType: 'Emergency Pest Control',
-            availableChannel: {
-              '@type': 'ServiceChannel',
-              servicePhone: {
-                '@type': 'ContactPoint',
-                telephone: '+1-856-600-0812',
-                contactType: 'emergency',
-                availableLanguage: 'English',
+              {
+                '@type': 'FAQPage',
+                mainEntity: [
+                  {
+                    '@type': 'Question',
+                    name: 'What counts as a pest control emergency in New Jersey?',
+                    acceptedAnswer: {
+                      '@type': 'Answer',
+                      text: 'A pest emergency is any situation posing an immediate health, safety, or public health risk. This includes bed bug outbreaks, large wasp or hornet nests near children, rodent infestations with active food contamination, bats in living spaces, and wildlife inside the home.',
+                    },
+                  },
+                  {
+                    '@type': 'Question',
+                    name: 'How fast can you respond to an emergency in Camden County?',
+                    acceptedAnswer: {
+                      '@type': 'Answer',
+                      text: 'For calls received during business hours (7 AM to 7 PM), we typically dispatch a technician within 1-2 hours to Cherry Hill, Camden, Pennsauken, and Gloucester Township. We also offer evening and weekend emergency response.',
+                    },
+                  },
+                  {
+                    '@type': 'Question',
+                    name: 'Can you treat a wasp nest the same day I call?',
+                    acceptedAnswer: {
+                      '@type': 'Answer',
+                      text: 'Yes. Wasp, hornet, and yellow jacket nest removal is one of our most common same-day emergency calls. Our technicians carry specialized protective equipment and professional-grade products on every vehicle.',
+                    },
+                  },
+                  {
+                    '@type': 'Question',
+                    name: 'What should I do if I find a bat in my bedroom in NJ?',
+                    acceptedAnswer: {
+                      '@type': 'Answer',
+                      text: 'Do not release the bat outside. Per NJ Department of Health guidelines, a bat found in a sleeping area should be captured for rabies testing. Contain the bat by closing doors and call us immediately. We will respond as an emergency and coordinate with local health authorities if needed.',
+                    },
+                  },
+                  {
+                    '@type': 'Question',
+                    name: 'Is emergency pest control treatment family-friendly?',
+                    acceptedAnswer: {
+                      '@type': 'Answer',
+                      text: 'Yes. Even in emergency situations, we use EPA-registered products applied by NJDEP-licensed technicians. We advise on precautions before applying any product. Our emergency treatments are family-friendly and effective.',
+                    },
+                  },
+                ],
               },
-            },
+            ],
           }),
         }}
       />

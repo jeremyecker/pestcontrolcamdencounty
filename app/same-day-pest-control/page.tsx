@@ -5,11 +5,11 @@ import { SERVICES } from '@/lib/services';
 import TrustBar from '@/components/sections/TrustBar';
 
 export const metadata: Metadata = {
-  title: 'Same-Day Pest Control Camden County NJ | Book Today',
+  title: 'Same Day Pest Control Camden County NJ | Book Before Noon',
   description:
-    'Same-day pest control service in Camden County NJ. Call before noon for a same-day appointment. Serving all 16 towns. Call (856) 600-0812.',
+    'Same-day pest control in Camden County NJ. Call before noon for a same-day appointment in Cherry Hill, Voorhees, Haddon Heights, Haddon Township, Collingswood & all 16 towns. (856) 600-0812.',
   keywords:
-    'same day pest control, same day exterminator Camden County, pest control today NJ, fast pest control Cherry Hill, quick exterminator Voorhees',
+    'same day pest control, same day exterminator Camden County, same day pest control Cherry Hill, emergency exterminator NJ, next day pest control Camden County',
 };
 
 export default function SameDayPestControl() {
@@ -21,18 +21,21 @@ export default function SameDayPestControl() {
       <nav className="max-w-6xl mx-auto px-4 py-4 text-sm text-gray-500">
         <Link href="/" className="hover:text-[#2B6CB0]">Home</Link>
         {' → '}
-        <span className="text-gray-900">Same-Day Pest Control</span>
+        <span className="text-gray-900">Same Day Pest Control</span>
       </nav>
 
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-[#1A365D] to-[#2B6CB0] text-white py-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
+          <div className="bg-green-500 text-white text-sm font-bold px-4 py-2 rounded-full inline-block mb-4">
+            ⚡ TODAY&apos;S SLOTS AVAILABLE — CALL NOW
+          </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Same-Day Pest Control in Camden County, NJ
+            Same Day Pest Control — Camden County, NJ
           </h1>
           <p className="text-xl text-blue-100 mb-8">
-            Need pest control today? Call before noon and we will have a licensed technician at your
-            door the same day. Available across all 16 Camden County towns.
+            Call before noon for a same-day pest control appointment anywhere in Camden County.
+            Local technicians, NJDEP licensed, and ready to solve your pest problem today.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -45,7 +48,7 @@ export default function SameDayPestControl() {
               href="/contact"
               className="bg-white text-[#1A365D] font-bold py-4 px-8 rounded-lg text-xl hover:bg-gray-100 transition-colors"
             >
-              Book Same-Day Service
+              Book Same-Day Online
             </Link>
           </div>
         </div>
@@ -54,172 +57,232 @@ export default function SameDayPestControl() {
       {/* Main Content */}
       <main className="max-w-4xl mx-auto px-4 py-16">
 
-        {/* How Same-Day Works */}
+        {/* When Same-Day is Critical */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-[#1A365D] mb-6">
-            How Same-Day Pest Control Works
+            When Same-Day Pest Control Is Critical in Camden County
           </h2>
           <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            Most pest control companies in New Jersey schedule appointments 3–5 days out. That is fine for a routine
-            maintenance visit — but when you wake up to ants swarming your kitchen, a cockroach in your bathroom, or
-            mouse droppings in your pantry, waiting until next week is not acceptable. At Camden County Pest Control,
-            we reserve same-day appointment slots specifically for urgent situations because we understand that pests
-            do not operate on a schedule.
+            Waiting days or weeks for a pest control appointment is not always an option. Camden County homeowners and
+            businesses frequently encounter pest situations where a delayed response leads to significantly worse
+            outcomes — more extensive property damage, greater health risks, higher treatment costs, and greater
+            stress for everyone in the household. Our same-day pest control service is designed specifically for
+            these situations, serving{' '}
+            <Link href="/camden-county/cherry-hill" className="text-[#2B6CB0] hover:underline">Cherry Hill</Link>,{' '}
+            <Link href="/camden-county/voorhees" className="text-[#2B6CB0] hover:underline">Voorhees</Link>,{' '}
+            <Link href="/camden-county/haddon-heights" className="text-[#2B6CB0] hover:underline">Haddon Heights</Link>,{' '}
+            <Link href="/camden-county/haddon-township" className="text-[#2B6CB0] hover:underline">Haddon Township</Link>,{' '}
+            <Link href="/camden-county/collingswood" className="text-[#2B6CB0] hover:underline">Collingswood</Link>, and
+            every other community in Camden County.
           </p>
-          <p className="text-gray-700 text-lg leading-relaxed mb-6">
-            Our same-day service is available Monday through Saturday for residential and commercial properties throughout
-            Camden County. The process is straightforward:
-          </p>
-          <div className="space-y-6">
-            <div className="flex gap-4 items-start">
-              <div className="bg-[#DD6B20] text-white font-bold rounded-full w-12 h-12 flex items-center justify-center shrink-0 text-xl">1</div>
-              <div>
-                <h3 className="text-xl font-semibold text-[#1A365D]">Call Before Noon</h3>
-                <p className="text-gray-700">
-                  Call <a href="tel:+18566000812" className="text-[#2B6CB0] font-semibold hover:underline">(856) 600-0812</a>{' '}
-                  or submit a <Link href="/contact" className="text-[#2B6CB0] hover:underline">contact request</Link>{' '}
-                  before 12:00 PM. Tell us about the pest issue — what you are seeing, where in the home or business,
-                  and how long it has been happening. For best availability, morning calls are ideal, but we do our best
-                  to accommodate afternoon requests when possible.
-                </p>
-              </div>
-            </div>
-            <div className="flex gap-4 items-start">
-              <div className="bg-[#DD6B20] text-white font-bold rounded-full w-12 h-12 flex items-center justify-center shrink-0 text-xl">2</div>
-              <div>
-                <h3 className="text-xl font-semibold text-[#1A365D]">We Confirm Your Time Window</h3>
-                <p className="text-gray-700">
-                  Based on your location and the current schedule, we confirm a same-day appointment window — typically
-                  a 2-hour block so you are not stuck waiting all day. We send a text confirmation and our technician
-                  calls when they are en route to your property.
-                </p>
-              </div>
-            </div>
-            <div className="flex gap-4 items-start">
-              <div className="bg-[#DD6B20] text-white font-bold rounded-full w-12 h-12 flex items-center justify-center shrink-0 text-xl">3</div>
-              <div>
-                <h3 className="text-xl font-semibold text-[#1A365D]">Licensed Technician Arrives</h3>
-                <p className="text-gray-700">
-                  Your NJDEP-licensed technician arrives with the equipment and products needed for your specific pest.
-                  They perform a thorough inspection, identify the pest and the scope of the problem, and explain the
-                  recommended treatment plan and pricing before beginning any work.
-                </p>
-              </div>
-            </div>
-            <div className="flex gap-4 items-start">
-              <div className="bg-[#DD6B20] text-white font-bold rounded-full w-12 h-12 flex items-center justify-center shrink-0 text-xl">4</div>
-              <div>
-                <h3 className="text-xl font-semibold text-[#1A365D]">Same-Day Treatment</h3>
-                <p className="text-gray-700">
-                  Most pest treatments begin and are completed during the same visit. For larger projects (whole-house
-                  bed bug heat treatment, extensive wildlife exclusion, etc.), we begin the process the same day and
-                  schedule completion at the earliest possible time. You do not wait days just to get the process started.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
 
-        {/* Which Pests Qualify */}
-        <section className="mb-12">
-          <h2 className="text-3xl font-bold text-[#1A365D] mb-6">
-            Which Pests Qualify for Same-Day Service?
-          </h2>
-          <p className="text-gray-700 text-lg leading-relaxed mb-6">
-            Our same-day service covers virtually every pest we treat. Here are the situations where same-day service
-            is most commonly requested in Camden County:
-          </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-            <div className="border border-gray-200 rounded-lg p-5">
-              <h3 className="font-semibold text-[#1A365D] mb-2">🐜 Ant Invasions</h3>
-              <p className="text-gray-700 text-sm">
-                When ants suddenly appear in large numbers — marching through your kitchen, bathroom, or along window
-                sills — same-day treatment stops the invasion before it establishes deeper trails into your home.
-                Camden County&apos;s warm, humid summers from June through September drive massive ant activity,
-                especially in <Link href="/camden-county/cherry-hill" className="text-[#2B6CB0] hover:underline">Cherry Hill</Link> and{' '}
-                <Link href="/camden-county/voorhees" className="text-[#2B6CB0] hover:underline">Voorhees</Link>.
-              </p>
-              <Link href="/services/ant-control" className="text-[#2B6CB0] text-sm font-semibold hover:underline mt-2 inline-block">
-                Ant control details →
-              </Link>
+          <div className="space-y-4 mb-6">
+            <div className="flex gap-4 items-start">
+              <span className="text-2xl">🐜</span>
+              <div>
+                <h3 className="font-semibold text-[#1A365D]">You Have Guests or a Family Event Tomorrow</h3>
+                <p className="text-gray-700">
+                  Discovering ants swarming your kitchen, cockroaches under the sink, or a wasp nest over the front
+                  door the day before a dinner party or family gathering is one of the most common reasons Camden County
+                  residents call for same-day service. We handle these situations every week.
+                </p>
+              </div>
             </div>
-            <div className="border border-gray-200 rounded-lg p-5">
-              <h3 className="font-semibold text-[#1A365D] mb-2">🪳 Cockroach Sightings</h3>
-              <p className="text-gray-700 text-sm">
-                Seeing a cockroach during the day almost always indicates a significant infestation — daytime activity
-                means the harborage areas are overcrowded. Same-day treatment targets the colony before it multiplies
-                further.
-              </p>
-              <Link href="/services/cockroach-control" className="text-[#2B6CB0] text-sm font-semibold hover:underline mt-2 inline-block">
-                Cockroach control details →
-              </Link>
+            <div className="flex gap-4 items-start">
+              <span className="text-2xl">🏠</span>
+              <div>
+                <h3 className="font-semibold text-[#1A365D]">A Home Sale or Inspection Is Pending</h3>
+                <p className="text-gray-700">
+                  Real estate transactions in Camden County regularly get delayed or derailed by pest problems
+                  discovered during buyer inspections. If you are selling and need documentation of treatment before
+                  a scheduled home inspection, or if a WDI (wood-destroying insect) report has flagged an issue,
+                  our team can provide same-day assessment and treatment to keep your closing on track.
+                </p>
+              </div>
             </div>
-            <div className="border border-gray-200 rounded-lg p-5">
-              <h3 className="font-semibold text-[#1A365D] mb-2">🐀 Rodent Activity</h3>
-              <p className="text-gray-700 text-sm">
-                Fresh droppings, gnaw marks, or a rodent sighting means mice or rats have found entry into your home.
-                Same-day trapping and exclusion assessment prevents the problem from growing. Rodent activity is
-                especially high in fall and winter across all Camden County communities.
-              </p>
-              <Link href="/services/rodent-control" className="text-[#2B6CB0] text-sm font-semibold hover:underline mt-2 inline-block">
-                Rodent control details →
-              </Link>
+            <div className="flex gap-4 items-start">
+              <span className="text-2xl">🛏️</span>
+              <div>
+                <h3 className="font-semibold text-[#1A365D]">Bed Bugs Were Just Discovered</h3>
+                <p className="text-gray-700">
+                  Bed bug infestations grow exponentially. A colony that is contained today becomes a whole-room
+                  infestation next week. If you have just discovered bed bugs in your home, hotel room, or rental
+                  property, same-day inspection and initial treatment protocols are critical to containing the outbreak
+                  before it spreads.
+                </p>
+              </div>
             </div>
-            <div className="border border-gray-200 rounded-lg p-5">
-              <h3 className="font-semibold text-[#1A365D] mb-2">🐝 Wasp Nests</h3>
-              <p className="text-gray-700 text-sm">
-                A new wasp or hornet nest discovered near a doorway, deck, or play area is both a safety concern and
-                a same-day priority. We eliminate the nest and the colony in a single visit.
-              </p>
-              <Link href="/services/wasp-hornet-removal" className="text-[#2B6CB0] text-sm font-semibold hover:underline mt-2 inline-block">
-                Wasp removal details →
-              </Link>
+            <div className="flex gap-4 items-start">
+              <span className="text-2xl">🐀</span>
+              <div>
+                <h3 className="font-semibold text-[#1A365D]">A Rodent Is Active in Your Living Space</h3>
+                <p className="text-gray-700">
+                  Mice and rats rarely appear alone. If you see a rodent in your kitchen, living room, or bedroom during
+                  daytime hours, that is a sign of a significant infestation — rodents are nocturnal and only become
+                  visible during daylight when competition for resources is high. Same-day trapping and exclusion
+                  measures are essential to prevent further spread.
+                </p>
+              </div>
             </div>
-            <div className="border border-gray-200 rounded-lg p-5">
-              <h3 className="font-semibold text-[#1A365D] mb-2">🕷️ Spider Infestations</h3>
-              <p className="text-gray-700 text-sm">
-                While most spiders in Camden County are harmless, a sudden increase in spider activity or the discovery
-                of a venomous species warrants quick treatment. Our same-day service addresses both the spiders and the
-                insects they are feeding on.
-              </p>
-              <Link href="/services/spider-control" className="text-[#2B6CB0] text-sm font-semibold hover:underline mt-2 inline-block">
-                Spider control details →
-              </Link>
-            </div>
-            <div className="border border-gray-200 rounded-lg p-5">
-              <h3 className="font-semibold text-[#1A365D] mb-2">🦟 Mosquito Problems</h3>
-              <p className="text-gray-700 text-sm">
-                Hosting an outdoor event this weekend but your yard is swarming with mosquitoes? Same-day barrier
-                treatment can dramatically reduce mosquito populations before your guests arrive.
-              </p>
-              <Link href="/services/mosquito-control" className="text-[#2B6CB0] text-sm font-semibold hover:underline mt-2 inline-block">
-                Mosquito control details →
-              </Link>
+            <div className="flex gap-4 items-start">
+              <span className="text-2xl">🍽️</span>
+              <div>
+                <h3 className="font-semibold text-[#1A365D]">A Business Faces an Imminent Health Inspection</h3>
+                <p className="text-gray-700">
+                  Restaurants, food service businesses, and health care facilities in Camden County cannot afford to
+                  wait for a scheduled pest control appointment when facing a health inspection. Same-day service
+                  with documentation of corrective action can be the difference between passing an inspection and
+                  receiving a violation notice.
+                </p>
+              </div>
             </div>
           </div>
+
           <p className="text-gray-700 text-lg leading-relaxed">
-            For true emergencies — bats inside your home, an active wasp attack, or a termite swarm — we offer
-            priority <Link href="/emergency-pest-control" className="text-[#2B6CB0] hover:underline">emergency pest control</Link>{' '}
-            response that goes beyond our standard same-day service, including evening and weekend availability.
+            If your situation fits any of these scenarios — or if you simply want the problem solved today rather than
+            scheduling it for later — call us at{' '}
+            <a href="tel:+18566000812" className="text-[#2B6CB0] font-bold hover:underline">(856) 600-0812</a>{' '}
+            before noon to secure a same-day appointment.
           </p>
         </section>
 
-        {/* Coverage Across All 16 Towns */}
+        {/* Response Times */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-[#1A365D] mb-6">
-            Same-Day Coverage Across All 16 Camden County Towns
+            Typical Response Times Across Camden County
           </h2>
           <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            Our same-day service is available throughout <Link href="/camden-county" className="text-[#2B6CB0] hover:underline">Camden County</Link>.
-            Because our technicians live and work in the region, drive times are short and we can serve the entire county
-            efficiently in a single day. Same-day appointment availability covers:
+            One of the biggest advantages of working with a locally based pest control company is speed. Because our
+            technicians live and work in Camden County, we are never more than a short drive away from any part of the
+            county. Here is what you can typically expect:
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+            <div className="bg-green-50 rounded-lg p-5">
+              <h3 className="font-semibold text-green-800 mb-2">📞 Call Before Noon</h3>
+              <p className="text-gray-700 text-sm">
+                For calls received before 12:00 PM, we schedule a same-day appointment for the afternoon. Availability
+                is on a first-come, first-served basis. Cherry Hill, Voorhees, Haddon Heights, Haddon Township, and
+                Collingswood are typically our fastest response zones.
+              </p>
+            </div>
+            <div className="bg-blue-50 rounded-lg p-5">
+              <h3 className="font-semibold text-blue-800 mb-2">📞 Call After Noon</h3>
+              <p className="text-gray-700 text-sm">
+                For calls received after noon, we schedule an appointment the next morning — typically between 7 AM
+                and 10 AM — so you are never waiting more than 24 hours. True emergencies (wasps, bats, active rodents
+                in living spaces) are escalated to{' '}
+                <Link href="/emergency-pest-control" className="text-[#2B6CB0] hover:underline">emergency service</Link>.
+              </p>
+            </div>
+            <div className="bg-yellow-50 rounded-lg p-5">
+              <h3 className="font-semibold text-yellow-800 mb-2">⚡ Emergency Priority Queue</h3>
+              <p className="text-gray-700 text-sm">
+                For genuine pest emergencies (wasps near children, bats in living spaces, rodents with active food
+                contamination), you are moved to the top of the queue regardless of call time. Our priority emergency
+                response targets dispatch within 1-2 hours for these situations.
+              </p>
+            </div>
+            <div className="bg-purple-50 rounded-lg p-5">
+              <h3 className="font-semibold text-purple-800 mb-2">🏢 Commercial Priority</h3>
+              <p className="text-gray-700 text-sm">
+                Commercial accounts in Camden County — restaurants, rental properties, offices, retail stores —
+                receive priority scheduling. We maintain dedicated commercial technician routes to ensure rapid
+                response for businesses that cannot afford extended downtime due to pest issues.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* What Can Be Done Same-Day */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-[#1A365D] mb-6">
+            What Treatments Can Be Done Same-Day?
+          </h2>
+          <p className="text-gray-700 text-lg leading-relaxed mb-4">
+            Many people assume that same-day service means a quick inspection and then a follow-up appointment for
+            actual treatment. For the majority of common pest problems in Camden County, that is not the case —
+            our technicians arrive equipped to inspect and treat in a single visit. Here is what we can typically
+            accomplish on a same-day call:
+          </p>
+          <div className="space-y-4 mb-6">
+            <div className="border-l-4 border-green-500 pl-5">
+              <h3 className="font-semibold text-[#1A365D]">✓ Ant, Cockroach, and Spider Treatments</h3>
+              <p className="text-gray-700 text-sm">
+                Targeted residual treatments, gel bait applications, and exterior perimeter treatments can all be
+                performed on the initial same-day visit. These are the most common same-day pest control requests
+                we receive from Camden County homeowners.
+              </p>
+            </div>
+            <div className="border-l-4 border-green-500 pl-5">
+              <h3 className="font-semibold text-[#1A365D]">✓ Wasp, Hornet, and Yellow Jacket Nest Removal</h3>
+              <p className="text-gray-700 text-sm">
+                Stinging insect nest removal is always a same-day service. Our technicians carry full protective
+                equipment and professional wasp/hornet products on every vehicle. Nests of all sizes — from small
+                paper wasp nests to large bald-faced hornet aerial nests to ground-nesting yellow jacket colonies —
+                can be treated in a single visit.
+              </p>
+            </div>
+            <div className="border-l-4 border-green-500 pl-5">
+              <h3 className="font-semibold text-[#1A365D]">✓ Rodent Trapping and Initial Exclusion</h3>
+              <p className="text-gray-700 text-sm">
+                We can place snap traps, glue boards, and exclusion materials on the same-day visit. For more
+                extensive exclusion work requiring masonry or major structural repairs, we schedule a return visit,
+                but immediate trapping and temporary sealing measures are always available same-day.
+              </p>
+            </div>
+            <div className="border-l-4 border-green-500 pl-5">
+              <h3 className="font-semibold text-[#1A365D]">✓ Mosquito and Tick Barrier Treatments</h3>
+              <p className="text-gray-700 text-sm">
+                Same-day yard barrier treatments for mosquitoes and ticks are available throughout the season.
+                Whether you have an outdoor event this weekend or simply want immediate protection, our backpack
+                mist blower treatments provide fast-acting coverage of your entire property.
+              </p>
+            </div>
+            <div className="border-l-4 border-green-500 pl-5">
+              <h3 className="font-semibold text-[#1A365D]">✓ Bed Bug Initial Inspection and Containment</h3>
+              <p className="text-gray-700 text-sm">
+                Same-day bed bug inspections and initial containment protocols (mattress encasements, interceptors,
+                steam treatment of small areas) are available. Full heat treatment or whole-room chemical treatment
+                typically requires a scheduled return visit with proper preparation.
+              </p>
+            </div>
+            <div className="border-l-4 border-green-500 pl-5">
+              <h3 className="font-semibold text-[#1A365D]">✓ Wildlife Initial Response</h3>
+              <p className="text-gray-700 text-sm">
+                For wildlife in attics, crawl spaces, or living areas, same-day trapping setup and assessment is
+                available. Complete wildlife exclusion work typically spans multiple visits over several weeks to
+                ensure all animals have left the structure before permanent sealing.
+              </p>
+            </div>
+            <div className="border-l-4 border-yellow-500 pl-5">
+              <h3 className="font-semibold text-[#1A365D]">⚠ Termite Treatment — Requires Scheduling</h3>
+              <p className="text-gray-700 text-sm">
+                Termite treatments (liquid soil applications, bait station systems) require pre-treatment preparation
+                and cannot be rushed. However, we offer same-day{' '}
+                <Link href="/termite-inspection" className="text-[#2B6CB0] hover:underline">termite inspections</Link>{' '}
+                so you can understand the scope of the problem today and schedule treatment immediately.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Coverage Map */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-[#1A365D] mb-6">
+            Same-Day Coverage Across All of Camden County
+          </h2>
+          <p className="text-gray-700 text-lg leading-relaxed mb-4">
+            Our same-day service coverage spans all 16 municipalities in Camden County. With technicians based
+            throughout the county, we maintain the fastest response times in the region:
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-6">
             {[
               { name: 'Cherry Hill', slug: 'cherry-hill' },
               { name: 'Voorhees', slug: 'voorhees' },
-              { name: 'Haddonfield', slug: 'haddonfield' },
+              { name: 'Haddon Heights', slug: 'haddon-heights' },
+              { name: 'Haddon Township', slug: 'haddon-township' },
               { name: 'Collingswood', slug: 'collingswood' },
+              { name: 'Haddonfield', slug: 'haddonfield' },
               { name: 'Marlton', slug: 'marlton' },
               { name: 'Mount Laurel', slug: 'mount-laurel' },
               { name: 'Pennsauken', slug: 'pennsauken' },
@@ -229,175 +292,202 @@ export default function SameDayPestControl() {
               { name: 'Bellmawr', slug: 'bellmawr' },
               { name: 'Audubon', slug: 'audubon' },
               { name: 'Barrington', slug: 'barrington' },
-              { name: 'Somerdale', slug: 'somerdale' },
               { name: 'Runnemede', slug: 'runnemede' },
-              { name: 'Clementon', slug: 'clementon' },
             ].map((town) => (
               <Link
                 key={town.slug}
                 href={`/camden-county/${town.slug}`}
-                className="bg-blue-50 hover:bg-blue-100 text-[#1A365D] font-medium py-2 px-3 rounded-lg text-center transition-colors text-sm"
+                className="bg-green-50 hover:bg-green-100 text-[#1A365D] font-medium py-3 px-4 rounded-lg text-center transition-colors text-sm"
               >
-                {town.name}
+                ⚡ {town.name}
               </Link>
             ))}
           </div>
           <p className="text-gray-700 text-lg leading-relaxed">
-            Whether you are in one of the larger townships like <Link href="/camden-county/gloucester-township" className="text-[#2B6CB0] hover:underline">Gloucester Township</Link>{' '}
-            or <Link href="/camden-county/winslow-township" className="text-[#2B6CB0] hover:underline">Winslow Township</Link>,
-            or in one of the compact boroughs like <Link href="/camden-county/runnemede" className="text-[#2B6CB0] hover:underline">Runnemede</Link>{' '}
-            or <Link href="/camden-county/barrington" className="text-[#2B6CB0] hover:underline">Barrington</Link>, our
-            same-day service reaches you quickly.
+            <strong>Fastest response zones:</strong>{' '}
+            <Link href="/camden-county/cherry-hill" className="text-[#2B6CB0] hover:underline">Cherry Hill</Link>,{' '}
+            <Link href="/camden-county/voorhees" className="text-[#2B6CB0] hover:underline">Voorhees</Link>,{' '}
+            <Link href="/camden-county/collingswood" className="text-[#2B6CB0] hover:underline">Collingswood</Link>,{' '}
+            <Link href="/camden-county/haddon-heights" className="text-[#2B6CB0] hover:underline">Haddon Heights</Link>, and{' '}
+            <Link href="/camden-county/haddon-township" className="text-[#2B6CB0] hover:underline">Haddon Township</Link>{' '}
+            typically see technician arrival within 2-3 hours of a morning call. More distant areas like{' '}
+            <Link href="/camden-county/winslow-township" className="text-[#2B6CB0] hover:underline">Winslow Township</Link>{' '}
+            and <Link href="/camden-county/gloucester-township" className="text-[#2B6CB0] hover:underline">Gloucester Township</Link>{' '}
+            are served in the afternoon for morning calls.
           </p>
         </section>
 
-        {/* Why Same-Day Matters */}
+        {/* How to Secure a Same-Day Slot */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-[#1A365D] mb-6">
-            Why Same-Day Treatment Matters
+            How to Secure Your Same-Day Appointment
           </h2>
-          <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            When it comes to pest control, faster treatment almost always means better outcomes. Here is why getting
-            same-day service is worth the call:
-          </p>
           <div className="space-y-4">
-            <div className="flex gap-3 items-start">
-              <span className="text-[#DD6B20] font-bold text-xl">→</span>
+            <div className="flex gap-4 items-start">
+              <div className="bg-[#DD6B20] text-white font-bold rounded-full w-10 h-10 flex items-center justify-center shrink-0">1</div>
               <div>
-                <strong className="text-[#1A365D]">Smaller infestations are cheaper to treat.</strong>{' '}
-                <span className="text-gray-700">
-                  A single ant trail is a one-visit treatment. A colony that has had a week to establish satellite
-                  nests throughout your walls may require multiple visits and more product. The same principle applies
-                  to cockroaches, rodents, and especially bed bugs.
-                </span>
+                <h3 className="font-semibold text-[#1A365D]">Call Before Noon</h3>
+                <p className="text-gray-700">
+                  Same-day slots fill up, especially in spring and summer when pest activity peaks throughout Camden
+                  County. Calling early — ideally by 10 AM — gives you the best chance of securing a morning or early
+                  afternoon appointment. Call{' '}
+                  <a href="tel:+18566000812" className="text-[#2B6CB0] font-semibold hover:underline">(856) 600-0812</a>.
+                </p>
               </div>
             </div>
-            <div className="flex gap-3 items-start">
-              <span className="text-[#DD6B20] font-bold text-xl">→</span>
+            <div className="flex gap-4 items-start">
+              <div className="bg-[#DD6B20] text-white font-bold rounded-full w-10 h-10 flex items-center justify-center shrink-0">2</div>
               <div>
-                <strong className="text-[#1A365D]">Property damage is minimized.</strong>{' '}
-                <span className="text-gray-700">
-                  Rodents chewing wiring, termites consuming structural wood, and raccoons tearing up insulation — all
-                  of these cause ongoing damage every day they go untreated. Same-day service stops the clock on property
-                  damage.
-                </span>
+                <h3 className="font-semibold text-[#1A365D]">Describe the Pest and Location</h3>
+                <p className="text-gray-700">
+                  Tell us the pest (or your best description), where you are seeing it, and how long the problem
+                  has been going on. This helps us dispatch the right technician with the right equipment, so we
+                  can inspect and treat in a single visit rather than requiring a return trip.
+                </p>
               </div>
             </div>
-            <div className="flex gap-3 items-start">
-              <span className="text-[#DD6B20] font-bold text-xl">→</span>
+            <div className="flex gap-4 items-start">
+              <div className="bg-[#DD6B20] text-white font-bold rounded-full w-10 h-10 flex items-center justify-center shrink-0">3</div>
               <div>
-                <strong className="text-[#1A365D]">Health risks are reduced.</strong>{' '}
-                <span className="text-gray-700">
-                  Cockroach allergens trigger asthma attacks. Rodent droppings carry dangerous pathogens. Mosquitoes
-                  transmit diseases. The sooner pests are eliminated, the sooner your home is safe for your family.
-                </span>
+                <h3 className="font-semibold text-[#1A365D]">Confirm Your Address and Access</h3>
+                <p className="text-gray-700">
+                  Provide your full address in Camden County and confirm access to the relevant areas (attic, crawl
+                  space, basement, garage, yard). If you have pets, let us know so we can advise on any precautions
+                  ahead of the visit.
+                </p>
               </div>
             </div>
-            <div className="flex gap-3 items-start">
-              <span className="text-[#DD6B20] font-bold text-xl">→</span>
+            <div className="flex gap-4 items-start">
+              <div className="bg-[#DD6B20] text-white font-bold rounded-full w-10 h-10 flex items-center justify-center shrink-0">4</div>
               <div>
-                <strong className="text-[#1A365D]">Peace of mind is restored.</strong>{' '}
-                <span className="text-gray-700">
-                  Let us be honest — knowing pests are in your home is stressful. Waiting days for an appointment while
-                  the problem continues is even worse. Same-day service means you sleep better tonight.
-                </span>
+                <h3 className="font-semibold text-[#1A365D]">We Arrive and Solve the Problem</h3>
+                <p className="text-gray-700">
+                  Your NJDEP-licensed technician arrives at the scheduled time, inspects the property, confirms the
+                  pest and treatment plan, provides a written quote, and begins treatment — all in the same visit.
+                  No waiting around for a second appointment just to get started.
+                </p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Same-Day for Commercial */}
+        {/* FAQ Section */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-[#1A365D] mb-6">
-            Same-Day Pest Control for Camden County Businesses
-          </h2>
-          <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            For businesses, pest problems are not just a nuisance — they are a liability. A restaurant with a
-            cockroach sighting, a retail store with a mouse problem, or a warehouse with a pigeon infestation cannot
-            afford to wait days for treatment. Our same-day{' '}
-            <Link href="/services/commercial-pest-control" className="text-[#2B6CB0] hover:underline">commercial pest control</Link>{' '}
-            service is designed for the urgency that businesses face:
-          </p>
-          <ul className="text-gray-700 space-y-2 mb-4">
-            <li className="flex gap-2">
-              <span className="text-[#DD6B20] font-bold">→</span>
-              <span><strong>Restaurants and food service:</strong> A single pest sighting can result in a health department violation, negative reviews, and lost customers. We provide discreet, rapid treatment that minimizes disruption to your operations.</span>
-            </li>
-            <li className="flex gap-2">
-              <span className="text-[#DD6B20] font-bold">→</span>
-              <span><strong>Healthcare facilities:</strong> Hospitals, nursing homes, and medical offices have zero tolerance for pest activity. We offer same-day response with treatments that meet healthcare sanitation standards.</span>
-            </li>
-            <li className="flex gap-2">
-              <span className="text-[#DD6B20] font-bold">→</span>
-              <span><strong>Retail and office spaces:</strong> Rodent droppings, ant trails, or spider webs in customer-facing areas damage your reputation. Same-day treatment restores your professional environment.</span>
-            </li>
-            <li className="flex gap-2">
-              <span className="text-[#DD6B20] font-bold">→</span>
-              <span><strong>Warehouses and industrial:</strong> Bird infestations, rodents in stored products, or insect contamination of inventory require immediate attention to prevent product loss and regulatory issues.</span>
-            </li>
-          </ul>
-          <p className="text-gray-700 text-lg leading-relaxed">
-            Camden County&apos;s commercial corridors along Route 70, Route 130, and Route 73 — spanning{' '}
-            <Link href="/camden-county/cherry-hill" className="text-[#2B6CB0] hover:underline">Cherry Hill</Link>,{' '}
-            <Link href="/camden-county/pennsauken" className="text-[#2B6CB0] hover:underline">Pennsauken</Link>,{' '}
-            <Link href="/camden-county/bellmawr" className="text-[#2B6CB0] hover:underline">Bellmawr</Link>, and{' '}
-            <Link href="/camden-county/marlton" className="text-[#2B6CB0] hover:underline">Marlton</Link> — are all
-            within our same-day service area. We understand the unique pest pressures of commercial properties and
-            respond accordingly.
-          </p>
-        </section>
-
-        {/* FAQ */}
-        <section className="mb-12">
-          <h2 className="text-3xl font-bold text-[#1A365D] mb-6">
-            Frequently Asked Questions About Same-Day Service
+            Frequently Asked Questions — Same-Day Pest Control in Camden County
           </h2>
           <div className="space-y-6">
-            <div>
-              <h3 className="text-lg font-semibold text-[#1A365D] mb-2">Is there an extra charge for same-day service?</h3>
+            <div className="border-b border-gray-200 pb-6">
+              <h3 className="text-lg font-semibold text-[#1A365D] mb-2">How do I guarantee a same-day appointment in Camden County?</h3>
               <p className="text-gray-700">
-                No. Our same-day service is priced the same as a standard appointment. We believe fast response should
-                be the standard, not a premium add-on. You receive a free inspection and a written quote before any
-                treatment begins — just like a regular appointment.
+                Call our line at{' '}
+                <a href="tel:+18566000812" className="text-[#2B6CB0] font-semibold hover:underline">(856) 600-0812</a>{' '}
+                before noon. Same-day appointments are first come, first served and are subject to technician
+                availability in your area of Camden County. Calling early — before 10 AM — maximizes your chances
+                of getting a morning appointment. Online booking requests submitted before noon are also eligible for
+                same-day service but are confirmed by phone.
               </p>
             </div>
-            <div>
-              <h3 className="text-lg font-semibold text-[#1A365D] mb-2">What if I call after noon?</h3>
+            <div className="border-b border-gray-200 pb-6">
+              <h3 className="text-lg font-semibold text-[#1A365D] mb-2">What pests can you treat same-day in Camden County?</h3>
               <p className="text-gray-700">
-                We do our best to accommodate afternoon requests for same-day service. If same-day is not available, we
-                will schedule you for the first available slot — often the next morning. For urgent situations that
-                cannot wait, our <Link href="/emergency-pest-control" className="text-[#2B6CB0] hover:underline">emergency pest control</Link>{' '}
-                service provides evening and weekend response.
+                We can treat same-day: ants, cockroaches, spiders, wasps, hornets, yellow jackets, fleas, ticks,
+                mosquitoes (barrier sprays), bed bugs (initial inspection and containment), rodents (trapping and
+                initial exclusion), and wildlife (initial trapping setup). Termite treatments and full bed bug heat
+                treatment require a scheduled appointment due to pre-treatment preparation requirements.
               </p>
             </div>
-            <div>
-              <h3 className="text-lg font-semibold text-[#1A365D] mb-2">Do I need to prepare anything before the technician arrives?</h3>
+            <div className="border-b border-gray-200 pb-6">
+              <h3 className="text-lg font-semibold text-[#1A365D] mb-2">Do you serve Cherry Hill and Voorhees same-day?</h3>
               <p className="text-gray-700">
-                For most pest treatments, no special preparation is needed. For specific situations (bed bug treatment,
-                flea treatment), we will provide preparation instructions when you schedule. Generally, just ensure the
-                technician can access the affected areas — clear clutter around baseboards, provide attic access if
-                needed, and secure pets during the visit.
+                Yes. <Link href="/camden-county/cherry-hill" className="text-[#2B6CB0] hover:underline">Cherry Hill</Link>{' '}
+                and <Link href="/camden-county/voorhees" className="text-[#2B6CB0] hover:underline">Voorhees</Link>{' '}
+                are among our highest-volume same-day service areas in Camden County. We have technicians based near
+                these townships and can typically dispatch within 1-2 hours of your call for most pest situations.
               </p>
             </div>
-            <div>
-              <h3 className="text-lg font-semibold text-[#1A365D] mb-2">Is the inspection really free?</h3>
+            <div className="border-b border-gray-200 pb-6">
+              <h3 className="text-lg font-semibold text-[#1A365D] mb-2">Is same-day service more expensive than a scheduled appointment?</h3>
               <p className="text-gray-700">
-                Yes. Our <Link href="/free-pest-inspection" className="text-[#2B6CB0] hover:underline">free pest inspection</Link>{' '}
-                covers a complete assessment of your property with no obligation. If you decide not to proceed with
-                treatment after the inspection, you owe us nothing.
+                No. Our pricing for same-day pest control is the same as our standard pricing for scheduled
+                appointments. We do not charge premium rates for same-day availability. You receive the same
+                NJDEP-licensed technician, the same professional-grade treatments, and the same satisfaction
+                guarantee regardless of when you book. The only difference is speed of response.
               </p>
             </div>
+            <div className="border-b border-gray-200 pb-6">
+              <h3 className="text-lg font-semibold text-[#1A365D] mb-2">Can I get a free inspection on a same-day call?</h3>
+              <p className="text-gray-700">
+                Yes. Our{' '}
+                <Link href="/free-pest-inspection" className="text-[#2B6CB0] hover:underline">free pest inspection</Link>{' '}
+                is available on same-day appointments. Your technician will inspect the property, identify the pest,
+                and provide a written quote before any treatment begins. There is no charge for the inspection and no
+                obligation to proceed with treatment if you are not satisfied with the plan.
+              </p>
+            </div>
+            <div className="border-b border-gray-200 pb-6">
+              <h3 className="text-lg font-semibold text-[#1A365D] mb-2">Do you serve Haddon Heights and Haddon Township?</h3>
+              <p className="text-gray-700">
+                Yes.{' '}
+                <Link href="/camden-county/haddon-heights" className="text-[#2B6CB0] hover:underline">Haddon Heights</Link>{' '}
+                and{' '}
+                <Link href="/camden-county/haddon-township" className="text-[#2B6CB0] hover:underline">Haddon Township</Link>{' '}
+                are fully within our same-day service zone. These communities, with their mix of early-20th-century
+                homes and established tree canopy, see significant activity from carpenter ants, rodents, and
+                termites. Our local team is very familiar with the pest challenges specific to these neighborhoods
+                and responds quickly to same-day calls.
+              </p>
+            </div>
+            <div className="border-b border-gray-200 pb-6">
+              <h3 className="text-lg font-semibold text-[#1A365D] mb-2">What if the pest problem is more serious than expected?</h3>
+              <p className="text-gray-700">
+                If our technician arrives and discovers a larger or more complex infestation than described, we will
+                perform the same-day inspection, explain exactly what we found, and provide a revised written quote
+                for a comprehensive treatment plan. You are never committed to a treatment until you have reviewed
+                and agreed to a written estimate. For complex situations requiring multiple visits, we schedule
+                follow-up appointments at the same visit so you do not have to call back.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Related Pages */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-[#1A365D] mb-6">
+            Related Services
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <Link href="/emergency-pest-control" className="block bg-red-50 hover:bg-red-100 rounded-lg p-5 transition-colors">
+              <h3 className="font-semibold text-[#1A365D] mb-1">Emergency Pest Control →</h3>
+              <p className="text-gray-600 text-sm">For true pest emergencies that cannot wait at all</p>
+            </Link>
+            <Link href="/pest-control-near-me" className="block bg-blue-50 hover:bg-blue-100 rounded-lg p-5 transition-colors">
+              <h3 className="font-semibold text-[#1A365D] mb-1">Pest Control Near Me →</h3>
+              <p className="text-gray-600 text-sm">Local pest control for every pest in Camden County</p>
+            </Link>
+            <Link href="/exterminator-near-me" className="block bg-blue-50 hover:bg-blue-100 rounded-lg p-5 transition-colors">
+              <h3 className="font-semibold text-[#1A365D] mb-1">Exterminator Near Me →</h3>
+              <p className="text-gray-600 text-sm">Licensed exterminators throughout Camden County, NJ</p>
+            </Link>
+            <Link href="/free-pest-inspection" className="block bg-blue-50 hover:bg-blue-100 rounded-lg p-5 transition-colors">
+              <h3 className="font-semibold text-[#1A365D] mb-1">Free Pest Inspection →</h3>
+              <p className="text-gray-600 text-sm">No-cost, no-obligation property inspection — available same-day</p>
+            </Link>
+            <Link href="/termite-inspection" className="block bg-blue-50 hover:bg-blue-100 rounded-lg p-5 transition-colors">
+              <h3 className="font-semibold text-[#1A365D] mb-1">Termite Inspection →</h3>
+              <p className="text-gray-600 text-sm">Same-day termite assessments for Camden County homes</p>
+            </Link>
           </div>
         </section>
 
         {/* Final CTA */}
-        <section className="bg-orange-50 border border-orange-200 rounded-xl p-8 text-center">
+        <section className="bg-green-50 border border-green-200 rounded-xl p-8 text-center">
           <h2 className="text-2xl font-bold text-[#1A365D] mb-4">
-            Get Same-Day Pest Control — Call Now
+            Do Not Wait — Book Your Same-Day Appointment Now
           </h2>
           <p className="text-gray-700 text-lg mb-6">
-            Do not wait days for pest control. Call Camden County Pest Control now for a same-day appointment
-            with a licensed, local exterminator.
+            Same-day slots fill up fast across Camden County. Call before noon for a same-day visit from
+            a NJDEP-licensed pest control professional.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -410,7 +500,7 @@ export default function SameDayPestControl() {
               href="/contact"
               className="bg-[#1A365D] hover:bg-[#2B6CB0] text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors"
             >
-              Book Online
+              Get a Free Quote
             </Link>
           </div>
         </section>
@@ -419,9 +509,9 @@ export default function SameDayPestControl() {
       {/* CTA Banner */}
       <section className="bg-[#1A365D] text-white py-12">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4">Need Pest Control Today?</h2>
+          <h2 className="text-3xl font-bold mb-4">Same-Day Pest Control Across Camden County</h2>
           <p className="text-blue-200 text-lg mb-6">
-            Call before noon for same-day service. No extra charge. All 16 Camden County towns covered.
+            Call before noon. NJDEP-licensed. All 16 towns served.
           </p>
           <a
             href="tel:+18566000812"
@@ -438,21 +528,75 @@ export default function SameDayPestControl() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             '@context': 'https://schema.org',
-            '@type': 'PestControlService',
-            name: 'Camden County Pest Control - Same Day Service',
-            telephone: '(856) 600-0812',
-            url: 'https://pestcontrolcamdencounty.com/same-day-pest-control',
-            description:
-              'Same-day pest control service in Camden County, NJ. Call before noon for a same-day appointment. Serving all 16 towns.',
-            areaServed: {
-              '@type': 'County',
-              name: 'Camden County',
-              containedInPlace: {
-                '@type': 'State',
-                name: 'New Jersey',
+            '@graph': [
+              {
+                '@type': 'PestControlService',
+                name: 'Camden County Pest Control — Same Day Service',
+                telephone: '(856) 600-0812',
+                url: 'https://pestcontrolcamdencounty.com/same-day-pest-control',
+                description:
+                  'Same-day pest control in Camden County, NJ. Call before noon for same-day service in Cherry Hill, Voorhees, Haddon Heights, Haddon Township, Collingswood, and all 16 towns.',
+                areaServed: {
+                  '@type': 'County',
+                  name: 'Camden County',
+                  containedInPlace: {
+                    '@type': 'State',
+                    name: 'New Jersey',
+                  },
+                },
+                serviceType: 'Same Day Pest Control',
+                availableChannel: {
+                  '@type': 'ServiceChannel',
+                  servicePhone: '(856) 600-0812',
+                  availableLanguage: 'English',
+                },
               },
-            },
-            serviceType: 'Same Day Pest Control',
+              {
+                '@type': 'FAQPage',
+                mainEntity: [
+                  {
+                    '@type': 'Question',
+                    name: 'How do I guarantee a same-day appointment in Camden County?',
+                    acceptedAnswer: {
+                      '@type': 'Answer',
+                      text: 'Call (856) 600-0812 before noon. Same-day appointments are first come, first served. Calling before 10 AM maximizes your chances. Online booking before noon is also eligible but confirmed by phone.',
+                    },
+                  },
+                  {
+                    '@type': 'Question',
+                    name: 'What pests can you treat same-day in Camden County?',
+                    acceptedAnswer: {
+                      '@type': 'Answer',
+                      text: 'We can treat same-day: ants, cockroaches, spiders, wasps, hornets, yellow jackets, fleas, ticks, mosquitoes, bed bugs (inspection and containment), rodents (trapping and initial exclusion), and wildlife (initial trapping setup).',
+                    },
+                  },
+                  {
+                    '@type': 'Question',
+                    name: 'Is same-day service more expensive than a scheduled appointment?',
+                    acceptedAnswer: {
+                      '@type': 'Answer',
+                      text: 'No. Our pricing for same-day pest control is the same as our standard pricing. We do not charge premium rates for same-day availability.',
+                    },
+                  },
+                  {
+                    '@type': 'Question',
+                    name: 'Do you serve Haddon Heights and Haddon Township same-day?',
+                    acceptedAnswer: {
+                      '@type': 'Answer',
+                      text: 'Yes. Haddon Heights and Haddon Township are fully within our same-day service zone. We have technicians familiar with the pest challenges of these communities and can typically respond within hours of a morning call.',
+                    },
+                  },
+                  {
+                    '@type': 'Question',
+                    name: 'Can I get a free inspection on a same-day call?',
+                    acceptedAnswer: {
+                      '@type': 'Answer',
+                      text: 'Yes. Our free pest inspection is available on same-day appointments. Your technician will inspect, identify the pest, and provide a written quote before any treatment begins, with no obligation to proceed.',
+                    },
+                  },
+                ],
+              },
+            ],
           }),
         }}
       />

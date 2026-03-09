@@ -28,7 +28,7 @@ export default function FreePestInspection() {
       <section className="bg-gradient-to-br from-[#1A365D] to-[#2B6CB0] text-white py-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Free Pest Inspection in Camden County, NJ
+            Free Pest Inspection — Camden County, NJ
           </h1>
           <p className="text-xl text-blue-100 mb-8">
             Not sure what is bugging you? Our licensed technicians will inspect your property, identify the pest,
@@ -67,7 +67,15 @@ export default function FreePestInspection() {
             is yours to keep regardless of your decision.
           </p>
           <p className="text-gray-700 text-lg leading-relaxed mb-6">
-            Here is everything our free inspection covers:
+            We have performed hundreds of free pest inspections throughout Camden County — in{' '}
+            <Link href="/camden-county/cherry-hill" className="text-[#2B6CB0] hover:underline">Cherry Hill</Link> colonials,{' '}
+            <Link href="/camden-county/haddonfield" className="text-[#2B6CB0] hover:underline">Haddonfield</Link> Victorians,{' '}
+            <Link href="/camden-county/collingswood" className="text-[#2B6CB0] hover:underline">Collingswood</Link> bungalows,{' '}
+            <Link href="/camden-county/voorhees" className="text-[#2B6CB0] hover:underline">Voorhees</Link> suburban homes,
+            commercial properties in <Link href="/camden-county/pennsauken" className="text-[#2B6CB0] hover:underline">Pennsauken</Link>{' '}
+            and <Link href="/camden-county/bellmawr" className="text-[#2B6CB0] hover:underline">Bellmawr</Link>, and rental
+            units throughout the county. Every inspection is performed to the same professional standard regardless of
+            property size or type.
           </p>
           <div className="space-y-6">
             <div className="flex gap-4 items-start">
@@ -89,9 +97,9 @@ export default function FreePestInspection() {
                 <h3 className="text-lg font-semibold text-[#1A365D]">Thorough Interior Inspection</h3>
                 <p className="text-gray-700">
                   Inside your home, we inspect the kitchen, bathrooms, basement, attic, crawl space (if accessible),
-                  utility areas, and any rooms where you have noticed pest activity. We check behind appliances, inside
-                  cabinets, around plumbing fixtures, along baseboards, and in storage areas. We also look for signs
-                  of moisture intrusion, which attracts many pest species.
+                  utility areas, and any rooms where pest activity has been observed. We check behind appliances,
+                  under sinks, in utility voids, along baseboards, in storage areas, and anywhere else pests are
+                  likely to harbor or travel.
                 </p>
               </div>
             </div>
@@ -100,192 +108,198 @@ export default function FreePestInspection() {
               <div>
                 <h3 className="text-lg font-semibold text-[#1A365D]">Pest Identification</h3>
                 <p className="text-gray-700">
-                  Accurate pest identification is the foundation of effective treatment. Many pests look similar but
-                  require completely different treatment strategies. Carpenter ants vs. odorous house ants, German
-                  cockroaches vs. American cockroaches, mice vs. rats, subterranean termites vs. carpenter ants — our
-                  technicians are trained to identify the exact species and assess the infestation level accurately.
+                  Accurate pest identification is more important than most homeowners realize. Carpenter ants and
+                  odorous house ants require completely different treatment strategies. German cockroaches and American
+                  cockroaches have different harborage preferences and respond to different baiting approaches. Eastern
+                  subterranean termites require licensed professionals with specialized equipment. Our technicians are
+                  trained to identify all common Camden County pests accurately — not just category-level identification
+                  but species-level when treatment depends on it.
                 </p>
               </div>
             </div>
             <div className="flex gap-4 items-start">
               <div className="bg-green-600 text-white font-bold rounded-full w-10 h-10 flex items-center justify-center shrink-0">✓</div>
               <div>
-                <h3 className="text-lg font-semibold text-[#1A365D]">Entry Point Mapping</h3>
+                <h3 className="text-lg font-semibold text-[#1A365D]">Conducive Conditions Assessment</h3>
                 <p className="text-gray-700">
-                  We identify how pests are getting into your home — gaps in the foundation, cracks around pipes,
-                  damaged vent screens, gaps under doors, unsealed utility penetrations, and more. Understanding
-                  entry points is essential because treatment alone is not enough; if you do not seal the entry
-                  points, pests will return.
+                  Beyond identifying active pests, we document all conditions that are making your property vulnerable
+                  to infestation — poor drainage, wood-to-soil contact, gaps in the building envelope, improperly
+                  stored firewood, standing water, overgrown landscaping, and other factors. Addressing conducive
+                  conditions is often the most important long-term step in pest prevention.
                 </p>
               </div>
             </div>
             <div className="flex gap-4 items-start">
               <div className="bg-green-600 text-white font-bold rounded-full w-10 h-10 flex items-center justify-center shrink-0">✓</div>
               <div>
-                <h3 className="text-lg font-semibold text-[#1A365D]">Written Assessment & Recommendations</h3>
+                <h3 className="text-lg font-semibold text-[#1A365D]">Written Inspection Report &amp; Quote</h3>
                 <p className="text-gray-700">
-                  After the inspection, you receive a clear, written assessment of our findings — what pest (if any)
-                  is present, the estimated severity, the entry points and contributing conditions, and our recommended
-                  treatment approach. If treatment is warranted, we provide a written price quote with no hidden fees.
-                  If no treatment is needed, we tell you that too.
+                  At the end of the inspection, our technician provides a written report documenting all findings,
+                  photographs of significant items, and a detailed treatment recommendation with pricing if treatment
+                  is warranted. You receive this report whether or not you decide to proceed with service. The report
+                  is yours to keep.
                 </p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* All Pests Covered */}
+        {/* Common Findings in Camden County */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-[#1A365D] mb-6">
-            Every Pest Covered Under One Free Inspection
+            Common Findings in Camden County Home Inspections
           </h2>
-          <p className="text-gray-700 text-lg leading-relaxed mb-6">
-            Our free inspection covers all common residential pests found in Camden County. You do not need to know
-            what the pest is before you call — that is our job. Our technicians are trained to identify and assess:
+          <p className="text-gray-700 text-lg leading-relaxed mb-4">
+            After hundreds of free inspections throughout Camden County, our technicians have identified the most
+            common pest problems and conducive conditions specific to different communities and property types in the
+            region. Here is what we regularly find:
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
-            <div className="bg-gray-50 rounded-lg p-4">
-              <h3 className="font-semibold text-[#1A365D] mb-2">Crawling Insects</h3>
-              <ul className="text-gray-700 text-sm space-y-1">
-                <li>→ <Link href="/services/ant-control" className="text-[#2B6CB0] hover:underline">Ants</Link> (carpenter, pavement, odorous)</li>
-                <li>→ <Link href="/services/cockroach-control" className="text-[#2B6CB0] hover:underline">Cockroaches</Link> (German, American, Oriental)</li>
-                <li>→ <Link href="/services/spider-control" className="text-[#2B6CB0] hover:underline">Spiders</Link> (house, wolf, brown recluse)</li>
-                <li>→ <Link href="/services/bed-bug-removal" className="text-[#2B6CB0] hover:underline">Bed Bugs</Link></li>
-                <li>→ <Link href="/services/flea-tick-treatment" className="text-[#2B6CB0] hover:underline">Fleas & Ticks</Link></li>
+
+          <div className="space-y-6 mb-6">
+            <div className="bg-gray-50 rounded-lg p-6">
+              <h3 className="text-xl font-semibold text-[#1A365D] mb-3">Older Homes (Pre-1980) — Haddonfield, Collingswood, Audubon, Barrington</h3>
+              <p className="text-gray-700 mb-2">
+                The historic and early-20th-century homes in these Camden County communities are the most frequently
+                flagged during free inspections. Common findings include:
+              </p>
+              <ul className="text-gray-700 space-y-1 text-sm">
+                <li>→ Eastern subterranean termite mud tubes on crawl space walls and sill plates</li>
+                <li>→ Carpenter ant colonies in moisture-damaged wood around windows, doors, and roof eaves</li>
+                <li>→ Mouse activity through gaps in stone or brick foundations and around pipe penetrations</li>
+                <li>→ Bat entry through gaps in older soffits, gable vents, and brick mortar joints</li>
+                <li>→ Moisture damage and fungal rot creating highly conducive conditions for wood-destroying insects</li>
               </ul>
             </div>
-            <div className="bg-gray-50 rounded-lg p-4">
-              <h3 className="font-semibold text-[#1A365D] mb-2">Wood-Destroying Pests</h3>
-              <ul className="text-gray-700 text-sm space-y-1">
-                <li>→ <Link href="/services/termite-treatment" className="text-[#2B6CB0] hover:underline">Subterranean Termites</Link></li>
-                <li>→ Carpenter Ants</li>
-                <li>→ Carpenter Bees</li>
-                <li>→ Powder Post Beetles</li>
-                <li>→ <Link href="/termite-inspection" className="text-[#2B6CB0] hover:underline">Full termite inspections</Link> also available</li>
+
+            <div className="bg-gray-50 rounded-lg p-6">
+              <h3 className="text-xl font-semibold text-[#1A365D] mb-3">Suburban Homes (1980–2005) — Cherry Hill, Voorhees, Mount Laurel</h3>
+              <p className="text-gray-700 mb-2">
+                Mid-age suburban homes in the major Camden County townships present a distinct set of common inspection
+                findings:
+              </p>
+              <ul className="text-gray-700 space-y-1 text-sm">
+                <li>→ Ant trails from landscaping through slab cracks and expansion joints into kitchen and bathrooms</li>
+                <li>→ Rodent entry via gaps around HVAC penetrations, dryer vents, and garage door frames</li>
+                <li>→ Yellow jacket or hornet nests in eaves, shutters, and wall voids</li>
+                <li>→ Termite activity around deck-to-foundation connections and wood mulch adjacent to foundation</li>
+                <li>→ Squirrel access through deteriorated roof-to-soffit junctions</li>
               </ul>
             </div>
-            <div className="bg-gray-50 rounded-lg p-4">
-              <h3 className="font-semibold text-[#1A365D] mb-2">Wildlife & Flying Pests</h3>
-              <ul className="text-gray-700 text-sm space-y-1">
-                <li>→ <Link href="/services/rodent-control" className="text-[#2B6CB0] hover:underline">Mice & Rats</Link></li>
-                <li>→ <Link href="/services/raccoon-removal" className="text-[#2B6CB0] hover:underline">Raccoons</Link></li>
-                <li>→ <Link href="/services/squirrel-removal" className="text-[#2B6CB0] hover:underline">Squirrels</Link></li>
-                <li>→ <Link href="/services/bat-removal" className="text-[#2B6CB0] hover:underline">Bats</Link></li>
-                <li>→ <Link href="/services/wasp-hornet-removal" className="text-[#2B6CB0] hover:underline">Wasps & Hornets</Link></li>
-                <li>→ <Link href="/services/mosquito-control" className="text-[#2B6CB0] hover:underline">Mosquitoes</Link></li>
-                <li>→ <Link href="/services/bird-control" className="text-[#2B6CB0] hover:underline">Pest Birds</Link></li>
+
+            <div className="bg-gray-50 rounded-lg p-6">
+              <h3 className="text-xl font-semibold text-[#1A365D] mb-3">Newer Homes (Post-2005) — Marlton, Winslow Township, Gloucester Township</h3>
+              <p className="text-gray-700 mb-2">
+                Even new construction in southern Camden County is not immune. Common inspection findings include:
+              </p>
+              <ul className="text-gray-700 space-y-1 text-sm">
+                <li>→ Termite activity at concrete slab cold joints and garage expansion gaps</li>
+                <li>→ Tick and mosquito pressure from wooded buffers and retention ponds bordering new developments</li>
+                <li>→ Deer tick habitat in ornamental landscaping and unmaintained woodland edges</li>
+                <li>→ Wildlife pressure as construction displaces populations of raccoons, opossums, and foxes</li>
+                <li>→ Ant and spider infiltration through gaps around windows and doors in new construction</li>
+              </ul>
+            </div>
+
+            <div className="bg-gray-50 rounded-lg p-6">
+              <h3 className="text-xl font-semibold text-[#1A365D] mb-3">Commercial Properties — Pennsauken, Lindenwold, Runnemede, Bellmawr</h3>
+              <p className="text-gray-700 mb-2">
+                Commercial properties along Route 130, Route 42, and other Camden County commercial corridors have
+                their own inspection profile:
+              </p>
+              <ul className="text-gray-700 space-y-1 text-sm">
+                <li>→ Cockroach activity in food service establishments, particularly in compressor areas and floor drains</li>
+                <li>→ Rodent entry through loading dock gaps, utility penetrations, and roof drains</li>
+                <li>→ Bird nesting on HVAC units, loading dock canopies, and rooftop equipment</li>
+                <li>→ Fly pressure near food waste areas and exterior dumpsters</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        {/* How to Prepare */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-[#1A365D] mb-6">
+            How to Prepare for Your Free Pest Inspection
+          </h2>
+          <p className="text-gray-700 text-lg leading-relaxed mb-4">
+            Preparing your home for a pest inspection takes only a few minutes and helps our technician conduct the
+            most thorough assessment possible. Here is what we recommend:
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+            <div className="border border-green-200 rounded-lg p-5">
+              <h3 className="font-semibold text-green-800 mb-2">✓ Do These Things</h3>
+              <ul className="text-gray-700 text-sm space-y-2">
+                <li>→ Provide clear access to the crawl space, basement, and attic if possible</li>
+                <li>→ Clear items away from foundation walls in the basement or crawl space</li>
+                <li>→ Move items stored against exterior walls away so we can inspect the wall surface</li>
+                <li>→ Write down when and where you have seen pest activity</li>
+                <li>→ Note any specific concerns (damaged wood, soft floors, unusual odors, sounds in walls)</li>
+                <li>→ Make sure pets are secure so they do not interfere with the inspection</li>
+              </ul>
+            </div>
+            <div className="border border-red-200 rounded-lg p-5">
+              <h3 className="font-semibold text-red-800 mb-2">✗ Do Not Do These</h3>
+              <ul className="text-gray-700 text-sm space-y-2">
+                <li>→ Do not spray pesticides before the inspection — this can scatter pests and make identification harder</li>
+                <li>→ Do not deep-clean areas of concern before we arrive — evidence of pest activity is helpful</li>
+                <li>→ Do not attempt to seal entry points before the inspection — we need to see them</li>
+                <li>→ Do not throw away pest evidence (droppings, shed skins, wings) before we arrive</li>
               </ul>
             </div>
           </div>
           <p className="text-gray-700 text-lg leading-relaxed">
-            We also provide <Link href="/services/commercial-pest-control" className="text-[#2B6CB0] hover:underline">commercial pest inspections</Link>{' '}
-            for restaurants, retail stores, offices, warehouses, healthcare facilities, and other business properties
-            throughout Camden County. Commercial inspections include all of the above plus assessment of food safety
-            compliance, IPM program recommendations, and documentation for health department requirements.
+            If you are preparing for a <Link href="/termite-inspection" className="text-[#2B6CB0] hover:underline">termite inspection</Link>{' '}
+            specifically, please ensure access to the crawl space or basement and clear a path along the interior
+            foundation walls if possible. For bed bug inspections, do not move mattresses or furniture from the
+            affected room before the inspection — the placement and condition of these items provides important
+            diagnostic information.
           </p>
         </section>
 
-        {/* How to Schedule */}
+        {/* Why Free Section */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-[#1A365D] mb-6">
-            How to Schedule Your Free Inspection
-          </h2>
-          <p className="text-gray-700 text-lg leading-relaxed mb-6">
-            Scheduling is simple and takes less than 5 minutes:
-          </p>
-          <div className="space-y-6">
-            <div className="flex gap-4 items-start">
-              <div className="bg-[#DD6B20] text-white font-bold rounded-full w-12 h-12 flex items-center justify-center shrink-0 text-xl">1</div>
-              <div>
-                <h3 className="text-xl font-semibold text-[#1A365D]">Call or Submit a Request</h3>
-                <p className="text-gray-700">
-                  Call us at <a href="tel:+18566000812" className="text-[#2B6CB0] font-semibold hover:underline">(856) 600-0812</a>{' '}
-                  during business hours, or submit a request anytime through our{' '}
-                  <Link href="/contact" className="text-[#2B6CB0] hover:underline">online form</Link>. Let us know your
-                  address, the pest concern (if you know it), and your preferred appointment time.
-                </p>
-              </div>
-            </div>
-            <div className="flex gap-4 items-start">
-              <div className="bg-[#DD6B20] text-white font-bold rounded-full w-12 h-12 flex items-center justify-center shrink-0 text-xl">2</div>
-              <div>
-                <h3 className="text-xl font-semibold text-[#1A365D]">We Confirm Your Appointment</h3>
-                <p className="text-gray-700">
-                  We schedule your free inspection at a time that works for you — including{' '}
-                  <Link href="/same-day-pest-control" className="text-[#2B6CB0] hover:underline">same-day appointments</Link>{' '}
-                  for calls received before noon. We provide a convenient 2-hour window so you are not stuck waiting
-                  all day.
-                </p>
-              </div>
-            </div>
-            <div className="flex gap-4 items-start">
-              <div className="bg-[#DD6B20] text-white font-bold rounded-full w-12 h-12 flex items-center justify-center shrink-0 text-xl">3</div>
-              <div>
-                <h3 className="text-xl font-semibold text-[#1A365D]">Licensed Technician Inspects Your Property</h3>
-                <p className="text-gray-700">
-                  Our NJDEP-licensed technician performs the complete inspection described above — exterior, interior,
-                  pest identification, entry point mapping, and conducive condition assessment. The inspection typically
-                  takes 30–60 minutes depending on property size.
-                </p>
-              </div>
-            </div>
-            <div className="flex gap-4 items-start">
-              <div className="bg-[#DD6B20] text-white font-bold rounded-full w-12 h-12 flex items-center justify-center shrink-0 text-xl">4</div>
-              <div>
-                <h3 className="text-xl font-semibold text-[#1A365D]">You Receive Your Assessment — Free, No Strings</h3>
-                <p className="text-gray-700">
-                  After the inspection, the technician walks you through the findings, answers your questions, and
-                  provides a written assessment. If treatment is recommended, you receive a clear quote. If not, you
-                  have peace of mind. Either way, the inspection is 100% free.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* What to Expect */}
-        <section className="mb-12">
-          <h2 className="text-3xl font-bold text-[#1A365D] mb-6">
-            What to Expect During the Inspection Visit
+            Why Do We Offer Free Pest Inspections?
           </h2>
           <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            We want you to feel comfortable and informed throughout the process. Here is what a typical free inspection
-            visit looks like:
+            Many Camden County homeowners are surprised that our pest inspections are genuinely free — not a &quot;free
+            inspection with a required annual contract&quot; or a &quot;free estimate that is really just a sales call.&quot; Our
+            free inspection is exactly what it says: a professional evaluation with no cost, no pressure, and no
+            commitment required.
           </p>
-          <ul className="text-gray-700 space-y-3">
-            <li className="flex gap-2">
-              <span className="text-[#DD6B20] font-bold">→</span>
-              <span><strong>Our technician arrives in a marked company vehicle</strong> and introduces themselves with their name and NJDEP license number. They will be in uniform and carry identification.</span>
-            </li>
-            <li className="flex gap-2">
-              <span className="text-[#DD6B20] font-bold">→</span>
-              <span><strong>They will ask you about the problem</strong> — what you have been seeing, where, and for how long. Your observations provide valuable context that helps focus the inspection.</span>
-            </li>
-            <li className="flex gap-2">
-              <span className="text-[#DD6B20] font-bold">→</span>
-              <span><strong>The inspection is non-invasive.</strong> We do not drill holes, move heavy furniture, or cause any disruption to your home. The inspection uses visual examination, probing tools, moisture meters, and a flashlight to assess accessible areas.</span>
-            </li>
-            <li className="flex gap-2">
-              <span className="text-[#DD6B20] font-bold">→</span>
-              <span><strong>You are welcome to accompany the technician</strong> as they inspect. Many homeowners find it educational to see their property through a pest control professional&apos;s eyes — you will learn where the vulnerable areas are and how pests are likely to enter.</span>
-            </li>
-            <li className="flex gap-2">
-              <span className="text-[#DD6B20] font-bold">→</span>
-              <span><strong>There is absolutely no pressure to purchase services.</strong> Our technicians are trained professionals, not salespeople. If you need time to consider the recommendations, that is perfectly fine. The written assessment and quote are yours to review at your own pace.</span>
-            </li>
-          </ul>
+          <p className="text-gray-700 text-lg leading-relaxed mb-4">
+            We offer free inspections for a straightforward reason: we are a locally owned Camden County business,
+            and our reputation in this community is built on trust and transparency. We believe that informed customers
+            make better decisions, and we are confident that when you see the quality of our work — the thoroughness
+            of our inspection, the clarity of our reporting, and the professionalism of our technicians — you will
+            choose to work with us. We do not need to pressure you with tactics or mandatory contracts.
+          </p>
+          <p className="text-gray-700 text-lg leading-relaxed mb-4">
+            Free inspections also serve the community. Termite damage, rodent infestations, and other pest problems
+            that go undetected for years cause far more damage — and far more expense — than early detection and
+            treatment. By making professional inspections accessible and free, we help Camden County homeowners
+            catch problems early, before they become expensive structural repairs or health crises.
+          </p>
+          <p className="text-gray-700 text-lg leading-relaxed">
+            For real estate transactions, our free inspections include the formal{' '}
+            <Link href="/termite-inspection" className="text-[#2B6CB0] hover:underline">WDI (Wood Destroying Insect) report</Link>{' '}
+            when requested, supporting buyers and sellers throughout{' '}
+            <Link href="/camden-county/cherry-hill" className="text-[#2B6CB0] hover:underline">Cherry Hill</Link>,{' '}
+            <Link href="/camden-county/haddonfield" className="text-[#2B6CB0] hover:underline">Haddonfield</Link>,{' '}
+            <Link href="/camden-county/collingswood" className="text-[#2B6CB0] hover:underline">Collingswood</Link>,{' '}
+            <Link href="/camden-county/voorhees" className="text-[#2B6CB0] hover:underline">Voorhees</Link>, and all other
+            Camden County municipalities.
+          </p>
         </section>
 
-        {/* All 16 Towns */}
+        {/* Towns Section */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-[#1A365D] mb-6">
-            Free Inspections for All 16 Camden County Towns
+            Free Pest Inspection Serving All of Camden County
           </h2>
           <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            Our free pest inspection service is available to every homeowner and business in{' '}
-            <Link href="/camden-county" className="text-[#2B6CB0] hover:underline">Camden County</Link>.
-            We serve the entire county — from the Delaware River communities in the west to the Pine Barrens-adjacent
-            towns in the east:
+            We provide free pest inspections throughout all 16 municipalities in Camden County, NJ. No matter where
+            you are located in the county, we can schedule an inspection — usually same-day or next-day:
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-6">
             {[
@@ -309,66 +323,141 @@ export default function FreePestInspection() {
               <Link
                 key={town.slug}
                 href={`/camden-county/${town.slug}`}
-                className="bg-green-50 hover:bg-green-100 text-[#1A365D] font-medium py-2 px-3 rounded-lg text-center transition-colors text-sm"
+                className="bg-blue-50 hover:bg-blue-100 text-[#1A365D] font-medium py-3 px-4 rounded-lg text-center transition-colors text-sm"
               >
                 {town.name}
               </Link>
             ))}
           </div>
           <p className="text-gray-700 text-lg leading-relaxed">
-            Each Camden County community has unique pest pressures. The heavily wooded areas around{' '}
-            <Link href="/camden-county/winslow-township" className="text-[#2B6CB0] hover:underline">Winslow Township</Link>{' '}
-            and <Link href="/camden-county/clementon" className="text-[#2B6CB0] hover:underline">Clementon</Link> near the
-            Pine Barrens see more wildlife and tick activity. The established suburban neighborhoods of{' '}
-            <Link href="/camden-county/cherry-hill" className="text-[#2B6CB0] hover:underline">Cherry Hill</Link> and{' '}
-            <Link href="/camden-county/voorhees" className="text-[#2B6CB0] hover:underline">Voorhees</Link> deal with
-            termites, ants, and rodents. The compact boroughs of{' '}
-            <Link href="/camden-county/barrington" className="text-[#2B6CB0] hover:underline">Barrington</Link>,{' '}
-            <Link href="/camden-county/somerdale" className="text-[#2B6CB0] hover:underline">Somerdale</Link>, and{' '}
-            <Link href="/camden-county/runnemede" className="text-[#2B6CB0] hover:underline">Runnemede</Link> see cockroach
-            and ant pressure from closely spaced homes. Our free inspection accounts for these local factors.
+            For{' '}
+            <Link href="/same-day-pest-control" className="text-[#2B6CB0] hover:underline">same-day inspection appointments</Link>,
+            call before noon at{' '}
+            <a href="tel:+18566000812" className="text-[#2B6CB0] font-semibold hover:underline">(856) 600-0812</a>.
+            For{' '}
+            <Link href="/emergency-pest-control" className="text-[#2B6CB0] hover:underline">pest emergencies</Link>{' '}
+            requiring immediate inspection — wasp nests near children, bats in living spaces, active rodent
+            infestations with food contamination — we offer priority response regardless of time of day.
           </p>
         </section>
 
-        {/* Why Free */}
+        {/* FAQ Section */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-[#1A365D] mb-6">
-            Why Do We Offer Free Inspections?
+            Frequently Asked Questions — Free Pest Inspection in Camden County
           </h2>
-          <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            You might wonder how we can afford to send a licensed technician to your property at no charge. The answer
-            is simple: we believe a free inspection is the best way to build trust with Camden County homeowners.
-          </p>
-          <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            Many people delay calling a pest control company because they are worried about cost, afraid of being
-            pressured into unnecessary services, or uncertain whether they even have a real problem. Our free inspection
-            removes all of those barriers. You get professional-grade information with no financial risk and no pressure.
-          </p>
-          <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            In our experience, homeowners who receive a thorough, honest inspection — even when it reveals no current
-            infestation — remember that experience. They come back to us when a real problem arises, and they recommend
-            us to their neighbors. That is how we have built our reputation across Camden County, and it is a model
-            that works for everyone.
-          </p>
-          <p className="text-gray-700 text-lg leading-relaxed">
-            Looking for more information about our services? Visit our{' '}
-            <Link href="/pest-control-near-me" className="text-[#2B6CB0] hover:underline">pest control near me</Link>{' '}
-            page for a complete overview, or read about our{' '}
-            <Link href="/exterminator-near-me" className="text-[#2B6CB0] hover:underline">exterminator qualifications</Link>{' '}
-            and licensing. For urgent issues, check our{' '}
-            <Link href="/emergency-pest-control" className="text-[#2B6CB0] hover:underline">emergency pest control</Link>{' '}
-            and <Link href="/same-day-pest-control" className="text-[#2B6CB0] hover:underline">same-day service</Link> options.
-          </p>
+          <div className="space-y-6">
+            <div className="border-b border-gray-200 pb-6">
+              <h3 className="text-lg font-semibold text-[#1A365D] mb-2">Is the inspection really free with no obligation?</h3>
+              <p className="text-gray-700">
+                Yes, completely. Our free pest inspection includes a full interior and exterior property inspection,
+                pest identification, conducive conditions assessment, written report with photographs, and a treatment
+                quote if treatment is warranted. There is no charge for the inspection regardless of findings, and
+                you are under absolutely no obligation to proceed with any treatment. The information we provide is
+                yours to keep.
+              </p>
+            </div>
+            <div className="border-b border-gray-200 pb-6">
+              <h3 className="text-lg font-semibold text-[#1A365D] mb-2">How long does a free pest inspection take?</h3>
+              <p className="text-gray-700">
+                For a typical Camden County single-family home, a thorough free pest inspection takes between 45
+                minutes and 1.5 hours. Larger properties or those with accessible crawl spaces, full basements, or
+                large attics may take longer. Our technician will not rush the inspection — we take the time needed
+                to do it properly.
+              </p>
+            </div>
+            <div className="border-b border-gray-200 pb-6">
+              <h3 className="text-lg font-semibold text-[#1A365D] mb-2">What pests do you inspect for?</h3>
+              <p className="text-gray-700">
+                Our free inspection covers all common pests found in Camden County homes and businesses: termites
+                (eastern subterranean), ants (carpenter ants, odorous house ants, pavement ants), cockroaches
+                (German, American, Oriental), bed bugs, mice, rats, wasps, hornets, yellow jackets, spiders,
+                fleas, ticks, mosquitoes, and wildlife (raccoons, squirrels, bats, birds). We also document all
+                wood-destroying insects for WDI report purposes.
+              </p>
+            </div>
+            <div className="border-b border-gray-200 pb-6">
+              <h3 className="text-lg font-semibold text-[#1A365D] mb-2">Can I get a free inspection for a rental property in Camden County?</h3>
+              <p className="text-gray-700">
+                Yes. We perform free pest inspections for rental properties, apartment buildings, and commercial
+                properties throughout Camden County. For landlords managing multiple units, we offer portfolio
+                inspection programs. For tenants who have reported pest problems, we coordinate directly with the
+                property owner or manager for the inspection. New Jersey tenant&apos;s rights include the right to a
+                pest-free living environment, and we are familiar with the relevant NJ landlord-tenant pest control
+                responsibilities.
+              </p>
+            </div>
+            <div className="border-b border-gray-200 pb-6">
+              <h3 className="text-lg font-semibold text-[#1A365D] mb-2">Do you provide a written report after the inspection?</h3>
+              <p className="text-gray-700">
+                Yes. Every free inspection includes a written report documenting all findings — including photographs
+                of significant items, identification of pests found, conducive conditions noted, and recommended
+                treatment with pricing. This report is provided to you the same day as the inspection. For real estate
+                purposes, this report meets the requirements for a NJ WDI (Wood Destroying Insect) report when
+                requested.
+              </p>
+            </div>
+            <div className="border-b border-gray-200 pb-6">
+              <h3 className="text-lg font-semibold text-[#1A365D] mb-2">What if pests are found during the inspection?</h3>
+              <p className="text-gray-700">
+                If our inspection reveals an active pest infestation, we explain the findings in detail, discuss
+                treatment options, and provide a written quote. You can proceed with treatment immediately if you
+                wish — many inspections result in same-day treatment — or you can take the report, consider the
+                options, and call us back at your convenience. There is never any pressure to commit during the
+                inspection visit.
+              </p>
+            </div>
+            <div className="border-b border-gray-200 pb-6">
+              <h3 className="text-lg font-semibold text-[#1A365D] mb-2">Can you do the inspection the same day I call?</h3>
+              <p className="text-gray-700">
+                In most cases, yes. For calls received before noon, we can typically schedule a{' '}
+                <Link href="/same-day-pest-control" className="text-[#2B6CB0] hover:underline">same-day inspection appointment</Link>{' '}
+                anywhere in Camden County. For calls after noon, we typically schedule a next-morning appointment.
+                For{' '}
+                <Link href="/emergency-pest-control" className="text-[#2B6CB0] hover:underline">pest emergencies</Link>,
+                we dispatch a technician regardless of the time of day.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Related Pages */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-[#1A365D] mb-6">
+            Related Services
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <Link href="/termite-inspection" className="block bg-amber-50 hover:bg-amber-100 rounded-lg p-5 transition-colors">
+              <h3 className="font-semibold text-[#1A365D] mb-1">Free Termite Inspection →</h3>
+              <p className="text-gray-600 text-sm">Specialized termite assessments and WDI reports for Camden County</p>
+            </Link>
+            <Link href="/same-day-pest-control" className="block bg-green-50 hover:bg-green-100 rounded-lg p-5 transition-colors">
+              <h3 className="font-semibold text-[#1A365D] mb-1">Same-Day Pest Control →</h3>
+              <p className="text-gray-600 text-sm">Book a same-day inspection and treatment across Camden County</p>
+            </Link>
+            <Link href="/emergency-pest-control" className="block bg-red-50 hover:bg-red-100 rounded-lg p-5 transition-colors">
+              <h3 className="font-semibold text-[#1A365D] mb-1">Emergency Pest Control →</h3>
+              <p className="text-gray-600 text-sm">Immediate response for urgent pest emergencies</p>
+            </Link>
+            <Link href="/exterminator-near-me" className="block bg-blue-50 hover:bg-blue-100 rounded-lg p-5 transition-colors">
+              <h3 className="font-semibold text-[#1A365D] mb-1">Exterminator Near Me →</h3>
+              <p className="text-gray-600 text-sm">NJDEP-licensed exterminators throughout Camden County</p>
+            </Link>
+            <Link href="/pest-control-near-me" className="block bg-blue-50 hover:bg-blue-100 rounded-lg p-5 transition-colors">
+              <h3 className="font-semibold text-[#1A365D] mb-1">Pest Control Near Me →</h3>
+              <p className="text-gray-600 text-sm">Full-service local pest control for every Camden County pest</p>
+            </Link>
+          </div>
         </section>
 
         {/* Final CTA */}
-        <section className="bg-green-50 border border-green-200 rounded-xl p-8 text-center">
+        <section className="bg-blue-50 border border-blue-200 rounded-xl p-8 text-center">
           <h2 className="text-2xl font-bold text-[#1A365D] mb-4">
-            Schedule Your Free Inspection — No Obligation
+            Schedule Your Free Pest Inspection Today
           </h2>
           <p className="text-gray-700 text-lg mb-6">
-            Find out exactly what is going on with your property — for free. Our licensed technician will inspect
-            your home, identify any pest activity, and provide a written assessment at no cost.
+            No cost. No obligation. No pressure. Just a thorough, professional inspection from a NJDEP-licensed
+            Camden County pest control team that wants to earn your trust.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -381,7 +470,7 @@ export default function FreePestInspection() {
               href="/contact"
               className="bg-[#1A365D] hover:bg-[#2B6CB0] text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors"
             >
-              Schedule Free Inspection
+              Get a Free Quote
             </Link>
           </div>
         </section>
@@ -390,10 +479,9 @@ export default function FreePestInspection() {
       {/* CTA Banner */}
       <section className="bg-[#1A365D] text-white py-12">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4">Free Inspection. Free Quote. Zero Obligation.</h2>
+          <h2 className="text-3xl font-bold mb-4">Free Pest Inspection — All of Camden County, NJ</h2>
           <p className="text-blue-200 text-lg mb-6">
-            Every pest problem starts with knowing what you are dealing with. Let us inspect your Camden County
-            property at no cost.
+            Truly free. NJDEP licensed. No obligation. Serving all 16 towns.
           </p>
           <a
             href="tel:+18566000812"
@@ -410,27 +498,84 @@ export default function FreePestInspection() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             '@context': 'https://schema.org',
-            '@type': 'PestControlService',
-            name: 'Camden County Pest Control - Free Inspection',
-            telephone: '(856) 600-0812',
-            url: 'https://pestcontrolcamdencounty.com/free-pest-inspection',
-            description:
-              'Free pest inspection for all homes and businesses in Camden County, NJ. No obligation, all pests covered, all 16 towns served.',
-            areaServed: {
-              '@type': 'County',
-              name: 'Camden County',
-              containedInPlace: {
-                '@type': 'State',
-                name: 'New Jersey',
+            '@graph': [
+              {
+                '@type': 'PestControlService',
+                name: 'Camden County Pest Control — Free Pest Inspection',
+                telephone: '(856) 600-0812',
+                url: 'https://pestcontrolcamdencounty.com/free-pest-inspection',
+                description:
+                  'Free pest inspection in Camden County, NJ. No obligation, no hidden fees. NJDEP-licensed technicians serving all 16 towns. Written report included.',
+                areaServed: {
+                  '@type': 'County',
+                  name: 'Camden County',
+                  containedInPlace: {
+                    '@type': 'State',
+                    name: 'New Jersey',
+                  },
+                },
+                serviceType: 'Free Pest Inspection',
+                offers: {
+                  '@type': 'Offer',
+                  price: '0',
+                  priceCurrency: 'USD',
+                  description: 'Free pest inspection — no obligation',
+                },
               },
-            },
-            serviceType: 'Free Pest Inspection',
-            offers: {
-              '@type': 'Offer',
-              price: '0',
-              priceCurrency: 'USD',
-              description: 'Free pest inspection with no obligation',
-            },
+              {
+                '@type': 'FAQPage',
+                mainEntity: [
+                  {
+                    '@type': 'Question',
+                    name: 'Is the inspection really free with no obligation?',
+                    acceptedAnswer: {
+                      '@type': 'Answer',
+                      text: 'Yes, completely. Our free pest inspection includes a full interior and exterior property inspection, pest identification, written report with photographs, and a treatment quote. There is no charge and absolutely no obligation to proceed with treatment.',
+                    },
+                  },
+                  {
+                    '@type': 'Question',
+                    name: 'How long does a free pest inspection take?',
+                    acceptedAnswer: {
+                      '@type': 'Answer',
+                      text: 'For a typical Camden County single-family home, a thorough free pest inspection takes between 45 minutes and 1.5 hours depending on property size and accessibility.',
+                    },
+                  },
+                  {
+                    '@type': 'Question',
+                    name: 'What pests do you inspect for?',
+                    acceptedAnswer: {
+                      '@type': 'Answer',
+                      text: 'Our free inspection covers all common pests: termites, ants, cockroaches, bed bugs, mice, rats, wasps, hornets, spiders, fleas, ticks, mosquitoes, and wildlife including raccoons, squirrels, and bats.',
+                    },
+                  },
+                  {
+                    '@type': 'Question',
+                    name: 'Do you provide a written report after the inspection?',
+                    acceptedAnswer: {
+                      '@type': 'Answer',
+                      text: 'Yes. Every free inspection includes a written report documenting all findings with photographs, pest identification, conducive conditions, and a treatment recommendation with pricing if treatment is warranted. Provided the same day as the inspection.',
+                    },
+                  },
+                  {
+                    '@type': 'Question',
+                    name: 'Can you do the inspection the same day I call?',
+                    acceptedAnswer: {
+                      '@type': 'Answer',
+                      text: 'In most cases, yes. For calls received before noon, we typically schedule a same-day inspection anywhere in Camden County. For calls after noon, we typically schedule next-morning. For emergencies, we dispatch immediately.',
+                    },
+                  },
+                  {
+                    '@type': 'Question',
+                    name: 'What if pests are found during the inspection?',
+                    acceptedAnswer: {
+                      '@type': 'Answer',
+                      text: 'If pests are found, we explain findings in detail, discuss treatment options, and provide a written quote. You can proceed with same-day treatment or take the report and decide at your convenience. There is never any pressure.',
+                    },
+                  },
+                ],
+              },
+            ],
           }),
         }}
       />

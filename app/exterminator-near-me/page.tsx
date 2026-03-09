@@ -28,7 +28,7 @@ export default function ExterminatorNearMe() {
       <section className="bg-gradient-to-br from-[#1A365D] to-[#2B6CB0] text-white py-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Licensed Exterminator Near Me in Camden County, NJ
+            Exterminator Near Me — Camden County, NJ
           </h1>
           <p className="text-xl text-blue-100 mb-8">
             NJDEP-certified exterminators with the training, tools, and local expertise to eliminate
@@ -54,13 +54,44 @@ export default function ExterminatorNearMe() {
       {/* Main Content */}
       <main className="max-w-4xl mx-auto px-4 py-16">
 
+        {/* Exterminator vs Pest Control */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-[#1A365D] mb-6">
+            Exterminator vs. Pest Control: What Is the Difference?
+          </h2>
+          <p className="text-gray-700 text-lg leading-relaxed mb-4">
+            Many Camden County homeowners use the terms &quot;exterminator&quot; and &quot;pest control&quot; interchangeably, but there
+            is a meaningful distinction worth understanding when you are searching for help. Historically, an exterminator
+            was someone who arrived and applied pesticides to kill pests — a reactive, chemical-first approach.
+            Modern pest control professionals use Integrated Pest Management (IPM), a more comprehensive strategy that
+            includes inspection, identification, targeted treatment, and prevention.
+          </p>
+          <p className="text-gray-700 text-lg leading-relaxed mb-4">
+            When Camden County residents search for an &quot;exterminator near me,&quot; they typically want someone who can
+            eliminate an existing pest problem quickly and effectively. That is exactly what we do — but we go further.
+            After exterminating the active infestation, we identify the root cause, seal entry points, and develop a
+            prevention plan so pests do not return. In <Link href="/camden-county/cherry-hill" className="text-[#2B6CB0] hover:underline">Cherry Hill</Link>,{' '}
+            <Link href="/camden-county/collingswood" className="text-[#2B6CB0] hover:underline">Collingswood</Link>,{' '}
+            <Link href="/camden-county/bellmawr" className="text-[#2B6CB0] hover:underline">Bellmawr</Link>,{' '}
+            <Link href="/camden-county/barrington" className="text-[#2B6CB0] hover:underline">Barrington</Link>, and{' '}
+            <Link href="/camden-county/runnemede" className="text-[#2B6CB0] hover:underline">Runnemede</Link>, we handle
+            both the immediate problem and the long-term protection.
+          </p>
+          <p className="text-gray-700 text-lg leading-relaxed">
+            The bottom line: when you hire Camden County Pest Control, you get the speed and decisiveness of a traditional
+            exterminator combined with the thoroughness and expertise of a modern IPM-trained pest control professional.
+            That combination delivers better results, faster, with less chemical exposure than old-school extermination
+            alone.
+          </p>
+        </section>
+
         {/* What Makes a Great Exterminator */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-[#1A365D] mb-6">
             What Makes a Great Exterminator? Here Is What to Look For
           </h2>
           <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            When you search for "exterminator near me" in Camden County, dozens of results appear — national chains,
+            When you search for &quot;exterminator near me&quot; in Camden County, dozens of results appear — national chains,
             solo operators, and everything in between. But not all exterminators are created equal. Choosing the wrong
             one can mean wasted money, continued infestations, and even health risks from improperly applied chemicals.
             Here is what separates a truly professional exterminator from the rest:
@@ -171,7 +202,7 @@ export default function ExterminatorNearMe() {
               </p>
             </div>
             <div className="border-l-4 border-[#DD6B20] pl-6">
-              <h3 className="text-xl font-semibold text-[#1A365D] mb-2">3. Identification & Assessment</h3>
+              <h3 className="text-xl font-semibold text-[#1A365D] mb-2">3. Identification &amp; Assessment</h3>
               <p className="text-gray-700">
                 Proper pest identification is crucial because different species require different treatments. For example,
                 carpenter ants and odorous house ants look similar but require completely different treatment strategies.
@@ -181,7 +212,7 @@ export default function ExterminatorNearMe() {
               </p>
             </div>
             <div className="border-l-4 border-[#DD6B20] pl-6">
-              <h3 className="text-xl font-semibold text-[#1A365D] mb-2">4. Treatment Plan & Transparent Pricing</h3>
+              <h3 className="text-xl font-semibold text-[#1A365D] mb-2">4. Treatment Plan &amp; Transparent Pricing</h3>
               <p className="text-gray-700">
                 Before any treatment begins, you receive a detailed explanation of the recommended approach, the products
                 to be used, any preparation needed on your part, safety precautions, and a written price quote. We
@@ -199,7 +230,7 @@ export default function ExterminatorNearMe() {
               </p>
             </div>
             <div className="border-l-4 border-[#DD6B20] pl-6">
-              <h3 className="text-xl font-semibold text-[#1A365D] mb-2">6. Follow-Up & Guarantee</h3>
+              <h3 className="text-xl font-semibold text-[#1A365D] mb-2">6. Follow-Up &amp; Guarantee</h3>
               <p className="text-gray-700">
                 Most treatments include one or more follow-up visits to monitor results, re-treat if necessary, and
                 confirm the infestation is fully resolved. We stand behind our work — if the pests come back between
@@ -282,7 +313,7 @@ export default function ExterminatorNearMe() {
               🕷️ Spider Control
             </Link>
             <Link href="/services/wasp-hornet-removal" className="flex items-center gap-2 bg-gray-50 hover:bg-blue-50 rounded-lg p-3 transition-colors text-[#1A365D] font-medium">
-              🐝 Wasp & Hornet Removal
+              🐝 Wasp &amp; Hornet Removal
             </Link>
             <Link href="/services/wildlife-removal" className="flex items-center gap-2 bg-gray-50 hover:bg-blue-50 rounded-lg p-3 transition-colors text-[#1A365D] font-medium">
               🦝 Wildlife Removal
@@ -351,34 +382,80 @@ export default function ExterminatorNearMe() {
           </p>
         </section>
 
-        {/* Questions to Ask */}
+        {/* FAQ Section */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-[#1A365D] mb-6">
-            5 Questions to Ask Before Hiring an Exterminator
+            Frequently Asked Questions — Exterminators in Camden County, NJ
           </h2>
-          <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            Protect yourself by asking these questions before hiring any exterminator in Camden County:
-          </p>
-          <div className="space-y-4">
-            <div className="bg-gray-50 rounded-lg p-5">
-              <h3 className="font-semibold text-[#1A365D] mb-1">1. "Are you licensed by the NJDEP?"</h3>
-              <p className="text-gray-700">Ask to see their license card and business permit. You can verify NJ pest control licenses through the NJDEP website. An unlicensed operator puts your family at risk and may void your homeowners insurance if damage occurs.</p>
+          <div className="space-y-6">
+            <div className="border-b border-gray-200 pb-6">
+              <h3 className="text-lg font-semibold text-[#1A365D] mb-2">Do NJ exterminators need to be licensed by the NJDEP?</h3>
+              <p className="text-gray-700">
+                Yes — it is required by New Jersey state law. Anyone applying pesticides commercially in New Jersey must
+                hold a valid license issued by the New Jersey Department of Environmental Protection (NJDEP) under the
+                New Jersey Pesticide Control Act. Always ask to see an exterminator&apos;s NJDEP license before allowing them
+                to treat your home or business. You can verify NJ pest control licenses through the NJDEP online portal.
+                All Camden County Pest Control technicians are fully licensed and carry their credentials on every job.
+              </p>
             </div>
-            <div className="bg-gray-50 rounded-lg p-5">
-              <h3 className="font-semibold text-[#1A365D] mb-1">2. "Do you carry liability insurance?"</h3>
-              <p className="text-gray-700">A professional exterminator carries both general liability and workers&apos; compensation insurance. This protects you from liability if a technician is injured on your property or if treatment causes unintended damage.</p>
+            <div className="border-b border-gray-200 pb-6">
+              <h3 className="text-lg font-semibold text-[#1A365D] mb-2">What is the difference between an exterminator and a pest control company?</h3>
+              <p className="text-gray-700">
+                Traditionally, an exterminator focused on killing pests through chemical application. Modern pest control
+                companies practice Integrated Pest Management (IPM), which includes inspection, accurate species
+                identification, targeted treatment, exclusion work, and ongoing prevention. Camden County Pest Control
+                combines the decisive action of extermination with the thoroughness of full IPM — giving you both
+                immediate results and long-term protection.
+              </p>
             </div>
-            <div className="bg-gray-50 rounded-lg p-5">
-              <h3 className="font-semibold text-[#1A365D] mb-1">3. "What pest control method will you use?"</h3>
-              <p className="text-gray-700">A good exterminator explains their approach before starting. If they cannot clearly describe the treatment plan, the products they will use, and why that approach is best for your specific pest, look elsewhere.</p>
+            <div className="border-b border-gray-200 pb-6">
+              <h3 className="text-lg font-semibold text-[#1A365D] mb-2">How soon can a Camden County exterminator come to my home?</h3>
+              <p className="text-gray-700">
+                Because our team is based throughout Camden County, we typically offer{' '}
+                <Link href="/same-day-pest-control" className="text-[#2B6CB0] hover:underline">same-day service</Link>{' '}
+                for calls received before noon. For emergencies — wasps, rodents in living spaces, bats, bed bugs — we
+                offer priority{' '}
+                <Link href="/emergency-pest-control" className="text-[#2B6CB0] hover:underline">emergency pest control</Link>{' '}
+                response including evenings and weekends. We serve Cherry Hill, Collingswood, Bellmawr, Barrington,
+                Runnemede, and all surrounding towns.
+              </p>
             </div>
-            <div className="bg-gray-50 rounded-lg p-5">
-              <h3 className="font-semibold text-[#1A365D] mb-1">4. "Do you offer a written guarantee?"</h3>
-              <p className="text-gray-700">Reputable companies stand behind their work with a written warranty. Ask what it covers, how long it lasts, and what happens if the pests return. At Camden County Pest Control, we guarantee our results.</p>
+            <div className="border-b border-gray-200 pb-6">
+              <h3 className="text-lg font-semibold text-[#1A365D] mb-2">Are exterminator treatments family-friendly and effective?</h3>
+              <p className="text-gray-700">
+                Yes. We use EPA-registered products applied by NJDEP-licensed technicians according to strict label
+                requirements. Our IPM approach minimizes chemical use while maximizing effectiveness. Before any
+                treatment, we provide specific instructions for your family and pets. Our methods are both
+                family-friendly and highly effective against Camden County&apos;s most common pests.
+              </p>
             </div>
-            <div className="bg-gray-50 rounded-lg p-5">
-              <h3 className="font-semibold text-[#1A365D] mb-1">5. "Can you provide references or reviews?"</h3>
-              <p className="text-gray-700">Check Google reviews, ask for local references, and look for a physical business address in Camden County. A company with a strong local reputation has earned it through consistent, quality work.</p>
+            <div className="border-b border-gray-200 pb-6">
+              <h3 className="text-lg font-semibold text-[#1A365D] mb-2">Do you offer a free inspection before treatment?</h3>
+              <p className="text-gray-700">
+                Yes. Our{' '}
+                <Link href="/free-pest-inspection" className="text-[#2B6CB0] hover:underline">free pest inspection</Link>{' '}
+                is available to all Camden County homeowners and businesses. A licensed technician inspects your
+                property, identifies the pest, maps entry points, and provides a written assessment and quote — all at
+                no charge and with zero obligation to proceed with treatment.
+              </p>
+            </div>
+            <div className="border-b border-gray-200 pb-6">
+              <h3 className="text-lg font-semibold text-[#1A365D] mb-2">How do I verify an exterminator&apos;s NJ license?</h3>
+              <p className="text-gray-700">
+                You can verify any New Jersey pesticide applicator license through the NJDEP Division of Land Resource
+                Protection website. Search by the company name or individual technician name. A legitimate exterminator
+                will also carry their license card and can provide the license number on request. Never hire someone who
+                is unable or unwilling to provide proof of NJDEP licensing.
+              </p>
+            </div>
+            <div className="border-b border-gray-200 pb-6">
+              <h3 className="text-lg font-semibold text-[#1A365D] mb-2">What pests do Camden County exterminators handle?</h3>
+              <p className="text-gray-700">
+                Our Camden County exterminators handle all common residential and commercial pests including ants,
+                termites, cockroaches, bed bugs, rodents (mice and rats), mosquitoes, fleas, ticks, spiders, wasps,
+                hornets, yellow jackets, and wildlife (raccoons, squirrels, bats, opossums, and birds). We are a
+                full-service operation — you do not need to call multiple companies.
+              </p>
             </div>
           </div>
         </section>
@@ -405,6 +482,10 @@ export default function ExterminatorNearMe() {
               <h3 className="font-semibold text-[#1A365D] mb-1">Free Pest Inspection →</h3>
               <p className="text-gray-600 text-sm">Schedule a no-cost, no-obligation inspection today</p>
             </Link>
+            <Link href="/termite-inspection" className="block bg-blue-50 hover:bg-blue-100 rounded-lg p-5 transition-colors">
+              <h3 className="font-semibold text-[#1A365D] mb-1">Termite Inspection →</h3>
+              <p className="text-gray-600 text-sm">Free termite assessment for Camden County homes and real estate</p>
+            </Link>
           </div>
         </section>
 
@@ -428,7 +509,7 @@ export default function ExterminatorNearMe() {
               href="/contact"
               className="bg-[#1A365D] hover:bg-[#2B6CB0] text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors"
             >
-              Request Free Quote
+              Get a Free Quote
             </Link>
           </div>
         </section>
@@ -456,21 +537,70 @@ export default function ExterminatorNearMe() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             '@context': 'https://schema.org',
-            '@type': 'PestControlService',
-            name: 'Camden County Pest Control',
-            telephone: '(856) 600-0812',
-            url: 'https://pestcontrolcamdencounty.com/exterminator-near-me',
-            description:
-              'Licensed exterminator near you in Camden County, NJ. NJDEP-certified professionals serving all 16 towns.',
-            areaServed: {
-              '@type': 'County',
-              name: 'Camden County',
-              containedInPlace: {
-                '@type': 'State',
-                name: 'New Jersey',
+            '@graph': [
+              {
+                '@type': 'PestControlService',
+                name: 'Camden County Pest Control',
+                telephone: '(856) 600-0812',
+                url: 'https://pestcontrolcamdencounty.com/exterminator-near-me',
+                description:
+                  'Licensed exterminator near you in Camden County, NJ. NJDEP-certified professionals serving all 16 towns.',
+                areaServed: {
+                  '@type': 'County',
+                  name: 'Camden County',
+                  containedInPlace: {
+                    '@type': 'State',
+                    name: 'New Jersey',
+                  },
+                },
+                serviceType: 'Extermination Services',
               },
-            },
-            serviceType: 'Extermination Services',
+              {
+                '@type': 'FAQPage',
+                mainEntity: [
+                  {
+                    '@type': 'Question',
+                    name: 'Do NJ exterminators need to be licensed by the NJDEP?',
+                    acceptedAnswer: {
+                      '@type': 'Answer',
+                      text: 'Yes — it is required by New Jersey state law under the New Jersey Pesticide Control Act. Anyone applying pesticides commercially must hold a valid NJDEP license.',
+                    },
+                  },
+                  {
+                    '@type': 'Question',
+                    name: 'What is the difference between an exterminator and a pest control company?',
+                    acceptedAnswer: {
+                      '@type': 'Answer',
+                      text: 'Traditionally, an exterminator focused on killing pests through chemical application. Modern pest control companies practice Integrated Pest Management (IPM), which includes inspection, identification, targeted treatment, exclusion, and prevention.',
+                    },
+                  },
+                  {
+                    '@type': 'Question',
+                    name: 'How soon can a Camden County exterminator come to my home?',
+                    acceptedAnswer: {
+                      '@type': 'Answer',
+                      text: 'We typically offer same-day service for calls received before noon. For emergencies, we offer priority response including evenings and weekends.',
+                    },
+                  },
+                  {
+                    '@type': 'Question',
+                    name: 'Are exterminator treatments family-friendly and effective?',
+                    acceptedAnswer: {
+                      '@type': 'Answer',
+                      text: 'Yes. We use EPA-registered products applied by NJDEP-licensed technicians. Our IPM approach minimizes chemical use while maximizing effectiveness. Our methods are family-friendly and highly effective.',
+                    },
+                  },
+                  {
+                    '@type': 'Question',
+                    name: 'Do you offer a free inspection before treatment?',
+                    acceptedAnswer: {
+                      '@type': 'Answer',
+                      text: 'Yes. Our free pest inspection is available to all Camden County homeowners and businesses. A licensed technician inspects your property, identifies the pest, maps entry points, and provides a written assessment and quote at no charge.',
+                    },
+                  },
+                ],
+              },
+            ],
           }),
         }}
       />
