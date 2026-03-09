@@ -476,6 +476,406 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <p>Protect your Cherry Hill business with a professional commercial pest management program. Call Camden County Pest Control at <strong>(856) 600-0812</strong> to schedule a facility assessment and learn what a customized program costs for your operation.</p>`,
   },
+  {
+    slug: 'termite-swarm-season-south-jersey',
+    title: 'What to Do When You See Termite Swarmers in South Jersey',
+    excerpt: 'Termite swarmers emerging inside your Camden County home are not a minor nuisance &mdash; they are proof of an active colony nearby. Here is exactly what to do the moment you spot them.',
+    date: '2025-05-01',
+    category: 'Termites',
+    readTime: '5 min read',
+    image: {
+      pexelsId: '7722880',
+      alt: 'Close-up of termites swarming on wood surface',
+      photographer: 'Pexels Contributor',
+    },
+    content: `<h2>What Are Termite Swarmers?</h2>
+<p>Termite swarmers &mdash; also called alates &mdash; are winged reproductive termites released by mature colonies when population and conditions are right. In Camden County and throughout South Jersey, swarm events typically occur on warm, humid days between late March and May, often following a rain event. They emerge in large numbers, shed their wings quickly, and attempt to pair up and establish new colonies.</p>
+
+<h2>Finding Swarmers Inside Your Home Means One Thing</h2>
+<p>If you find swarmers or discarded wings inside your home &mdash; on windowsills, near light fixtures, or scattered across floors &mdash; a mature termite colony is already present either within or directly adjacent to your structure. Swarmers do not travel far. Indoor swarming is not a warning that termites might arrive; it is evidence they have already been feeding on your home, in many cases for three to five years before swarmers appear.</p>
+
+<h2>Swarmers vs. Flying Ants: How to Tell Them Apart</h2>
+<p>This distinction matters because misidentification leads to wrong treatment. Termite swarmers have:</p>
+<ul>
+  <li>Straight, beaded antennae (ants have elbowed antennae)</li>
+  <li>Two pairs of wings of equal length (ants have a longer front pair)</li>
+  <li>A broad waist with no constriction (ants have a pinched waist)</li>
+  <li>Wings that easily detach and are found scattered near the emergence point</li>
+</ul>
+<p>If you are unsure, save a few specimens in a small container and have them identified by a professional. The treatment approach differs dramatically between carpenter ants and termites.</p>
+
+<h2>What to Do Immediately After Finding Swarmers</h2>
+<p>Do not spray the swarmers with aerosol. Killing the swarmers does not kill the colony &mdash; it simply removes the visible evidence while the primary colony continues feeding. Instead:</p>
+<ul>
+  <li>Note the exact location where you found the swarmers or discarded wings</li>
+  <li>Save several specimens for identification if possible</li>
+  <li>Check nearby wood for soft spots by pressing with a screwdriver &mdash; if the wood gives, damage is already present</li>
+  <li>Look for mud tubes on nearby foundation walls or framing</li>
+  <li>Call a pest control professional for an inspection immediately &mdash; not next week</li>
+</ul>
+
+<h2>South Jersey Homes at Highest Risk</h2>
+<p>Camden County&apos;s sandy soil, high moisture levels near the Cooper River watershed, and aging housing stock in boroughs like Haddonfield, Collingswood, and Audubon create ideal termite conditions. Homes built before the 1970s in these communities were generally not pre-treated during construction and often have never received professional termite treatment at any point in their history.</p>
+
+<h2>Treatment Options After a Swarm Event</h2>
+<p>Termite treatment following confirmed swarmer activity typically involves a liquid soil treatment applied around the full perimeter of the foundation &mdash; creating a continuous chemical barrier in the soil that foraging workers contact and carry back to the colony. Bait station systems offer an alternative or supplement for sensitive areas. The choice of method depends on your home&apos;s construction type, soil conditions, and the location of termite activity.</p>
+
+<p>If you have found termite swarmers anywhere in your Cherry Hill, Voorhees, Haddonfield, or Collingswood home, call Camden County Pest Control immediately at <strong>(856) 600-0812</strong>. Termite treatment started the day of a swarm costs far less than the structural repairs that follow months of inaction.</p>`,
+  },
+  {
+    slug: 'carpenter-ant-damage-camden-county',
+    title: 'Carpenter Ants vs. Termites: How to Tell the Difference in Camden County Homes',
+    excerpt: 'Both carpenter ants and termites damage wood &mdash; but they require completely different treatments. Here is how Camden County homeowners can tell them apart and what to do next.',
+    date: '2025-05-05',
+    category: 'Ants',
+    readTime: '6 min read',
+    image: {
+      pexelsId: '6823408',
+      alt: 'Close-up of an ant on damaged wood surface',
+      photographer: 'Pexels Contributor',
+    },
+    content: `<h2>Why Getting the Identification Right Matters</h2>
+<p>Every year, Camden County homeowners spend money treating the wrong pest. Termite treatments do not eliminate carpenter ant colonies, and carpenter ant baiting does not stop termite damage. Misidentification costs real money and leaves the actual problem unaddressed while structural damage continues. Knowing the difference is the most important first step.</p>
+
+<h2>Physical Differences: The Insects Themselves</h2>
+<p><strong>Carpenter ants</strong> are large &mdash; 1/4 to 1/2 inch long &mdash; and black or black with a red thorax. They have elbowed antennae, a constricted waist, and three distinct body segments. You can see them with the naked eye walking across surfaces. Workers are robust and move quickly.</p>
+<p><strong>Termite workers</strong> are pale white to cream colored, smaller (1/8 inch), with soft bodies, straight beaded antennae, and no visible waist constriction. You rarely see termite workers in the open because they avoid light and stay within wood or mud tubes. If you flip over a piece of damaged wood and see white insects, those are almost certainly termites.</p>
+
+<h2>The Damage Looks Different Too</h2>
+<p><strong>Carpenter ant galleries</strong> are smooth and finished, like they were sanded. Carpenter ants excavate wood to nest in it &mdash; they do not eat it. Galleries follow the grain of moisture-softened wood and produce frass: a sawdust-like mix of wood shavings, insulation fragments, and insect body parts pushed out of small holes. Finding this debris below infested wood is one of the clearest signs of carpenter ants.</p>
+<p><strong>Termite damage</strong> is rough and irregular, filled with soil, mud, and the dark material of termite feces. Subterranean termites eat along the grain, leaving thin layers of intact wood and creating a honeycomb appearance in cross-section. The wood often appears water-stained and may collapse entirely when probed.</p>
+
+<h2>Where Each Species Nests in Camden County Homes</h2>
+<p><strong>Carpenter ants</strong> require moisture-damaged wood to establish nesting sites. In Camden County&apos;s older homes, look for activity near window frames with condensation, under roof overhangs with gutter leak damage, around plumbing fixtures, in basement rim joists, and in crawl space framing. Carpenter ant presence almost always signals a moisture problem that must be corrected alongside the treatment.</p>
+<p><strong>Subterranean termites</strong> maintain continuous contact with the soil. They enter homes through foundation walls, expansion joints, and any wood-to-soil contact point. Mud tubes on foundation walls are their highway between soil and the wood above. Termites typically work from the bottom of a structure upward.</p>
+
+<h2>Seasonal Behavior Clues</h2>
+<p>In Camden County, both species release swarmers in spring &mdash; but at different times. Carpenter ant swarmers typically appear from late March through June, often on warm evenings after rain. Termite swarmers emerge in daytime, often in large numbers within a very short window. If you find large, dark-winged insects near windows at night, they are far more likely to be carpenter ants. A daytime emergence of many pale-winged insects near floor level points strongly to termites.</p>
+
+<h2>Treatment Approaches</h2>
+<p>Carpenter ant control requires finding and eliminating the parent colony &mdash; which may be outside the home in a tree stump or fence post &mdash; and treating all satellite colonies inside wall voids with dust formulations. Moisture correction is essential. Termite control requires soil treatment or bait systems to eliminate foraging workers and collapse the colony. Neither approach is interchangeable.</p>
+
+<p>If you have found large black ants, wood damage, or swarmers in your Camden County home, get a professional identification before spending money on treatment. Call Camden County Pest Control at <strong>(856) 600-0812</strong> for a thorough inspection of your Cherry Hill, Haddonfield, Voorhees, or Collingswood property.</p>`,
+  },
+  {
+    slug: 'rat-mouse-control-collingswood-haddonfield',
+    title: 'Rats vs. Mice: Identifying Your Rodent Problem in Collingswood and Haddonfield',
+    excerpt: 'Rats and mice require different treatment strategies. Camden County homeowners in Collingswood and Haddonfield need to know which rodent they are dealing with before treatment begins.',
+    date: '2025-05-10',
+    category: 'Rodents',
+    readTime: '6 min read',
+    image: {
+      pexelsId: '1591056',
+      alt: 'Close-up of a brown rat on a surface',
+      photographer: 'Pexels Contributor',
+    },
+    content: `<h2>Why Identification Matters Before Treatment</h2>
+<p>Trap placement, bait station design, entry point location, and rodent behavior all differ significantly between house mice and Norway rats. A snap trap set for mice will not reliably catch rats. Bait stations sized and positioned for rats are ignored by mice. Getting the identification right is the foundation of effective rodent control in Collingswood, Haddonfield, and across Camden County.</p>
+
+<h2>House Mice in Collingswood and Haddonfield</h2>
+<p>House mice are the more common indoor rodent in the older, denser neighborhoods of Collingswood and Haddonfield. Small (3 to 4 inches body length), gray-brown with large ears and a thin tail nearly as long as their body, mice need an opening only the size of a dime to enter. They are curious, prolific breeders, and comfortable exploring new objects &mdash; which makes them relatively responsive to well-placed traps.</p>
+<p>Mouse signs include:</p>
+<ul>
+  <li>Small, rod-shaped droppings (1/8 to 1/4 inch) scattered throughout their activity area &mdash; near food sources, under sinks, behind appliances</li>
+  <li>Gnaw marks on food packaging, baseboards, and wiring insulation</li>
+  <li>Nests of shredded paper, insulation, or fabric in enclosed spaces</li>
+  <li>Musty, musky odor in enclosed areas with high mouse activity</li>
+</ul>
+
+<h2>Norway Rats in South Jersey</h2>
+<p>Norway rats are significantly larger &mdash; 7 to 9 inches body length with a thick tail shorter than the body. They are brown with coarse fur, small ears, and a blunt nose. Rats are neophobic (cautious around new objects), requiring bait stations to be in place and unset for several days before being activated. They burrow extensively, prefer ground level activity, and often enter through basement windows, foundation openings, and sewer connections.</p>
+<p>Rat signs include:</p>
+<ul>
+  <li>Large droppings (3/4 inch, capsule-shaped) along walls and near burrow entrances</li>
+  <li>Burrow holes (2 to 3 inch diameter) near foundations, under stoops, and along fence lines</li>
+  <li>Grease rub marks along baseboards and pipes from their oily fur</li>
+  <li>Gnaw damage far more extensive than mouse damage &mdash; rats can chew through concrete block</li>
+</ul>
+
+<h2>Collingswood and Haddonfield: Specific Risk Factors</h2>
+<p>Both boroughs have aging sewer infrastructure with degraded pipe connections &mdash; a primary entry route for Norway rats entering homes from the municipal sewer system. Collingswood&apos;s proximity to the Cooper River and active commercial districts on Haddon Avenue creates rodent pressure along the commercial corridor that spreads into adjacent residential areas. Haddonfield&apos;s older homes with stone foundations and deep basements often have gaps that have never been properly sealed.</p>
+
+<h2>Treatment Strategies: The Key Differences</h2>
+<p><strong>For mice</strong>: Snap traps placed perpendicular to walls at 8 to 10 foot intervals throughout the activity zone. Glue boards in cabinet interiors. Exclusion sealing of all gaps larger than 1/4 inch. Most mouse infestations resolve within 2 to 3 service visits with proper exclusion.</p>
+<p><strong>For rats</strong>: Tamper-resistant bait stations positioned along travel routes and near burrow entrances. Allow 3 to 5 days before activating to overcome neophobia. Exterior burrow treatment. Exclusion sealing of foundation gaps, sewer pipe penetrations, and basement window frames. Rat programs typically require 4 to 6 service visits and more extensive exclusion work.</p>
+
+<p>Whether mice or rats are your problem, professional identification and targeted treatment gets results faster than trial-and-error DIY. Call Camden County Pest Control at <strong>(856) 600-0812</strong> to schedule a rodent inspection for your Collingswood, Haddonfield, or surrounding Camden County home today.</p>`,
+  },
+  {
+    slug: 'spring-pest-prevention-cherry-hill',
+    title: 'Spring Pest Prevention Checklist for Cherry Hill Homeowners',
+    excerpt: 'Spring in Cherry Hill brings ants, termites, stinging insects, and rodents all at once. Use this checklist to get ahead of the season before pests find a way inside.',
+    date: '2025-05-15',
+    category: 'Prevention',
+    readTime: '5 min read',
+    image: {
+      pexelsId: '1115804',
+      alt: 'Bright spring garden in front of a residential home',
+      photographer: 'Pexels Contributor',
+    },
+    content: `<h2>Why Spring Is the Most Important Season for Pest Prevention in Cherry Hill</h2>
+<p>Cherry Hill is the most densely developed municipality in Camden County, with a mix of single-family homes, townhomes, apartment complexes, and commercial corridors all in close proximity. This density means pest pressure builds quickly in spring &mdash; a rodent population that overwintered in one building spreads to neighbors, ant colonies from landscaping breach multiple homes, and stinging insects stake out nesting sites across entire subdivisions within weeks. Getting ahead of spring pest activity in Cherry Hill requires acting in March and April, before the pressure peaks.</p>
+
+<h2>Exterior Checklist: What to Address Before May</h2>
+<ul>
+  <li><strong>Walk your full foundation perimeter</strong> and seal any gap larger than 1/4 inch using appropriate materials: mortar for masonry gaps, steel wool packed and caulked for pipe penetrations, hardware cloth for larger openings</li>
+  <li><strong>Clean and repair gutters</strong> before April &mdash; clogged gutters overflow against fascia boards, creating moisture-damaged wood that carpenter ants and termites target</li>
+  <li><strong>Pull mulch back 12 inches from the foundation</strong> &mdash; mulch beds against the house provide moisture and harborage that dramatically increases ant and termite activity</li>
+  <li><strong>Trim all tree limbs to maintain 10-foot clearance from your roofline</strong> &mdash; overhanging branches are the primary squirrel and carpenter ant highway into Cherry Hill homes</li>
+  <li><strong>Inspect all roof vents, soffit intersections, and dryer vent hoods</strong> for gaps that rodents and wildlife exploit during winter</li>
+  <li><strong>Remove firewood stacks from against the house</strong> &mdash; firewood stores termites, carpenter ants, and rodents, then delivers them directly to your foundation when contact exists</li>
+</ul>
+
+<h2>Interior Checklist: Address Conditions That Attract Pests</h2>
+<ul>
+  <li><strong>Fix all plumbing leaks</strong> under sinks and around appliances &mdash; moisture is the primary driver of cockroach, carpenter ant, and silverfish activity indoors</li>
+  <li><strong>Deep clean behind and under appliances</strong> in spring, eliminating grease and food debris that cockroaches and mice rely on</li>
+  <li><strong>Switch to sealed food storage containers</strong> in pantries &mdash; cardboard boxes are accessible to mice and pantry moths</li>
+  <li><strong>Check basement and crawl space vapor barriers</strong> for tears or gaps that allow ground moisture to increase humidity to levels that attract pests</li>
+  <li><strong>Inspect attic access points</strong> for signs of rodent or wildlife activity from the winter months</li>
+</ul>
+
+<h2>Yard and Landscaping Checklist</h2>
+<ul>
+  <li>Remove leaf litter and debris from yard edges &mdash; excellent overwintering habitat for ticks, ants, and stink bugs</li>
+  <li>Fill rodent burrows found under decks or sheds with hardware cloth and gravel before spring activity resumes</li>
+  <li>Inspect deck and patio structure for wasp nest stubs from last season &mdash; paper wasp queens return to the same sites each spring</li>
+  <li>Empty and treat ornamental water features with biological larvicide before mosquito season begins in May</li>
+</ul>
+
+<h2>Schedule Your Spring Perimeter Treatment</h2>
+<p>A professional spring perimeter treatment applied in March or early April &mdash; before peak ant foraging, before stinging insects establish nests, and before overwintering insects fully emerge &mdash; is the most cost-effective pest management investment Cherry Hill homeowners can make. Treatments applied too late, after pressure peaks, require more product and more visits to bring activity under control.</p>
+
+<p>Check every item on this list and schedule your spring treatment early. Call Camden County Pest Control at <strong>(856) 600-0812</strong> and let us protect your Cherry Hill home before the bugs get there first.</p>`,
+  },
+  {
+    slug: 'bed-bug-treatment-options-nj',
+    title: 'Bed Bug Treatment Options in New Jersey: Heat vs. Chemical',
+    excerpt: 'Bed bug infestations in Camden County require professional treatment &mdash; but which method is right for your situation? Here is an honest comparison of heat treatment vs. chemical protocols.',
+    date: '2025-05-20',
+    category: 'Bed Bugs',
+    readTime: '6 min read',
+    image: {
+      pexelsId: '6980298',
+      alt: 'Close inspection of mattress seams for bed bug evidence',
+      photographer: 'Pexels Contributor',
+    },
+    content: `<h2>Why Over-the-Counter Products Cannot Fix a Bed Bug Infestation</h2>
+<p>Bed bug infestations in New Jersey homes &mdash; including throughout Camden County in Cherry Hill, Voorhees, Haddonfield, and Lindenwold &mdash; require professional treatment. Retail sprays kill bed bugs on contact but have no residual effect on eggs, which are impervious to most contact pesticides and hatch 7 to 10 days later. Bug bombs and foggers broadcast chemicals into open air but do not penetrate the mattress seams, headboard joints, and wall-void harborage areas where bed bugs hide. Every treatment attempt that fails to eliminate all life stages allows the population to recover and develop insecticide resistance.</p>
+
+<h2>Heat Treatment: How It Works</h2>
+<p>Thermal remediation raises the temperature of all infested spaces to 130&deg;F or higher &mdash; the lethal threshold for bed bugs and their eggs at all life stages &mdash; and maintains that temperature for a minimum of two hours. Industrial electric or propane heaters are placed throughout the treatment space, with sensors monitoring temperature throughout to confirm uniform heat penetration.</p>
+<p><strong>Advantages of heat treatment:</strong></p>
+<ul>
+  <li>Kills all life stages &mdash; adults, nymphs, and eggs &mdash; in a single treatment visit</li>
+  <li>Penetrates mattresses, furniture, and wall voids that chemical treatments may not fully reach</li>
+  <li>No chemical residue in the home after treatment</li>
+  <li>Effective against insecticide-resistant bed bug populations, which are increasingly common in South Jersey</li>
+  <li>Allows re-occupancy the same day treatment is completed</li>
+</ul>
+<p><strong>Limitations of heat treatment:</strong></p>
+<ul>
+  <li>Higher upfront cost than chemical protocols</li>
+  <li>Heat-sensitive items (candles, aerosol cans, certain medications, vinyl records) must be removed before treatment</li>
+  <li>Does not leave residual protection against re-introduction after treatment</li>
+  <li>Effectiveness in multi-unit buildings is limited if adjacent units are not simultaneously treated</li>
+</ul>
+
+<h2>Chemical Treatment: How It Works</h2>
+<p>Professional chemical protocols use multiple product types applied in sequence to all harborage areas: contact insecticides to kill active bugs, residual products on surfaces bed bugs must cross, dust formulations in wall voids and electrical outlets, and insect growth regulators (IGRs) that prevent nymphs from reaching reproductive maturity. Chemical programs typically involve 2 to 3 treatment visits spaced 2 weeks apart.</p>
+<p><strong>Advantages of chemical treatment:</strong></p>
+<ul>
+  <li>Lower cost per treatment visit</li>
+  <li>Residual products provide ongoing protection in the weeks following treatment</li>
+  <li>Well-suited for multi-unit buildings where room-by-room chemical treatment can be sequenced systematically</li>
+  <li>Effective for moderate infestations caught before they become severe</li>
+</ul>
+<p><strong>Limitations of chemical treatment:</strong></p>
+<ul>
+  <li>Multiple visits required over 4 to 6 weeks</li>
+  <li>Insecticide-resistant populations may require product rotation and extended programs</li>
+  <li>Occupants must prepare the space extensively before each visit</li>
+  <li>Chemical treatments can scatter populations if applied incorrectly</li>
+</ul>
+
+<h2>Which Option Is Right for Your Camden County Home?</h2>
+<p>Heat treatment is the fastest path to elimination and the preferred option for severe infestations, insecticide-resistant populations, homes where occupants cannot easily accommodate multiple preparation sessions, and situations where same-day resolution is a priority. Chemical treatment is effective for moderate, early-stage infestations and for multi-unit situations where phased treatment is more practical.</p>
+<p>Many Camden County infestations benefit from a combination approach: heat treatment for the primary infestation with residual chemical products applied as a barrier to catch any bed bugs that may have migrated to adjacent rooms or common areas.</p>
+
+<p>Do not guess which treatment is right &mdash; get a professional inspection first. Call Camden County Pest Control at <strong>(856) 600-0812</strong> to schedule a bed bug inspection and receive an honest recommendation for your specific situation in Cherry Hill, Voorhees, Haddonfield, or anywhere in Camden County.</p>`,
+  },
+  {
+    slug: 'wasp-prevention-camden-county-summer',
+    title: 'Summer Wasp Prevention Guide for Camden County Backyards',
+    excerpt: 'Yellow jackets, paper wasps, and bald-faced hornets peak in late summer across Camden County. Here is how to prevent nests from establishing in your backyard before the season gets dangerous.',
+    date: '2025-06-01',
+    category: 'Wasps',
+    readTime: '5 min read',
+    image: {
+      pexelsId: '7097672',
+      alt: 'Wasp nest on wooden outdoor structure',
+      photographer: 'Pexels Contributor',
+    },
+    content: `<h2>When Wasp Season Peaks in Camden County</h2>
+<p>Wasp and hornet colonies in Camden County begin in early spring when overwintered queens emerge and start building new nests, but the real danger period runs from mid-July through September. By late summer, yellow jacket colonies that started with a single queen in April have grown to 1,500 to 5,000 workers. These colonies become increasingly defensive as they protect late-season brood. Outdoor dining, yard work, and any disturbance near nest sites becomes genuinely hazardous. Understanding the prevention window &mdash; early spring through June &mdash; is the key to avoiding a dangerous late-summer situation.</p>
+
+<h2>Where Wasps Build Nests in Camden County Backyards</h2>
+<p>Different wasp species favor different nesting sites, and the location determines the risk level:</p>
+<ul>
+  <li><strong>Paper wasps</strong> prefer protected overhangs: porch ceilings, beneath deck railings, inside outdoor light fixtures, under patio furniture, and inside grill side shelves. Their open-celled nests are visible and relatively small.</li>
+  <li><strong>Yellow jackets</strong> frequently nest underground in abandoned rodent burrows across Camden County&apos;s many wooded yard borders. They also build inside wall voids, beneath deck flooring, and inside hollow deck posts. Underground colonies are the most dangerous because they are invisible until you step on the entrance by accident.</li>
+  <li><strong>Bald-faced hornets</strong> build large, gray enclosed paper nests in tree branches, under deck eaves, and attached to structures. Nests grow to football size or larger by August.</li>
+  <li><strong>European hornets</strong> nest inside hollow trees and wall voids and are active at night &mdash; a particular issue in wooded neighborhoods near Winslow Township and Gloucester Township.</li>
+</ul>
+
+<h2>Early Season Prevention: Stop Nests Before They Grow</h2>
+<p>The most effective wasp prevention strategy addresses nests in April and May when colonies are small and a single queen is the entire population. A professional exterior treatment in early spring creates a repellent barrier on overhangs, eaves, and deck structures that prevents queens from establishing nests. Check these areas monthly:</p>
+<ul>
+  <li>Under all porch and deck ceiling overhangs</li>
+  <li>Inside outdoor light fixtures (paper wasps love them)</li>
+  <li>Along fence rail tops and inside hollow posts</li>
+  <li>Around the roofline soffit area</li>
+  <li>Under patio furniture when not in use</li>
+</ul>
+<p>Knock down any nest smaller than a golf ball in April or early May &mdash; colonies at this size have fewer than 20 workers and can be addressed quickly. By July, the same nest site holds hundreds of defenders.</p>
+
+<h2>Protecting Your Outdoor Gatherings</h2>
+<p>Yellow jackets are scavengers attracted to proteins and sugars &mdash; exactly what backyard cookouts provide. During outdoor events in Camden County&apos;s peak wasp season (July through September):</p>
+<ul>
+  <li>Keep food and beverages covered when not actively serving</li>
+  <li>Use lidded trash cans and empty them frequently during events</li>
+  <li>Never leave sugary drinks in open cans &mdash; yellow jackets enter cans and sting lips and tongues when disturbed</li>
+  <li>Clean grill grates before events to reduce protein attractants</li>
+  <li>Avoid sweet-smelling perfumes and lotions during peak season</li>
+</ul>
+
+<h2>When Professional Removal Is Required</h2>
+<p>Any nest larger than a tennis ball, any underground yellow jacket colony, and any nest within 15 feet of a frequently used entrance requires professional treatment. Do not attempt to block underground nests or pour chemicals into burrow entrances &mdash; this scatters thousands of stinging insects through secondary exits and dramatically increases the risk of mass stinging events.</p>
+
+<p>If you have an active wasp or hornet nest in your Camden County backyard, call Camden County Pest Control at <strong>(856) 600-0812</strong>. We handle paper wasps, yellow jackets, and bald-faced hornets throughout Cherry Hill, Voorhees, Haddon Township, Gloucester Township, and all of Camden County.</p>`,
+  },
+  {
+    slug: 'pest-control-voorhees-marlton',
+    title: 'Why Voorhees and Marlton Homeowners Call Us Every Spring',
+    excerpt: 'Voorhees and Marlton have some of the highest spring pest activity in Camden County. Here is why these communities see recurring pressure and what effective prevention looks like in suburban South Jersey.',
+    date: '2025-06-05',
+    category: 'General',
+    readTime: '5 min read',
+    image: {
+      pexelsId: '106399',
+      alt: 'Suburban residential home with green lawn and mature trees',
+      photographer: 'Pexels Contributor',
+    },
+    content: `<h2>What Makes Voorhees and Marlton High-Pressure Pest Areas</h2>
+<p>Voorhees Township and the Marlton section of Evesham Township represent two of the most active pest management markets in Camden County. The combination of large-lot suburban development, mature tree canopy, proximity to wooded conservation land, and a housing stock built predominantly between 1975 and 2000 creates conditions that drive consistent pest pressure every spring. Homes in these communities face termite activity from sandy south Jersey soils, carpenter ant infiltration from adjacent wooded lots, rodent pressure from surrounding wildlife habitat, and stinging insect establishment in the landscape-rich yards that characterize both areas.</p>
+
+<h2>The Spring Surge: What Comes Out and When</h2>
+<p>Voorhees and Marlton homeowners who have never dealt with pest issues often get a rude introduction in their first spring following a wet fall or mild winter. Here is the typical sequence:</p>
+<ul>
+  <li><strong>March</strong>: Overwintering stink bugs attempt to exit homes through wall voids and gather at windows. Carpenter ants resume activity from satellite colonies established inside walls during the winter. First termite swarmers may appear on warm days above 60&deg;F.</li>
+  <li><strong>April</strong>: Ant trails emerge across driveways and foundation lines as odorous house ants and pavement ants begin foraging. Paper wasp queens start nest building under eaves and porch overhangs. Mice that entered in fall become more visible as they forage further for food.</li>
+  <li><strong>May</strong>: Peak termite swarm season. Mosquito populations begin building near detention basins and low areas. Yellow jacket queens establish underground nests across wooded yard edges. Carpenter bee activity peaks on exposed deck and fence wood.</li>
+  <li><strong>June through August</strong>: Mosquito and tick pressure peaks. Stinging insect colonies grow to maximum size. Ground bees and digger wasps become active in dry lawn areas.</li>
+</ul>
+
+<h2>Why Recurring Treatment Is More Effective Than Reactive Service</h2>
+<p>The homeowners in Voorhees and Marlton who call us each spring often describe the same pattern: they dealt with a pest problem the previous year, did not schedule ongoing service, and are now dealing with a new problem at the start of the following season. This is not coincidence. The same conditions that drove the original problem &mdash; sandy soil, mature landscaping, wooded borders &mdash; persist year after year. One-time treatments address current activity; annual or seasonal programs maintain a treated perimeter that intercepts new pressure before it enters the home.</p>
+
+<h2>What Effective Suburban Pest Management Looks Like</h2>
+<p>For Voorhees and Marlton homes, a comprehensive program typically includes:</p>
+<ul>
+  <li>Spring perimeter treatment targeting ants, spiders, and overwintering pests (March to April)</li>
+  <li>Mosquito barrier treatment every 3 to 4 weeks from May through September</li>
+  <li>Stinging insect prevention and monitoring from April through October</li>
+  <li>Annual termite inspection with liquid barrier renewal on schedule</li>
+  <li>Fall rodent exclusion assessment and sealing before temperatures drop</li>
+</ul>
+
+<h2>Local Knowledge Makes a Difference</h2>
+<p>Technicians who work Voorhees and Marlton regularly know which subdivisions have the heaviest termite pressure, which detention basin areas drive mosquito breeding, and which pest species show up in which months. That local knowledge translates directly to more targeted, effective service than a national company dispatching unfamiliar technicians to your neighborhood.</p>
+
+<p>If you are a Voorhees or Marlton homeowner who has dealt with recurring pest issues, call Camden County Pest Control at <strong>(856) 600-0812</strong>. We have been managing pest pressure across South Jersey for years and know exactly what your neighborhood faces each season.</p>`,
+  },
+  {
+    slug: 'wildlife-nuisance-winslow-gibbsboro',
+    title: 'Nuisance Wildlife in Rural Camden County: Winslow and Gibbsboro',
+    excerpt: 'The rural and semi-rural communities of Winslow Township and Gibbsboro sit at the edge of the Pine Barrens &mdash; and that means ongoing nuisance wildlife challenges that suburban pest control does not address.',
+    date: '2025-06-10',
+    category: 'Wildlife',
+    readTime: '6 min read',
+    image: {
+      pexelsId: '247376',
+      alt: 'White-tailed deer standing at the edge of a wooded area',
+      photographer: 'Pexels Contributor',
+    },
+    content: `<h2>The Pine Barrens Influence on Camden County Wildlife</h2>
+<p>Winslow Township is the largest municipality in Camden County by land area, and much of its eastern extent borders the Pinelands National Reserve. Gibbsboro, a small borough in central Camden County, sits surrounded by wooded conservation land and the historic Kirkwood Lake area. Both communities experience nuisance wildlife pressure that is qualitatively different from what Cherry Hill or Voorhees homeowners face. The wildlife here is not suburban-adapted &mdash; it is coming from one of the most ecologically intact areas in the northeastern United States.</p>
+
+<h2>Wildlife Species Commonly Encountered in Winslow and Gibbsboro</h2>
+<p><strong>White-tailed deer</strong> are the most visible wildlife presence in both communities. Deer cause significant landscape damage and serve as the primary host for deer ticks (Ixodes scapularis) &mdash; the Lyme disease vector. High deer populations in Winslow Township correlate directly with elevated Lyme disease risk in residential areas. Deer also attract predators like coyotes and foxes closer to homes.</p>
+<p><strong>Raccoons</strong> are the most destructive structure-invading wildlife in Camden County. In Winslow and Gibbsboro, raccoon populations are sustained by adjacent wooded habitat and frequently den in home attics during late winter. A female raccoon establishing a nest in a Winslow Township attic in February or March will have young within six weeks, and removal becomes significantly more complex once cubs are present.</p>
+<p><strong>Eastern gray squirrels and flying squirrels</strong> are abundant in both communities. Gray squirrels enter homes through gaps at fascia boards and roof vents. Flying squirrels &mdash; common in the Pinelands transition zone &mdash; are nocturnal and often unknown to homeowners until populations grow large enough to create audible nighttime activity.</p>
+<p><strong>Groundhogs (woodchucks)</strong> are common across Winslow Township&apos;s more rural residential lots. They excavate burrows under decks, sheds, outbuildings, and HVAC equipment pads. Groundhog burrow systems undermine foundations and create significant structural risk to outbuildings over time.</p>
+<p><strong>Opossums and skunks</strong> take up residence under decks and in crawl spaces throughout both communities. Skunks in crawl spaces create odor problems that permeate the entire home and can persist for weeks without professional remediation.</p>
+
+<h2>Legal Considerations for Wildlife Removal in New Jersey</h2>
+<p>New Jersey Division of Fish and Wildlife regulations govern the capture, handling, and relocation of most nuisance wildlife species. Certain species require depredation permits for legal removal. Improper trapping methods, relocation to inappropriate habitat, and handling of rabies vector species (raccoons, skunks, foxes, bats) without proper licensing are all regulated activities. Working with a licensed wildlife control operator is not only more effective &mdash; it protects homeowners from legal exposure.</p>
+
+<h2>The Exclusion Solution: Why Trapping Alone Is Not Enough</h2>
+<p>Removing a raccoon or squirrel from an attic without sealing the entry point guarantees a new occupant within weeks. The entry point is the problem &mdash; the individual animal is incidental. Proper wildlife exclusion for Winslow and Gibbsboro homes uses galvanized steel mesh (minimum 1/2-inch hardware cloth), metal flashing at roof intersections, and commercial-grade vent covers designed to withstand determined wildlife pressure. These materials hold where plastic and aluminum alternatives fail.</p>
+
+<h2>Tick Management Near the Pinelands</h2>
+<p>Deer tick pressure in Winslow Township and Gibbsboro warrants aggressive yard tick management from April through November. Professional barrier spray treatments applied to lawn borders, wooded edges, and landscape beds reduce tick populations in the areas where human exposure occurs. Monthly treatments through the active season are standard for homes adjacent to wooded conservation land.</p>
+
+<p>If wildlife has entered your Winslow Township or Gibbsboro home, or if you are dealing with recurring nuisance animal pressure, call Camden County Pest Control at <strong>(856) 600-0812</strong>. We handle raccoons, squirrels, groundhogs, skunks, and all common nuisance wildlife throughout Camden County with professional, licensed methods.</p>`,
+  },
+  {
+    slug: 'restaurant-pest-control-cherry-hill',
+    title: 'Restaurant Pest Control in Cherry Hill: Staying Compliant with NJ Health Code',
+    excerpt: 'A single pest sighting in your Cherry Hill restaurant can trigger a health department violation, a social media firestorm, or a temporary closure. Here is how professional pest management keeps you compliant and protected.',
+    date: '2025-06-15',
+    category: 'Commercial',
+    readTime: '6 min read',
+    image: {
+      pexelsId: '1267320',
+      alt: 'Professional chef working in a clean commercial restaurant kitchen',
+      photographer: 'Pexels Contributor',
+    },
+    content: `<h2>The Stakes for Cherry Hill Restaurants</h2>
+<p>Cherry Hill has one of the densest concentrations of restaurants in South Jersey, from the Route 70 and Route 38 commercial corridors to the dining destinations near the Cherry Hill Mall. This is a competitive market where reputation is everything &mdash; and in 2025, a single photo of a cockroach shared on social media or a health department report posted publicly can cost a restaurant months of revenue. The NJ Department of Health does not give restaurants second chances on serious pest-related violations, and the public record of those violations is searchable online.</p>
+
+<h2>What New Jersey Health Code Requires</h2>
+<p>New Jersey food service establishments are regulated under N.J.A.C. 8:24, the State Sanitary Code for Food Service Establishments. Pest-related requirements include:</p>
+<ul>
+  <li>Effective measures must be in place to exclude pests from the facility and to protect food, equipment, and utensils from contamination by pests</li>
+  <li>Only licensed pest management professionals may apply pesticides in food service facilities</li>
+  <li>All pesticide applications must comply with label requirements, and service records must be maintained and available for inspector review</li>
+  <li>Evidence of active pest infestation is a critical violation that triggers immediate corrective action and potential re-inspection</li>
+  <li>Structural conditions that allow pest entry &mdash; gaps under exterior doors, missing or damaged drain covers, gaps at pipe penetrations &mdash; are violations independent of whether active pest activity is observed</li>
+</ul>
+
+<h2>The Pests That Threaten Cherry Hill Food Service Businesses</h2>
+<p><strong>German cockroaches</strong> are the dominant threat to Cherry Hill restaurants. They arrive in food deliveries, used equipment, and through shared walls in multi-tenant commercial buildings. Once established, German cockroach populations double every 60 days under food service conditions. A single unaddressed introduction becomes a full-scale infestation within one restaurant cycle.</p>
+<p><strong>Rodents</strong> enter through gaps at loading dock doors, broken floor drains, and pipe penetrations in kitchen walls. Cherry Hill&apos;s commercial density and proximity to dumpster areas shared between neighboring businesses means rodent pressure is ongoing and seasonal exclusion work is insufficient alone.</p>
+<p><strong>Drain flies and fruit flies</strong> breed in the organic buildup inside floor drains, under equipment, and in condensation drip pans. Fruit fly pressure peaks in summer months. Fly activity around food preparation areas is a critical health code violation.</p>
+<p><strong>Stored product pests</strong> &mdash; Indian meal moths, saw-toothed grain beetles, and flour beetles &mdash; arrive in dry goods shipments and infest pantry stock. Discovering them during a health inspection results in mandatory product disposal and can trigger a facility-wide review.</p>
+
+<h2>What a Professional Restaurant Pest Management Program Includes</h2>
+<p>Effective restaurant pest management in Cherry Hill is not a monthly spray visit &mdash; it is a documented program covering:</p>
+<ul>
+  <li><strong>Inspection and documentation</strong>: Written records of all pest evidence found, harborage conditions noted, and corrective actions recommended &mdash; the paperwork that protects you during health inspections</li>
+  <li><strong>Targeted gel bait application</strong> for cockroaches in harborage areas including under equipment, inside electrical panels, and within wall voids at pest entry points</li>
+  <li><strong>Rodent bait station management</strong> at loading dock areas, along exterior perimeter, and inside utility areas</li>
+  <li><strong>Drain treatment</strong> using biological products that break down organic buildup &mdash; the breeding medium for drain flies</li>
+  <li><strong>Fly light traps</strong> in back-of-house areas with regular monitoring and glue board replacement</li>
+  <li><strong>Exclusion consulting</strong>: Our technicians document every structural gap and pest-conducive condition in writing, giving management the documentation needed to justify facility repairs to ownership</li>
+</ul>
+
+<h2>When to Call Before the Inspector Arrives</h2>
+<p>Do not wait for a health inspection to discover a pest problem. Call for a professional assessment if: you have found a single cockroach in your kitchen, a rodent dropping has appeared near food storage, or you are preparing for a health inspection or third-party food safety audit. Addressing a potential problem before the inspector arrives is always less costly than responding to a violation on record.</p>
+
+<p>Protect your Cherry Hill restaurant&apos;s reputation and compliance standing. Call Camden County Pest Control at <strong>(856) 600-0812</strong> to schedule a facility assessment and establish a professional pest management program designed for New Jersey food service requirements.</p>`,
+  },
 ];
 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {
