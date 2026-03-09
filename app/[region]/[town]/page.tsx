@@ -5,6 +5,7 @@ import { getRegion } from '@/lib/regions';
 import { BRAND } from '@/hub.config';
 import CTABanner from '@/components/sections/CTABanner';
 import { TOWN_OPENERS } from '@/data/town-openers';
+import { CITY_LAYER7 } from '@/data/layer7-data';
 
 export async function generateMetadata({ params }: { params: Promise<{ region: string; town: string }> }): Promise<Metadata> {
   const { region: regionSlug, town: townSlug } = await params;
@@ -42,6 +43,10 @@ export default async function TownPage({ params }: { params: Promise<{ region: s
   );
   if (!isValidTown && region.towns.length > 0) notFound();
 
+  const layer7 = CITY_LAYER7[townSlug];
+  const nearbyTowns = layer7?.nearby || [];
+  const neighborhoods = layer7?.neighborhoods;
+
   const services = [
     { name: 'Termite Control', icon: '🪵', desc: 'Liquid treatments, bait systems, pre-treat inspections' },
     { name: 'Rodent Control', icon: '🐭', desc: 'Exclusion, trapping, and sanitation guidance' },
@@ -51,7 +56,7 @@ export default async function TownPage({ params }: { params: Promise<{ region: s
     { name: 'Stink Bug Control', icon: '🐛', desc: 'Exclusion sealing + perimeter treatments' },
   ];
 
-  const faqs = [
+  const genericFaqs = [
     {
       q: `How quickly can you respond in ${townName}?`,
       a: `We offer same-day and next-morning service throughout Camden County, including ${townName}. Call before noon for same-day availability.`,
@@ -69,6 +74,8 @@ export default async function TownPage({ params }: { params: Promise<{ region: s
       a: 'We offer a 30-day re-service guarantee on most pest treatments. Termite protection plans include annual inspections.',
     },
   ];
+
+  const faqs = layer7?.faqs || genericFaqs;
 
   const schemaData = {
     '@context': 'https://schema.org',
@@ -116,6 +123,18 @@ export default async function TownPage({ params }: { params: Promise<{ region: s
         <p className="text-xl text-gray-600 mb-6">
           {TOWN_OPENERS[townSlug] || `${region.pestContext} Our licensed Camden County exterminators serve ${townName} with same-day availability, transparent pricing, and family-friendly treatments.`}
         </p>
+
+        {/* Neighborhoods callout (major hubs only) */}
+        {neighborhoods && (
+          <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-lg p-5 mb-6">
+            <p className="text-gray-700 mb-3">{neighborhoods.intro}</p>
+            <div className="flex flex-wrap gap-2">
+              {neighborhoods.neighborhoods.map((n) => (
+                <span key={n} className="bg-white border border-blue-200 rounded-full px-3 py-1 text-sm text-gray-700">{n}</span>
+              ))}
+            </div>
+          </div>
+        )}
 
         {/* Trust stats */}
         <div className="grid grid-cols-3 gap-4 mb-8">
@@ -175,6 +194,24 @@ export default async function TownPage({ params }: { params: Promise<{ region: s
             <li><Link href="/same-day-pest-control/" className="text-brand-primary hover:underline">Same Day Pest Control — Camden County</Link></li>
           </ul>
         </div>
+
+        {/* Nearby Towns */}
+        {nearbyTowns.length > 0 && (
+          <div className="bg-gray-50 rounded-lg p-5 mb-10">
+            <h3 className="font-bold text-gray-900 mb-3">Also Serving Nearby Towns</h3>
+            <div className="flex flex-wrap gap-2">
+              {nearbyTowns.map((t) => (
+                <Link
+                  key={t.slug}
+                  href={`/camden-county/${t.slug}/`}
+                  className="bg-white border border-gray-200 rounded-full px-3 py-1 text-sm text-brand-primary hover:bg-brand-light transition-colors"
+                >
+                  {t.name}
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
 
         {/* FAQ */}
         <h2 className="text-2xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h2>
