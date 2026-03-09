@@ -1,9 +1,10 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { SITE_NAME, PHONE, PHONE_HREF, GEO } from '@/site.config';
+import { SITE_NAME, PHONE, PHONE_HREF } from '@/site.config';
 import { generatePageMetadata, articleSchema } from '@/lib/seo';
-import { getBlogPostBySlug, getAllBlogPosts } from '@/lib/blog-posts';
+import { getBlogPostBySlug, getAllBlogPosts } from '@/data/blog-posts';
 import Schema from '@/components/seo/Schema';
 import Breadcrumbs from '@/components/seo/Breadcrumbs';
 import CTABanner from '@/components/sections/CTABanner';
@@ -25,7 +26,7 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
 
   return generatePageMetadata({
     title: post.title,
-    description: post.description,
+    description: post.excerpt,
     path: `/blog/${slug}`,
   });
 }
@@ -39,15 +40,17 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     .filter((p) => p.slug !== slug)
     .slice(0, 3);
 
+  const imageUrl = `https://images.pexels.com/photos/${post.image.pexelsId}/pexels-photo-${post.image.pexelsId}.jpeg?auto=compress&cs=tinysrgb&w=1200`;
+
   return (
     <>
       <Schema
         data={articleSchema({
           title: post.title,
-          description: post.description,
+          description: post.excerpt,
           slug: post.slug,
           date: post.date,
-          author: post.author,
+          author: 'Camden County Pest Control Team',
         })}
       />
       <Breadcrumbs
@@ -64,6 +67,9 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               {/* Post Header */}
               <header className="mb-8">
                 <div className="flex items-center gap-3 text-sm text-gray-500 mb-4">
+                  <span className="bg-brand-primary text-white text-xs font-semibold px-3 py-1 rounded-full">
+                    {post.category}
+                  </span>
                   <time dateTime={post.date}>
                     {new Date(post.date).toLocaleDateString('en-US', {
                       year: 'numeric',
@@ -72,44 +78,29 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                     })}
                   </time>
                   <span>•</span>
-                  <span>{post.author}</span>
+                  <span>{post.readTime}</span>
                 </div>
                 <h1 className="heading-1 mb-4">{post.title}</h1>
-                <p className="text-lg text-gray-600">{post.description}</p>
+                <p className="text-lg text-gray-600">{post.excerpt}</p>
               </header>
 
-              {/* Post Content */}
-              <div className="prose-content">
-                {post.content.split('\n').map((paragraph, i) => {
-                  const trimmed = paragraph.trim();
-                  if (!trimmed) return null;
-                  if (trimmed.startsWith('## ')) {
-                    return <h2 key={i}>{trimmed.replace('## ', '')}</h2>;
-                  }
-                  if (trimmed.startsWith('### ')) {
-                    return <h3 key={i}>{trimmed.replace('### ', '')}</h3>;
-                  }
-                  if (trimmed.startsWith('- **')) {
-                    return (
-                      <p key={i} className="ml-4" dangerouslySetInnerHTML={{
-                        __html: '• ' + trimmed.slice(2).replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>').replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" class="text-green-600 hover:underline">$1</a>')
-                      }} />
-                    );
-                  }
-                  if (trimmed.match(/^\d+\./)) {
-                    return (
-                      <p key={i} className="ml-4" dangerouslySetInnerHTML={{
-                        __html: trimmed.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>').replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" class="text-green-600 hover:underline">$1</a>')
-                      }} />
-                    );
-                  }
-                  return (
-                    <p key={i} dangerouslySetInnerHTML={{
-                      __html: trimmed.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>').replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" class="text-green-600 hover:underline">$1</a>')
-                    }} />
-                  );
-                })}
+              {/* Hero Image */}
+              <div className="relative w-full aspect-video rounded-xl overflow-hidden mb-8">
+                <Image
+                  src={imageUrl}
+                  alt={post.image.alt}
+                  fill
+                  className="object-cover"
+                  priority
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 66vw, 800px"
+                />
               </div>
+
+              {/* Post Content */}
+              <div
+                className="prose-content"
+                dangerouslySetInnerHTML={{ __html: post.content }}
+              />
             </div>
 
             {/* Sidebar */}

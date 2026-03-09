@@ -1,6 +1,7 @@
 import type { MetadataRoute } from 'next';
 import { SERVICES } from '@/lib/services';
 import { REGIONS } from '@/hub.config';
+import { BLOG_POSTS } from '@/data/blog-posts';
 
 const BASE_URL = 'https://pestcontrolcamdencounty.com';
 
@@ -90,15 +91,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  // Town pages
+  // Town pages — towns is string[], generate slug from town name
   const townPages: MetadataRoute.Sitemap = REGIONS.flatMap((region) =>
     region.towns.map((town) => ({
-      url: `${BASE_URL}/camden-county/${town.slug}`,
+      url: `${BASE_URL}/camden-county/${town.toLowerCase().replace(/\s+/g, '-')}`,
       lastModified: now,
       changeFrequency: 'monthly' as const,
       priority: 0.7,
     }))
   );
 
-  return [...staticPages, ...servicePages, ...countyPages, ...townPages];
+  // Blog pages
+  const blogPages: MetadataRoute.Sitemap = BLOG_POSTS.map((post) => ({
+    url: `${BASE_URL}/blog/${post.slug}`,
+    lastModified: now,
+    changeFrequency: 'monthly' as const,
+    priority: 0.6,
+  }));
+
+  return [...staticPages, ...servicePages, ...countyPages, ...townPages, ...blogPages];
 }

@@ -21,7 +21,7 @@ export const BRAND = {
   accentColor: '#DD6B20',
   yearFounded: 2011,
   region: 'Camden County, NJ',
-  webhookUrl: '',
+  webhookUrl: 'https://omcdxpqhnrhgnkxafgtn.supabase.co/functions/v1/webhook-camdencounty',
 } as const;
 
 // ============================================================
@@ -38,10 +38,13 @@ export const REVIEWS = [] as const;
 // REGIONS — Camden County (single region)
 // ============================================================
 const CAMDEN_TOWNS = [
-  'Cherry Hill', 'Voorhees', 'Marlton', 'Mount Laurel',
-  'Haddonfield', 'Collingswood', 'Pennsauken', 'Gloucester Township',
-  'Winslow Township', 'Lindenwold', 'Bellmawr', 'Audubon',
-  'Barrington', 'Somerdale', 'Runnemede', 'Clementon',
+  'Cherry Hill', 'Voorhees', 'Haddonfield', 'Collingswood', 'Pennsauken',
+  'Gloucester Township', 'Winslow Township', 'Lindenwold', 'Bellmawr', 'Audubon',
+  'Barrington', 'Somerdale', 'Runnemede', 'Clementon', 'Marlton', 'Mount Laurel',
+  'Berlin', 'Stratford', 'Pine Hill', 'Magnolia', 'Merchantville', 'Oaklyn',
+  'Haddon Heights', 'Haddon Township', 'Mount Ephraim', 'Lawnside', 'Laurel Springs',
+  'Gibbsboro', 'Waterford Township', 'Brooklawn', 'Gloucester City',
+  'Camden', 'Hi-Nella', 'Chesilhurst', 'Atco',
 ];
 
 export const REGIONS: RegionConfig[] = [
@@ -61,7 +64,7 @@ export const REGIONS: RegionConfig[] = [
     primaryPests: ['Termites', 'Rodents', 'Ants', 'Cockroaches'],
     pestContext: "Camden County's mix of suburban neighborhoods, older homes, wooded lots, and proximity to the Delaware River creates ideal conditions for termites, rodents, ants, and cockroaches year-round.",
     metaTitle: 'Camden County Exterminators',
-    metaDescription: 'Trusted pest control for Camden County NJ. Serving Cherry Hill, Voorhees, Haddonfield & all 16 communities. Licensed, insured, eco-friendly treatments.',
+    metaDescription: 'Trusted pest control for Camden County NJ. Serving Cherry Hill, Voorhees, Haddonfield & all 35 communities. Licensed, insured, eco-friendly treatments.',
     towns: CAMDEN_TOWNS,
     townCount: CAMDEN_TOWNS.length,
   },
