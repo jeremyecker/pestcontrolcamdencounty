@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { getRegion } from '@/lib/regions';
 import { BRAND } from '@/hub.config';
 import CTABanner from '@/components/sections/CTABanner';
+import { TOWN_OPENERS } from '@/data/town-openers';
 
 export async function generateMetadata({ params }: { params: Promise<{ region: string; town: string }> }): Promise<Metadata> {
   const { region: regionSlug, town: townSlug } = await params;
@@ -113,7 +114,7 @@ export default async function TownPage({ params }: { params: Promise<{ region: s
           Pest Control in {townName}, NJ
         </h1>
         <p className="text-xl text-gray-600 mb-6">
-          {region.pestContext} Our licensed Camden County exterminators serve {townName} with same-day availability, transparent pricing, and family-friendly treatments.
+          {TOWN_OPENERS[townSlug] || `${region.pestContext} Our licensed Camden County exterminators serve ${townName} with same-day availability, transparent pricing, and family-friendly treatments.`}
         </p>
 
         {/* Trust stats */}
