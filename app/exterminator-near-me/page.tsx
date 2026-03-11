@@ -12,10 +12,29 @@ export const metadata: Metadata = {
     'exterminator near me, exterminator Camden County NJ, licensed exterminator Cherry Hill, pest exterminator Voorhees, NJ exterminator',
 };
 
+const localBusinessSchema = {
+  '@context': 'https://schema.org',
+  '@type': ['LocalBusiness', 'PestControlService'],
+  name: 'Camden County Pest Control',
+  url: 'https://pestcontrolcamdencounty.com',
+  telephone: '+18566000812',
+  image: 'https://pestcontrolcamdencounty.com/images/og-default.jpg',
+  address: {
+    '@type': 'PostalAddress',
+    addressRegion: 'NJ',
+    addressCountry: 'US',
+  },
+};
+
 export default function ExterminatorNearMe() {
   return (
     <div className="min-h-screen">
       <TrustBar />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+      />
+
 
       {/* Breadcrumbs */}
       <nav className="max-w-6xl mx-auto px-4 py-4 text-sm text-gray-500">
