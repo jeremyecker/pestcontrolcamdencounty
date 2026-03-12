@@ -26,6 +26,7 @@ export const metadata: Metadata = {
     type: 'website',
     siteName: SITE_NAME,
     locale: 'en_US',
+    images: ['/og-image.png'],
   },
 };
 

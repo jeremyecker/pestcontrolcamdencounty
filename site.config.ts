@@ -12,7 +12,7 @@ export const SITE_NAME = 'Camden County Pest Control';
 export const SITE_DOMAIN = 'pestcontrolcamdencounty.com';
 export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://pestcontrolcamdencounty.com';
 export const SITE_TAGLINE = 'Trusted Pest Control for Camden County, New Jersey';
-export const SITE_DESCRIPTION = 'Licensed pest control serving all of Camden County, NJ. Expert exterminators in Cherry Hill, Voorhees, Haddonfield, Collingswood & beyond. Eco-friendly treatments, same-day service, free estimates.';
+export const SITE_DESCRIPTION = 'Licensed pest control for all of Camden County, NJ. Cherry Hill, Voorhees, Haddonfield & beyond. Eco-friendly, same-day service.';
 export const EMAIL = 'info@pestcontrolcamdencounty.com';
 
 export const SITE = {
@@ -99,7 +99,7 @@ export const LEAD_ROUTING = {
 
 export const SEO = {
   titleTemplate: (pageTitle: string) => `${pageTitle} | Camden County Pest Control`,
-  defaultTitle: 'Camden County Pest Control | Licensed Exterminators in Camden County, NJ',
+  defaultTitle: 'Camden County Pest Control | NJ Exterminators',
   defaultDescription: SITE_DESCRIPTION,
   ogImage: '/images/og-default.jpg',
 } as const;
@@ -124,7 +124,7 @@ export const FOOTER_LINKS = {
   company: [
     { label: 'About Us', href: '/about' },
     { label: 'Contact', href: '/contact' },
-  { label: 'Blog', href: '/blog' },
+    { label: 'Blog', href: '/blog' },
   ],
   legal: [
     { label: 'Privacy Policy', href: '/privacy' },
