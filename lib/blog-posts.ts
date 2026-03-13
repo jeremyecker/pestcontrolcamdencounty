@@ -10,6 +10,8 @@ export const blogPosts: BlogPost[] = [
     date: '2024-11-15',
     author: 'Pest Control Camden County Team',
     tags: ["termites", "termite prevention", "pest control", "Camden County", "local-pest-control"],
+    image: 'https://images.pexels.com/photos/7668105/pexels-photo-7668105.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageAlt: 'termites signs prevention',
     content: `
 ## How to Spot Termites Before They Destroy Your Camden County Home
 
@@ -81,6 +83,8 @@ Whether you're in a 1920s colonial in [Collingswood](/camden-county/collingswood
     date: '2024-11-15',
     author: 'Pest Control Camden County Team',
     tags: ["spring pests", "pest prevention", "seasonal tips", "Camden County", "local-pest-control"],
+    image: 'https://images.pexels.com/photos/1029599/pexels-photo-1029599.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageAlt: 'spring pest prevention tips',
     content: `
 ## Your Camden County Spring Pest Prevention Checklist
 
@@ -161,6 +165,8 @@ Whether you live in a townhome in Lindenwold or a single-family home on a wooded
     date: '2024-11-15',
     author: 'Pest Control Camden County Team',
     tags: ["rodent control", "mice", "rats", "pest control", "Camden County", "local-pest-control"],
+    image: 'https://images.pexels.com/photos/4597738/pexels-photo-4597738.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageAlt: 'rodent control guide',
     content: `
 ## Rodents in Camden County: Why They're Here and How to Get Rid of Them
 
@@ -255,6 +261,8 @@ If you're finding signs of rodent activity in your home, don't wait for the prob
     date: '2024-11-15',
     author: 'Pest Control Camden County Team',
     tags: ["bed bugs", "pest control", "infestation", "Camden County", "local-pest-control"],
+    image: 'https://images.pexels.com/photos/4239091/pexels-photo-4239091.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageAlt: 'bed bug infestation',
     content: `
 ## Bed Bugs in Camden County: They Don't Discriminate
 
@@ -361,6 +369,8 @@ Bed bugs are deeply stressful, but they're also completely treatable. If you sus
     date: '2024-11-15',
     author: 'Pest Control Camden County Team',
     tags: ["eco-friendly", "green pest control", "IPM", "sustainable", "Camden County", "local-pest-control"],
+    image: 'https://images.pexels.com/photos/4021768/pexels-photo-4021768.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageAlt: 'eco friendly pest control',
     content: `
 ## Going Green: Eco-Friendly Pest Control for Camden County Homes
 
@@ -453,6 +463,8 @@ Living in Camden County means being part of a community that values its neighbor
     date: '2024-11-15',
     author: 'Pest Control Camden County Team',
     tags: ["hornets", "wasps", "stinging insects", "pest removal", "Camden County", "local-pest-control"],
+    image: 'https://images.pexels.com/photos/635002/pexels-photo-635002.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageAlt: 'hornets infestation',
     content: `
 ## Stinging Insects in Camden County: What's Buzzing Around Your Home?
 
@@ -544,6 +556,8 @@ Whether it's a small paper wasp nest under your [Collingswood](/camden-county/co
     date: '2024-11-15',
     author: 'Pest Control Camden County Team',
     tags: ["stink bugs", "seasonal pests", "home invasion", "Camden County", "local-pest-control"],
+    image: 'https://images.pexels.com/photos/4021768/pexels-photo-4021768.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageAlt: 'stink bugs invasion',
     content: `
 ## The Annual Stink Bug Siege: A Camden County Homeowner's Guide
 
@@ -635,6 +649,8 @@ Don't wait until the stink bugs are already inside. Prevention in late summer an
     date: '2024-11-15',
     author: 'Pest Control Camden County Team',
     tags: ["commercial pest control", "business", "restaurant pest control", "Camden County", "local-pest-control"],
+    image: 'https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageAlt: 'bugs be gone commercial pest control',
     content: `
 ## Commercial Pest Control: Keeping Camden County Businesses Pest-Free
 
@@ -737,6 +753,8 @@ Your business is part of what makes Camden County a great place to live and work
     date: '2024-11-15',
     author: 'Pest Control Camden County Team',
     tags: ["pest behavior", "pest science", "IPM", "pest prevention", "Camden County", "local-pest-control"],
+    image: 'https://images.pexels.com/photos/4439425/pexels-photo-4439425.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageAlt: 'pest behavior',
     content: `
 ## Think Like a Pest: How Understanding Behavior Leads to Better Control
 
@@ -813,6 +831,8 @@ When you hire a **licensed exterminator** who understands pest behavior, you get
     date: '2024-11-15',
     author: 'Pest Control Camden County Team',
     tags: ["termites", "termite damage", "termite treatment", "Camden County", "local-pest-control"],
+    image: 'https://images.pexels.com/photos/7668105/pexels-photo-7668105.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageAlt: 'termites invasions',
     content: `
 ## When Termites Invade: The Hidden Threat Beneath Camden County Homes
 
@@ -912,6 +932,8 @@ A trained inspector will check areas you can't easily access: crawl spaces, behi
     date: '2024-11-15',
     author: 'Pest Control Camden County Team',
     tags: ["pest control", "home damage", "health risks", "pest prevention", "Camden County", "local-pest-control"],
+    image: 'https://images.pexels.com/photos/4021768/pexels-photo-4021768.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageAlt: 'ignoring pest problems',
     content: `
 ## What Happens When You Ignore a Pest Problem in Camden County
 
@@ -1021,6 +1043,8 @@ Our **pest inspection** will tell you exactly what you're dealing with, how seri
     date: '2024-11-15',
     author: 'Pest Control Camden County Team',
     tags: ["fruit-flies", "kitchen-pests", "pest-control", "camden-county", "pest-elimination"],
+    image: 'https://images.pexels.com/photos/4021768/pexels-photo-4021768.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageAlt: 'fruit flies',
     content: `
 ## Why Camden County Kitchens Are a Hotspot for Fruit Flies
 
@@ -1122,6 +1146,8 @@ Give Pest Control Camden County a call — we'll get your kitchen back to normal
     date: '2024-11-15',
     author: 'Pest Control Camden County Team',
     tags: ["cockroaches", "roach-control", "pest-control", "camden-county", "infestation"],
+    image: 'https://images.pexels.com/photos/4439425/pexels-photo-4439425.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageAlt: 'roach infestations',
     content: `
 ## The Cockroach Problem Hiding in Camden County Homes
 
@@ -1214,6 +1240,8 @@ Contact Pest Control Camden County today for a comprehensive roach inspection �
     date: '2024-11-15',
     author: 'Pest Control Camden County Team',
     tags: ["super-rats", "rodent-control", "pest-control", "camden-county", "rodenticide-resistance"],
+    image: 'https://images.pexels.com/photos/4597738/pexels-photo-4597738.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageAlt: 'super rats',
     content: `
 ## What Are "Super Rats" — and Are They in Camden County?
 
@@ -1307,6 +1335,8 @@ Reach out to Pest Control Camden County today for a rodent assessment. We'll det
     date: '2024-11-15',
     author: 'Pest Control Camden County Team',
     tags: ["bed-bugs", "pest-control", "treatment-guide", "camden-county", "bed-bug-detection"],
+    image: 'https://images.pexels.com/photos/4239091/pexels-photo-4239091.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageAlt: 'bed bug infestation guide',
     content: `
 ## Bed Bugs in Camden County: A Comprehensive Homeowner's Guide
 
@@ -1431,6 +1461,8 @@ We serve every community in Camden County with discreet, professional bed bug tr
     date: '2024-11-15',
     author: 'Pest Control Camden County Team',
     tags: ["pest-control-myths", "pest-education", "camden-county", "pest-facts", "homeowner-tips"],
+    image: 'https://images.pexels.com/photos/4021768/pexels-photo-4021768.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageAlt: 'pest control myths',
     content: `
 ## Myths vs. Facts: What Camden County Homeowners Get Wrong About Pest Control
 
@@ -1523,6 +1555,8 @@ Get in touch with Pest Control Camden County today — the truth is on your side
     date: '2024-11-15',
     author: 'Pest Control Camden County Team',
     tags: ["diy-pest-control", "professional-pest-control", "camden-county", "pest-treatment", "exterminator"],
+    image: 'https://images.pexels.com/photos/4239031/pexels-photo-4239031.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageAlt: 'diy pest control',
     content: `
 ## The DIY Trap: Why Home Pest Control Products Fall Short in Camden County
 
@@ -1636,6 +1670,8 @@ Contact Pest Control Camden County for a free evaluation. Your home deserves bet
     date: '2024-11-15',
     author: 'Pest Control Camden County Team',
     tags: ["ticks", "lyme-disease", "tick-prevention", "camden-county", "outdoor-safety"],
+    image: 'https://images.pexels.com/photos/5946083/pexels-photo-5946083.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageAlt: 'ticks lyme disease',
     content: `
 ## The Growing Tick Threat Across Camden County
 
@@ -1762,6 +1798,8 @@ Contact Pest Control Camden County to discuss a tick treatment plan for your yar
     date: '2024-11-15',
     author: 'Pest Control Camden County Team',
     tags: ["winter-pests", "seasonal-pest-control", "camden-county", "rodents", "overwintering-pests"],
+    image: 'https://images.pexels.com/photos/1029599/pexels-photo-1029599.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageAlt: 'winter pests',
     content: `
 ## Cold Weather Doesn't Mean Pest-Free: Winter Pest Pressure in Camden County
 
@@ -1886,6 +1924,8 @@ Don't wait for spring to deal with a winter problem. Contact Pest Control Camden
     date: '2024-11-15',
     author: 'Pest Control Camden County Team',
     tags: ["destructive-pests", "property-damage", "pest-control", "camden-county", "home-protection"],
+    image: 'https://images.pexels.com/photos/4021768/pexels-photo-4021768.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageAlt: '5 destructive pests',
     content: `
 ## The 5 Pests That Cost Camden County Homeowners the Most
 
@@ -2008,6 +2048,8 @@ Don't wait until the damage is done. Call Pest Control Camden County for a compr
     date: '2024-11-15',
     author: 'Pest Control Camden County Team',
     tags: ["lyme-disease", "tick-prevention", "camden-county", "outdoor-health", "south-jersey"],
+    image: 'https://images.pexels.com/photos/5946083/pexels-photo-5946083.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageAlt: 'lyme disease ticks prevention',
     content: `
 ## Lyme Disease Prevention: A Camden County Family's Complete Playbook
 
@@ -2121,6 +2163,8 @@ Protect your family this season. Contact Pest Control Camden County to schedule 
     date: '2024-11-15',
     author: 'Pest Control Camden County Team',
     tags: ["wildlife-removal", "raccoons", "squirrels", "camden-county", "animal-control"],
+    image: 'https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageAlt: 'raccoons squirrels home invasion',
     content: `
 ## When Wildlife Moves In: Raccoon and Squirrel Invasions Across Camden County
 
