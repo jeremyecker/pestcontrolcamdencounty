@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: { params: Promise<{ region: s
   if (!region) return {};
   const townName = townSlug.replace(/-/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase());
   return {
-    title: `Pest Control in ${townName}, NJ | ${BRAND.name}`,
+    title: `Pest Control in ${townName}, NJ`,
     description: `Licensed pest control in ${townName}, NJ. Termites, rodents, ants, cockroaches & more. Same-day service available. Call ${BRAND.phoneFormatted}.`,
     openGraph: {
       title: `Pest Control in ${townName}, NJ`,
