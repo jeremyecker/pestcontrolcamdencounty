@@ -2290,6 +2290,209 @@ Pest Control Camden County provides humane, effective, and legally compliant wil
 Call Pest Control Camden County when wildlife crosses the line from neighbor to nuisance. We'll take care of the rest. 🦝
     `.trim(),
   },
+  {
+    slug: 'pest-control-cherry-hill-nj',
+    title: 'Pest Control in Cherry Hill, NJ: What Every Homeowner Needs to Know',
+    description: 'Cherry Hill homes face ant, termite, rodent, and mosquito pressure year-round. Camden County Pest Control explains the top threats and what professional treatment looks like in Cherry Hill, NJ.',
+    date: '2026-03-16',
+    author: 'Camden County Pest Control Team',
+    tags: ["pest-control", "cherry-hill", "camden-county", "nj-pest-control", "local-pest-control"],
+    image: 'https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageAlt: 'suburban home cherry hill nj pest control',
+    content: `
+## Cherry Hill: South Jersey's Pest Pressure Point
+
+Cherry Hill is Camden County's largest municipality — over 70,000 residents spread across 24 square miles of suburban development ranging from 1950s split-levels to brand-new construction along Route 70. That mix of housing ages, landscaping density, and proximity to the Pine Barrens creates a pest environment that's more complex than most homeowners realize.
+
+At Camden County Pest Control, Cherry Hill is our busiest service area. The calls cover everything from carpenter ant damage in older homes near Haddonfield Road to mosquito infestations in the newer developments backing up to retention basins. If you're searching for **pest control near me** in Cherry Hill, here's a breakdown of what we're treating and why.
+
+### The Top 5 Pest Threats in Cherry Hill
+
+**1. Termites**
+Cherry Hill sits on sandy loam soil — the same soil composition that runs through much of the Pine Barrens region. This soil type allows eastern subterranean termites to tunnel freely and reach foundations with minimal resistance. Homes built before 1990 that weren't pre-treated during construction are at highest risk, but we've found active colonies in homes less than 15 years old when conditions are right.
+
+The neighborhoods along Kings Highway and Haddonfield Road have some of the oldest housing stock in Cherry Hill. Pre-war and mid-century homes with stone or block foundations and original wood sill plates are particularly vulnerable. Annual termite inspections are the single best investment homeowners in these neighborhoods can make.
+
+**2. Carpenter Ants**
+Cherry Hill's mature tree canopy — one of the township's most attractive features — is also prime carpenter ant habitat. Parent colonies establish in dead trees, old stumps, and landscape timbers throughout residential lots. Satellite colonies then move into nearby homes, targeting moisture-damaged wood in window frames, bathroom wall cavities, and basement sill plates.
+
+We see the heaviest carpenter ant activity in the wooded sections near Barclay Farm and the neighborhoods bordering Cooper River Park.
+
+**3. Rodents**
+Mice and rats are a year-round challenge in Cherry Hill. The township's commercial corridors — Route 70, Route 38, and Haddonfield Road — generate food waste that sustains rodent populations. Those populations then spread into adjacent residential areas. Norway rats burrow along foundations and enter through gaps around utility penetrations, while house mice squeeze through openings as small as a dime.
+
+In fall, as temperatures drop, rodent calls from Cherry Hill increase dramatically. The single most effective intervention is **exclusion** — sealing every entry point before rodents get inside.
+
+**4. Mosquitoes**
+Cherry Hill's stormwater management infrastructure — retention basins, drainage swales, and detention ponds — creates standing water that breeds mosquitoes throughout the summer months. Newer developments built with stormwater basins often have the worst mosquito pressure because those basins hold water for days after rain events.
+
+The township conducts aerial surveillance for mosquito-borne illness, but yard-level protection requires property-specific treatment. Barrier sprays applied to vegetation every 3-4 weeks from May through September are the most effective approach.
+
+**5. Stink Bugs**
+The brown marmorated stink bug is an annual fall nuisance throughout Cherry Hill. These shield-shaped invaders aggregate on sun-warmed exterior walls in September and October, then find their way inside through gaps in siding, window frames, and utility penetrations. While they don't bite or cause structural damage, the sheer numbers — and the odor when crushed — make them one of the most complained-about pests in South Jersey.
+
+### What Professional Pest Control Looks Like in Cherry Hill
+
+When Camden County Pest Control serves a Cherry Hill home, our approach follows Integrated Pest Management principles:
+
+**Inspection first.** We identify the pest species, locate entry points, assess structural conditions, and map activity patterns. This determines the treatment strategy — not a one-size-fits-all spray.
+
+**Targeted treatment.** Gel baits for cockroaches and ants, residual applications in harborage zones, exclusion materials for rodent entry points, and liquid barriers for termites. Every treatment is specific to the pest, the location, and the conditions we find.
+
+**Follow-up and monitoring.** Most pest problems require at least one follow-up visit to verify elimination and adjust strategy if needed. We schedule these proactively rather than waiting for callbacks.
+
+### Cherry Hill Neighborhoods We Serve
+
+From [Barclay Farm](/camden-county/cherry-hill) to [Kingston Estates](/camden-county/cherry-hill), from the commercial corridors along [Route 70](/camden-county/cherry-hill) to the quiet residential streets near [Croft Farm](/camden-county/cherry-hill), Camden County Pest Control knows Cherry Hill. We know which neighborhoods have heavier termite pressure, where rodent activity concentrates, and which developments have the worst mosquito issues.
+
+Call us at **(856) 600-0812** for a free estimate. We offer **same-day and next-day service** for Cherry Hill residents dealing with active infestations.
+    `.trim(),
+  },
+  {
+    slug: 'termite-treatment-camden-county-nj',
+    title: 'Termite Treatment in Camden County: Protecting South Jersey Homes from Subterranean Damage',
+    description: 'Camden County sits in a high termite pressure zone. Learn about treatment options — liquid barriers, bait systems, and combination approaches — from Camden County Pest Control.',
+    date: '2026-03-16',
+    author: 'Camden County Pest Control Team',
+    tags: ["termites", "termite-treatment", "camden-county", "south-jersey", "structural-damage"],
+    image: 'https://images.pexels.com/photos/7668105/pexels-photo-7668105.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageAlt: 'termite damage wood treatment camden county nj',
+    content: `
+## Why Camden County Has Serious Termite Pressure
+
+South Jersey sits in what the pest management industry calls a "moderate to heavy" termite infestation probability zone — and Camden County is squarely in the middle of it. The eastern subterranean termite (*Reticulitermes flavipes*) thrives here for three interconnected reasons: the sandy loam soil that runs through the county makes tunneling easy, the Delaware River watershed provides abundant ground moisture, and the region's housing stock includes tens of thousands of homes built between 1940 and 1980 that were never pre-treated for termites.
+
+At Camden County Pest Control, termite work represents a significant portion of our service calls. We treat homes across [Cherry Hill](/camden-county/cherry-hill), [Voorhees](/camden-county/voorhees), [Haddonfield](/camden-county/haddonfield), [Collingswood](/camden-county/collingswood), and every community in between. Here's what you need to know about termite treatment in our area.
+
+### How Termite Damage Develops
+
+A mature subterranean termite colony contains 60,000 to over one million workers — blind, soft-bodied insects that travel through underground tunnel networks extending 200+ feet in multiple directions. Workers consume cellulose (the structural component of wood) 24 hours a day, year-round. In South Jersey's mild climate, colony activity doesn't stop in winter — it simply shifts deeper underground where temperatures remain stable.
+
+**The timeline of damage:**
+- **Year 1-2:** Workers discover your foundation through random underground foraging. They build mud tubes up the foundation wall to reach wood. Early galleries begin in sill plates and band joists. No visible damage.
+- **Year 2-4:** Colony commits resources to the food source. Foraging network expands through floor joists, wall studs, and subfloor material. Subtle signs may appear — a door that sticks slightly, a floor with minor bounce.
+- **Year 4+:** Structural compromise becomes significant. Hollow-sounding wood, visible mud tubes, possibly swarmer activity. Repair costs begin to compound.
+
+In neighborhoods like [Audubon](/camden-county/audubon) and [Barrington](/camden-county/barrington), where many homes have original 1950s-era framing, we commonly find termite damage that has been developing for five or more years before the homeowner notices.
+
+### Treatment Option 1: Liquid Barrier
+
+Liquid termiticide treatment is the most widely used approach in South Jersey. The process involves:
+
+1. **Trenching** around the exterior foundation perimeter — digging a shallow trench and applying termiticide into the soil
+2. **Rod injection** through concrete slabs (garage floors, basement slabs, sidewalks) to treat the soil beneath
+3. **Interior treatment** along foundation walls where termite access is confirmed or suspected
+
+Modern non-repellent termiticides (like fipronil or imidacloprid) are undetectable to termites. Workers pass through the treated zone, contact the product, and transfer it to nestmates through grooming and food sharing. This creates a cascade effect that eliminates the colony over 60-90 days.
+
+**Best for:** Confirmed active infestations, homes with accessible perimeters, properties where immediate protection is needed.
+
+### Treatment Option 2: Bait Systems
+
+Bait station systems use in-ground monitoring stations placed every 10-15 feet around the foundation. Stations contain a cellulose matrix that termite workers discover during their natural foraging. Once activity is detected, bait containing a chitin synthesis inhibitor is introduced — workers consume it and share it colony-wide, disrupting molting and eventually collapsing the colony.
+
+**Best for:** Monitoring-focused approaches, homes where trenching is difficult (finished landscaping, tight access), environmentally sensitive properties, and ongoing protection after an initial liquid treatment.
+
+### Treatment Option 3: Combination Approach
+
+Many Camden County homeowners — particularly those with confirmed heavy activity — benefit from combining liquid barrier treatment with bait station monitoring. The liquid barrier provides immediate protection and kills existing foragers, while bait stations provide ongoing colony monitoring and elimination.
+
+This approach is our most common recommendation for homes in [Winslow Township](/camden-county/winslow-township) and [Gloucester Township](/camden-county/gloucester-township), where the heavily wooded lots support large termite populations.
+
+### What About Pre-Construction Treatment?
+
+If you're building a new home in Camden County, pre-construction termite treatment is one of the smartest investments you can make. Treating the soil beneath the foundation slab before it's poured creates a barrier that lasts for years and costs a fraction of post-construction retrofit treatment. New Jersey doesn't require pre-treatment by law, but given our termite pressure, it should be considered standard.
+
+### Annual Inspections: Your Best Defense
+
+Even after treatment, annual termite inspections are essential. A trained inspector checks:
+- Foundation walls and sill plates for new mud tubes
+- Crawl spaces and basement areas for signs of activity
+- Exterior perimeter for conducive conditions
+- Bait stations for evidence of termite feeding
+
+At Camden County Pest Control, we recommend annual inspections for every home in the county — treated or not. Termite pressure in South Jersey is not a question of *if* but *when*, and catching new activity early saves thousands in repair costs.
+
+### Protect Your Camden County Home
+
+Whether you're in a 1955 ranch in [Pennsauken](/camden-county/pennsauken) or a new build in [Marlton](/camden-county/marlton), termite protection is not optional in Camden County. The soil, climate, and housing conditions all favor subterranean termite activity, and the damage compounds every season you wait.
+
+Call Camden County Pest Control at **(856) 600-0812** for a termite inspection. We'll tell you exactly what we find, explain your treatment options, and give you honest pricing with no surprises.
+    `.trim(),
+  },
+  {
+    slug: 'mosquito-season-south-jersey-camden',
+    title: 'Mosquito Season in South Jersey: Protecting Your Camden County Yard',
+    description: 'Camden County mosquito season runs May through October. Camden County Pest Control explains yard treatment options, breeding site elimination, and when to call a professional.',
+    date: '2026-03-16',
+    author: 'Camden County Pest Control Team',
+    tags: ["mosquitoes", "mosquito-control", "camden-county", "south-jersey", "summer-pests", "yard-treatment"],
+    image: 'https://images.pexels.com/photos/4021768/pexels-photo-4021768.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageAlt: 'mosquito control south jersey camden county yard',
+    content: `
+## South Jersey Mosquito Season: It's Longer Than You Think
+
+If you live in Camden County, mosquito season starts in mid-May and doesn't end until the first hard frost — typically late October or early November. That's nearly six months of potential exposure to mosquito-borne diseases and six months of backyard frustration for families who just want to enjoy their outdoor space.
+
+South Jersey's flat terrain, abundant waterways, and warm Atlantic-influenced climate create ideal mosquito breeding conditions. The Delaware River to the west, numerous tributaries, and the stormwater infrastructure of suburban development provide breeding habitat throughout the county. Camden County Pest Control begins seasonal mosquito treatments in May and continues through September for our residential clients across [Cherry Hill](/camden-county/cherry-hill), [Voorhees](/camden-county/voorhees), [Haddonfield](/camden-county/haddonfield), and beyond.
+
+### Why Camden County Has Heavy Mosquito Pressure
+
+**Stormwater infrastructure.** Retention basins, detention ponds, and drainage swales built into every major development in Camden County hold water after rain events — exactly the standing water mosquitoes need to breed. A single retention basin can produce thousands of mosquitoes per week during peak season.
+
+**Agricultural heritage.** While much of Camden County is now suburban, former agricultural land with drainage ditches and low-lying areas retains water patterns that support mosquito populations.
+
+**Proximity to waterways.** Communities near Cooper River, Pennsauken Creek, and the Delaware River watershed experience higher mosquito pressure due to tidal marshes and wetland areas.
+
+**Residential breeding sites.** In suburban yards across [Mount Laurel](/camden-county/mount-laurel), [Marlton](/camden-county/marlton), and [Clementon](/camden-county/clementon), the most productive mosquito breeding sites are man-made: clogged gutters, birdbaths, plant saucers, stored tires, and pool covers.
+
+### The Health Threat Is Real
+
+Camden County participates in the New Jersey state mosquito surveillance program. Mosquito pools testing positive for **West Nile Virus** are found in South Jersey every summer. **Eastern Equine Encephalitis (EEE)** — a rare but serious mosquito-borne illness — has been detected in New Jersey mosquito populations in recent years.
+
+While the statistical risk of contracting these diseases is low, the consequences can be severe. Reducing mosquito exposure through property management and professional treatment is common-sense public health practice, especially for families with young children and elderly relatives.
+
+### Yard-Level Mosquito Control: What Actually Works
+
+**Step 1: Eliminate breeding sites.** This is the most impactful thing any homeowner can do. Walk your property weekly and dump anything holding water:
+- Clean gutters — the single biggest residential mosquito producer
+- Refresh birdbaths every 3-4 days
+- Empty plant saucers after rain
+- Store containers upside down
+- Repair leaking outdoor faucets
+- Fix drainage issues that create standing water near the foundation
+
+**Step 2: Professional barrier treatment.** A residual insecticide applied to vegetation, fence lines, and shaded resting areas around your property kills adult mosquitoes on contact and continues working for 3-4 weeks. This is the most effective yard-level control available.
+
+Our treatment protocol:
+- Fine mist application targeting the undersides of leaves and shaded resting areas
+- Focus on property perimeter, deck and patio borders, and heavy vegetation
+- Retreatment every 21-28 days during peak season
+- Products selected for effectiveness against local mosquito species
+
+**Step 3: Larvicide for permanent water features.** Decorative ponds, rain barrels, and landscape water features can be treated with targeted larvicides that prevent mosquito larvae from developing. These products are specific to mosquito biology and safe for fish, plants, and wildlife.
+
+### Special Event Treatments
+
+Planning an outdoor wedding, graduation party, or summer gathering in Camden County? A targeted mosquito treatment 24-48 hours before your event can dramatically reduce mosquito activity during the celebration. This is one of our most popular services from June through September — nobody wants to serve mosquitoes at their backyard barbecue.
+
+### Season-Long Protection Plans
+
+Camden County Pest Control offers seasonal mosquito programs with scheduled visits every 3-4 weeks from May through September. Each visit includes:
+- Full yard inspection for new breeding sites
+- Barrier treatment application
+- Larvicide treatment where needed
+- Documentation and scheduling for the next visit
+
+Season-long plans provide the most consistent protection because they prevent population buildup rather than reacting to it after mosquitoes are already established.
+
+### Take Back Your Yard
+
+Your outdoor space should be for your family, not for mosquitoes. Whether you're in [Lindenwold](/camden-county/lindenwold), [Bellmawr](/camden-county/bellmawr), or [Runnemede](/camden-county/runnemede), Camden County Pest Control provides mosquito treatment that lets you enjoy South Jersey summers the way they should be.
+
+Call us at **(856) 600-0812** to schedule your first treatment or ask about our seasonal plans. Early-season starts in May give you the best results all summer long.
+    `.trim(),
+  },
 ];
 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {
