@@ -135,5 +135,28 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  return [...staticPages, ...servicePages, ...countyPages, ...townPages, ...blogPages, ...commercialPages];
+  // Service×Town pages
+  const serviceSlugsCamden = [
+    'bed-bug-exterminator', 'rodent-exterminator', 'termite-control',
+    'raccoon-removal', 'wildlife-removal', 'cockroach-exterminator',
+    'squirrel-removal', 'ant-exterminator', 'cricket-exterminator', 'bee-removal',
+  ];
+
+  const townSlugsCamden = [
+    'cherry-hill', 'voorhees', 'marlton', 'mount-laurel', 'haddonfield',
+    'collingswood', 'pennsauken', 'gloucester-township', 'winslow-township',
+    'lindenwold', 'bellmawr', 'audubon', 'barrington', 'somerdale',
+    'runnemede', 'clementon',
+  ];
+
+  const serviceTownPages: MetadataRoute.Sitemap = serviceSlugsCamden.flatMap(service =>
+    townSlugsCamden.map(town => ({
+      url: `${BASE_URL}/camden-county/${service}/${town}`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    }))
+  );
+
+  return [...staticPages, ...servicePages, ...countyPages, ...townPages, ...blogPages, ...commercialPages, ...serviceTownPages];
 }
