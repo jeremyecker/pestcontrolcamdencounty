@@ -78,6 +78,19 @@ export const NETWORK_SITES: NetworkSite[] = [];
 // ============================================================
 // TYPES
 // ============================================================
+export const SERVICE_TOWN_ROUTES = [
+  { name: 'Ant Exterminator', slug: 'ant-exterminator', icon: '🐜' },
+  { name: 'Termite Exterminator', slug: 'termite-exterminator', icon: '🪵' },
+  { name: 'Bed Bug Exterminator', slug: 'bed-bug-exterminator', icon: '🛏️' },
+  { name: 'Rodent Exterminator', slug: 'rodent-exterminator', icon: '🐀' },
+  { name: 'Cockroach Exterminator', slug: 'cockroach-exterminator', icon: '🪳' },
+  { name: 'Mosquito Control', slug: 'mosquito-control', icon: '🦟' },
+  { name: 'Tick Control', slug: 'tick-control', icon: '🕷️' },
+  { name: 'Wildlife Removal', slug: 'wildlife-removal', icon: '🦝' },
+  { name: 'Bee Removal', slug: 'bee-removal', icon: '🐝' },
+  { name: 'Cricket Exterminator', slug: 'cricket-exterminator', icon: '🦗' },
+] as const;
+
 export interface GMBEntry {
   id: string;
   name: string;
