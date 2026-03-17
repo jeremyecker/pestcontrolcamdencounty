@@ -8,13 +8,11 @@ import { CITY_LAYER7 } from '@/data/layer7-data';
 
 const SERVICE_NAME = 'Termite Control';
 const SERVICE_SLUG = 'termite-control';
-const SERVICE_DESC = 'Liquid treatments, Sentricon bait systems, pre-treat inspections';
+const SERVICE_DESC = 'Liquid barrier, bait systems & annual inspections';
 
 const TOWNS = [
   { name: 'Cherry Hill', slug: 'cherry-hill' },
   { name: 'Voorhees', slug: 'voorhees' },
-  { name: 'Marlton', slug: 'marlton' },
-  { name: 'Mount Laurel', slug: 'mount-laurel' },
   { name: 'Haddonfield', slug: 'haddonfield' },
   { name: 'Collingswood', slug: 'collingswood' },
   { name: 'Pennsauken', slug: 'pennsauken' },
@@ -27,6 +25,27 @@ const TOWNS = [
   { name: 'Somerdale', slug: 'somerdale' },
   { name: 'Runnemede', slug: 'runnemede' },
   { name: 'Clementon', slug: 'clementon' },
+  { name: 'Marlton', slug: 'marlton' },
+  { name: 'Mount Laurel', slug: 'mount-laurel' },
+  { name: 'Berlin', slug: 'berlin' },
+  { name: 'Stratford', slug: 'stratford' },
+  { name: 'Pine Hill', slug: 'pine-hill' },
+  { name: 'Magnolia', slug: 'magnolia' },
+  { name: 'Merchantville', slug: 'merchantville' },
+  { name: 'Oaklyn', slug: 'oaklyn' },
+  { name: 'Haddon Heights', slug: 'haddon-heights' },
+  { name: 'Haddon Township', slug: 'haddon-township' },
+  { name: 'Mount Ephraim', slug: 'mount-ephraim' },
+  { name: 'Lawnside', slug: 'lawnside' },
+  { name: 'Laurel Springs', slug: 'laurel-springs' },
+  { name: 'Gibbsboro', slug: 'gibbsboro' },
+  { name: 'Waterford Township', slug: 'waterford-township' },
+  { name: 'Brooklawn', slug: 'brooklawn' },
+  { name: 'Gloucester City', slug: 'gloucester-city' },
+  { name: 'Camden', slug: 'camden' },
+  { name: 'Hi-Nella', slug: 'hi-nella' },
+  { name: 'Chesilhurst', slug: 'chesilhurst' },
+  { name: 'Atco', slug: 'atco' }
 ];
 
 export async function generateMetadata({ params }: { params: Promise<{ region: string; town: string }> }): Promise<Metadata> {
@@ -110,7 +129,6 @@ export default async function ServiceTownPage({ params }: { params: Promise<{ re
       />
 
       <div className="max-w-4xl mx-auto px-4 py-16">
-        {/* Breadcrumb */}
         <nav className="text-sm text-gray-500 mb-8">
           <Link href="/camden-county/" className="hover:text-brand-primary">Camden County</Link>
           {' → '}
@@ -119,7 +137,6 @@ export default async function ServiceTownPage({ params }: { params: Promise<{ re
           <span className="text-gray-900">{town.name}</span>
         </nav>
 
-        {/* Hero */}
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
           {SERVICE_NAME} in {town.name}, NJ
         </h1>
@@ -127,7 +144,6 @@ export default async function ServiceTownPage({ params }: { params: Promise<{ re
           {opener || `Licensed ${SERVICE_NAME.toLowerCase()} serving ${town.name} and all of Camden County. Our NJ-licensed exterminators deliver same-day service with family-friendly treatments.`}
         </p>
 
-        {/* Neighborhoods callout */}
         {neighborhoods && (
           <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-lg p-5 mb-6">
             <p className="text-gray-700 mb-3">{neighborhoods.intro}</p>
@@ -139,7 +155,6 @@ export default async function ServiceTownPage({ params }: { params: Promise<{ re
           </div>
         )}
 
-        {/* Trust stats */}
         <div className="grid grid-cols-3 gap-4 mb-8">
           {[
             { stat: 'Same-Day', label: 'Service Available' },
@@ -153,7 +168,6 @@ export default async function ServiceTownPage({ params }: { params: Promise<{ re
           ))}
         </div>
 
-        {/* Dual CTA */}
         <div className="bg-brand-primary rounded-xl p-6 mb-10 flex flex-col sm:flex-row items-center gap-4">
           <div className="flex-1 text-white">
             <h2 className="text-xl font-bold mb-1">Need {SERVICE_NAME.toLowerCase()} in {town.name}?</h2>
@@ -175,11 +189,9 @@ export default async function ServiceTownPage({ params }: { params: Promise<{ re
           </div>
         </div>
 
-        {/* Service detail */}
         <h2 className="text-2xl font-bold text-gray-900 mb-4">Our {SERVICE_NAME} Service in {town.name}</h2>
         <p className="text-gray-600 mb-8">{SERVICE_DESC}. Our licensed Camden County exterminators use proven methods tailored to the specific pest pressures found in {town.name}, NJ.</p>
 
-        {/* Internal links */}
         <div className="bg-gray-50 rounded-lg p-5 mb-10">
           <h3 className="font-bold text-gray-900 mb-3">Related Services</h3>
           <ul className="space-y-2 text-sm">
@@ -190,7 +202,6 @@ export default async function ServiceTownPage({ params }: { params: Promise<{ re
           </ul>
         </div>
 
-        {/* Nearby Towns */}
         {nearbyTowns.length > 0 && (
           <div className="bg-gray-50 rounded-lg p-5 mb-10">
             <h3 className="font-bold text-gray-900 mb-3">Also Serving Nearby Towns</h3>
@@ -208,7 +219,6 @@ export default async function ServiceTownPage({ params }: { params: Promise<{ re
           </div>
         )}
 
-        {/* FAQ */}
         <h2 className="text-2xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h2>
         <div className="space-y-4 mb-10">
           {faqs.map((faq) => (
