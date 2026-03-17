@@ -2,7 +2,7 @@ import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getRegion } from '@/lib/regions';
-import { BRAND } from '@/hub.config';
+import { BRAND, SERVICE_TOWN_ROUTES } from '@/hub.config';
 import CTABanner from '@/components/sections/CTABanner';
 import { TOWN_OPENERS } from '@/data/town-openers';
 import { CITY_LAYER7 } from '@/data/layer7-data';
@@ -172,15 +172,19 @@ export default async function TownPage({ params }: { params: Promise<{ region: s
           </div>
         </div>
 
-        {/* Services Grid */}
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">Our Services in {townName}</h2>
+        {/* Services Grid — linked to service×town pages */}
+        <h2 className="text-2xl font-bold text-gray-900 mb-4">Pest Control Services Available in {townName}</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
-          {services.map((s) => (
-            <div key={s.name} className="border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow">
-              <div className="text-2xl mb-2">{s.icon}</div>
-              <h3 className="font-bold text-gray-900 mb-1">{s.name}</h3>
-              <p className="text-sm text-gray-600">{s.desc}</p>
-            </div>
+          {SERVICE_TOWN_ROUTES.map((svc) => (
+            <Link
+              key={svc.slug}
+              href={`/${regionSlug}/${svc.slug}/${townSlug}/`}
+              className="border border-gray-200 rounded-lg p-4 hover:shadow-md hover:border-blue-300 transition-all group"
+            >
+              <div className="text-2xl mb-2">{svc.icon}</div>
+              <h3 className="font-bold text-gray-900 group-hover:text-blue-700 transition-colors">{svc.name} in {townName}</h3>
+              <p className="text-sm text-blue-600 mt-1">Learn more →</p>
+            </Link>
           ))}
         </div>
 
