@@ -78,17 +78,21 @@ export const NETWORK_SITES: NetworkSite[] = [];
 // ============================================================
 // TYPES
 // ============================================================
+// ============================================================
+// SERVICE_TOWN_ROUTES — must match actual service directories
+// WARNING: When adding/removing services, update sitemap.ts too!
+// ============================================================
 export const SERVICE_TOWN_ROUTES = [
   { name: 'Ant Exterminator', slug: 'ant-exterminator', icon: '🐜' },
-  { name: 'Termite Exterminator', slug: 'termite-exterminator', icon: '🪵' },
   { name: 'Bed Bug Exterminator', slug: 'bed-bug-exterminator', icon: '🛏️' },
-  { name: 'Rodent Exterminator', slug: 'rodent-exterminator', icon: '🐀' },
-  { name: 'Cockroach Exterminator', slug: 'cockroach-exterminator', icon: '🪳' },
-  { name: 'Mosquito Control', slug: 'mosquito-control', icon: '🦟' },
-  { name: 'Tick Control', slug: 'tick-control', icon: '🕷️' },
-  { name: 'Wildlife Removal', slug: 'wildlife-removal', icon: '🦝' },
   { name: 'Bee Removal', slug: 'bee-removal', icon: '🐝' },
+  { name: 'Cockroach Exterminator', slug: 'cockroach-exterminator', icon: '🪳' },
   { name: 'Cricket Exterminator', slug: 'cricket-exterminator', icon: '🦗' },
+  { name: 'Raccoon Removal', slug: 'raccoon-removal', icon: '🦝' },
+  { name: 'Rodent Exterminator', slug: 'rodent-exterminator', icon: '🐀' },
+  { name: 'Squirrel Removal', slug: 'squirrel-removal', icon: '🐿️' },
+  { name: 'Termite Control', slug: 'termite-control', icon: '🪵' },
+  { name: 'Wildlife Removal', slug: 'wildlife-removal', icon: '🦊' },
 ] as const;
 
 export interface GMBEntry {
