@@ -135,18 +135,28 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  // Service×Town pages
   const serviceSlugsCamden = [
     'bed-bug-exterminator', 'rodent-exterminator', 'termite-control',
     'raccoon-removal', 'wildlife-removal', 'cockroach-exterminator',
     'squirrel-removal', 'ant-exterminator', 'cricket-exterminator', 'bee-removal',
   ];
 
+  // Service index pages — /camden-county/{service}/
+  const serviceIndexPages: MetadataRoute.Sitemap = serviceSlugsCamden.map((service) => ({
+    url: `${BASE_URL}/camden-county/${service}/`,
+    lastModified: now,
+    changeFrequency: 'weekly' as const,
+    priority: 0.85,
+  }));
+
   const townSlugsCamden = [
-    'cherry-hill', 'voorhees', 'marlton', 'mount-laurel', 'haddonfield',
-    'collingswood', 'pennsauken', 'gloucester-township', 'winslow-township',
-    'lindenwold', 'bellmawr', 'audubon', 'barrington', 'somerdale',
-    'runnemede', 'clementon',
+    'cherry-hill', 'voorhees', 'haddonfield', 'collingswood', 'pennsauken',
+    'gloucester-township', 'winslow-township', 'lindenwold', 'bellmawr', 'audubon',
+    'barrington', 'somerdale', 'runnemede', 'clementon', 'marlton', 'mount-laurel',
+    'berlin', 'stratford', 'pine-hill', 'magnolia', 'merchantville', 'oaklyn',
+    'haddon-heights', 'haddon-township', 'mount-ephraim', 'lawnside', 'laurel-springs',
+    'gibbsboro', 'waterford-township', 'brooklawn', 'gloucester-city', 'camden',
+    'hi-nella', 'chesilhurst', 'atco',
   ];
 
   const serviceTownPages: MetadataRoute.Sitemap = serviceSlugsCamden.flatMap(service =>
@@ -158,5 +168,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }))
   );
 
-  return [...staticPages, ...servicePages, ...countyPages, ...townPages, ...blogPages, ...commercialPages, ...serviceTownPages];
+  return [...staticPages, ...servicePages, ...countyPages, ...townPages, ...blogPages, ...commercialPages, ...serviceIndexPages, ...serviceTownPages];
 }
