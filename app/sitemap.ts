@@ -17,62 +17,62 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1.0,
     },
     {
-      url: `${BASE_URL}/contact`,
+      url: `${BASE_URL}/contact/`,
       lastModified: now,
       changeFrequency: 'monthly',
       priority: 0.8,
     },
     {
-      url: `${BASE_URL}/about`,
+      url: `${BASE_URL}/about/`,
       lastModified: now,
       changeFrequency: 'monthly',
       priority: 0.6,
     },
     {
-      url: `${BASE_URL}/service-areas`,
+      url: `${BASE_URL}/service-areas/`,
       lastModified: now,
       changeFrequency: 'monthly',
       priority: 0.7,
     },
     // High-intent lead capture pages
     {
-      url: `${BASE_URL}/pest-control-near-me`,
+      url: `${BASE_URL}/pest-control-near-me/`,
       lastModified: now,
       changeFrequency: 'weekly',
       priority: 0.9,
     },
     {
-      url: `${BASE_URL}/exterminator-near-me`,
+      url: `${BASE_URL}/exterminator-near-me/`,
       lastModified: now,
       changeFrequency: 'weekly',
       priority: 0.9,
     },
     {
-      url: `${BASE_URL}/emergency-pest-control`,
+      url: `${BASE_URL}/emergency-pest-control/`,
       lastModified: now,
       changeFrequency: 'weekly',
       priority: 0.9,
     },
     {
-      url: `${BASE_URL}/same-day-pest-control`,
+      url: `${BASE_URL}/same-day-pest-control/`,
       lastModified: now,
       changeFrequency: 'weekly',
       priority: 0.8,
     },
     {
-      url: `${BASE_URL}/termite-inspection`,
+      url: `${BASE_URL}/termite-inspection/`,
       lastModified: now,
       changeFrequency: 'weekly',
       priority: 0.8,
     },
     {
-      url: `${BASE_URL}/free-pest-inspection`,
+      url: `${BASE_URL}/free-pest-inspection/`,
       lastModified: now,
       changeFrequency: 'weekly',
       priority: 0.8,
     },
     {
-      url: `${BASE_URL}/bed-bug-exterminator`,
+      url: `${BASE_URL}/bed-bug-exterminator/`,
       lastModified: now,
       changeFrequency: 'monthly',
       priority: 0.9,
@@ -81,7 +81,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Service pages
   const servicePages: MetadataRoute.Sitemap = SERVICES.map((service) => ({
-    url: `${BASE_URL}/services/${service.slug}`,
+    url: `${BASE_URL}/services/${service.slug}/`,
     lastModified: now,
     changeFrequency: 'monthly' as const,
     priority: 0.8,
@@ -90,7 +90,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // County page
   const countyPages: MetadataRoute.Sitemap = [
     {
-      url: `${BASE_URL}/camden-county`,
+      url: `${BASE_URL}/camden-county/`,
       lastModified: now,
       changeFrequency: 'weekly',
       priority: 0.9,
@@ -100,7 +100,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Town pages — towns is string[], generate slug from town name
   const townPages: MetadataRoute.Sitemap = REGIONS.flatMap((region) =>
     region.towns.map((town) => ({
-      url: `${BASE_URL}/camden-county/${town.toLowerCase().replace(/\s+/g, '-')}`,
+      url: `${BASE_URL}/camden-county/${town.toLowerCase().replace(/\s+/g, '-')}/`,
       lastModified: now,
       changeFrequency: 'monthly' as const,
       priority: 0.7,
@@ -109,7 +109,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Blog pages
   const blogPages: MetadataRoute.Sitemap = BLOG_POSTS.map((post) => ({
-    url: `${BASE_URL}/blog/${post.slug}`,
+    url: `${BASE_URL}/blog/${post.slug}/`,
     lastModified: now,
     changeFrequency: 'monthly' as const,
     priority: 0.6,
@@ -129,7 +129,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/commercial/hospitality',
     '/commercial/apartment-complexes',
   ].map((path) => ({
-    url: `${BASE_URL}${path}`,
+    url: `${BASE_URL}${path}/`,
     lastModified: now,
     changeFrequency: 'monthly' as const,
     priority: 0.8,
@@ -161,7 +161,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const serviceTownPages: MetadataRoute.Sitemap = serviceSlugsCamden.flatMap(service =>
     townSlugsCamden.map(town => ({
-      url: `${BASE_URL}/camden-county/${service}/${town}`,
+      url: `${BASE_URL}/camden-county/${service}/${town}/`,
       lastModified: now,
       changeFrequency: 'monthly' as const,
       priority: 0.7,
