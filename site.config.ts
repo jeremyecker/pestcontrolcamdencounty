@@ -141,6 +141,12 @@ export const HOURS = {
 
 export const REVIEWS = [] as const;
 
-export const NETWORK_SITES = [] as const;
+export const NETWORK_SITES = [
+  { name: 'L&L Pest Control', url: 'https://landlpestcontrol.com', description: 'Poconos & Lehigh Valley, PA exterminators', emoji: '🌲' },
+  { name: 'Poconos Pest Control', url: 'https://poconospestcontrol.com', description: 'Pocono Mountains, PA pest control', emoji: '🏔️' },
+  { name: 'Burlington County Pest Control', url: 'https://burlingtoncountypestcontrolnearme.com', description: 'Burlington County, NJ pest control', emoji: '🌿' },
+  { name: 'Gloucester County Pest Control', url: 'https://gloucestercountypestcontrolnearme.com', description: 'Gloucester County, NJ pest control', emoji: '🏡' },
+  { name: 'Philadelphia Pest Control', url: 'https://philadelphiapestcontrolnearme.com', description: 'Philadelphia, PA pest control services', emoji: '🔔' },
+] as const;
 
 export const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA4_ID || '';
