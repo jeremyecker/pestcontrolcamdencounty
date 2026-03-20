@@ -26,7 +26,7 @@ export default function AboutPage() {
             We&apos;re not a national chain and we&apos;re not a call center — we&apos;re your
             neighbors. Our technicians live in the same communities we serve, and we treat your
             home the way we&apos;d treat our own. That&apos;s why families across {GEO.countyFull} trust
-            us to keep their homes safe and pest-free.
+            us to keep their homes protected and pest-free.
           </p>
 
           <h2>What Drives Us</h2>
@@ -59,7 +59,7 @@ export default function AboutPage() {
             </li>
             <li>
               <strong>Friendly for kids and pets:</strong> Every product and method we use is selected
-              with your family&apos;s well-being as the top priority. We&apos;ll always explain exactly
+              with your family&apos;s well-being as the top priority. We&apos;ll thoroughly explain exactly
               what we&apos;re using and why.
             </li>
             <li>
