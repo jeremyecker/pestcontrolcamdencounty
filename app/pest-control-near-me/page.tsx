@@ -89,7 +89,7 @@ export default function PestControlNearMe() {
           </h1>
           <p className="text-xl text-blue-100 mb-8">
             Local, licensed pest control professionals serving all 16 towns in Camden County.
-            Fast response, free estimates, and guaranteed results.
+            Fast response, free estimates, and proven results.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -163,7 +163,7 @@ export default function PestControlNearMe() {
             Not all pest control companies operating in South Jersey are created equal. New Jersey requires all commercial
             pesticide applicators to hold a valid license issued by the NJDEP under the New Jersey Pesticide Control Act
             (N.J.S.A. 13:1F-1 et seq.). A licensed exterminator has passed rigorous examinations covering pesticide
-            chemistry, safe application, Integrated Pest Management, and environmental regulations. When you hire an
+            chemistry, responsible application, Integrated Pest Management, and environmental regulations. When you hire an
             unlicensed operator, you are risking your family&apos;s health, your property, and potentially your homeowners
             insurance coverage.
           </p>

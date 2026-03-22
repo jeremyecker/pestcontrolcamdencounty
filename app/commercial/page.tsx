@@ -93,7 +93,7 @@ export default function CommercialPage() {
           </h1>
           <p className="text-xl text-blue-100 mb-8">
             Industry-specific programs for restaurants, healthcare, warehouses, schools, and more.
-            NJDEP-licensed technicians. Recurring service contracts. Guaranteed results.
+            NJDEP-licensed technicians. Recurring service contracts. Proven results.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

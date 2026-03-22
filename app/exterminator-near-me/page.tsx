@@ -286,7 +286,7 @@ export default function ExterminatorNearMe() {
               <ul className="text-gray-700 space-y-2">
                 <li>→ Access to commercial-grade products and application equipment</li>
                 <li>→ Accurate pest identification for targeted, effective treatment</li>
-                <li>→ Training in safe handling, application, and dosing of pesticides</li>
+                <li>→ Training in responsible handling, application, and dosing of pesticides</li>
                 <li>→ Exclusion and structural repairs to prevent re-infestation</li>
                 <li>→ Knowledge of pest biology and behavior patterns for strategic placement</li>
                 <li>→ Warranty-backed results with free re-treatment if pests return</li>
@@ -539,7 +539,7 @@ export default function ExterminatorNearMe() {
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to Get Started?</h2>
           <p className="text-blue-200 text-lg mb-6">
-            NJDEP-licensed exterminators serving all of Camden County. Free inspections, guaranteed results.
+            NJDEP-licensed exterminators serving all of Camden County. Free inspections, proven results.
           </p>
           <a
             href="tel:+18566000812"

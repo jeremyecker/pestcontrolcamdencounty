@@ -158,7 +158,7 @@ export default function BedBugExterminator() {
               <ul className="text-gray-700 space-y-2 text-sm">
                 <li><strong>How it works:</strong> Professional heat equipment raises all infested rooms to 120-135°F, killing bed bugs and eggs at every hiding location in a single treatment session.</li>
                 <li><strong>One-day elimination:</strong> No need for multiple visits — all life stages are killed in one treatment.</li>
-                <li><strong>Chemical-free:</strong> No residue, no odor, safe for children and pets after cooling period.</li>
+                <li><strong>Chemical-free:</strong> No residue, no odor, suitable for children and pets after the cooling period.</li>
                 <li><strong>Penetrates everything:</strong> Heat reaches inside walls, mattresses, electronics, and furniture where sprays cannot.</li>
                 <li><strong>Best for:</strong> Severe or widespread infestations, multi-unit situations, clients preferring chemical-free treatment.</li>
               </ul>
