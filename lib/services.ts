@@ -29,7 +29,7 @@ export function getServiceDescription(slug: string): string {
     'termite-treatment':
       'Expert termite treatment and prevention for Camden County properties. We offer liquid treatments, bait systems, and comprehensive termite inspections to protect your biggest investment.',
     'bed-bug-removal':
-      'Complete bed bug removal services in Camden County. Our heat treatment and chemical solutions eliminate bed bugs at every life stage for guaranteed results.',
+      'Complete bed bug removal services in Camden County. Our heat treatment and chemical solutions eliminate bed bugs at every life stage for proven results.',
     'rodent-control':
       'Effective rodent control for mice and rats in Camden County homes and businesses. We provide trapping, exclusion, and prevention services to keep rodents out for good.',
     'cockroach-control':
@@ -39,7 +39,7 @@ export function getServiceDescription(slug: string): string {
     'spider-control':
       'Spider control services for Camden County homes. We eliminate common house spiders, wolf spiders, and brown recluse spiders while treating the insects they feed on.',
     'wasp-hornet-removal':
-      'Safe wasp and hornet nest removal in Camden County. We handle yellow jackets, paper wasps, bald-faced hornets, and mud daubers with professional-grade equipment.',
+      'Expert wasp and hornet nest removal in Camden County. We handle yellow jackets, paper wasps, bald-faced hornets, and mud daubers with professional-grade equipment.',
     'flea-tick-treatment':
       'Flea and tick treatment for Camden County homes and yards. Protect your family and pets with our comprehensive indoor and outdoor treatment programs.',
     'wildlife-removal':
