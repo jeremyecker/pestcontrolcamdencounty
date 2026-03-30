@@ -3,7 +3,7 @@ import { SITE_URL, SITE_NAME, PHONE, GEO } from '@/site.config';
 import { generatePageMetadata, breadcrumbSchema } from '@/lib/seo';
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { SERVICES } from '@/lib/services';
+import { SERVICES, getServiceDescription } from '@/lib/services';
 import { SERVICE_CONTENT } from '@/lib/service-content';
 import { BRAND, REGIONS } from '@/hub.config';
 
@@ -13,7 +13,11 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const service = SERVICES.find(s => s.slug === slug);
   if (!service) return {};
-  const description = `Professional ${service.name.toLowerCase()} for ${serviceArea}. Licensed, insured. Same-day service available. Call ${BRAND.phoneFormatted}.`;
+  const richDescription = getServiceDescription(slug);
+  const fallback = 'Professional pest control services in Camden County, NJ. Contact us for a free estimate.';
+  const description = richDescription !== fallback
+    ? richDescription
+    : `Professional ${service.name.toLowerCase()} for ${serviceArea}. Licensed, insured. Same-day service available. Call ${BRAND.phoneFormatted}.`;
   return generatePageMetadata({
     title: service.name,
     description,
@@ -44,16 +48,25 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
 
       <div className="text-6xl mb-4">{service.icon}</div>
       <h1 className="text-4xl font-bold text-gray-900 mb-4">
-        {service.name}
+        {service.name} in Camden County, NJ
       </h1>
       <p className="text-xl text-gray-600 mb-8">
-        Professional {service.name.toLowerCase()} for {serviceArea}.
+        {slug === 'ant-control'
+          ? 'Serving Gloucester Township, Gloucester City, Cherry Hill, Voorhees, Haddonfield, Collingswood & all of Camden County.'
+          : `Professional ${service.name.toLowerCase()} for ${serviceArea}.`
+        }
       </p>
 
       {content && (
         <>
           <div className="prose prose-lg max-w-none mb-12">
             <p className="text-gray-700 leading-relaxed">{content.overview}</p>
+            {slug === 'ant-control' && (
+              <div className="mt-6 p-5 bg-green-50 border border-green-100 rounded-xl">
+                <h3 className="text-lg font-bold text-gray-900 mb-2">Ant Control in Gloucester Township & Gloucester City</h3>
+                <p className="text-gray-700">Gloucester Township and Gloucester City are among the most active areas for ant infestations in Camden County — particularly carpenter ants in older wood-framed homes near wooded lots, and odorous house ants in residential kitchens. Our licensed NJ exterminators serve both communities with targeted treatments and long-term prevention plans. If you're in the Gloucester area and dealing with ants, we're your local Camden County solution.</p>
+              </div>
+            )}
           </div>
 
           <div className="bg-red-50 border border-red-100 rounded-xl p-6 mb-10">
@@ -108,7 +121,7 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
         <h2 className="text-xl font-bold text-gray-900 mb-3">Why Choose {BRAND.name}?</h2>
         <ul className="space-y-2 text-gray-700">
           <li>✅ Licensed and insured technicians</li>
-          <li>✅ Family and pet-safe treatments</li>
+          <li>✅ Family and pet-friendly treatments</li>
           <li>✅ Same-day service available</li>
           <li>✅ Free, no-obligation estimates</li>
           <li>✅ Serving all of {serviceArea}</li>

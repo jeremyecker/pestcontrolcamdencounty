@@ -25,7 +25,7 @@ export function getServiceBySlug(slug: string) {
 export function getServiceDescription(slug: string): string {
   const descriptions: Record<string, string> = {
     'ant-control':
-      'Professional ant control and extermination services in Camden County, NJ. We eliminate carpenter ants, pavement ants, odorous house ants, and other ant species from your home or business.',
+      'Professional ant control in Camden County, NJ — serving Gloucester Township, Gloucester City, Cherry Hill, Voorhees, Haddonfield, Collingswood & all surrounding communities. We eliminate carpenter ants, pavement ants, odorous house ants, and fire ants from your home or business.',
     'termite-treatment':
       'Expert termite treatment and prevention for Camden County properties. We offer liquid treatments, bait systems, and comprehensive termite inspections to protect your biggest investment.',
     'bed-bug-removal':
