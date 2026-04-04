@@ -71,6 +71,10 @@ export const CITY_LAYER7: Record<string, CityLayer7> = {
       { name: 'Haddon Township', slug: 'haddon-township' },
       { name: 'Audubon', slug: 'audubon' },
     ],
+    neighborhoods: {
+      intro: 'Haddonfield is a historic Victorian-era borough chartered in 1695, with a housing stock that spans three centuries. The concentration of pre-1950 homes along Kings Highway and in the downtown historic district creates significant termite and carpenter ant pressure.',
+      neighborhoods: ['Kings Highway Historic District', 'Hopkins Pond area', 'Crystal Lake area', 'Downtown Haddonfield', 'South Haddonfield'],
+    },
   },
   'collingswood': {
     faqs: [
@@ -86,6 +90,10 @@ export const CITY_LAYER7: Record<string, CityLayer7> = {
       { name: 'Merchantville', slug: 'merchantville' },
       { name: 'Cherry Hill', slug: 'cherry-hill' },
     ],
+    neighborhoods: {
+      intro: 'Collingswood is a compact, walkable borough of craftsman bungalows and row homes built primarily between 1910 and 1940. Shared walls create pest transfer pathways between units, and the thriving Knight Avenue restaurant district generates year-round rodent pressure in surrounding residential blocks.',
+      neighborhoods: ['Knight Avenue District', 'Collings Avenue corridor', 'North Collingswood', 'Fern Hill', 'Centre Square'],
+    },
   },
   'pennsauken': {
     faqs: [
@@ -172,12 +180,60 @@ export const CITY_LAYER7: Record<string, CityLayer7> = {
       { name: 'Waterford Township', slug: 'waterford-township' },
     ],
   },
-  'bellmawr': { nearby: [{ name: 'Runnemede', slug: 'runnemede' }, { name: 'Barrington', slug: 'barrington' }, { name: 'Gloucester Township', slug: 'gloucester-township' }, { name: 'Mount Ephraim', slug: 'mount-ephraim' }] },
-  'audubon': { nearby: [{ name: 'Haddonfield', slug: 'haddonfield' }, { name: 'Collingswood', slug: 'collingswood' }, { name: 'Mount Ephraim', slug: 'mount-ephraim' }, { name: 'Barrington', slug: 'barrington' }] },
-  'barrington': { nearby: [{ name: 'Bellmawr', slug: 'bellmawr' }, { name: 'Audubon', slug: 'audubon' }, { name: 'Somerdale', slug: 'somerdale' }, { name: 'Haddon Heights', slug: 'haddon-heights' }] },
-  'somerdale': { nearby: [{ name: 'Barrington', slug: 'barrington' }, { name: 'Gloucester Township', slug: 'gloucester-township' }, { name: 'Bellmawr', slug: 'bellmawr' }, { name: 'Berlin', slug: 'berlin' }] },
-  'runnemede': { nearby: [{ name: 'Bellmawr', slug: 'bellmawr' }, { name: 'Mount Ephraim', slug: 'mount-ephraim' }, { name: 'Barrington', slug: 'barrington' }, { name: 'Gloucester City', slug: 'gloucester-city' }] },
-  'clementon': { nearby: [{ name: 'Gloucester Township', slug: 'gloucester-township' }, { name: 'Pine Hill', slug: 'pine-hill' }, { name: 'Stratford', slug: 'stratford' }, { name: 'Lindenwold', slug: 'lindenwold' }] },
+  'bellmawr': {
+    faqs: [
+      { q: 'What pests are most common in Bellmawr?', a: 'Bellmawr is a dense industrial and residential borough along I-295, and rodent pressure is among the highest in Camden County. The Route 42 interchange and commercial corridors attract rats and mice year-round. Waterbugs (American cockroaches) are common near older sewer infrastructure, and termites affect the older row homes and garden apartments throughout the borough.' },
+      { q: 'Are waterbugs a big problem in Bellmawr?', a: 'Yes. Bellmawr has older sewer and storm drain infrastructure that provides easy entry points for American cockroaches, commonly called waterbugs. They typically enter through floor drains, toilet seals, and pipe penetrations. We treat both interior harborage points and exterior entry paths for lasting control.' },
+      { q: 'Do you treat rodents near the I-295 and Route 42 area in Bellmawr?', a: 'Absolutely. The I-295 and Route 42 interchange creates ideal rodent habitat — dumpsters, loading docks, and dense commercial activity draw rats and mice into surrounding residential blocks. We use exterior bait stations, exclusion, and interior trapping to break the cycle.' },
+      { q: 'How quickly can you respond to a pest problem in Bellmawr?', a: 'Bellmawr is in our core Camden County service area. We typically offer same-day service when you call before noon and next-morning appointments for scheduled treatments. Commercial accounts along the Route 42 corridor can be prioritized.' },
+    ],
+    nearby: [{ name: 'Runnemede', slug: 'runnemede' }, { name: 'Barrington', slug: 'barrington' }, { name: 'Gloucester Township', slug: 'gloucester-township' }, { name: 'Mount Ephraim', slug: 'mount-ephraim' }],
+  },
+  'audubon': {
+    faqs: [
+      { q: 'What are the main pest concerns in Audubon?', a: 'Audubon is a small historic borough with craftsman homes and row houses built between the 1910s and 1930s. Termites and carpenter ants are the top structural concerns in these older wood-frame homes. Rodents and cockroaches can be an issue near the Kings Highway restaurant corridor, and stink bugs are a seasonal nuisance in the fall.' },
+      { q: 'Are termites a serious risk in Audubon homes?', a: "Yes. Audubon's older housing stock — much of it built before World War II — is highly vulnerable to Eastern subterranean termites. Wood framing, sill plates, and basement joists in homes of this era are prime targets. We recommend annual inspections for any Audubon home over 40 years old." },
+      { q: 'Do you treat carpenter ants in Audubon?', a: 'Carpenter ants are common throughout Audubon, particularly in homes with aging wood trim, window frames, and any wood that has had moisture exposure. We locate satellite colonies, treat entry points, and address moisture conditions that make nesting attractive.' },
+      { q: 'Can you handle pest issues near Kings Highway in Audubon?', a: 'Yes. The Kings Highway restaurant and retail corridor generates rodent and cockroach pressure that can spread into nearby residential properties. We serve both commercial businesses along Kings Highway and the surrounding residential blocks with targeted treatments.' },
+    ],
+    nearby: [{ name: 'Haddonfield', slug: 'haddonfield' }, { name: 'Collingswood', slug: 'collingswood' }, { name: 'Mount Ephraim', slug: 'mount-ephraim' }, { name: 'Barrington', slug: 'barrington' }],
+  },
+  'barrington': {
+    faqs: [
+      { q: 'What pests are common in Barrington?', a: "Barrington is a small, dense borough with older housing stock similar to neighboring Audubon and Haddon Heights. Termites are a primary concern in the 1940s-1950s homes that make up much of the borough. Stink bugs are a significant fall nuisance, and rodents are active near the commercial areas along White Horse Pike." },
+      { q: 'Are termites a problem in Barrington homes?', a: "Barrington's housing was built largely in the 1940s and 1950s using wood-frame construction with minimal concrete barriers between soil and framing — conditions that favor Eastern subterranean termites. We offer both liquid soil treatments and Sentricon bait systems to protect Barrington homes." },
+      { q: 'When do stink bugs become a problem in Barrington?', a: 'Stink bugs typically begin seeking entry into Barrington homes in late September through October as temperatures drop. They congregate on south-facing walls before squeezing through gaps around windows, doors, and utility penetrations. A fall perimeter treatment applied in September significantly reduces invasions.' },
+      { q: 'Do you offer rodent control near White Horse Pike in Barrington?', a: 'Yes. The commercial activity along White Horse Pike generates rodent pressure that spills into adjacent residential streets. We use exterior bait stations, entry point exclusion, and interior trapping to control rodent populations in both residential and commercial properties.' },
+    ],
+    nearby: [{ name: 'Bellmawr', slug: 'bellmawr' }, { name: 'Audubon', slug: 'audubon' }, { name: 'Somerdale', slug: 'somerdale' }, { name: 'Haddon Heights', slug: 'haddon-heights' }],
+  },
+  'somerdale': {
+    faqs: [
+      { q: 'What pests are most common in Somerdale?', a: "Somerdale is a small borough of 1950s-1960s cape cods bordering Gloucester Township and the Blackwood commercial area. Termites and ants are the most frequent pest concerns in this era of construction. Rodents are active near the Blackwood commercial corridor, and stink bugs are a seasonal issue in the fall." },
+      { q: 'Are termites common in Somerdale?', a: "Yes. The cape cod and ranch-style homes built in Somerdale during the 1950s and 1960s often have wood sill plates and framing close to grade level, which is ideal for Eastern subterranean termite activity. Many older homes in the borough have never had a termite inspection or treatment." },
+      { q: 'Do you handle ant problems in Somerdale?', a: 'Absolutely. Pavement ants and carpenter ants are common throughout Somerdale, particularly in homes with older concrete stoops, sidewalk cracks, and mature trees. We treat entry points, eliminate interior foraging trails, and apply exterior perimeter barriers to keep ants out.' },
+      { q: 'How quickly can you respond to a pest issue in Somerdale?', a: 'Somerdale is centrally located in our Camden County service area. We typically offer same-day service when you call before noon. Bordering Gloucester Township, we can route technicians efficiently from multiple directions.' },
+    ],
+    nearby: [{ name: 'Barrington', slug: 'barrington' }, { name: 'Gloucester Township', slug: 'gloucester-township' }, { name: 'Bellmawr', slug: 'bellmawr' }, { name: 'Berlin', slug: 'berlin' }],
+  },
+  'runnemede': {
+    faqs: [
+      { q: 'What pests are common in Runnemede?', a: "Runnemede is a small borough near the I-295 interchange and Route 168, with a mix of older wood-frame homes and a commercial corridor that drives pest activity. Rodents are active near restaurants and commercial properties, cockroaches are an issue in restaurant-adjacent buildings, and termites affect older residential homes throughout the borough." },
+      { q: 'Do you treat rodents near the commercial areas of Runnemede?', a: "Yes. Runnemede's Route 168 and the I-295 interchange area support significant commercial activity that attracts rats and mice. We deploy exterior bait stations, seal structural entry points, and use interior trapping to control rodent populations in both commercial and nearby residential properties." },
+      { q: 'Are cockroaches a problem in Runnemede?', a: 'Cockroaches — particularly German cockroaches — are common in Runnemede properties near food service businesses. They can spread from commercial to residential properties through shared plumbing chases and utility lines. We treat all harborage areas and breeding sites with targeted gel baits and perimeter applications.' },
+      { q: 'How serious is termite risk in Runnemede?', a: "Runnemede's older wood-frame homes, many built in the 1940s-1960s, carry significant termite risk. Eastern subterranean termites are active throughout the borough and can cause substantial damage before detection. We recommend inspections for any home over 30 years old, especially those without prior treatment history." },
+    ],
+    nearby: [{ name: 'Bellmawr', slug: 'bellmawr' }, { name: 'Mount Ephraim', slug: 'mount-ephraim' }, { name: 'Barrington', slug: 'barrington' }, { name: 'Gloucester City', slug: 'gloucester-city' }],
+  },
+  'clementon': {
+    faqs: [
+      { q: 'What pests are common in Clementon?', a: "Clementon sits on the suburban-rural edge of Camden County bordering Winslow Township and Gloucester Township. Wildlife pressure is higher here than in more developed boroughs — groundhogs under decks, raccoons in attics, and squirrels in crawl spaces are common calls. Stink bugs emerge from the wooded buffers in fall, and termites are active in older residential structures." },
+      { q: 'Do you handle wildlife removal in Clementon?', a: "Yes. Clementon's proximity to wooded areas and open land means more frequent wildlife conflicts than in central Camden County. We handle groundhog exclusion, raccoon eviction, squirrel removal, and full structural exclusion to prevent re-entry. All removal is done humanely and in accordance with New Jersey regulations." },
+      { q: 'Are stink bugs a major problem in Clementon?', a: 'Yes. Clementon has wooded buffer areas along its borders that serve as overwintering habitat for brown marmorated stink bugs. Homes adjacent to these wooded edges experience the heaviest invasions in September and October. A fall perimeter treatment before temperatures drop is the most effective prevention strategy.' },
+      { q: 'Do you treat termites in Clementon?', a: 'Yes. Older homes in Clementon — particularly those built before 1970 — are at elevated termite risk due to wood-frame construction and soil-to-wood contact common in that era. We offer liquid barrier treatments and Sentricon bait systems, with annual monitoring to maintain protection.' },
+    ],
+    nearby: [{ name: 'Gloucester Township', slug: 'gloucester-township' }, { name: 'Pine Hill', slug: 'pine-hill' }, { name: 'Stratford', slug: 'stratford' }, { name: 'Lindenwold', slug: 'lindenwold' }],
+  },
   'berlin': { nearby: [{ name: 'Stratford', slug: 'stratford' }, { name: 'Voorhees', slug: 'voorhees' }, { name: 'Marlton', slug: 'marlton' }, { name: 'Waterford Township', slug: 'waterford-township' }] },
   'stratford': { nearby: [{ name: 'Berlin', slug: 'berlin' }, { name: 'Somerdale', slug: 'somerdale' }, { name: 'Gloucester Township', slug: 'gloucester-township' }, { name: 'Clementon', slug: 'clementon' }] },
   'pine-hill': { nearby: [{ name: 'Clementon', slug: 'clementon' }, { name: 'Winslow Township', slug: 'winslow-township' }, { name: 'Berlin', slug: 'berlin' }, { name: 'Gloucester Township', slug: 'gloucester-township' }] },
@@ -196,5 +252,13 @@ export const CITY_LAYER7: Record<string, CityLayer7> = {
   'hi-nella': { nearby: [{ name: 'Somerdale', slug: 'somerdale' }, { name: 'Barrington', slug: 'barrington' }, { name: 'Magnolia', slug: 'magnolia' }, { name: 'Gloucester Township', slug: 'gloucester-township' }] },
   'chesilhurst': { nearby: [{ name: 'Winslow Township', slug: 'winslow-township' }, { name: 'Pine Hill', slug: 'pine-hill' }, { name: 'Berlin', slug: 'berlin' }, { name: 'Waterford Township', slug: 'waterford-township' }] },
   'atco': { nearby: [{ name: 'Waterford Township', slug: 'waterford-township' }, { name: 'Winslow Township', slug: 'winslow-township' }, { name: 'Berlin', slug: 'berlin' }, { name: 'Marlton', slug: 'marlton' }] },
-  'lindenwold': { nearby: [{ name: 'Clementon', slug: 'clementon' }, { name: 'Stratford', slug: 'stratford' }, { name: 'Laurel Springs', slug: 'laurel-springs' }, { name: 'Pine Hill', slug: 'pine-hill' }] },
+  'lindenwold': {
+    faqs: [
+      { q: 'What pests are most common in Lindenwold?', a: "Lindenwold is a dense suburban borough near the PATCO Speedline with a mix of Cape Cod homes and garden apartments built in the 1950s-1970s. Cockroaches — particularly German cockroaches — are common in garden apartment complexes. Rodents are active near the commercial strips along Berlin-Cross Keys Road, and termites affect the older wood-frame housing stock throughout the borough." },
+      { q: 'Are cockroaches a problem in Lindenwold apartments?', a: "Yes. Lindenwold's garden apartment complexes from the 1960s and 1970s are prone to German cockroach infestations, which spread rapidly between units through shared plumbing and wall voids. Effective treatment requires comprehensive access to all affected units and common areas — we work with property managers to coordinate building-wide programs." },
+      { q: 'Do you handle rodent problems in Lindenwold?', a: 'Rodents are active near the commercial corridors in Lindenwold, especially in colder months when they seek warmth in nearby homes and apartment buildings. We use exterior tamper-resistant bait stations, structural exclusion, and interior trapping to eliminate infestations and prevent re-entry.' },
+      { q: 'How quickly can you respond to a pest emergency in Lindenwold?', a: 'Lindenwold is within our core Camden County service area. We typically offer same-day service for urgent calls made before noon and next-morning appointments for standard treatments. We service both residential homes and garden apartment complexes throughout the borough.' },
+    ],
+    nearby: [{ name: 'Clementon', slug: 'clementon' }, { name: 'Stratford', slug: 'stratford' }, { name: 'Laurel Springs', slug: 'laurel-springs' }, { name: 'Pine Hill', slug: 'pine-hill' }],
+  },
 };
