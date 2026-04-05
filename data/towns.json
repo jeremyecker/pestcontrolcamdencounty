@@ -6,24 +6,164 @@
       "state": "New Jersey",
       "stateCode": "NJ",
       "towns": [
-        { "name": "Cherry Hill", "slug": "cherry-hill" },
-        { "name": "Voorhees", "slug": "voorhees" },
-        { "name": "Marlton", "slug": "marlton" },
-        { "name": "Mount Laurel", "slug": "mount-laurel" },
-        { "name": "Haddonfield", "slug": "haddonfield" },
-        { "name": "Collingswood", "slug": "collingswood" },
-        { "name": "Pennsauken", "slug": "pennsauken" },
-        { "name": "Gloucester Township", "slug": "gloucester-township" },
-        { "name": "Winslow Township", "slug": "winslow-township" },
-        { "name": "Lindenwold", "slug": "lindenwold" },
-        { "name": "Bellmawr", "slug": "bellmawr" },
-        { "name": "Audubon", "slug": "audubon" },
-        { "name": "Barrington", "slug": "barrington" },
-        { "name": "Somerdale", "slug": "somerdale" },
-        { "name": "Runnemede", "slug": "runnemede" },
-        { "name": "Clementon", "slug": "clementon" }
+        {
+          "name": "Atco",
+          "slug": "atco"
+        },
+        {
+          "name": "Audubon",
+          "slug": "audubon"
+        },
+        {
+          "name": "Barrington",
+          "slug": "barrington"
+        },
+        {
+          "name": "Bellmawr",
+          "slug": "bellmawr"
+        },
+        {
+          "name": "Berlin",
+          "slug": "berlin"
+        },
+        {
+          "name": "Blackwood",
+          "slug": "blackwood"
+        },
+        {
+          "name": "Camden",
+          "slug": "camden"
+        },
+        {
+          "name": "Cherry Hill",
+          "slug": "cherry-hill"
+        },
+        {
+          "name": "Chews Landing",
+          "slug": "chews-landing"
+        },
+        {
+          "name": "Clementon",
+          "slug": "clementon"
+        },
+        {
+          "name": "Collingswood",
+          "slug": "collingswood"
+        },
+        {
+          "name": "Echelon",
+          "slug": "echelon"
+        },
+        {
+          "name": "Erial",
+          "slug": "erial"
+        },
+        {
+          "name": "Gibbsboro",
+          "slug": "gibbsboro"
+        },
+        {
+          "name": "Glendora",
+          "slug": "glendora"
+        },
+        {
+          "name": "Gloucester City",
+          "slug": "gloucester-city"
+        },
+        {
+          "name": "Gloucester Township",
+          "slug": "gloucester-township"
+        },
+        {
+          "name": "Haddon Heights",
+          "slug": "haddon-heights"
+        },
+        {
+          "name": "Haddon Township",
+          "slug": "haddon-township"
+        },
+        {
+          "name": "Haddonfield",
+          "slug": "haddonfield"
+        },
+        {
+          "name": "Laurel Springs",
+          "slug": "laurel-springs"
+        },
+        {
+          "name": "Lawnside",
+          "slug": "lawnside"
+        },
+        {
+          "name": "Lindenwold",
+          "slug": "lindenwold"
+        },
+        {
+          "name": "Magnolia",
+          "slug": "magnolia"
+        },
+        {
+          "name": "Marlton",
+          "slug": "marlton"
+        },
+        {
+          "name": "Merchantville",
+          "slug": "merchantville"
+        },
+        {
+          "name": "Mount Ephraim",
+          "slug": "mount-ephraim"
+        },
+        {
+          "name": "Mount Laurel",
+          "slug": "mount-laurel"
+        },
+        {
+          "name": "Oaklyn",
+          "slug": "oaklyn"
+        },
+        {
+          "name": "Pennsauken",
+          "slug": "pennsauken"
+        },
+        {
+          "name": "Pine Hill",
+          "slug": "pine-hill"
+        },
+        {
+          "name": "Runnemede",
+          "slug": "runnemede"
+        },
+        {
+          "name": "Sicklerville",
+          "slug": "sicklerville"
+        },
+        {
+          "name": "Somerdale",
+          "slug": "somerdale"
+        },
+        {
+          "name": "Stratford",
+          "slug": "stratford"
+        },
+        {
+          "name": "Voorhees",
+          "slug": "voorhees"
+        },
+        {
+          "name": "Waterford Township",
+          "slug": "waterford-township"
+        },
+        {
+          "name": "Westmont",
+          "slug": "westmont"
+        },
+        {
+          "name": "Winslow Township",
+          "slug": "winslow-township"
+        }
       ]
     }
   ],
-  "totalTowns": 16
+  "totalTowns": 39
 }
