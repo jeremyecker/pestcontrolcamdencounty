@@ -7,6 +7,7 @@ const NETWORK_SITES = [
   { label: 'Organic Pest Control Philadelphia', href: 'https://organicpestcontrolphiladelphia.com' },
   { label: 'Gloucester County Pest Control', href: 'https://gloucestercountypestcontrolnearme.com' },
   { label: 'Burlington County Pest Control', href: 'https://burlingtoncountypestcontrolnearme.com' },
+  { label: 'Bed Bug Inspectors Camden NJ', href: 'https://thebedbuginspectors.com/states/new-jersey/camden' },
 ];
 
 export default function Footer() {
@@ -82,7 +83,7 @@ export default function Footer() {
                     ))}
                   </ul>
                 </li>
-              ))}
+            ))}
               <li>
                 <Link
                   href="/service-areas"
