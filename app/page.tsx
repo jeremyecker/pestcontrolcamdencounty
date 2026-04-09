@@ -16,28 +16,28 @@ const townCount = getTownCount();
 
 const homepageFAQs = [
   {
-    question: 'Are your treatments family-friendly for kids and pets?',
-    answer: `Absolutely — we use EPA-approved products and Integrated Pest Management (IPM) techniques specifically chosen to be gentle around children and pets.`,
+    question: 'Do your treatments pose any risk to children or pets?',
+    answer: `Not at all. We rely on EPA-approved formulations and Integrated Pest Management strategies designed to target pests while remaining safe around kids, dogs, cats, and other household members.`,
   },
   {
-    question: `What areas do you cover?`,
-    answer: `We serve communities across ${GEO.region}. If you're in our service area, we're here to help.`,
+    question: `Which neighborhoods and towns in ${GEO.region} do you service?`,
+    answer: `Our technicians cover every community in the county — from Cherry Hill and Voorhees down to Gloucester Township and Winslow. If you live in ${GEO.region}, we can be at your door quickly.`,
   },
   {
-    question: 'How quickly can someone come?',
-    answer: `We offer same-day service availability for homeowners who need help fast. Call or fill out the form to check today's schedule.`,
+    question: 'I spotted something today — can you come out right away?',
+    answer: `We understand that finding pests feels urgent. That's why we maintain same-day availability for ${GEO.region} homeowners. Reach out by phone or through the online form to grab the next open slot.`,
   },
   {
-    question: 'How much does pest control cost?',
-    answer: `Every home is different. We offer free, no-obligation estimates — call or submit the form for a quote specific to your situation.`,
+    question: 'Why are termites such a big concern in Camden County specifically?',
+    answer: `Many homes in towns like Haddonfield, Collingswood, and Audubon were built before modern termite barriers existed. The mix of older wood framing and South Jersey humidity creates ideal conditions for subterranean termites. We recommend annual inspections for any home over 30 years old.`,
   },
   {
-    question: 'What if pests return after treatment?',
-    answer: `We stand behind our work. If pests return between scheduled treatments, we'll come back at no additional cost.`,
+    question: 'What happens if pests show up again between visits?',
+    answer: `Our satisfaction guarantee means we come back at zero additional charge. Just give us a call and we'll schedule a follow-up visit — no questions asked.`,
   },
   {
-    question: 'Are you a local company?',
-    answer: `Yes! ${SITE_NAME} is locally owned and operated. Our technicians live in the same communities we serve.`,
+    question: 'Are you a locally owned business or part of a franchise?',
+    answer: `${SITE_NAME} is independently owned and rooted right here in South Jersey. Our crew members live in neighborhoods across Camden County, so we bring firsthand knowledge of local pest patterns to every job.`,
   },
 ];
 

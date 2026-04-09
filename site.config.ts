@@ -63,17 +63,17 @@ export const PEST_OPTIONS = [
 ] as const;
 
 export const SERVICES = [
-  { name: 'Ant Control', slug: 'ant-control', icon: '🐜', description: 'Keep ants out of your kitchen and away from your family. Effective, family-friendly treatments.' },
-  { name: 'Termite Treatment', slug: 'termite-treatment', icon: '🪵', description: 'Protect your biggest investment. Expert termite inspections and treatment for Camden County homes.' },
-  { name: 'Bed Bug Removal', slug: 'bed-bug-removal', icon: '🛏️', description: 'Sleep easy again. Thorough bed bug removal using proven, effective treatments.' },
-  { name: 'Rodent Control', slug: 'rodent-control', icon: '🐀', description: "Mice and rats don't belong near your family. We remove them and seal entry points." },
-  { name: 'Cockroach Control', slug: 'cockroach-control', icon: '🪳', description: 'Complete cockroach elimination that protects your family and home.' },
-  { name: 'Mosquito Control', slug: 'mosquito-control', icon: '🦟', description: 'Take back your backyard. Family-friendly mosquito treatments for outdoor enjoyment.' },
-  { name: 'Spider Control', slug: 'spider-control', icon: '🕷️', description: 'No more surprises in the basement or garage. Thorough spider removal for your whole home.' },
-  { name: 'Wasp & Hornet Removal', slug: 'wasp-hornet-removal', icon: '🐝', description: "Protect your family from stinging insects. We'll remove nests from your property." },
-  { name: 'Flea & Tick Treatment', slug: 'flea-tick-treatment', icon: '🦗', description: 'Protect your family and pets. Professional flea and tick control for home and yard.' },
-  { name: 'Wildlife Removal', slug: 'wildlife-removal', icon: '🦝', description: 'Raccoons, squirrels, bats, or birds in the attic? Humane removal that protects your family.' },
-  { name: 'Commercial Pest Control', slug: 'commercial-pest-control', icon: '🏢', description: 'Customized pest management for Camden County businesses. Discreet, reliable, effective.' },
+  { name: 'Ant Control', slug: 'ant-control', icon: '🐜', description: 'Carpenter ants and pavement ants thrive across Camden County neighborhoods from Cherry Hill to Collingswood. We pinpoint colonies and eliminate them at the source.' },
+  { name: 'Termite Treatment', slug: 'termite-treatment', icon: '🪵', description: 'Older homes along the PATCO corridor in Haddonfield and Audubon are especially vulnerable to subterranean termites. We provide thorough inspections and proven barrier treatments.' },
+  { name: 'Bed Bug Removal', slug: 'bed-bug-removal', icon: '🛏️', description: 'Bed bugs spread quickly through Camden County apartments and homes. Our multi-step treatment protocol eliminates every life stage so you can rest easy again.' },
+  { name: 'Rodent Control', slug: 'rodent-control', icon: '🐀', description: 'Mice and rats push inland from the Delaware River waterfront through Pennsauken and Camden each fall. We trap, remove, and seal entry points to keep them out for good.' },
+  { name: 'Cockroach Control', slug: 'cockroach-control', icon: '🪳', description: 'Dense housing in Camden County boroughs creates ideal conditions for cockroaches. Our targeted gel baits and residual treatments break the breeding cycle fast.' },
+  { name: 'Mosquito Control', slug: 'mosquito-control', icon: '🦟', description: 'Cooper River parks and backyard pools across Voorhees and Cherry Hill fuel summer mosquito populations. Our barrier sprays let you reclaim your outdoor space.' },
+  { name: 'Spider Control', slug: 'spider-control', icon: '🕷️', description: 'Basements and garages throughout Gloucester Township and Blackwood are prime spider habitat. We clear existing webs and apply preventive treatments to keep them away.' },
+  { name: 'Wasp & Hornet Removal', slug: 'wasp-hornet-removal', icon: '🐝', description: 'Stinging insects build nests under eaves and in soffits across Camden County suburbs. We safely remove active nests and treat the area to discourage rebuilding.' },
+  { name: 'Flea & Tick Treatment', slug: 'flea-tick-treatment', icon: '🦗', description: 'Wooded trails near Winslow and Clementon bring tick exposure, while fleas hitchhike indoors on pets. Our yard-and-home treatments protect the whole family.' },
+  { name: 'Wildlife Removal', slug: 'wildlife-removal', icon: '🦝', description: 'Raccoons, squirrels, and bats find their way into attics across Camden County — especially near the wooded eastern townships. We remove them humanely and secure your home.' },
+  { name: 'Commercial Pest Control', slug: 'commercial-pest-control', icon: '🏢', description: 'From Cherry Hill office parks to Pennsauken industrial sites, Camden County businesses rely on our discreet, scheduled pest management programs.' },
 ] as const;
 
 export const GMB = {
