@@ -1,12 +1,17 @@
 import { SITE_URL } from '@/site.config';
 
 /**
- * Generate a canonical URL for a given path
+ * Generate a canonical URL for a given path.
+ * Preserves trailing slash for non-root paths to match trailingSlash: true in next.config.mjs.
  */
 export function canonicalUrl(path: string = '/'): string {
   const cleanPath = path.startsWith('/') ? path : `/${path}`;
-  const normalizedPath = cleanPath === '/' ? cleanPath : cleanPath.replace(/\/$/, '');
-  return `${SITE_URL}${normalizedPath === '/' ? '' : normalizedPath}`;
+  if (cleanPath === '/') {
+    return SITE_URL;
+  }
+  // Ensure trailing slash to match Next.js trailingSlash: true
+  const withSlash = cleanPath.endsWith('/') ? cleanPath : `${cleanPath}/`;
+  return `${SITE_URL}${withSlash}`;
 }
 
 /**
