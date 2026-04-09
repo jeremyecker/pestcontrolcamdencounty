@@ -1,4 +1,4 @@
-import { SITE_NAME, GEO, SERVICES, PHONE, PHONE_HREF, GMB } from '@/site.config';
+import { SITE_NAME, GEO, SERVICES, PHONE, PHONE_HREF, GMB, SITE_URL } from '@/site.config';
 import { REGIONS } from '@/hub.config';
 import { localBusinessSchema } from '@/lib/seo';
 import { getTownCount, getTownsByRegion } from '@/lib/db';
@@ -11,6 +11,13 @@ import TownGrid from '@/components/sections/TownGrid';
 import CTABanner from '@/components/sections/CTABanner';
 import FAQSection from '@/components/sections/FAQSection';
 import NewYorkNetwork from '@/components/sections/NewYorkNetwork';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: SITE_URL,
+  },
+};
 
 const townCount = getTownCount();
 
