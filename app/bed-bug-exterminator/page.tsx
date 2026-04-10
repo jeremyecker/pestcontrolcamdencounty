@@ -1,5 +1,8 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import SeasonalAlert from '@/components/sections/SeasonalAlert';
+
+export const revalidate = 86400;
 
 export const metadata: Metadata = {
   title: 'Bed Bug Exterminator Camden County NJ | Heat Treatment & Removal',
@@ -53,12 +56,17 @@ export default function BedBugExterminator() {
     {
       question: 'Are your bed bug technicians licensed by the NJDEP?',
       answer:
-        'Every Camden County Pest Control technician holds a valid license issued by the New Jersey Department of Environmental Protection (NJDEP) under the New Jersey Pesticide Control Act. Additionally, our technicians are trained and certified by the New Jersey Department of Community Affairs standards for bed bug treatment in residential properties. We carry full general liability and workers\' compensation insurance. Hiring an unlicensed operator for bed bug treatment in New Jersey puts your family and your investment at risk.',
+        'Every Camden County Pest Control technician holds a valid license issued by the New Jersey Department of Environmental Protection (NJDEP) under the New Jersey Pesticide Control Act. Additionally, our technicians are trained and certified by the New Jersey Department of Community Affairs standards for bed bug treatment in residential properties. We carry full general liability and workers\'s compensation insurance. Hiring an unlicensed operator for bed bug treatment in New Jersey puts your family and your investment at risk.',
     },
     {
       question: 'How long does bed bug treatment take and when can I return to my bedroom?',
       answer:
         'Heat treatment is typically completed in one full treatment day. After the heat cycle is complete and the room has cooled — usually within a few hours — you can return to the treated space. Chemical treatment requires 2-3 visits spaced 2 weeks apart; between treatments, you can sleep in the treated room after the specified re-entry time (typically 2-4 hours). After heat treatment, bed bugs are killed on the same day; after chemical treatment, elimination occurs gradually over the treatment cycle as bed bugs contact treated surfaces. Camden County Pest Control schedules follow-up inspections after all treatments to confirm eradication.',
+    },
+    {
+      question: 'How much does bed bug treatment cost in Camden County?',
+      answer:
+        'Bed bug treatment in Camden County typically costs $1,200–$4,500 depending on property size, number of rooms affected, and treatment method. Heat treatment for a single bedroom starts around $1,200; whole-home heat treatment can reach $4,500. Chemical treatment programs (2–3 visits) range from $1,200–$2,500. We provide a detailed written quote after a free inspection — no obligation. Call (856) 430-6244.',
     },
   ];
 
@@ -121,6 +129,8 @@ export default function BedBugExterminator() {
             </div>
           </div>
         </section>
+
+        <SeasonalAlert county="Camden County" compact />
 
         {/* Main Content */}
         <main className="max-w-4xl mx-auto px-4 py-16">
@@ -372,6 +382,29 @@ export default function BedBugExterminator() {
             </div>
           </section>
 
+          {/* Pricing Section */}
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-[#1A365D] mb-4">💰 How Much Does Bed Bug Exterminator Cost in Camden County?</h2>
+            <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
+                <div className="bg-white rounded-lg p-4 border border-blue-100">
+                  <div className="font-bold text-[#1A365D] text-lg mb-1">Heat Treatment</div>
+                  <div className="text-2xl font-bold text-[#DD6B20] mb-1">$1,200–$4,500</div>
+                  <div className="text-gray-600 text-sm">Single visit, all life stages eliminated</div>
+                </div>
+                <div className="bg-white rounded-lg p-4 border border-blue-100">
+                  <div className="font-bold text-[#1A365D] text-lg mb-1">Chemical Treatment</div>
+                  <div className="text-2xl font-bold text-[#DD6B20] mb-1">$1,200–$2,500</div>
+                  <div className="text-gray-600 text-sm">2–3 visits included</div>
+                </div>
+              </div>
+              <p className="text-gray-700 text-sm mb-4">Pricing depends on property size, infestation severity, and treatment method. We provide a free, no-obligation written estimate before any work begins.</p>
+              <a href="tel:+18564306244" className="inline-block bg-[#DD6B20] hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-lg transition-colors">
+                📞 Get Free Estimate — (856) 430-6244
+              </a>
+            </div>
+          </section>
+
           {/* FAQ Section */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-[#1A365D] mb-6">
@@ -488,7 +521,7 @@ export default function BedBugExterminator() {
                       name: 'Are your bed bug technicians licensed by the NJDEP?',
                       acceptedAnswer: {
                         '@type': 'Answer',
-                        text: 'Every Camden County Pest Control technician holds a valid NJDEP pesticide applicator license under the New Jersey Pesticide Control Act. We carry full general liability and workers\' compensation insurance and provide our license number and insurance information before any work begins.',
+                        text: "Every Camden County Pest Control technician holds a valid NJDEP pesticide applicator license under the New Jersey Pesticide Control Act. We carry full general liability and workers' compensation insurance and provide our license number and insurance information before any work begins.",
                       },
                     },
                     {

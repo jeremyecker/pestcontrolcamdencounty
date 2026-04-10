@@ -5,6 +5,7 @@ import { getTownCount, getTownsByRegion } from '@/lib/db';
 import Schema from '@/components/seo/Schema';
 import Hero from '@/components/sections/Hero';
 import TrustBar from '@/components/sections/TrustBar';
+import SeasonalAlert from '@/components/sections/SeasonalAlert';
 import ServicesGrid from '@/components/sections/ServicesGrid';
 import ReviewsSection from '@/components/sections/ReviewsSection';
 import TownGrid from '@/components/sections/TownGrid';
@@ -12,6 +13,8 @@ import CTABanner from '@/components/sections/CTABanner';
 import FAQSection from '@/components/sections/FAQSection';
 import NewYorkNetwork from '@/components/sections/NewYorkNetwork';
 import type { Metadata } from 'next';
+
+export const revalidate = 86400;
 
 export const metadata: Metadata = {
   alternates: {
@@ -57,6 +60,7 @@ export default function HomePage() {
       <Schema data={localBusinessSchema()} />
       <Hero />
       <TrustBar />
+      <SeasonalAlert county="Camden County" />
       <ServicesGrid limit={6} />
       <ReviewsSection limit={3} />
       <TownGrid towns={mixedTowns} />
