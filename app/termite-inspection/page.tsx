@@ -1,6 +1,9 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import TrustBar from '@/components/sections/TrustBar';
+import SeasonalAlert from '@/components/sections/SeasonalAlert';
+
+export const revalidate = 86400;
 
 export const metadata: Metadata = {
   title: 'Termite Inspection Camden County NJ | Free Assessment | WDI Reports',
@@ -44,22 +47,22 @@ export default function TermiteInspection() {
     {
       question: 'How long does a termite inspection take in Camden County?',
       answer:
-        'A thorough termite inspection of a typical single-family home takes 45 minutes to 1.5 hours depending on the home\'s age, size, accessibility of the crawl space/basement, and presence of conducive conditions. Our technician inspects the entire exterior perimeter, foundation, all accessible interior areas, the basement and/or crawl space, the attic, and any area showing signs of termite or wood rot activity. We do not rush termite inspections — the information gathered protects your investment.',
+        "A thorough termite inspection of a typical single-family home takes 45 minutes to 1.5 hours depending on the home's age, size, accessibility of the crawl space/basement, and presence of conducive conditions. Our technician inspects the entire exterior perimeter, foundation, all accessible interior areas, the basement and/or crawl space, the attic, and any area showing signs of termite or wood rot activity. We do not rush termite inspections — the information gathered protects your investment.",
     },
     {
       question: 'Do I need termite treatment if inspection shows no current activity?',
       answer:
-        'If a thorough inspection shows no active termite activity but the home has conducive conditions (wood-to-soil contact, poor drainage, previous termite history), preventive treatment is highly recommended. A liquid barrier (Termidor) around the foundation is cost-effective insurance against future termite infestation — Termidor remains effective for 10+ years. However, prevention through exclusion (removing wood-to-soil contact, improving drainage) is equally important. We recommend a treatment plan customized to your Camden County home\'s specific risk profile.',
+        "If a thorough inspection shows no active termite activity but the home has conducive conditions (wood-to-soil contact, poor drainage, previous termite history), preventive treatment is highly recommended. A liquid barrier (Termidor) around the foundation is cost-effective insurance against future termite infestation — Termidor remains effective for 10+ years. However, prevention through exclusion (removing wood-to-soil contact, improving drainage) is equally important. We recommend a treatment plan customized to your Camden County home's specific risk profile.",
     },
     {
-      question: 'What is the cost of a free termite inspection in Camden County?',
+      question: 'What is the cost of a termite inspection or termite treatment in Camden County?',
       answer:
-        'Our termite inspection is completely free — no cost, no obligation, and no pressure to purchase treatment. The inspection includes a thorough assessment, identification of all termite activity and conducive conditions, recommendations, photographs, and a written report. If treatment is recommended, we provide a detailed quote. You can take our report and call back at your convenience.',
+        'Termite inspections are free with a written report. Termite treatment in Camden County costs $800–$2,500 depending on treatment method, property size, and infestation extent. Liquid barrier treatments for average homes typically fall in the $1,000–$1,800 range. Call (856) 430-6244 for a free inspection and written quote.',
     },
     {
       question: 'How often should I have my Camden County home inspected for termites?',
       answer:
-        'The National Pest Management Association recommends annual termite inspections for most homes, with more frequent inspections for homes in high-risk situations: homes with prior termite activity, homes with significant wood-to-soil contact, older pre-1960 homes in South Jersey, and homes with moisture problems. If you\'ve installed a Termidor barrier or Sentricon bait system, ongoing monitoring is essential to ensure the system remains effective.',
+        "The National Pest Management Association recommends annual termite inspections for most homes, with more frequent inspections for homes in high-risk situations: homes with prior termite activity, homes with significant wood-to-soil contact, older pre-1960 homes in South Jersey, and homes with moisture problems. If you've installed a Termidor barrier or Sentricon bait system, ongoing monitoring is essential to ensure the system remains effective.",
     },
     {
       question: 'Can termite damage be repaired?',
@@ -129,6 +132,8 @@ export default function TermiteInspection() {
             </div>
           </div>
         </section>
+
+        <SeasonalAlert county="Camden County" compact />
 
         {/* Main Content */}
         <main className="max-w-4xl mx-auto px-4 py-16">
@@ -295,6 +300,29 @@ export default function TermiteInspection() {
                 <li>→ Apartment and condo buildings</li>
                 <li>→ Commercial properties</li>
               </ul>
+            </div>
+          </section>
+
+          {/* Pricing Section */}
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-[#1A365D] mb-4">💰 How Much Does Termite Treatment Cost in Camden County?</h2>
+            <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
+                <div className="bg-white rounded-lg p-4 border border-blue-100">
+                  <div className="font-bold text-[#1A365D] text-lg mb-1">Termite Inspection</div>
+                  <div className="text-2xl font-bold text-[#DD6B20] mb-1">Free</div>
+                  <div className="text-gray-600 text-sm">Comprehensive inspection, written report</div>
+                </div>
+                <div className="bg-white rounded-lg p-4 border border-blue-100">
+                  <div className="font-bold text-[#1A365D] text-lg mb-1">Termite Treatment</div>
+                  <div className="text-2xl font-bold text-[#DD6B20] mb-1">$800–$2,500</div>
+                  <div className="text-gray-600 text-sm">Depending on method and severity</div>
+                </div>
+              </div>
+              <p className="text-gray-700 text-sm mb-4">Pricing depends on property size, infestation severity, and treatment method. We provide a free, no-obligation written estimate before any work begins.</p>
+              <a href="tel:+18564306244" className="inline-block bg-[#DD6B20] hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-lg transition-colors">
+                📞 Get Free Estimate — (856) 430-6244
+              </a>
             </div>
           </section>
 
