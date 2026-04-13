@@ -8,6 +8,7 @@ const NETWORK_SITES = [
   { label: 'Gloucester County Pest Control', href: 'https://gloucestercountypestcontrolnearme.com' },
   { label: 'Burlington County Pest Control', href: 'https://burlingtoncountypestcontrolnearme.com' },
   { label: 'Bed Bug Inspectors Camden NJ', href: 'https://thebedbuginspectors.com/states/new-jersey/camden' },
+  { label: 'Rest Easy Pest Control', href: 'https://resteasypestcontrol.com' },
 ];
 
 export default function Footer() {
