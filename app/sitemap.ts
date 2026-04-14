@@ -1,7 +1,7 @@
 import type { MetadataRoute } from 'next';
 import { SERVICES } from '@/lib/services';
 import { REGIONS } from '@/hub.config';
-import { BLOG_POSTS } from '@/data/blog-posts';
+import { getAllBlogPosts } from '@/data/blog-posts';
 
 const BASE_URL = 'https://pestcontrolcamdencounty.com';
 
@@ -77,6 +77,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.9,
     },
+    // Wave 2 landing pages
+    { url: `${BASE_URL}/tick-control/`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
+    { url: `${BASE_URL}/mosquito-control/`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
+    { url: `${BASE_URL}/spotted-lanternfly-control/`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${BASE_URL}/wildlife-removal/`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${BASE_URL}/property-management-pest-control/`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
   ];
 
   // Service pages
@@ -107,8 +113,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }))
   );
 
-  // Blog pages
-  const blogPages: MetadataRoute.Sitemap = BLOG_POSTS.map((post) => ({
+  // Blog pages — includes Wave 1 + Wave 2 posts
+  const blogPages: MetadataRoute.Sitemap = getAllBlogPosts().map((post) => ({
     url: `${BASE_URL}/blog/${post.slug}/`,
     lastModified: now,
     changeFrequency: 'monthly' as const,
@@ -134,10 +140,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: 'monthly' as const,
     priority: 0.8,
   }));
-
-
-
-
 
   return [...staticPages, ...servicePages, ...countyPages, ...townPages, ...blogPages, ...commercialPages];
 }

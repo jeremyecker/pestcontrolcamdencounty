@@ -1,6 +1,8 @@
 // data/blog-posts.ts — Camden County Pest Control
 // 12 geo-specific blog posts for Camden County, NJ
 
+import { BLOG_POSTS_WAVE2 } from './blog-wave2-posts';
+
 export interface BlogPost {
   slug: string;
   title: string;
@@ -1062,5 +1064,5 @@ export function getBlogPostBySlug(slug: string): BlogPost | undefined {
 }
 
 export function getAllBlogPosts(): BlogPost[] {
-  return BLOG_POSTS;
+  return [...BLOG_POSTS, ...BLOG_POSTS_WAVE2];
 }
