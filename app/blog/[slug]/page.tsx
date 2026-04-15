@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { SITE_NAME, PHONE, PHONE_HREF } from '@/site.config';
@@ -39,8 +38,6 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
   const otherPosts = getAllBlogPosts()
     .filter((p) => p.slug !== slug)
     .slice(0, 3);
-
-  const imageUrl = `https://images.pexels.com/photos/${post.image.pexelsId}/pexels-photo-${post.image.pexelsId}.jpeg?auto=compress&cs=tinysrgb&w=1200`;
 
   return (
     <>
@@ -83,18 +80,6 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                 <h1 className="heading-1 mb-4">{post.title}</h1>
                 <p className="text-lg text-gray-600">{post.excerpt}</p>
               </header>
-
-              {/* Hero Image */}
-              <div className="relative w-full aspect-video rounded-xl overflow-hidden mb-8">
-                <Image
-                  src={imageUrl}
-                  alt={post.image.alt}
-                  fill
-                  className="object-cover"
-                  priority
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 66vw, 800px"
-                />
-              </div>
 
               {/* Post Content */}
               <div
