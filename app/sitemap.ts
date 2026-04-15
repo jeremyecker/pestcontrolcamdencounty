@@ -93,13 +93,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  // County page
+  // County page + region-level service pages
   const countyPages: MetadataRoute.Sitemap = [
     {
       url: `${BASE_URL}/camden-county/`,
       lastModified: now,
       changeFrequency: 'weekly',
       priority: 0.9,
+    },
+    {
+      url: `${BASE_URL}/camden-county/mosquito-control/`,
+      lastModified: now,
+      changeFrequency: 'monthly',
+      priority: 0.8,
     },
   ];
 
