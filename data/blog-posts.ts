@@ -4,6 +4,7 @@
 import { BLOG_POSTS_WAVE2 } from './blog-wave2-posts';
 import { BLOG_POSTS_WAVE3 } from './blog-wave3-posts';
 import { BLOG_POSTS_WAVE4 } from './blog-wave4-posts';
+import { BLOG_POSTS_WAVE5 } from './blog-wave5-posts';
 
 export interface BlogPost {
   slug: string;
@@ -1066,5 +1067,5 @@ export function getBlogPostBySlug(slug: string): BlogPost | undefined {
 }
 
 export function getAllBlogPosts(): BlogPost[] {
-  return [...BLOG_POSTS, ...BLOG_POSTS_WAVE2, ...BLOG_POSTS_WAVE3, ...BLOG_POSTS_WAVE4];
+  return [...BLOG_POSTS, ...BLOG_POSTS_WAVE2, ...BLOG_POSTS_WAVE3, ...BLOG_POSTS_WAVE4, ...BLOG_POSTS_WAVE5];
 }
