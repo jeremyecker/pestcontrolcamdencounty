@@ -60,7 +60,7 @@ export default function HomePage() {
   return (
     <>
       <Schema data={localBusinessSchema()} />
-      <Hero />
+      <Hero title="Camden County Exterminator — Same-Day Pest Control in NJ" />
       <TrustBar />
       <SeasonalAlert county="Camden County" />
       <ServicesGrid limit={6} />
