@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useRef, useEffect } from 'react';
-import { PEST_OPTIONS, SITE_NAME } from '@/site.config';
+import { PEST_OPTIONS } from '@/site.config';
 
 const PROPERTY_TYPES = ['Residential', 'Commercial', 'Multi-Family / Apartment'] as const;
 
@@ -46,9 +46,7 @@ export default function LeadForm({
     zip: '',
     pest_type: '',
     property_type: '',
-    email: '',
     description: '',
-    sms_consent: false,
     honeypot: '',
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -311,22 +309,6 @@ export default function LeadForm({
               </div>
             </div>
 
-            {/* Email */}
-            <div>
-              <label htmlFor="hero-email" className="block text-xs font-medium text-gray-700 mb-1">
-                Email <span className="text-gray-400">(Optional)</span>
-              </label>
-              <input
-                type="email"
-                id="hero-email"
-                name="email"
-                value={formData.email}
-                onChange={handleChange}
-                placeholder="john@example.com"
-                className="w-full px-3 py-2 border border-dashed border-gray-300 rounded-lg focus:border-brand-primary focus:ring-1 focus:ring-brand-primary outline-none transition-colors text-sm"
-              />
-            </div>
-
             {/* Description */}
             <div>
               <label htmlFor="hero-desc" className="block text-xs font-medium text-gray-700 mb-1">
@@ -341,24 +323,6 @@ export default function LeadForm({
                 placeholder="Tell us what's going on..."
                 className="w-full px-3 py-2 border border-dashed border-gray-300 rounded-lg focus:border-brand-primary focus:ring-1 focus:ring-brand-primary outline-none transition-colors resize-none text-sm"
               />
-            </div>
-
-            {/* SMS Consent */}
-            <div className="flex items-start gap-2 col-span-2">
-              <input
-                type="checkbox"
-                id="hero-sms"
-                name="sms_consent"
-                required
-                checked={formData.sms_consent}
-                onChange={handleChange}
-                className="mt-0.5 h-4 w-4 rounded border-gray-300 text-brand-primary focus:ring-brand-primary shrink-0"
-              />
-              <label htmlFor="hero-sms" className="text-[10px] text-gray-500 leading-relaxed">
-                I agree to receive text messages from {SITE_NAME} at the phone number provided.{' '}
-                Message and data rates may apply. Message frequency varies. Reply STOP to opt out.{' '}
-                <span className="text-red-500">*</span>
-              </label>
             </div>
 
             {/* Turnstile container (invisible) */}
@@ -506,22 +470,6 @@ export default function LeadForm({
               </select>
             </div>
 
-            {/* Email */}
-            <div>
-              <label htmlFor="lead-email" className="block text-sm font-medium text-gray-700 mb-1">
-                Email <span className="text-gray-400">(Optional)</span>
-              </label>
-              <input
-                type="email"
-                id="lead-email"
-                name="email"
-                value={formData.email}
-                onChange={handleChange}
-                placeholder="john@example.com"
-                className="w-full px-4 py-3 border-2 border-dashed border-gray-300 rounded-lg focus:border-brand-primary focus:ring-1 focus:ring-brand-primary outline-none transition-colors"
-              />
-            </div>
-
             {/* Description */}
             <div>
               <label htmlFor="lead-desc" className="block text-sm font-medium text-gray-700 mb-1">
@@ -538,24 +486,6 @@ export default function LeadForm({
               />
             </div>
 
-            {/* SMS Consent */}
-            <div className="flex items-start gap-3">
-              <input
-                type="checkbox"
-                id="lead-sms"
-                name="sms_consent"
-                required
-                checked={formData.sms_consent}
-                onChange={handleChange}
-                className="mt-1 h-4 w-4 rounded border-gray-300 text-brand-primary focus:ring-brand-primary"
-              />
-              <label htmlFor="lead-sms" className="text-xs text-gray-600 leading-relaxed">
-                I agree to receive text messages from {SITE_NAME} at the phone number provided.
-                Message and data rates may apply. Message frequency varies. Reply STOP to opt out.{' '}
-                <span className="text-red-500">*</span>
-              </label>
-            </div>
-
             {/* Turnstile */}
             <div ref={turnstileContainerRef} />
 
@@ -570,7 +500,7 @@ export default function LeadForm({
 
             {/* TCPA */}
             <p className="text-[10px] text-gray-400 leading-relaxed text-center">
-              No commitment. We&apos;ll get back to you ASAP. By submitting, you consent to be contacted by {SITE_NAME}. See our{' '}
+              No commitment. We&apos;ll call you back ASAP. See our{' '}
               <a href="/privacy" className="underline hover:text-gray-600">Privacy Policy</a>{' '}
               and{' '}
               <a href="/terms" className="underline hover:text-gray-600">Terms of Service</a>.

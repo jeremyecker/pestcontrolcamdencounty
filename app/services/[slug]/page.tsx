@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     ? richDescription
     : `Professional ${service.name.toLowerCase()} for ${serviceArea}. Licensed, insured. Same-day service available. Call ${BRAND.phoneFormatted}.`;
   return generatePageMetadata({
-    title: service.name,
+    title: `${service.name} in Camden County, NJ`,
     description,
     path: `/services/${slug}`,
   });

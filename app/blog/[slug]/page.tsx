@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { SITE_NAME, PHONE, PHONE_HREF } from '@/site.config';
-import { generatePageMetadata, articleSchema } from '@/lib/seo';
+import { SITE_URL, SITE_NAME, PHONE, PHONE_HREF } from '@/site.config';
+import { articleSchema } from '@/lib/seo';
 import { getBlogPostBySlug, getAllBlogPosts } from '@/data/blog-posts';
 import Schema from '@/components/seo/Schema';
 import Breadcrumbs from '@/components/seo/Breadcrumbs';
@@ -23,11 +23,21 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
   const post = getBlogPostBySlug(slug);
   if (!post) return {};
 
-  return generatePageMetadata({
-    title: post.title,
+  const canonical = `${SITE_URL}/blog/${slug}/`;
+  return {
+    title: { absolute: post.title },
     description: post.excerpt,
-    path: `/blog/${slug}`,
-  });
+    alternates: { canonical },
+    openGraph: {
+      title: post.title,
+      description: post.excerpt,
+      url: canonical,
+      siteName: SITE_NAME,
+      type: 'article',
+      publishedTime: post.date,
+    },
+    robots: { index: true, follow: true },
+  };
 }
 
 export default async function BlogPostPage({ params }: BlogPostPageProps) {

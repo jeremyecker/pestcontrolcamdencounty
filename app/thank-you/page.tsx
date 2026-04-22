@@ -3,7 +3,7 @@ import { BRAND } from '@/hub.config';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: `Thank You | ${BRAND.name}`,
+  title: { absolute: `Thank You | ${BRAND.name}` },
   description: `Thank you for contacting ${BRAND.name}. We'll get back to you ASAP.`,
   robots: { index: false, follow: false },
 };

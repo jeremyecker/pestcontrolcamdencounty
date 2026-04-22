@@ -1,9 +1,17 @@
 import type { Metadata } from 'next';
-import { SITE_NAME, SITE_DOMAIN, PHONE, EMAIL } from '@/site.config';
+import { SITE_NAME, SITE_DOMAIN, SITE_URL, PHONE, PHONE_HREF } from '@/site.config';
 
 export const metadata: Metadata = {
-  title: `Privacy Policy | ${SITE_NAME}`,
+  title: { absolute: `Privacy Policy | ${SITE_NAME}` },
   description: `Privacy policy for ${SITE_NAME}. Learn how we collect, use, and protect your personal information.`,
+  alternates: { canonical: `${SITE_URL}/privacy/` },
+  robots: { index: true, follow: true },
+  openGraph: {
+    title: `Privacy Policy | ${SITE_NAME}`,
+    description: `Privacy policy for ${SITE_NAME}. Learn how we collect, use, and protect your personal information.`,
+    url: `${SITE_URL}/privacy/`,
+    type: 'website',
+  },
 };
 
 export default function PrivacyPage() {
@@ -22,10 +30,9 @@ export default function PrivacyPage() {
         <h2>Information We Collect</h2>
         <p>When you submit a form on our Site, we may collect:</p>
         <ul>
-          <li>Contact information (name, phone number, email address)</li>
+          <li>Contact information (name, phone number)</li>
           <li>Location information (zip code)</li>
           <li>Service details (pest type, property type, description of issue)</li>
-          <li>Communication preferences (SMS consent)</li>
         </ul>
         <p>
           We also automatically collect usage data including pages visited, time on site, browser type, and referral
@@ -35,17 +42,10 @@ export default function PrivacyPage() {
         <h2>How We Use Your Information</h2>
         <ul>
           <li>To respond to your service inquiries and provide pest control estimates</li>
-          <li>To contact you regarding your service request via phone, email, or text message</li>
+          <li>To contact you by phone regarding your service request</li>
           <li>To improve our website and services</li>
           <li>To comply with legal obligations</li>
         </ul>
-
-        <h2>Text Message Consent</h2>
-        <p>
-          By submitting a form and checking the SMS consent box, you agree to receive text messages from {SITE_NAME} at
-          the phone number you provided. Message and data rates may apply. Message frequency varies. Reply STOP to opt
-          out at any time. Reply HELP for assistance.
-        </p>
 
         <h2>Information Sharing</h2>
         <p>We do not sell your personal information. We may share your information with:</p>
@@ -70,9 +70,8 @@ export default function PrivacyPage() {
 
         <h2>Your Rights</h2>
         <p>
-          You may request access to, correction of, or deletion of your personal information by contacting us
-          at <a href={`mailto:${EMAIL}`} className="text-brand-primary hover:underline">{EMAIL}</a> or
-          by calling <a href={`tel:+1${PHONE.replace(/\\D/g, '')}`} className="text-brand-primary hover:underline">{PHONE}</a>.
+          You may request access to, correction of, or deletion of your personal information by calling us
+          at <a href={PHONE_HREF} className="text-brand-primary hover:underline">{PHONE}</a>.
         </p>
 
         <h2>Children&apos;s Privacy</h2>
@@ -88,10 +87,9 @@ export default function PrivacyPage() {
         </p>
 
         <h2>Contact Us</h2>
-        <p>If you have questions about this Privacy Policy, please contact us:</p>
+        <p>If you have questions about this Privacy Policy, please call us:</p>
         <ul>
-          <li>Phone: {PHONE}</li>
-          <li>Email: <a href={`mailto:${EMAIL}`} className="text-brand-primary hover:underline">{EMAIL}</a></li>
+          <li>Phone: <a href={PHONE_HREF} className="text-brand-primary hover:underline">{PHONE}</a></li>
         </ul>
       </div>
     </div>

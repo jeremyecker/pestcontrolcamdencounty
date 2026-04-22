@@ -8,8 +8,8 @@ import Card from '@/components/ui/Card';
 import CTABanner from '@/components/sections/CTABanner';
 
 export const metadata: Metadata = generatePageMetadata({
-  title: `Pest Control Blog — Tips & Guides`,
-  description: `Expert pest control tips and guides for homeowners across ${GEO.region}. Stay informed about common pests, prevention tips, and treatment options.`,
+  title: `Pest Control Blog`,
+  description: `Pest control tips, seasonal guides, and local expertise for ${GEO.region} homeowners. Stay informed about common pests, prevention, and treatment options.`,
   path: '/blog',
 });
 

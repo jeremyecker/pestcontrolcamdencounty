@@ -1,10 +1,17 @@
 import type { Metadata } from 'next';
-import { SITE_NAME, PHONE, PHONE_HREF, REGIONS, HOURS } from '@/site.config';
+import { SITE_NAME, SITE_URL, PHONE, PHONE_HREF, REGIONS, HOURS, GEO } from '@/site.config';
 import LeadForm from '@/components/forms/LeadForm';
 
 export const metadata: Metadata = {
-  title: 'Contact Us',
-  description: `Get a free pest control estimate from ${SITE_NAME}. Call or fill out our form.`,
+  title: `Contact a Camden County Exterminator`,
+  description: `Contact ${SITE_NAME} for licensed pest control in ${GEO.region}, NJ. Call ${PHONE} for same-day service or request a free estimate online.`,
+  alternates: { canonical: `${SITE_URL}/contact/` },
+  openGraph: {
+    title: `Contact a Camden County Exterminator | ${SITE_NAME}`,
+    description: `Contact ${SITE_NAME} for licensed pest control in ${GEO.region}, NJ. Call ${PHONE} for same-day service.`,
+    url: `${SITE_URL}/contact/`,
+    type: 'website',
+  },
 };
 
 export default function ContactPage() {
@@ -12,7 +19,7 @@ export default function ContactPage() {
     <div className="max-w-5xl mx-auto px-4 py-16">
       <div className="text-center mb-12">
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
-          Contact {SITE_NAME}
+          Contact a Camden County Exterminator
         </h1>
         <p className="text-xl text-gray-600">
           Get a free estimate or ask a question. We respond fast.

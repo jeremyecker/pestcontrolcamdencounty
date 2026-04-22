@@ -20,7 +20,14 @@ export const metadata: Metadata = {
   title: { absolute: 'Pest Control Camden County NJ | Licensed Exterminators' },
   description: 'Licensed pest control in Camden County, NJ. Cherry Hill, Voorhees, Haddonfield, Collingswood, Pennsauken & all 35 communities. Same-day service. Call (856) 600-0812.',
   alternates: {
-    canonical: SITE_URL,
+    canonical: `${SITE_URL}/`,
+  },
+  openGraph: {
+    title: 'Pest Control Camden County NJ | Licensed Exterminators',
+    description: 'Licensed pest control in Camden County, NJ. Cherry Hill, Voorhees, Haddonfield, Collingswood, Pennsauken & all 35 communities. Same-day service.',
+    url: `${SITE_URL}/`,
+    type: 'website',
+    images: ['/images/og-default.jpg'],
   },
 };
 

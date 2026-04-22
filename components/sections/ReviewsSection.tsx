@@ -1,6 +1,14 @@
 import { GMB, GEO, SITE_NAME, REVIEWS } from '@/site.config';
 import Card from '@/components/ui/Card';
 
+interface Review {
+  rating: number;
+  date: string;
+  text: string;
+  author: string;
+  location?: string;
+}
+
 function StarRating({ rating }: { rating: number }) {
   return (
     <div className="flex gap-0.5">
@@ -24,9 +32,8 @@ export default function ReviewsSection({
   subtitle = `Trusted by families across ${GEO.region}`,
   limit = 6,
 }: ReviewsSectionProps) {
-  if (REVIEWS.length === 0) return null;
-
-  const reviews = REVIEWS.slice(0, limit);
+  const reviews = (REVIEWS as readonly Review[]).slice(0, limit);
+  if (reviews.length === 0) return null;
 
   return (
     <section className="py-12 lg:py-16 bg-gray-50">

@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: { params: Promise<{ region: s
   if (!region || !service) return {};
   return generatePageMetadata({
     title: `${service.name} in ${region.name}`,
-    description: getServiceDescription(service, region),
+    description: getServiceDescription(service.slug),
     path: `/${regionSlug}/services/${slug}`,
   });
 }
@@ -44,7 +44,7 @@ export default async function ServicePage({ params }: { params: Promise<{ region
   if (!region || !service) notFound();
 
   const content = SERVICE_CONTENT[service.slug];
-  const schema = serviceSchema(service.name, service.slug, getServiceDescription(service, region));
+  const schema = serviceSchema(service.name, service.slug, getServiceDescription(service.slug));
   const fullArea = getFullServiceArea();
 
   return (
@@ -63,7 +63,7 @@ export default async function ServicePage({ params }: { params: Promise<{ region
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
           {service.name} in {region.name}
         </h1>
-        <p className="text-xl text-gray-600 mb-8">{getServiceDescription(service, region)}</p>
+        <p className="text-xl text-gray-600 mb-8">{getServiceDescription(service.slug)}</p>
 
         {content && (
           <>
