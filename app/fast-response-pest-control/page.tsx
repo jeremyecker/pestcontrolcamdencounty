@@ -266,7 +266,7 @@ export default function FastResponsePestControl() {
                 <p className="text-gray-700">
                   Call <a href="tel:+18566000812" className="text-[#2B6CB0] font-semibold hover:underline">(856) 600-0812</a>.
                   Our line is answered by a real person — not a recording or an answering service.
-                  Describe the pest and situation as clearly as possible. If you can send a photo, that helps us
+                  Describe the pest and situation as clearly as possible over the phone so we can
                   prepare the right equipment and products before we arrive.
                 </p>
               </div>

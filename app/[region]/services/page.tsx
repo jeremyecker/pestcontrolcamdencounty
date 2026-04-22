@@ -44,7 +44,7 @@ export default async function ServicesPage({ params }: { params: Promise<{ regio
             <h2 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">
               {service.name}
             </h2>
-            <p className="text-gray-600 text-sm">{getServiceDescription(service, region)}</p>
+            <p className="text-gray-600 text-sm">{getServiceDescription(service.slug)}</p>
           </Link>
         ))}
       </div>

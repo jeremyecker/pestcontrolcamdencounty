@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { SITE_NAME, SITE_URL, SITE_DESCRIPTION, GEO, PHONE, HOURS, GMB, SERVICES, EMAIL, SEO } from '@/site.config';
+import { SITE_NAME, SITE_URL, SITE_DESCRIPTION, GEO, PHONE, HOURS, GMB, SERVICES, SEO } from '@/site.config';
 import { canonicalUrl } from '@/lib/utils';
 import type { FAQ, BreadcrumbItem, Town } from '@/lib/types';
 
@@ -51,8 +51,8 @@ export function localBusinessSchema() {
     description: SITE_DESCRIPTION,
     url: SITE_URL,
     telephone: PHONE,
-    email: EMAIL,
     image: `${SITE_URL}/images/og-default.jpg`,
+    priceRange: '$$',
     address: {
       '@type': 'PostalAddress',
       addressLocality: GEO.countyFull,

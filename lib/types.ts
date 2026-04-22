@@ -34,9 +34,7 @@ export interface LeadFormData {
   phone: string;
   zip: string;
   pest_type: string;
-  email?: string;
   description?: string;
-  sms_consent: boolean;
   page_url: string;
   utm_source?: string;
   utm_medium?: string;
@@ -50,11 +48,9 @@ export interface LeadSubmission {
   site_id: string;
   name: string;
   phone: string;
-  email: string | null;
   zip_code: string;
   pest_type: string;
   description: string | null;
-  sms_consent: boolean;
   page_url: string;
   utm_source: string | null;
   utm_medium: string | null;

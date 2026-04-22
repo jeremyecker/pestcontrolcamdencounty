@@ -6,8 +6,8 @@ import TrustBar from '@/components/sections/TrustBar';
 import CTABanner from '@/components/sections/CTABanner';
 
 export const metadata: Metadata = generatePageMetadata({
-  title: `About Us — Your Local Pest Control Experts`,
-  description: `${SITE_NAME} is locally owned and operated, protecting homes and families across ${GEO.region} with effective, family-friendly pest control solutions.`,
+  title: `About Our Camden County Exterminators`,
+  description: `${SITE_NAME} is a locally owned pest control company protecting homes and families across ${GEO.region} with licensed, family-friendly treatments. Licensed & insured.`,
   path: '/about',
 });
 

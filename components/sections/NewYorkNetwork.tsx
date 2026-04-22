@@ -2,7 +2,8 @@
 import { NETWORK_SITES } from '@/site.config';
 
 export default function NewYorkNetwork() {
-  if (NETWORK_SITES.length === 0) return null;
+  const sites = NETWORK_SITES as readonly { name: string; url: string; description: string; emoji: string }[];
+  if (sites.length === 0) return null;
 
   return (
     <section className="bg-blue-50 py-16 px-4">
@@ -14,7 +15,7 @@ export default function NewYorkNetwork() {
           We&apos;re part of a trusted network of local pest control experts. Find a provider near you.
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {NETWORK_SITES.map((site) => (
+          {sites.map((site) => (
             <a
               key={site.url}
               href={site.url}

@@ -2,6 +2,7 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import { SERVICES } from '@/lib/services';
 import { BRAND, REGIONS } from '@/hub.config';
+import { SITE_URL } from '@/site.config';
 
 const serviceArea = REGIONS.map(r => r.name).join(', ').replace(/, ([^,]*)$/, ' & $1');
 
@@ -20,8 +21,15 @@ const genericDescriptions: Record<string, string> = {
 };
 
 export const metadata: Metadata = {
-  title: `Pest Control Services | ${BRAND.name}`,
-  description: `Full pest control services for ${serviceArea}. Family-friendly treatments, same-day service available.`,
+  title: { absolute: `Pest Control Services in ${serviceArea}, NJ | ${BRAND.name}` },
+  description: `Full pest control services for ${serviceArea}, NJ — ants, termites, bed bugs, rodents, cockroaches, mosquitoes, wildlife and more. Same-day service available.`,
+  alternates: { canonical: `${SITE_URL}/services/` },
+  openGraph: {
+    title: `Pest Control Services in ${serviceArea}, NJ | ${BRAND.name}`,
+    description: `Full pest control services for ${serviceArea}, NJ — ants, termites, bed bugs, rodents, cockroaches, mosquitoes, wildlife and more.`,
+    url: `${SITE_URL}/services/`,
+    type: 'website',
+  },
 };
 
 export default function ServicesPage() {
@@ -29,7 +37,7 @@ export default function ServicesPage() {
     <div className="max-w-6xl mx-auto px-4 py-16">
       <div className="text-center mb-12">
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
-          Our Pest Control Services
+          Pest Control Services in {serviceArea}, NJ
         </h1>
         <p className="text-xl text-gray-600">
           Serving {serviceArea} with professional, family-friendly pest control.

@@ -15,7 +15,6 @@ export const BRAND = {
   domain: 'pestcontrolcamdencounty.com',
   phone: '8566000812',
   phoneFormatted: '(856) 600-0812',
-  email: 'info@pestcontrolcamdencounty.com',
   primaryColor: '#1A365D',
   secondaryColor: '#2B6CB0',
   accentColor: '#DD6B20',

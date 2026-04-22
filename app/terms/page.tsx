@@ -1,9 +1,17 @@
 import type { Metadata } from 'next';
-import { SITE_NAME, SITE_DOMAIN, PHONE, EMAIL, REGIONS } from '@/site.config';
+import { SITE_NAME, SITE_DOMAIN, SITE_URL, PHONE, PHONE_HREF, REGIONS, GEO } from '@/site.config';
 
 export const metadata: Metadata = {
-  title: `Terms of Service | ${SITE_NAME}`,
+  title: { absolute: `Terms of Service | ${SITE_NAME}` },
   description: `Terms of Service for ${SITE_NAME}. Read our terms governing use of our website and services.`,
+  alternates: { canonical: `${SITE_URL}/terms/` },
+  robots: { index: true, follow: true },
+  openGraph: {
+    title: `Terms of Service | ${SITE_NAME}`,
+    description: `Terms of Service for ${SITE_NAME}. Read our terms governing use of our website and services.`,
+    url: `${SITE_URL}/terms/`,
+    type: 'website',
+  },
 };
 
 export default function TermsPage() {
@@ -23,8 +31,8 @@ export default function TermsPage() {
 
         <h2>Services</h2>
         <p>
-          {SITE_NAME} provides pest control and extermination services in {regionNames}, New York. Service estimates
-          provided through this website are non-binding until confirmed by a {SITE_NAME} representative.
+          {SITE_NAME} provides pest control and extermination services in {regionNames}, {GEO.state}. Service
+          estimates provided through this website are non-binding until confirmed by a {SITE_NAME} representative.
         </p>
 
         <h2>Use of Website</h2>
@@ -68,14 +76,13 @@ export default function TermsPage() {
 
         <h2>Governing Law</h2>
         <p>
-          These terms are governed by and construed in accordance with the laws of the State of New York.
+          These terms are governed by and construed in accordance with the laws of the State of {GEO.state}.
         </p>
 
         <h2>Contact Us</h2>
-        <p>If you have questions about these Terms of Service, please contact us:</p>
+        <p>If you have questions about these Terms of Service, please call us:</p>
         <ul>
-          <li>Phone: {PHONE}</li>
-          <li>Email: <a href={`mailto:${EMAIL}`} className="text-brand-primary hover:underline">{EMAIL}</a></li>
+          <li>Phone: <a href={PHONE_HREF} className="text-brand-primary hover:underline">{PHONE}</a></li>
         </ul>
       </div>
     </div>

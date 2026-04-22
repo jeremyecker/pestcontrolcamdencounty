@@ -11,10 +11,8 @@ export async function POST(req: NextRequest) {
     const {
       name,
       phone,
-      email,
       description,
       pest_type,
-      sms_consent,
       source,
       regionSlug,
     } = body;
@@ -26,10 +24,8 @@ export async function POST(req: NextRequest) {
     const leadData = {
       name,
       phone,
-      email: email || null,
       description: description || null,
       pest_type: pest_type || null,
-      sms_consent: sms_consent === true,
       source: source || 'website',
       region_slug: regionSlug || null,
       site_domain: BRAND.domain,

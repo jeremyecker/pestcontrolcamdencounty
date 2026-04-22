@@ -5,6 +5,16 @@ import { getAllBlogPosts } from '@/data/blog-posts';
 
 const BASE_URL = 'https://pestcontrolcamdencounty.com';
 
+const QUOTE_SERVICES = [
+  'ant-control',
+  'bed-bug-treatment',
+  'cockroach-treatment',
+  'mosquito-treatment',
+  'rodent-control',
+  'termite-treatment',
+  'wasp-removal',
+];
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date().toISOString();
 
@@ -34,6 +44,42 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.7,
     },
+    {
+      url: `${BASE_URL}/services/`,
+      lastModified: now,
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: `${BASE_URL}/blog/`,
+      lastModified: now,
+      changeFrequency: 'weekly',
+      priority: 0.7,
+    },
+    {
+      url: `${BASE_URL}/reviews/`,
+      lastModified: now,
+      changeFrequency: 'monthly',
+      priority: 0.6,
+    },
+    {
+      url: `${BASE_URL}/get-a-quote/`,
+      lastModified: now,
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
+    {
+      url: `${BASE_URL}/privacy/`,
+      lastModified: now,
+      changeFrequency: 'yearly',
+      priority: 0.3,
+    },
+    {
+      url: `${BASE_URL}/terms/`,
+      lastModified: now,
+      changeFrequency: 'yearly',
+      priority: 0.3,
+    },
     // High-intent lead capture pages
     {
       url: `${BASE_URL}/pest-control-near-me/`,
@@ -49,6 +95,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${BASE_URL}/emergency-pest-control/`,
+      lastModified: now,
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: `${BASE_URL}/fast-response-pest-control/`,
       lastModified: now,
       changeFrequency: 'weekly',
       priority: 0.9,
@@ -72,10 +124,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: `${BASE_URL}/free-pest-estimate/`,
+      lastModified: now,
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
       url: `${BASE_URL}/bed-bug-exterminator/`,
       lastModified: now,
       changeFrequency: 'monthly',
       priority: 0.9,
+    },
+    {
+      url: `${BASE_URL}/ant-exterminator/`,
+      lastModified: now,
+      changeFrequency: 'monthly',
+      priority: 0.8,
     },
     // City landing pages
     {
@@ -91,6 +155,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/wildlife-removal/`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${BASE_URL}/property-management-pest-control/`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
   ];
+
+  // Get-a-quote sub-pages
+  const quotePages: MetadataRoute.Sitemap = QUOTE_SERVICES.map((slug) => ({
+    url: `${BASE_URL}/get-a-quote/${slug}/`,
+    lastModified: now,
+    changeFrequency: 'monthly' as const,
+    priority: 0.8,
+  }));
 
   // Service pages
   const servicePages: MetadataRoute.Sitemap = SERVICES.map((service) => ({
@@ -154,5 +226,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  return [...staticPages, ...servicePages, ...countyPages, ...townPages, ...blogPages, ...commercialPages];
+  return [...staticPages, ...quotePages, ...servicePages, ...countyPages, ...townPages, ...blogPages, ...commercialPages];
 }
