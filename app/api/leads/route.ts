@@ -1,34 +1,23 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { BRAND } from '@/hub.config';
-;
 
+// Dedup store (in-memory — resets on cold start, sufficient for basic protection)
+const recentSubmissions = new Map<string, number>();
+setInterval(() => {
+  const tenMinAgo = Date.now() - 10 * 60 * 1000;
+  for (const [key, timestamp] of recentSubmissions.entries()) {
+    if (timestamp < tenMinAgo) recentSubmissions.delete(key);
+  }
+}, 15 * 60 * 1000);
+
+
+const SUPABASE_URL = process.env.SUPABASE_URL!;
+const SUPABASE_ANON_KEY = process.env.SUPABASE_ANON_KEY!;
 const WEBHOOK_URL = process.env.CRM_WEBHOOK_URL || BRAND.webhookUrl;
-const SITE_NAME = 'pestcontrolcamdencounty';
 
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
-
-    // === PHASE2 SECURITY ===
-    // Origin validation
-    const origin = req.headers.get('origin') || '';
-    const isLocalDev = origin.includes('localhost') || origin.includes('127.0.0.1');
-    const isVercel = origin.includes('.vercel.app');
-    if (origin && !isLocalDev && !isVercel) {
-        site: SITE_NAME, reason: 'origin', origin, raw_payload: body
-      }).then(undefined, () => {});
-      return NextResponse.json({ success: true });
-    }
-    // Name validation
-    const nameVal = (body.name as string || '').trim();
-    const hasVowel = /[aeiouAEIOU]/.test(nameVal);
-    const hasUrl = /https?:\/\/|www\./.test(nameVal);
-    if (nameVal.length > 80 || !hasVowel || hasUrl) {
-        site: SITE_NAME, reason: 'validation', name: nameVal, raw_payload: body
-      }).then(undefined, () => {});
-      return NextResponse.json({ success: true });
-    }
-    // === END PHASE2 ORIGIN/VALIDATION ===
     const {
       name,
       phone,
@@ -48,42 +37,29 @@ export async function POST(req: NextRequest) {
     BLOCKED_EMAILS.includes(_lowerEmail) ||
     BLOCKED_DOMAINS.some(d => _lowerEmail.endsWith('@' + d))
   ) {
-      site: SITE_NAME, reason: 'blocklist', phone: body.phone as string, email: body.email as string, raw_payload: body
-    }).then(undefined, () => {});
     return NextResponse.json({ success: true });
   }
   // === END BLOCKLIST ===
 
   // SPAM PROTECTION: Honeypot
   if (body.honeypot) {
-      site: SITE_NAME, reason: 'honeypot', raw_payload: body
-    }).then(undefined, () => {});
     return NextResponse.json({ success: true, message: 'Thank you!' });
   }
 
   // SPAM PROTECTION: Timing (< 3 seconds = likely bot)
   const formStartedAt = body.form_started_at;
   if (formStartedAt && Date.now() - formStartedAt < 3000) {
-      site: SITE_NAME, reason: 'timing', raw_payload: body
-    }).then(undefined, () => {});
     return NextResponse.json({ success: true, message: 'Thank you!' });
   }
 
-  // SPAM PROTECTION: Supabase dedup (replaces in-memory — serverless safe)
+  // SPAM PROTECTION: Dedup (same phone within 10 minutes)
   const _dedupPhone = (phone || '').replace(/\D/g, '');
-  const dedupKey = Buffer.from(`${_dedupPhone}-${(body.zip || body.zip_code || '')}-${(body.pest_type || body.pestType || '')}`).toString('base64');
-  const { data: existingDedup } = await supabase
-    .from('form_dedup')
-    .select('id')
-    .eq('dedup_key', dedupKey)
-    .eq('site', SITE_NAME)
-    .gt('created_at', new Date(Date.now() - 600000).toISOString())
-    .maybeSingle();
-  if (existingDedup) {
-      site: SITE_NAME, reason: 'dedup', phone: _dedupPhone, raw_payload: body
-    }).then(undefined, () => {});
+  const _lastSub = recentSubmissions.get(_dedupPhone);
+  if (_lastSub && Date.now() - _lastSub < 10 * 60 * 1000) {
     return NextResponse.json({ success: true, message: "We already received your request. We'll be in touch soon!" });
   }
+  recentSubmissions.set(_dedupPhone, Date.now());
+
 
     if (!name || !phone) {
       return NextResponse.json({ error: 'Name and phone are required' }, { status: 400 });
