@@ -5,9 +5,9 @@ import { BRAND } from '@/hub.config';
 const recentSubmissions = new Map<string, number>();
 setInterval(() => {
   const tenMinAgo = Date.now() - 10 * 60 * 1000;
-  for (const [key, timestamp] of recentSubmissions.entries()) {
+  Array.from(recentSubmissions.entries()).forEach(([key, timestamp]) => {
     if (timestamp < tenMinAgo) recentSubmissions.delete(key);
-  }
+  });
 }, 15 * 60 * 1000);
 
 
