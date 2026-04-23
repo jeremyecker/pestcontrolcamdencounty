@@ -22,7 +22,7 @@ export async function POST(req: NextRequest) {
     if (origin && !isLocalDev && !isVercel) {
       await supabase.from('blocked_submissions').insert({
         site: SITE_NAME, reason: 'origin', origin, raw_payload: body
-      }).catch(() => {});
+      }).then(undefined, () => {});
       return NextResponse.json({ success: true });
     }
     // Name validation
@@ -32,7 +32,7 @@ export async function POST(req: NextRequest) {
     if (nameVal.length > 80 || !hasVowel || hasUrl) {
       await supabase.from('blocked_submissions').insert({
         site: SITE_NAME, reason: 'validation', name: nameVal, raw_payload: body
-      }).catch(() => {});
+      }).then(undefined, () => {});
       return NextResponse.json({ success: true });
     }
     // === END PHASE2 ORIGIN/VALIDATION ===
@@ -57,7 +57,7 @@ export async function POST(req: NextRequest) {
   ) {
     await supabase.from('blocked_submissions').insert({
       site: SITE_NAME, reason: 'blocklist', phone: body.phone as string, email: body.email as string, raw_payload: body
-    }).catch(() => {});
+    }).then(undefined, () => {});
     return NextResponse.json({ success: true });
   }
   // === END BLOCKLIST ===
@@ -66,7 +66,7 @@ export async function POST(req: NextRequest) {
   if (body.honeypot) {
     await supabase.from('blocked_submissions').insert({
       site: SITE_NAME, reason: 'honeypot', raw_payload: body
-    }).catch(() => {});
+    }).then(undefined, () => {});
     return NextResponse.json({ success: true, message: 'Thank you!' });
   }
 
@@ -75,14 +75,14 @@ export async function POST(req: NextRequest) {
   if (formStartedAt && Date.now() - formStartedAt < 3000) {
     await supabase.from('blocked_submissions').insert({
       site: SITE_NAME, reason: 'timing', raw_payload: body
-    }).catch(() => {});
+    }).then(undefined, () => {});
     return NextResponse.json({ success: true, message: 'Thank you!' });
   }
 
   // SPAM PROTECTION: Supabase dedup (replaces in-memory — serverless safe)
   const _dedupPhone = (phone || '').replace(/\D/g, '');
   const dedupKey = Buffer.from(`${_dedupPhone}-${(body.zip || body.zip_code || '')}-${(body.pest_type || body.pestType || '')}`).toString('base64');
-  await supabase.from('form_dedup').delete().lt('created_at', new Date(Date.now() - 3600000).toISOString()).catch(() => {});
+  await supabase.from('form_dedup').delete().lt('created_at', new Date(Date.now() - 3600000).toISOString()).then(undefined, () => {});
   const { data: existingDedup } = await supabase
     .from('form_dedup')
     .select('id')
@@ -93,10 +93,10 @@ export async function POST(req: NextRequest) {
   if (existingDedup) {
     await supabase.from('blocked_submissions').insert({
       site: SITE_NAME, reason: 'dedup', phone: _dedupPhone, raw_payload: body
-    }).catch(() => {});
+    }).then(undefined, () => {});
     return NextResponse.json({ success: true, message: "We already received your request. We'll be in touch soon!" });
   }
-  await supabase.from('form_dedup').upsert({ dedup_key: dedupKey, site: SITE_NAME }, { onConflict: 'dedup_key,site' }).catch(() => {});
+  await supabase.from('form_dedup').upsert({ dedup_key: dedupKey, site: SITE_NAME }, { onConflict: 'dedup_key,site' }).then(undefined, () => {});
 
 
     if (!name || !phone) {
