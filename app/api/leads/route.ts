@@ -1,14 +1,9 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { BRAND } from '@/hub.config';
-import { createClient } from '@supabase/supabase-js';
+;
 
-
-
-const SUPABASE_URL = process.env.SUPABASE_URL!;
-const SUPABASE_ANON_KEY = process.env.SUPABASE_ANON_KEY!;
 const WEBHOOK_URL = process.env.CRM_WEBHOOK_URL || BRAND.webhookUrl;
 const SITE_NAME = 'pestcontrolcamdencounty';
-const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
 export async function POST(req: NextRequest) {
   try {
@@ -20,7 +15,6 @@ export async function POST(req: NextRequest) {
     const isLocalDev = origin.includes('localhost') || origin.includes('127.0.0.1');
     const isVercel = origin.includes('.vercel.app');
     if (origin && !isLocalDev && !isVercel) {
-      await supabase.from('blocked_submissions').insert({
         site: SITE_NAME, reason: 'origin', origin, raw_payload: body
       }).then(undefined, () => {});
       return NextResponse.json({ success: true });
@@ -30,7 +24,6 @@ export async function POST(req: NextRequest) {
     const hasVowel = /[aeiouAEIOU]/.test(nameVal);
     const hasUrl = /https?:\/\/|www\./.test(nameVal);
     if (nameVal.length > 80 || !hasVowel || hasUrl) {
-      await supabase.from('blocked_submissions').insert({
         site: SITE_NAME, reason: 'validation', name: nameVal, raw_payload: body
       }).then(undefined, () => {});
       return NextResponse.json({ success: true });
@@ -55,7 +48,6 @@ export async function POST(req: NextRequest) {
     BLOCKED_EMAILS.includes(_lowerEmail) ||
     BLOCKED_DOMAINS.some(d => _lowerEmail.endsWith('@' + d))
   ) {
-    await supabase.from('blocked_submissions').insert({
       site: SITE_NAME, reason: 'blocklist', phone: body.phone as string, email: body.email as string, raw_payload: body
     }).then(undefined, () => {});
     return NextResponse.json({ success: true });
@@ -64,7 +56,6 @@ export async function POST(req: NextRequest) {
 
   // SPAM PROTECTION: Honeypot
   if (body.honeypot) {
-    await supabase.from('blocked_submissions').insert({
       site: SITE_NAME, reason: 'honeypot', raw_payload: body
     }).then(undefined, () => {});
     return NextResponse.json({ success: true, message: 'Thank you!' });
@@ -73,7 +64,6 @@ export async function POST(req: NextRequest) {
   // SPAM PROTECTION: Timing (< 3 seconds = likely bot)
   const formStartedAt = body.form_started_at;
   if (formStartedAt && Date.now() - formStartedAt < 3000) {
-    await supabase.from('blocked_submissions').insert({
       site: SITE_NAME, reason: 'timing', raw_payload: body
     }).then(undefined, () => {});
     return NextResponse.json({ success: true, message: 'Thank you!' });
@@ -82,7 +72,6 @@ export async function POST(req: NextRequest) {
   // SPAM PROTECTION: Supabase dedup (replaces in-memory — serverless safe)
   const _dedupPhone = (phone || '').replace(/\D/g, '');
   const dedupKey = Buffer.from(`${_dedupPhone}-${(body.zip || body.zip_code || '')}-${(body.pest_type || body.pestType || '')}`).toString('base64');
-  await supabase.from('form_dedup').delete().lt('created_at', new Date(Date.now() - 3600000).toISOString()).then(undefined, () => {});
   const { data: existingDedup } = await supabase
     .from('form_dedup')
     .select('id')
@@ -91,13 +80,10 @@ export async function POST(req: NextRequest) {
     .gt('created_at', new Date(Date.now() - 600000).toISOString())
     .maybeSingle();
   if (existingDedup) {
-    await supabase.from('blocked_submissions').insert({
       site: SITE_NAME, reason: 'dedup', phone: _dedupPhone, raw_payload: body
     }).then(undefined, () => {});
     return NextResponse.json({ success: true, message: "We already received your request. We'll be in touch soon!" });
   }
-  await supabase.from('form_dedup').upsert({ dedup_key: dedupKey, site: SITE_NAME }, { onConflict: 'dedup_key,site' }).then(undefined, () => {});
-
 
     if (!name || !phone) {
       return NextResponse.json({ error: 'Name and phone are required' }, { status: 400 });
