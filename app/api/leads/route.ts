@@ -16,6 +16,20 @@ export async function POST(req: NextRequest) {
       source,
       regionSlug,
     } = body;
+  // === BLOCKLIST CHECK ===
+  const BLOCKED_PHONES = ['2168596131'];
+  const BLOCKED_EMAILS = ['susansmi@parallelaid.com'];
+  const BLOCKED_DOMAINS = ['parallelaid.com'];
+  const _cleanPhone = (phone || '').replace(/[^0-9]/g, '');
+  const _lowerEmail = ((body.email || '') + '').toLowerCase();
+  if (
+    BLOCKED_PHONES.includes(_cleanPhone) ||
+    BLOCKED_EMAILS.includes(_lowerEmail) ||
+    BLOCKED_DOMAINS.some(d => _lowerEmail.endsWith('@' + d))
+  ) {
+    return NextResponse.json({ success: true });
+  }
+  // === END BLOCKLIST ===
 
     if (!name || !phone) {
       return NextResponse.json({ error: 'Name and phone are required' }, { status: 400 });
