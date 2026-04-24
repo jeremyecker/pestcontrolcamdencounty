@@ -6,9 +6,9 @@ import CTABanner from '@/components/sections/CTABanner';
 import { TOWN_OPENERS } from '@/data/town-openers';
 import { CITY_LAYER7 } from '@/data/layer7-data';
 
-const SERVICE_NAME = 'Wildlife Removal';
-const SERVICE_SLUG = 'wildlife-removal';
-const SERVICE_DESC = 'Humane wildlife trapping & exclusion';
+const SERVICE_NAME = 'Mosquito Control';
+const SERVICE_SLUG = 'mosquito-control';
+const SERVICE_DESC = 'Barrier sprays, larvicide treatments, and seasonal mosquito programs';
 
 const TOWNS = [
   { name: 'Cherry Hill', slug: 'cherry-hill' },
@@ -59,10 +59,10 @@ export async function generateMetadata({ params }: { params: Promise<{ region: s
   if (!town) return {};
   return {
     title: { absolute: `${SERVICE_NAME} in ${town.name}, NJ | Camden County Pest Control` },
-    description: `Professional ${SERVICE_NAME.toLowerCase()} in ${town.name}, NJ. ${SERVICE_DESC}. Licensed NJ exterminators. Call ${BRAND.phoneFormatted}.`,
+    description: `Professional mosquito control in ${town.name}, NJ. Barrier spray treatments and seasonal programs. Licensed NJ exterminators. Call ${BRAND.phoneFormatted}.`,
     openGraph: {
       title: `${SERVICE_NAME} in ${town.name}, NJ`,
-      description: `Licensed ${SERVICE_NAME.toLowerCase()} serving ${town.name} and all of Camden County, NJ.`,
+      description: `Licensed mosquito control serving ${town.name} and all of Camden County, NJ.`,
       url: `https://pestcontrolcamdencounty.com/camden-county/${SERVICE_SLUG}/${town.slug}/`,
       type: 'website',
       siteName: 'Camden County Pest Control',
@@ -86,22 +86,22 @@ export default async function ServiceTownPage({ params }: { params: Promise<{ re
   const neighborhoods = layer7?.neighborhoods;
   const opener = TOWN_OPENERS[townSlug];
 
-  const faqs = layer7?.faqs || [
+  const faqs = [
     {
-      q: `How quickly can you respond for ${SERVICE_NAME.toLowerCase()} in ${town.name}?`,
-      a: `We offer same-day and next-morning service throughout Camden County including ${town.name}. Call before noon for same-day availability.`,
+      q: `When is the best time to start mosquito control in ${town!.name}?`,
+      a: `We recommend starting mosquito barrier treatments in early spring (April/May) before mosquito season peaks. We serve ${town!.name} and all of Camden County throughout the season.`,
     },
     {
-      q: `Are your ${SERVICE_NAME.toLowerCase()} treatments safe for my family?`,
-      a: `Yes. We use EPA-registered products applied by licensed NJ exterminators. Most treatments have a re-entry period of 1-4 hours.`,
+      q: `How often do you need to treat for mosquitoes in ${town!.name}?`,
+      a: `Most customers in ${town!.name} benefit from treatments every 3–4 weeks throughout the season (May–October). Ask about our seasonal mosquito programs for the best value.`,
     },
     {
-      q: `Do you offer a warranty on ${SERVICE_NAME.toLowerCase()} in ${town.name}?`,
-      a: `We offer a 30-day re-service guarantee on most pest treatments. Ask about our protection plans for ongoing coverage.`,
+      q: `Are mosquito treatments safe for kids and pets in ${town!.name}?`,
+      a: `Yes. We use EPA-registered products applied by licensed NJ exterminators. Keep children and pets off treated areas for about 30 minutes after application.`,
     },
     {
-      q: `What areas of ${town.name} do you serve?`,
-      a: `We serve all neighborhoods and sections of ${town.name} and the surrounding Camden County area. Call us to confirm coverage for your specific address.`,
+      q: `What areas of ${town!.name} do you serve?`,
+      a: `We serve all neighborhoods and sections of ${town!.name} and the surrounding Camden County area. Call us to confirm coverage for your specific address.`,
     },
   ];
 
@@ -109,11 +109,11 @@ export default async function ServiceTownPage({ params }: { params: Promise<{ re
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     name: BRAND.name,
-    telephone: PHONE,
+    telephone: BRAND.phoneFormatted,
     url: `https://${BRAND.domain}`,
     areaServed: {
       '@type': 'City',
-      name: town.name,
+      name: town!.name,
       containedInPlace: {
         '@type': 'AdministrativeArea',
         name: 'Camden County, NJ',
@@ -121,7 +121,7 @@ export default async function ServiceTownPage({ params }: { params: Promise<{ re
     },
     hasOfferCatalog: {
       '@type': 'OfferCatalog',
-      name: `${SERVICE_NAME} in ${town.name}`,
+      name: `${SERVICE_NAME} in ${town!.name}`,
       itemListElement: [
         {
           '@type': 'Offer',
@@ -144,14 +144,14 @@ export default async function ServiceTownPage({ params }: { params: Promise<{ re
           {' → '}
           <Link href={`/camden-county/${SERVICE_SLUG}/`} className="hover:text-brand-primary">{SERVICE_NAME}</Link>
           {' → '}
-          <span className="text-gray-900">{town.name}</span>
+          <span className="text-gray-900">{town!.name}</span>
         </nav>
 
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
-          {SERVICE_NAME} in {town.name}, NJ
+          {SERVICE_NAME} in {town!.name}, NJ
         </h1>
         <p className="text-xl text-gray-600 mb-6">
-          {opener || `Licensed ${SERVICE_NAME.toLowerCase()} serving ${town.name} and all of Camden County. Our NJ-licensed exterminators deliver same-day service with family-friendly treatments.`}
+          {opener || `Licensed mosquito control serving ${town!.name} and all of Camden County. Our NJ-licensed exterminators deliver barrier spray treatments that reduce mosquito populations by up to 90%.`}
         </p>
 
         {neighborhoods && (
@@ -167,8 +167,8 @@ export default async function ServiceTownPage({ params }: { params: Promise<{ re
 
         <div className="grid grid-cols-3 gap-4 mb-8">
           {[
-            { stat: 'Same-Day', label: 'Service Available' },
-            { stat: 'Licensed', label: 'NJ Exterminators' },
+            { stat: '$125–$150', label: 'Per Visit' },
+            { stat: 'Seasonal', label: 'Programs Available' },
             { stat: '30-Day', label: 'Re-Service Guarantee' },
           ].map(({ stat, label }) => (
             <div key={stat} className="bg-brand-light rounded-lg p-4 text-center">
@@ -180,8 +180,8 @@ export default async function ServiceTownPage({ params }: { params: Promise<{ re
 
         <div className="bg-brand-primary rounded-xl p-6 mb-10 flex flex-col sm:flex-row items-center gap-4">
           <div className="flex-1 text-white">
-            <h2 className="text-xl font-bold mb-1">Need {SERVICE_NAME.toLowerCase()} in {town.name}?</h2>
-            <p className="text-brand-light opacity-90 text-sm">Same-day service available throughout Camden County.</p>
+            <h2 className="text-xl font-bold mb-1">Need {SERVICE_NAME.toLowerCase()} in {town!.name}?</h2>
+            <p className="text-brand-light opacity-90 text-sm">Seasonal programs and one-time barrier treatments available.</p>
           </div>
           <div className="flex flex-col sm:flex-row gap-3">
             <Link
@@ -194,51 +194,57 @@ export default async function ServiceTownPage({ params }: { params: Promise<{ re
               href={`tel:+1${BRAND.phone}`}
               className="inline-flex items-center justify-center gap-2 bg-white text-brand-primary font-bold py-3 px-6 rounded-lg transition-colors hover:bg-gray-100 whitespace-nowrap"
             >
-              📞 {PHONE}
+              📞 {BRAND.phoneFormatted}
             </a>
           </div>
         </div>
 
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">Our {SERVICE_NAME} Service in {town.name}</h2>
-        <p className="text-gray-600 mb-8">{SERVICE_DESC}. Our licensed Camden County exterminators use proven methods tailored to the specific pest pressures found in {town.name}, NJ.</p>
+        <h2 className="text-2xl font-bold text-gray-900 mb-4">Our {SERVICE_NAME} Service in {town!.name}</h2>
+        <p className="text-gray-600 mb-8">{SERVICE_DESC}. Our licensed Camden County exterminators use proven barrier spray methods tailored to the specific mosquito pressures found in {town!.name}, NJ.</p>
 
         <div className="bg-gray-50 rounded-lg p-5 mb-10">
           <h3 className="font-bold text-gray-900 mb-3">Related Services</h3>
           <ul className="space-y-2 text-sm">
             <li><Link href="/pest-control-near-me/" className="text-brand-primary hover:underline">Pest Control Near Me — Camden County</Link></li>
             <li><Link href="/exterminator-near-me/" className="text-brand-primary hover:underline">Exterminator Near Me — Camden County NJ</Link></li>
-            <li><Link href={`/camden-county/${townSlug}/`} className="text-brand-primary hover:underline">General Pest Control in {town.name}</Link></li>
-            <li><Link href="/termite-inspection/" className="text-brand-primary hover:underline">Free Termite Inspection — South Jersey</Link></li>
+            <li><Link href={`/camden-county/${townSlug}/`} className="text-brand-primary hover:underline">General Pest Control in {town!.name}</Link></li>
           </ul>
         </div>
 
         {nearbyTowns.length > 0 && (
-          <div className="bg-gray-50 rounded-lg p-5 mb-10">
-            <h3 className="font-bold text-gray-900 mb-3">Also Serving Nearby Towns</h3>
+          <div className="mb-10">
+            <h3 className="text-xl font-bold text-gray-900 mb-4">Nearby Areas We Serve</h3>
             <div className="flex flex-wrap gap-2">
-              {nearbyTowns.map((t) => (
-                <Link
-                  key={t.slug}
-                  href={`/camden-county/${SERVICE_SLUG}/${t.slug}/`}
-                  className="bg-white border border-gray-200 rounded-full px-3 py-1 text-sm text-brand-primary hover:bg-brand-light transition-colors"
-                >
-                  {t.name}
-                </Link>
-              ))}
+              {nearbyTowns.map((slug: string) => {
+                const nearby = TOWNS.find(t => t.slug === slug);
+                if (!nearby) return null;
+                return (
+                  <Link
+                    key={slug}
+                    href={`/camden-county/${SERVICE_SLUG}/${slug}/`}
+                    className="bg-brand-light text-brand-primary rounded-full px-4 py-2 text-sm hover:bg-brand-primary hover:text-white transition-colors"
+                  >
+                    {nearby.name}
+                  </Link>
+                );
+              })}
             </div>
           </div>
         )}
 
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h2>
-        <div className="space-y-4 mb-10">
-          {faqs.map((faq) => (
-            <div key={faq.q} className="border border-gray-200 rounded-lg p-5">
-              <h3 className="font-bold text-gray-900 mb-2">{faq.q}</h3>
-              <p className="text-gray-600">{faq.a}</p>
-            </div>
-          ))}
+        <div className="mb-12">
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">Frequently Asked Questions</h2>
+          <div className="space-y-6">
+            {faqs.map((faq, i) => (
+              <div key={i} className="border-b border-gray-200 pb-6">
+                <h3 className="font-bold text-gray-900 mb-2">{faq.q}</h3>
+                <p className="text-gray-600">{faq.a}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
+
       <CTABanner />
     </>
   );

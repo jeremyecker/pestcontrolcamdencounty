@@ -44,6 +44,7 @@ const CAMDEN_TOWNS = [
   'Haddon Heights', 'Haddon Township', 'Mount Ephraim', 'Lawnside', 'Laurel Springs',
   'Gibbsboro', 'Waterford Township', 'Brooklawn', 'Gloucester City',
   'Camden', 'Hi-Nella', 'Chesilhurst', 'Atco',
+  'Blackwood', 'Chews Landing', 'Echelon', 'Erial', 'Glendora',
 ];
 
 export const REGIONS: RegionConfig[] = [

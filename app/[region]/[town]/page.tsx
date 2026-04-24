@@ -17,7 +17,12 @@ export async function generateMetadata({ params }: { params: Promise<{ region: s
     description: `Licensed pest control in ${townName}, NJ. Termites, rodents, ants, cockroaches & more. Same-day service available. Call ${BRAND.phoneFormatted}.`,
     openGraph: {
       title: `Pest Control in ${townName}, NJ`,
-      description: `Licensed pest control in ${townName}, NJ. Call ${BRAND.phoneFormatted} for same-day service.`,
+      description: `Licensed pest control in ${townName}, NJ. Same-day service. Call ${BRAND.phoneFormatted}.`,
+      url: `https://pestcontrolcamdencounty.com/camden-county/${townSlug}/`,
+      type: 'website',
+      siteName: 'Camden County Pest Control',
+      images: [{ url: 'https://pestcontrolcamdencounty.com/images/og-default.jpg', width: 1200, height: 630, alt: 'Camden County NJ pest control' }],
+      locale: 'en_US',
     },
   };
 }
@@ -81,7 +86,7 @@ export default async function TownPage({ params }: { params: Promise<{ region: s
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     name: BRAND.name,
-    telephone: BRAND.phoneFormatted,
+    telephone: PHONE,
     url: `https://${BRAND.domain}`,
     areaServed: {
       '@type': 'City',
@@ -167,7 +172,7 @@ export default async function TownPage({ params }: { params: Promise<{ region: s
               href={`tel:+1${BRAND.phone}`}
               className="inline-flex items-center justify-center gap-2 bg-white text-brand-primary font-bold py-3 px-6 rounded-lg transition-colors hover:bg-gray-100 whitespace-nowrap"
             >
-              📞 {BRAND.phoneFormatted}
+              📞 {PHONE}
             </a>
           </div>
         </div>

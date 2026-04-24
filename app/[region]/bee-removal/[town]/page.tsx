@@ -45,7 +45,12 @@ const TOWNS = [
   { name: 'Camden', slug: 'camden' },
   { name: 'Hi-Nella', slug: 'hi-nella' },
   { name: 'Chesilhurst', slug: 'chesilhurst' },
-  { name: 'Atco', slug: 'atco' }
+  { name: 'Atco', slug: 'atco' },
+  { name: 'Blackwood', slug: 'blackwood' },
+  { name: 'Chews Landing', slug: 'chews-landing' },
+  { name: 'Echelon', slug: 'echelon' },
+  { name: 'Erial', slug: 'erial' },
+  { name: 'Glendora', slug: 'glendora' }
 ];
 
 export async function generateMetadata({ params }: { params: Promise<{ region: string; town: string }> }): Promise<Metadata> {
@@ -58,6 +63,11 @@ export async function generateMetadata({ params }: { params: Promise<{ region: s
     openGraph: {
       title: `${SERVICE_NAME} in ${town.name}, NJ`,
       description: `Licensed ${SERVICE_NAME.toLowerCase()} serving ${town.name} and all of Camden County, NJ.`,
+      url: `https://pestcontrolcamdencounty.com/camden-county/${SERVICE_SLUG}/${town.slug}/`,
+      type: 'website',
+      siteName: 'Camden County Pest Control',
+      images: [{ url: 'https://pestcontrolcamdencounty.com/images/og-default.jpg', width: 1200, height: 630, alt: 'Camden County NJ pest control' }],
+      locale: 'en_US',
     },
   };
 }
@@ -99,7 +109,7 @@ export default async function ServiceTownPage({ params }: { params: Promise<{ re
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     name: BRAND.name,
-    telephone: BRAND.phoneFormatted,
+    telephone: PHONE,
     url: `https://${BRAND.domain}`,
     areaServed: {
       '@type': 'City',
@@ -184,7 +194,7 @@ export default async function ServiceTownPage({ params }: { params: Promise<{ re
               href={`tel:+1${BRAND.phone}`}
               className="inline-flex items-center justify-center gap-2 bg-white text-brand-primary font-bold py-3 px-6 rounded-lg transition-colors hover:bg-gray-100 whitespace-nowrap"
             >
-              📞 {BRAND.phoneFormatted}
+              📞 {PHONE}
             </a>
           </div>
         </div>
