@@ -109,7 +109,7 @@ export default async function ServiceTownPage({ params }: { params: Promise<{ re
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     name: BRAND.name,
-    telephone: PHONE,
+    telephone: BRAND.phoneFormatted,
     url: `https://${BRAND.domain}`,
     areaServed: {
       '@type': 'City',
@@ -194,7 +194,7 @@ export default async function ServiceTownPage({ params }: { params: Promise<{ re
               href={`tel:+1${BRAND.phone}`}
               className="inline-flex items-center justify-center gap-2 bg-white text-brand-primary font-bold py-3 px-6 rounded-lg transition-colors hover:bg-gray-100 whitespace-nowrap"
             >
-              📞 {PHONE}
+              📞 {BRAND.phoneFormatted}
             </a>
           </div>
         </div>
