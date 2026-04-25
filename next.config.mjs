@@ -13,15 +13,15 @@ const nextConfig = {
   },
   async redirects() {
     return [
-      // Service page aliases → canonical routes (were in code but not deployed)
+      // Existing service alias redirects (unchanged from main)
       { source: '/termite-exterminator', destination: '/camden-county/termite-control/', permanent: true },
       { source: '/termite-exterminator/', destination: '/camden-county/termite-control/', permanent: true },
       { source: '/termite-treatment', destination: '/camden-county/termite-control/', permanent: true },
       { source: '/termite-treatment/', destination: '/camden-county/termite-control/', permanent: true },
       { source: '/spider-control', destination: '/services/', permanent: true },
       { source: '/spider-control/', destination: '/services/', permanent: true },
-      { source: '/ant-control', destination: '/ant-exterminator/', permanent: true },
-      { source: '/ant-control/', destination: '/ant-exterminator/', permanent: true },
+      { source: '/ant-control', destination: '/camden-county/ant-exterminator/', permanent: true },
+      { source: '/ant-control/', destination: '/camden-county/ant-exterminator/', permanent: true },
       { source: '/commercial-pest-control', destination: '/commercial/', permanent: true },
       { source: '/commercial-pest-control/', destination: '/commercial/', permanent: true },
       { source: '/wasp-hornet-removal', destination: '/services/', permanent: true },
@@ -35,11 +35,11 @@ const nextConfig = {
       { source: '/flea-tick-treatment', destination: '/services/', permanent: true },
       { source: '/flea-tick-treatment/', destination: '/services/', permanent: true },
 
-      // Town-level mosquito sub-pages that were never built → parent mosquito page
+      // NEW: Town-level mosquito sub-pages that were never built → parent mosquito page
       { source: '/camden-county/mosquito-control/:town', destination: '/mosquito-control/', permanent: true },
       { source: '/camden-county/mosquito-control/:town/', destination: '/mosquito-control/', permanent: true },
 
-      // 4 towns in towns.json but missing from layer7-data → redirect to region until data is added
+      // NEW: 4 towns in towns.json but missing from layer7-data → redirect to region until data is added
       { source: '/camden-county/audubon-park', destination: '/camden-county/', permanent: false },
       { source: '/camden-county/audubon-park/', destination: '/camden-county/', permanent: false },
       { source: '/camden-county/berlin-township', destination: '/camden-county/', permanent: false },
