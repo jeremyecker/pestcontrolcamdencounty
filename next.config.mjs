@@ -13,6 +13,7 @@ const nextConfig = {
   },
   async redirects() {
     return [
+      // Existing service alias redirects (unchanged from main)
       { source: '/termite-exterminator', destination: '/camden-county/termite-control/', permanent: true },
       { source: '/termite-exterminator/', destination: '/camden-county/termite-control/', permanent: true },
       { source: '/termite-treatment', destination: '/camden-county/termite-control/', permanent: true },
@@ -33,6 +34,20 @@ const nextConfig = {
       { source: '/bed-bug-removal/', destination: '/camden-county/bed-bug-exterminator/', permanent: true },
       { source: '/flea-tick-treatment', destination: '/services/', permanent: true },
       { source: '/flea-tick-treatment/', destination: '/services/', permanent: true },
+
+      // NEW: Town-level mosquito sub-pages that were never built → parent mosquito page
+      { source: '/camden-county/mosquito-control/:town', destination: '/mosquito-control/', permanent: true },
+      { source: '/camden-county/mosquito-control/:town/', destination: '/mosquito-control/', permanent: true },
+
+      // NEW: 4 towns in towns.json but missing from layer7-data → redirect to region until data is added
+      { source: '/camden-county/audubon-park', destination: '/camden-county/', permanent: false },
+      { source: '/camden-county/audubon-park/', destination: '/camden-county/', permanent: false },
+      { source: '/camden-county/berlin-township', destination: '/camden-county/', permanent: false },
+      { source: '/camden-county/berlin-township/', destination: '/camden-county/', permanent: false },
+      { source: '/camden-county/chews-landing', destination: '/camden-county/', permanent: false },
+      { source: '/camden-county/chews-landing/', destination: '/camden-county/', permanent: false },
+      { source: '/camden-county/blackwood', destination: '/camden-county/', permanent: false },
+      { source: '/camden-county/blackwood/', destination: '/camden-county/', permanent: false },
     ];
   },
 };
