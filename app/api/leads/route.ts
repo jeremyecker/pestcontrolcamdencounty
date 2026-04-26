@@ -10,10 +10,7 @@ setInterval(() => {
   });
 }, 15 * 60 * 1000);
 
-
-const SUPABASE_URL = process.env.SUPABASE_URL!;
-const SUPABASE_ANON_KEY = process.env.SUPABASE_ANON_KEY!;
-const WEBHOOK_URL = process.env.CRM_WEBHOOK_URL || BRAND.webhookUrl;
+const WEBHOOK_URL = 'https://omcdxpqhnrhgnkxafgtn.supabase.co/functions/v1/webhook-camdencounty';
 
 export async function POST(req: NextRequest) {
   try {
@@ -26,6 +23,7 @@ export async function POST(req: NextRequest) {
       source,
       regionSlug,
     } = body;
+
   // === BLOCKLIST CHECK ===
   const BLOCKED_PHONES = ['2168596131'];
   const BLOCKED_EMAILS = ['susansmi@parallelaid.com'];
@@ -60,7 +58,6 @@ export async function POST(req: NextRequest) {
   }
   recentSubmissions.set(_dedupPhone, Date.now());
 
-
     if (!name || !phone) {
       return NextResponse.json({ error: 'Name and phone are required' }, { status: 400 });
     }
@@ -75,50 +72,16 @@ export async function POST(req: NextRequest) {
       site_domain: BRAND.domain,
       created_at: new Date().toISOString(),
     };
-    // Write to marketing_leads (correct column mapping for REPC CRM)
-    if (SUPABASE_URL && SUPABASE_ANON_KEY) {
-      await fetch(`${SUPABASE_URL}/rest/v1/marketing_leads`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'apikey': SUPABASE_ANON_KEY,
-          'Authorization': `Bearer ${SUPABASE_ANON_KEY}`,
-          'Prefer': 'return=minimal',
-        },
-        body: JSON.stringify({
-          customer_name: (leadData.name || '').trim(),
-          customer_phone: ((leadData.phone || '') + '').replace(/\D/g, ''),
-          customer_email: leadData.email || null,
-          website: leadData.page_url || null,
-          lead_source: leadData.site_domain || '',
-          api_source: leadData.site_domain || '',
-          description: leadData.pest_type || leadData.description || null,
-          status: 'new',
-        }),
-      }).catch(() => {});
-    }
-
-    // Save to Supabase
-    if (SUPABASE_URL && SUPABASE_ANON_KEY) {
-      await fetch(`${SUPABASE_URL}/rest/v1/form_submissions`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'apikey': SUPABASE_ANON_KEY,
-          'Authorization': `Bearer ${SUPABASE_ANON_KEY}`,
-          'Prefer': 'return=minimal',
-        },
-        body: JSON.stringify(leadData),
-      });
-    }
 
     // Send to CRM webhook
-    if (WEBHOOK_URL) {
-      await fetch(WEBHOOK_URL, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(leadData),
-      });
+    const response = await fetch(WEBHOOK_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(leadData),
+    });
+
+    if (!response.ok) {
+      return NextResponse.json({ error: 'Webhook failed' }, { status: 500 });
     }
 
     return NextResponse.json({ success: true });
