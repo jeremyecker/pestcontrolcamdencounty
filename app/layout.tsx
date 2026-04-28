@@ -66,7 +66,8 @@ export default function RootLayout({
         />
         {/* Ahrefs Web Analytics */}
         <script src="https://analytics.ahrefs.com/analytics.js" data-key="eGtdysc9Tojf5nOQdjf++g" async />
-      </head>
+          <meta property="og:image" content="/images/og-default.jpg" />
+  </head>
       <body className="min-h-screen flex flex-col">
         <TopBar />
         <Header />
