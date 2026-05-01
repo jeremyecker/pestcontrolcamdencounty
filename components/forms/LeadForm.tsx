@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useRef, useEffect } from 'react';
-import { PEST_OPTIONS } from '@/site.config';
+import { PEST_OPTIONS, SITE_NAME } from '@/site.config';
 
 const PROPERTY_TYPES = ['Residential', 'Commercial', 'Multi-Family / Apartment'] as const;
 
@@ -47,6 +47,7 @@ export default function LeadForm({
     pest_type: '',
     property_type: '',
     description: '',
+    sms_consent: false,
     honeypot: '',
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -325,6 +326,24 @@ export default function LeadForm({
               />
             </div>
 
+            {/* SMS Consent */}
+            <div className="flex items-start gap-2 col-span-2">
+              <input
+                type="checkbox"
+                id="hero-sms"
+                name="sms_consent"
+                required
+                checked={formData.sms_consent}
+                onChange={handleChange}
+                className="mt-0.5 h-4 w-4 rounded border-gray-300 text-brand-primary focus:ring-brand-primary shrink-0"
+              />
+              <label htmlFor="hero-sms" className="text-[10px] text-gray-500 leading-relaxed">
+                I agree to receive text messages from {SITE_NAME} at the phone number provided.{' '}
+                Message and data rates may apply. Message frequency varies. Reply STOP to opt out.{' '}
+                <span className="text-red-500">*</span>
+              </label>
+            </div>
+
             {/* Turnstile container (invisible) */}
             <div ref={turnstileContainerRef} />
 
@@ -484,6 +503,24 @@ export default function LeadForm({
                 placeholder="Tell us about your pest problem..."
                 className="w-full px-4 py-3 border-2 border-dashed border-gray-300 rounded-lg focus:border-brand-primary focus:ring-1 focus:ring-brand-primary outline-none transition-colors resize-none"
               />
+            </div>
+
+            {/* SMS Consent */}
+            <div className="flex items-start gap-3">
+              <input
+                type="checkbox"
+                id="lead-sms"
+                name="sms_consent"
+                required
+                checked={formData.sms_consent}
+                onChange={handleChange}
+                className="mt-1 h-4 w-4 rounded border-gray-300 text-brand-primary focus:ring-brand-primary"
+              />
+              <label htmlFor="lead-sms" className="text-xs text-gray-600 leading-relaxed">
+                I agree to receive text messages from {SITE_NAME} at the phone number provided.
+                Message and data rates may apply. Message frequency varies. Reply STOP to opt out.{' '}
+                <span className="text-red-500">*</span>
+              </label>
             </div>
 
             {/* Turnstile */}
