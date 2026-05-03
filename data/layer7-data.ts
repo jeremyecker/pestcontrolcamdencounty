@@ -234,7 +234,21 @@ export const CITY_LAYER7: Record<string, CityLayer7> = {
     ],
     nearby: [{ name: 'Gloucester Township', slug: 'gloucester-township' }, { name: 'Pine Hill', slug: 'pine-hill' }, { name: 'Stratford', slug: 'stratford' }, { name: 'Lindenwold', slug: 'lindenwold' }],
   },
-  'berlin': { nearby: [{ name: 'Stratford', slug: 'stratford' }, { name: 'Voorhees', slug: 'voorhees' }, { name: 'Marlton', slug: 'marlton' }, { name: 'Waterford Township', slug: 'waterford-township' }] },
+  'berlin': {
+    faqs: [
+      { q: 'What pests are most active in Berlin, NJ in the spring?', a: 'In spring, Berlin homeowners most commonly deal with carpenter ants, subterranean termite swarmers, and overwintering stink bugs emerging from wall voids. Wasp and yellowjacket nest-building also begins in May. If you see winged insects indoors in spring, they could be termite or ant swarmers — a licensed inspection can determine which pest you\'re dealing with and where the colony is located.' },
+      { q: 'How do I tell the difference between termites and carpenter ants in my Berlin home?', a: 'Both swarm in spring, which creates confusion. Termite swarmers have equal-length wings, a straight-sided body, and straight antennae. Carpenter ant swarmers have a pinched waist, elbowed antennae, and unequal wings. Finding either swarm indoors means an active colony is established somewhere in the structure. A pest inspection can confirm which pest is present and pinpoint the source.' },
+      { q: 'Do older homes in Berlin Borough have more pest problems?', a: 'Generally, yes. Homes built before the 1970s predate modern insulation and weatherproofing standards, leaving more entry points for rodents, ants, and overwintering insects. Aging foundations, older wood framing, and decades of plumbing and electrical modifications all contribute. Treatment in older homes often combines pesticide application with exclusion work to close those entry points.' },
+      { q: 'What areas of Berlin Borough do you serve?', a: 'Service covers all of Berlin Borough (ZIP code 08009), including the historic downtown, Berlin Heights, the Berlin Park area, the Route 73 commercial corridor, and residential areas throughout the borough. Call (856) 600-0812 to confirm availability and schedule service at your address.' },
+    ],
+    nearby: [
+      { name: 'Pine Hill', slug: 'pine-hill' },
+      { name: 'Clementon', slug: 'clementon' },
+      { name: 'Voorhees', slug: 'voorhees' },
+      { name: 'Gibbsboro', slug: 'gibbsboro' },
+      { name: 'Waterford', slug: 'waterford' },
+    ],
+  },
   'stratford': { nearby: [{ name: 'Berlin', slug: 'berlin' }, { name: 'Somerdale', slug: 'somerdale' }, { name: 'Gloucester Township', slug: 'gloucester-township' }, { name: 'Clementon', slug: 'clementon' }] },
   'pine-hill': { nearby: [{ name: 'Clementon', slug: 'clementon' }, { name: 'Winslow Township', slug: 'winslow-township' }, { name: 'Berlin', slug: 'berlin' }, { name: 'Gloucester Township', slug: 'gloucester-township' }] },
   'magnolia': { nearby: [{ name: 'Barrington', slug: 'barrington' }, { name: 'Somerdale', slug: 'somerdale' }, { name: 'Bellmawr', slug: 'bellmawr' }, { name: 'Gloucester Township', slug: 'gloucester-township' }] },
