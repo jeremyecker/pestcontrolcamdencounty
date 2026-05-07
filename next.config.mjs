@@ -13,6 +13,19 @@ const nextConfig = {
   },
   async redirects() {
     return [
+  // 404 redirects — auto-added May 2026
+      { source: '/camden-county/cockroach-exterminator/waterford/', destination: '/camden-county/', permanent: true },
+      { source: '/camden-county/wildlife-removal/waterford/', destination: '/camden-county/', permanent: true },
+      { source: '/camden-county/termite-control/waterford/', destination: '/camden-county/', permanent: true },
+      { source: '/camden-county/cricket-exterminator/waterford/', destination: '/camden-county/', permanent: true },
+      { source: '/camden-county/squirrel-removal/waterford/', destination: '/camden-county/', permanent: true },
+      { source: '/camden-county/ant-exterminator/waterford/', destination: '/camden-county/', permanent: true },
+      { source: '/camden-county/waterford/', destination: '/camden-county/', permanent: true },
+      { source: '/camden-county/bee-removal/waterford/', destination: '/camden-county/', permanent: true },
+      { source: '/camden-county/bed-bug-exterminator/waterford/', destination: '/camden-county/', permanent: true },
+      { source: '/camden-county/rodent-exterminator/waterford/', destination: '/camden-county/', permanent: true },
+      { source: '/camden-county/raccoon-removal/waterford/', destination: '/camden-county/', permanent: true },
+
       // Existing service alias redirects (unchanged from main)
       { source: '/termite-exterminator', destination: '/camden-county/termite-control/', permanent: true },
       { source: '/termite-exterminator/', destination: '/camden-county/termite-control/', permanent: true },
