@@ -265,7 +265,20 @@ export const CITY_LAYER7: Record<string, CityLayer7> = {
   'gloucester-city': { nearby: [{ name: 'Brooklawn', slug: 'brooklawn' }, { name: 'Bellmawr', slug: 'bellmawr' }, { name: 'Mount Ephraim', slug: 'mount-ephraim' }, { name: 'Camden', slug: 'camden' }] },
   'hi-nella': { nearby: [{ name: 'Somerdale', slug: 'somerdale' }, { name: 'Barrington', slug: 'barrington' }, { name: 'Magnolia', slug: 'magnolia' }, { name: 'Gloucester Township', slug: 'gloucester-township' }] },
   'chesilhurst': { nearby: [{ name: 'Winslow Township', slug: 'winslow-township' }, { name: 'Pine Hill', slug: 'pine-hill' }, { name: 'Berlin', slug: 'berlin' }, { name: 'Waterford Township', slug: 'waterford-township' }] },
-  'atco': { nearby: [{ name: 'Waterford Township', slug: 'waterford-township' }, { name: 'Winslow Township', slug: 'winslow-township' }, { name: 'Berlin', slug: 'berlin' }, { name: 'Marlton', slug: 'marlton' }] },
+  'atco': {
+    faqs: [
+      { q: 'Are ticks a serious concern for Atco homeowners?', a: "Yes. Atco's location at the Pinelands edge means deer populations and wooded lots are common throughout the area, creating consistent deer tick pressure from early spring through late fall. Tick barrier treatments applied in May can significantly reduce populations in your yard through the summer months. If you're seeing ticks on pets or family members regularly, a licensed pest control professional can evaluate your property and recommend a treatment schedule." },
+      { q: 'Do subterranean termites affect homes in Atco, NJ?', a: 'Subterranean termites are present throughout Camden County, including Waterford Township and Atco. The sandy, moist soils common to Pinelands-adjacent areas provide favorable tunneling conditions. If you observe winged insects emerging near your foundation or from wood framing in spring, that is a termite swarm — a sign of an active colony nearby. A professional inspection can assess the situation and identify appropriate treatment options.' },
+      { q: 'What pests should Atco homeowners watch for in spring?', a: 'In spring, the main concerns in Atco are carpenter ants emerging from established colonies, subterranean termites which swarm in late spring, deer ticks which peak from May through July, and mosquitoes which begin breeding as standing water warms. Addressing these before mid-May is typically more effective and less expensive than reactive treatment after infestations develop.' },
+      { q: 'Does pest control service cover all of Waterford Township, including Atco?', a: 'Yes. Service covers Waterford Township in full, including the Atco community (ZIP code 08004). To confirm coverage at your specific address or to schedule service, call (856) 600-0812.' },
+    ],
+    nearby: [
+      { name: 'Waterford Township', slug: 'waterford-township' },
+      { name: 'Berlin', slug: 'berlin' },
+      { name: 'Winslow Township', slug: 'winslow-township' },
+      { name: 'Pine Hill', slug: 'pine-hill' },
+    ],
+  },
   'lindenwold': {
     faqs: [
       { q: 'What pests are most common in Lindenwold?', a: "Lindenwold is a dense suburban borough near the PATCO Speedline with a mix of Cape Cod homes and garden apartments built in the 1950s-1970s. Cockroaches — particularly German cockroaches — are common in garden apartment complexes. Rodents are active near the commercial strips along Berlin-Cross Keys Road, and termites affect the older wood-frame housing stock throughout the borough." },
