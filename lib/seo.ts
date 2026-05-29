@@ -79,10 +79,11 @@ export function localBusinessSchema() {
         closes: '17:00',
       },
     ],
-    aggregateRating: GMB.reviewsEnabled
+    aggregateRating: GMB.reviewsEnabled && GMB.reviewCount > 0
       ? {
           '@type': 'AggregateRating',
           ratingValue: GMB.rating,
+          reviewCount: GMB.reviewCount,
           bestRating: 5,
         }
       : undefined,

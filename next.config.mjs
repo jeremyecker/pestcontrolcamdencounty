@@ -13,6 +13,8 @@ const nextConfig = {
   },
   async redirects() {
     return [
+      { source: '/reviews', destination: '/', permanent: true },
+      { source: '/reviews/', destination: '/', permanent: true },
   // 404 redirects — auto-added May 2026
       { source: '/camden-county/cockroach-exterminator/waterford/', destination: '/camden-county/', permanent: true },
       { source: '/camden-county/wildlife-removal/waterford/', destination: '/camden-county/', permanent: true },
