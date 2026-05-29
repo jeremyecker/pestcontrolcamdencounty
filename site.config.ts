@@ -79,6 +79,7 @@ export const GMB = {
   placeId: '',
   profileUrl: '',
   rating: 0,
+  reviewCount: 0,
   reviewsEnabled: false,
 } as const;
 

@@ -13,7 +13,6 @@ import NAPBlock from '@/components/sections/NAPBlock';
 import TownGrid from '@/components/sections/TownGrid';
 import FAQSection from '@/components/sections/FAQSection';
 import CTABanner from '@/components/sections/CTABanner';
-import ReviewsSection from '@/components/sections/ReviewsSection';
 
 export async function generateMetadata({ params }: { params: Promise<{ region: string }> }): Promise<Metadata> {
   const { region: regionSlug } = await params;
@@ -82,7 +81,6 @@ export default async function RegionHomePage({ params }: { params: Promise<{ reg
       />
       <TrustBar />
       <ServicesGrid limit={6} />
-      {gmb && gmb.reviewCount > 0 && <ReviewsSection limit={3} />}
       {gmb && <NAPBlock gmb={gmb} region={region} />}
       <TownGrid
         towns={regionTowns}

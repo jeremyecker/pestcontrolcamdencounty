@@ -7,7 +7,6 @@ import Hero from '@/components/sections/Hero';
 import TrustBar from '@/components/sections/TrustBar';
 import SeasonalAlert from '@/components/sections/SeasonalAlert';
 import ServicesGrid from '@/components/sections/ServicesGrid';
-import ReviewsSection from '@/components/sections/ReviewsSection';
 import TownGrid from '@/components/sections/TownGrid';
 import CTABanner from '@/components/sections/CTABanner';
 import FAQSection from '@/components/sections/FAQSection';
@@ -71,7 +70,6 @@ export default function HomePage() {
       <TrustBar />
       <SeasonalAlert county="Camden County" />
       <ServicesGrid limit={6} />
-      <ReviewsSection limit={3} />
       <TownGrid towns={mixedTowns} />
       <FAQSection faqs={homepageFAQs} />
       <NewYorkNetwork />
