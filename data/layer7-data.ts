@@ -288,4 +288,170 @@ export const CITY_LAYER7: Record<string, CityLayer7> = {
     ],
     nearby: [{ name: 'Clementon', slug: 'clementon' }, { name: 'Stratford', slug: 'stratford' }, { name: 'Laurel Springs', slug: 'laurel-springs' }, { name: 'Pine Hill', slug: 'pine-hill' }],
   },
+'audubon-park': {
+  faqs: [
+    { q: 'What type of community is Audubon Park, NJ?', a: 'Audubon Park is a small residential borough in Camden County, known for its quiet, tree-lined streets and close-knit community atmosphere.' },
+    { q: 'How far is Audubon Park from Philadelphia?', a: 'Audubon Park is located approximately 7 miles southeast of Philadelphia, offering easy access to the city while maintaining a suburban residential character.' },
+    { q: 'Is Audubon Park walkable?', a: 'Yes, Audubon Park is a highly walkable community due to its small size, with most destinations within the borough accessible on foot.' },
+    { q: 'What are the neighboring towns to Audubon Park?', a: 'Audubon Park is bordered by Audubon, Oaklyn, Mount Ephraim, and Haddon Township, providing easy access to additional shopping and services.' }
+  ],
+  nearby: [
+    { name: 'Oaklyn', slug: 'oaklyn' },
+    { name: 'Audubon', slug: 'audubon' },
+    { name: 'Haddon Township', slug: 'haddon-township' },
+    { name: 'Mount Ephraim', slug: 'mount-ephraim' },
+    { name: 'Collingswood', slug: 'collingswood' }
+  ]
+},
+'berlin-township': {
+  faqs: [
+    { q: 'What is Berlin Township known for?', a: 'Berlin Township is a residential community in Camden County known for its suburban neighborhoods, parks, and family-friendly atmosphere.' },
+    { q: 'Where is Berlin Township located in Camden County?', a: 'Berlin Township is located in the southeastern portion of Camden County, near the borders with neighboring towns like Berlin Borough and Pine Hill.' },
+    { q: 'Does Berlin Township have good schools?', a: 'Berlin Township is served by the Berlin Township School District, which provides educational services to elementary and middle school students in the community.' },
+    { q: 'What recreational facilities are in Berlin Township?', a: 'Berlin Township offers several parks and recreational areas for residents, including playgrounds, sports fields, and walking trails throughout the community.' }
+  ],
+  nearby: [
+    { name: 'Sicklerville', slug: 'sicklerville' },
+    { name: 'Berlin', slug: 'berlin' },
+    { name: 'Pine Hill', slug: 'pine-hill' },
+    { name: 'Clementon', slug: 'clementon' },
+    { name: 'Hi-Nella', slug: 'hi-nella' }
+  ]
+},
+'blackwood': {
+  faqs: [
+    { q: 'Is Blackwood a town or part of Gloucester Township?', a: 'Blackwood is an unincorporated community and census-designated place within Gloucester Township, serving as one of the township\'s main commercial and residential areas.' },
+    { q: 'What shopping is available in Blackwood?', a: 'Blackwood offers various shopping options along Route 42 and Black Horse Pike, including strip malls, grocery stores, restaurants, and local businesses.' },
+    { q: 'How far is Blackwood from Philadelphia?', a: 'Blackwood is located approximately 12-15 miles southeast of Philadelphia, with convenient access via Route 42 and the Atlantic City Expressway.' },
+    { q: 'What schools serve the Blackwood area?', a: 'The Blackwood area is served by the Gloucester Township Public Schools, which operates several elementary, middle, and high schools throughout the township.' }
+  ],
+  nearby: [
+    { name: 'Gloucester Township', slug: 'gloucester-township' },
+    { name: 'Chews Landing', slug: 'chews-landing' },
+    { name: 'Glendora', slug: 'glendora' },
+    { name: 'Runnemede', slug: 'runnemede' },
+    { name: 'Pine Hill', slug: 'pine-hill' }
+  ]
+},
+'chews-landing': {
+  faqs: [
+    { q: 'What is Chews Landing, NJ?', a: 'Chews Landing is an unincorporated community within Gloucester Township in Camden County, known for its residential neighborhoods and commercial areas along major routes.' },
+    { q: 'Where did the name Chews Landing come from?', a: 'Chews Landing is named after the Chew family, early settlers in the area, with the "landing" referring to historical access points along local waterways.' },
+    { q: 'What major roads run through Chews Landing?', a: 'Chews Landing is accessible via Route 42, the Atlantic City Expressway, and Blackwood-Clementon Road, providing convenient connections throughout the region.' },
+    { q: 'Is Chews Landing close to Philadelphia?', a: 'Yes, Chews Landing is approximately 12-14 miles from Philadelphia, making it a convenient suburban location for commuters to the city.' }
+  ],
+  nearby: [
+    { name: 'Gloucester Township', slug: 'gloucester-township' },
+    { name: 'Blackwood', slug: 'blackwood' },
+    { name: 'Stratford', slug: 'stratford' },
+    { name: 'Pine Hill', slug: 'pine-hill' },
+    { name: 'Erial', slug: 'erial' }
+  ]
+},
+'echelon': {
+  faqs: [
+    { q: 'Where is Echelon located in New Jersey?', a: 'Echelon is an unincorporated community in Voorhees Township, Camden County, situated in the central portion of the township near major commercial areas.' },
+    { q: 'What shopping centers are in Echelon?', a: 'Echelon is home to the Echelon Mall area and various shopping centers along Route 73 and Burnt Mill Road, offering retail stores, restaurants, and services.' },
+    { q: 'Is Echelon a good place to live?', a: 'Echelon offers a suburban lifestyle with convenient access to shopping, dining, schools, and parks, making it popular with families and professionals.' },
+    { q: 'How far is Echelon from Cherry Hill?', a: 'Echelon is located just a few miles from Cherry Hill, providing easy access to additional shopping, entertainment, and employment opportunities in that neighboring community.' }
+  ],
+  nearby: [
+    { name: 'Somerdale', slug: 'somerdale' },
+    { name: 'Stratford', slug: 'stratford' },
+    { name: 'Lindenwold', slug: 'lindenwold' },
+    { name: 'Gibbsboro', slug: 'gibbsboro' },
+    { name: 'Laurel Springs', slug: 'laurel-springs' }
+  ]
+},
+'erial': {
+  faqs: [
+    { q: 'What is Erial, NJ?', a: 'Erial is an unincorporated community in Pine Hill and Gloucester Township, Camden County, known for its quiet residential neighborhoods and suburban character.' },
+    { q: 'Is Erial part of Pine Hill or Gloucester Township?', a: 'Erial spans portions of both Pine Hill Borough and Gloucester Township, with residents served by different municipal governments depending on their specific location.' },
+    { q: 'What parks are near Erial?', a: 'Erial residents have access to several nearby parks and recreational areas in both Pine Hill and Gloucester Township, including playgrounds and sports facilities.' },
+    { q: 'How far is Erial from the Atlantic City Expressway?', a: 'Erial is located very close to the Atlantic City Expressway, providing convenient highway access for commuters and travelers heading to Philadelphia or the Jersey Shore.' }
+  ],
+  nearby: [
+    { name: 'Stratford', slug: 'stratford' },
+    { name: 'Laurel Springs', slug: 'laurel-springs' },
+    { name: 'Lindenwold', slug: 'lindenwold' },
+    { name: 'Somerdale', slug: 'somerdale' },
+    { name: 'Echelon', slug: 'echelon' }
+  ]
+},
+'glendora': {
+  faqs: [
+    { q: 'What is Glendora, NJ known for?', a: 'Glendora is a small residential community in Gloucester Township, Camden County, known for its quiet neighborhoods and convenient location near major routes.' },
+    { q: 'Is Glendora its own town?', a: 'No, Glendora is an unincorporated community within Gloucester Township, sharing municipal services and schools with the larger township.' },
+    { q: 'What shopping areas are near Glendora?', a: 'Glendora residents have easy access to shopping along the Black Horse Pike and in nearby Runnemede, Bellmawr, and Blackwood.' },
+    { q: 'How far is Glendora from Philadelphia?', a: 'Glendora is located approximately 10-12 miles from Philadelphia, offering a suburban setting with convenient access to the city via Routes 30 and 42.' }
+  ],
+  nearby: [
+    { name: 'Runnemede', slug: 'runnemede' },
+    { name: 'Magnolia', slug: 'magnolia' },
+    { name: 'Bellmawr', slug: 'bellmawr' },
+    { name: 'Blackwood', slug: 'blackwood' },
+    { name: 'Somerdale', slug: 'somerdale' }
+  ]
+},
+'pine-valley': {
+  faqs: [
+    { q: 'What is Pine Valley, NJ?', a: 'Pine Valley is a small borough in Camden County, home to the world-renowned Pine Valley Golf Club and a limited residential population.' },
+    { q: 'Can anyone play golf at Pine Valley Golf Club?', a: 'Pine Valley Golf Club is a private, invitation-only golf course, consistently ranked as one of the best golf courses in the world.' },
+    { q: 'How small is Pine Valley borough?', a: 'Pine Valley is one of the smallest municipalities in New Jersey by population, with the golf club occupying most of the borough\'s land area.' },
+    { q: 'What towns surround Pine Valley?', a: 'Pine Valley is bordered by Clementon, Pine Hill, and Lindenwold, providing access to shopping, dining, and other services in these neighboring communities.' }
+  ],
+  nearby: [
+    { name: 'Clementon', slug: 'clementon' },
+    { name: 'Lindenwold', slug: 'lindenwold' },
+    { name: 'Hi-Nella', slug: 'hi-nella' },
+    { name: 'Laurel Springs', slug: 'laurel-springs' },
+    { name: 'Stratford', slug: 'stratford' }
+  ]
+},
+'sicklerville': {
+  faqs: [
+    { q: 'What township is Sicklerville in?', a: 'Sicklerville is an unincorporated community located primarily in Winslow Township, with some portions extending into Gloucester Township, in Camden County.' },
+    { q: 'Is Sicklerville a growing area?', a: 'Yes, Sicklerville has experienced significant residential and commercial growth over recent decades, with new housing developments and shopping centers serving the expanding population.' },
+    { q: 'What shopping is available in Sicklerville?', a: 'Sicklerville offers various shopping centers and retail options along Route 42 and Williamstown Road, including grocery stores, restaurants, and national chain retailers.' },
+    { q: 'How far is Sicklerville from Philadelphia?', a: 'Sicklerville is approximately 18-20 miles from Philadelphia, offering a more suburban and rural setting while still maintaining reasonable access to the city.' }
+  ],
+  nearby: [
+    { name: 'Berlin Township', slug: 'berlin-township' },
+    { name: 'Berlin', slug: 'berlin' },
+    { name: 'Pine Hill', slug: 'pine-hill' },
+    { name: 'Clementon', slug: 'clementon' },
+    { name: 'Hi-Nella', slug: 'hi-nella' }
+  ]
+},
+'westmont': {
+  faqs: [
+    { q: 'What is Westmont, NJ?', a: 'Westmont is an unincorporated community within Haddon Township, Camden County, known for its tree-lined residential streets and proximity to Haddonfield.' },
+    { q: 'Is Westmont close to public transportation?', a: 'Yes, Westmont is served by NJ Transit\'s PATCO Hi-Speed Line Westmont station, providing direct rail service to Philadelphia and other communities along the line.' },
+    { q: 'What schools serve Westmont?', a: 'Westmont is served by the Haddon Township School District, which operates elementary and middle schools, with high school students attending Haddon Township High School.' },
+    { q: 'How far is Westmont from Philadelphia?', a: 'Westmont is approximately 8 miles from Philadelphia, with the PATCO train providing a convenient 20-minute commute to Center City.' }
+  ],
+  nearby: [
+    { name: 'Haddonfield', slug: 'haddonfield' },
+    { name: 'Haddon Township', slug: 'haddon-township' },
+    { name: 'Collingswood', slug: 'collingswood' },
+    { name: 'Audubon', slug: 'audubon' },
+    { name: 'Oaklyn', slug: 'oaklyn' }
+  ]
+},
+'woodlynne': {
+  faqs: [
+    { q: 'Where is Woodlynne, NJ located?', a: 'Woodlynne is a small borough in Camden County, bordered by Collingswood, Camden, and Oaklyn, situated along the Delaware River waterfront.' },
+    { q: 'How big is Woodlynne?', a: 'Woodlynne is one of the smaller boroughs in Camden County by land area, creating a tight-knit community atmosphere among its residents.' },
+    { q: 'Is Woodlynne close to Philadelphia?', a: 'Yes, Woodlynne is located directly across the Delaware River from Philadelphia, offering close proximity to the city while maintaining its own municipal identity.' },
+    { q: 'What amenities are near Woodlynne?', a: 'Woodlynne residents have easy access to shopping, dining, and entertainment in neighboring Collingswood, Oaklyn, and nearby Camden and Philadelphia.' }
+  ],
+  nearby: [
+    { name: 'Oaklyn', slug: 'oaklyn' },
+    { name: 'Collingswood', slug: 'collingswood' },
+    { name: 'Camden', slug: 'camden' },
+    { name: 'Audubon Park', slug: 'audubon-park' },
+    { name: 'Haddon Township', slug: 'haddon-township' }
+  ]
+}
+
 };
