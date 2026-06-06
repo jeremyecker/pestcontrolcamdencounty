@@ -29,13 +29,13 @@ export const GEO = {
   state: 'New Jersey',
   stateCode: 'NJ',
   region: 'Camden County, NJ',
-  totalTowns: 16,
+  totalTowns: 46,
   latitude: 39.9042,
   longitude: -75.0561,
 } as const;
 
 export const REGIONS = [
-  { name: 'Camden County', slug: 'camden-county', townCount: 16 },
+  { name: 'Camden County', slug: 'camden-county', townCount: 46 },
 ] as const;
 
 export const BRAND = {
