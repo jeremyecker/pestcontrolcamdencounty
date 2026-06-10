@@ -104,24 +104,26 @@ export async function generateStaticParams() {
   return towns.flatMap((town) => serviceKeys.map((service) => ({ service, town: town.slug })));
 }
 
-export async function generateMetadata({ params }: { params: { service: string; town: string } }): Promise<Metadata> {
-  const svc = SERVICES_MAP[params.service];
+export async function generateMetadata({ params }: { params: Promise<{ service: string; town: string }> }): Promise<Metadata> {
+  const { service, town } = await params;
+  const svc = SERVICES_MAP[service];
   if (!svc) return {};
-  const townName = getTownName(params.town);
+  const townName = getTownName(town);
   const title = `Free ${svc.label} Quote in ${townName}, NJ`;
   const description = `Licensed ${svc.label.toLowerCase()} serving ${townName}, Camden County NJ. ${svc.pricing} \u2014 free estimate, same-day service available.`;
   return {
     title: { absolute: title },
     description,
-    alternates: { canonical: `${SITE_URL}/get-a-quote/${params.service}/${params.town}/` },
-    openGraph: { title, description, url: `${SITE_URL}/get-a-quote/${params.service}/${params.town}/` },
+    alternates: { canonical: `${SITE_URL}/get-a-quote/${service}/${town}/` },
+    openGraph: { title, description, url: `${SITE_URL}/get-a-quote/${service}/${town}/` },
   };
 }
 
-export default function ServiceTownQuotePage({ params }: { params: { service: string; town: string } }) {
-  const svc = SERVICES_MAP[params.service];
+export default async function ServiceTownQuotePage({ params }: { params: Promise<{ service: string; town: string }> }) {
+  const { service, town } = await params;
+  const svc = SERVICES_MAP[service];
   if (!svc) notFound();
-  const townName = getTownName(params.town);
+  const townName = getTownName(town);
 
   return (
     <main>
@@ -169,7 +171,7 @@ export default function ServiceTownQuotePage({ params }: { params: { service: st
       </section>
 
       <section className="bg-white py-8 px-4 text-center space-x-4">
-        <a href={`/get-a-quote/${params.service}/`} className="text-[#2B6CB0] font-semibold hover:underline text-sm">
+        <a href={`/get-a-quote/${service}/`} className="text-[#2B6CB0] font-semibold hover:underline text-sm">
           &larr; Back to {svc.label} Quotes
         </a>
         <span className="text-gray-300">|</span>
