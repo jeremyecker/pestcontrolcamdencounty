@@ -2,6 +2,7 @@ import type { MetadataRoute } from 'next';
 import { SERVICES } from '@/lib/services';
 import { REGIONS } from '@/hub.config';
 import { getAllBlogPosts } from '@/data/blog-posts';
+import townsData from '@/data/towns.json';
 
 const BASE_URL = 'https://pestcontrolcamdencounty.com';
 
@@ -13,6 +14,20 @@ const QUOTE_SERVICES = [
   'rodent-control',
   'termite-treatment',
   'wasp-removal',
+];
+
+// Town-level get-a-quote FUNNEL vocabulary = SERVICES_MAP keys in
+// app/get-a-quote/[service]/[town]/page.tsx. Intentionally DIFFERENT from
+// QUOTE_SERVICES above (the static service-landing vocabulary). Both are live —
+// do not harmonize. Keep in sync with SERVICES_MAP keys in the funnel route.
+const FUNNEL_SERVICES = [
+  'bed-bug-treatment',
+  'ant-exterminator',
+  'rodent-control',
+  'cockroach-exterminator',
+  'mosquito-treatment',
+  'wasp-hornet-removal',
+  'termite-treatment',
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -158,6 +173,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
+  // Town-level get-a-quote funnel pages (service × town).
+  // Towns from townsData.regions[0].towns to match the funnel route's
+  // generateStaticParams 1:1.
+  const funnelTowns = (townsData as { regions: { towns: { slug: string }[] }[] }).regions[0].towns;
+  const funnelPages: MetadataRoute.Sitemap = FUNNEL_SERVICES.flatMap((service) =>
+    funnelTowns.map((town) => ({
+      url: `${BASE_URL}/get-a-quote/${service}/${town.slug}/`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+    }))
+  );
+
   // Service pages
   const servicePages: MetadataRoute.Sitemap = SERVICES.map((service) => ({
     url: `${BASE_URL}/services/${service.slug}/`,
@@ -220,5 +248,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  return [...staticPages, ...quotePages, ...servicePages, ...countyPages, ...townPages, ...blogPages, ...commercialPages];
+  return [...staticPages, ...quotePages, ...funnelPages, ...servicePages, ...countyPages, ...townPages, ...blogPages, ...commercialPages];
 }
