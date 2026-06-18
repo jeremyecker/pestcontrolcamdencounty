@@ -141,12 +141,4 @@ export const HOURS = {
 
 export const REVIEWS = [] as const;
 
-export const NETWORK_SITES = [
-  { name: 'L&L Pest Control Poconos PA', url: 'https://landlpestcontrol.com/exterminator-near-me', description: 'Poconos & Lehigh Valley, PA exterminators', emoji: '🌲' },
-  { name: 'Poconos Pest Control PA', url: 'https://poconospestcontrol.com/exterminator-near-me', description: 'Pocono Mountains, PA pest control', emoji: '🏔️' },
-  { name: 'Burlington County NJ Exterminator', url: 'https://burlingtoncountypestcontrolnearme.com/exterminator-near-me', description: 'Burlington County, NJ pest control', emoji: '🌿' },
-  { name: 'Gloucester County NJ Exterminator', url: 'https://gloucestercountypestcontrolnearme.com/exterminator-near-me', description: 'Gloucester County, NJ pest control', emoji: '🏡' },
-  { name: 'Philadelphia Exterminator', url: 'https://philadelphiapestcontrolnearme.com/exterminator-near-me', description: 'Philadelphia, PA pest control services', emoji: '🔔' },
-] as const;
-
 export const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA4_ID || '';
