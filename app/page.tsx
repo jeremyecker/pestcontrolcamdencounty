@@ -10,6 +10,7 @@ import ServicesGrid from '@/components/sections/ServicesGrid';
 import TownGrid from '@/components/sections/TownGrid';
 import CTABanner from '@/components/sections/CTABanner';
 import FAQSection from '@/components/sections/FAQSection';
+import NewYorkNetwork from '@/components/sections/NewYorkNetwork';
 import type { Metadata } from 'next';
 
 export const revalidate = 86400;
@@ -71,6 +72,7 @@ export default function HomePage() {
       <ServicesGrid limit={6} />
       <TownGrid towns={mixedTowns} />
       <FAQSection faqs={homepageFAQs} />
+      <NewYorkNetwork />
       <CTABanner />
     </>
   );

@@ -215,13 +215,13 @@ export default async function ServiceTownPage({ params }: { params: Promise<{ re
           <div className="mb-10">
             <h3 className="text-xl font-bold text-gray-900 mb-4">Nearby Areas We Serve</h3>
             <div className="flex flex-wrap gap-2">
-              {nearbyTowns.map((nearbyTown) => {
-                const nearby = TOWNS.find(t => t.slug === nearbyTown.slug);
+              {nearbyTowns.map((slug: string) => {
+                const nearby = TOWNS.find(t => t.slug === slug);
                 if (!nearby) return null;
                 return (
                   <Link
-                    key={nearbyTown.slug}
-                    href={`/camden-county/${SERVICE_SLUG}/${nearbyTown.slug}/`}
+                    key={slug}
+                    href={`/camden-county/${SERVICE_SLUG}/${slug}/`}
                     className="bg-brand-light text-brand-primary rounded-full px-4 py-2 text-sm hover:bg-brand-primary hover:text-white transition-colors"
                   >
                     {nearby.name}
