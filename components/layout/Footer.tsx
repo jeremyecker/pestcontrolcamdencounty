@@ -2,14 +2,6 @@ import Link from 'next/link';
 import { SITE_NAME, PHONE, PHONE_HREF, GEO, FOOTER_LINKS, SERVICES } from '@/site.config';
 import { getTownsByCounty, getTownCount } from '@/lib/db';
 
-const NETWORK_SITES = [
-  { label: 'Philadelphia Pest Control', href: 'https://philadelphiapestcontrolnearme.com' },
-  { label: 'Organic Pest Control Philadelphia', href: 'https://organicpestcontrolphiladelphia.com' },
-  { label: 'Gloucester County Pest Control', href: 'https://gloucestercountypestcontrolnearme.com' },
-  { label: 'Burlington County Pest Control', href: 'https://burlingtoncountypestcontrolnearme.com' },
-  { label: 'Bed Bug Inspectors Camden NJ', href: 'https://thebedbuginspectors.com/states/new-jersey/camden' },
-  { label: 'Rest Easy Pest Control', href: 'https://resteasypestcontrol.com' },
-];
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -127,22 +119,6 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Network Sites */}
-        <div className="border-t border-gray-700 mt-8 pt-8">
-          <h3 className="font-semibold text-sm uppercase tracking-wider text-gray-400 mb-3">Our Pest Control Network</h3>
-          <div className="flex flex-wrap gap-x-4 gap-y-1">
-            {NETWORK_SITES.map((site) => (
-              <a
-                key={site.href}
-                href={site.href}
-                className="text-gray-500 text-xs hover:text-gray-300 transition-colors"
-                rel="noopener"
-              >
-                {site.label}
-              </a>
-            ))}
-          </div>
-        </div>
       </div>
 
       {/* Bottom Bar */}
