@@ -3,6 +3,7 @@ import LeadForm from '@/components/forms/LeadForm';
 import { PHONE, PHONE_HREF, GEO, SERVICES, SITE_URL } from '@/site.config';
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: true },
   title: { absolute: 'Get a Free Pest Control Quote | Camden County, NJ' },
   description:
     'Request a free pest control estimate for your Camden County home or business. Licensed exterminator — same-day service available in Cherry Hill, Voorhees, Gloucester Township, and Haddonfield.',

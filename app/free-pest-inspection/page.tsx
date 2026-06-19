@@ -5,6 +5,7 @@ import { SERVICES } from '@/lib/services';
 import TrustBar from '@/components/sections/TrustBar';
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: true },
   title: 'Free Pest Inspection Camden County NJ | No Obligation',
   description:
     'Schedule a free pest inspection in Camden County NJ. No obligation, no hidden fees. All pests covered, all 16 towns served. Call (856) 600-0812.',

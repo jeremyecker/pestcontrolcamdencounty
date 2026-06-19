@@ -112,6 +112,7 @@ export async function generateMetadata({ params }: { params: Promise<{ service: 
   const title = `Free ${svc.label} Quote in ${townName}, NJ`;
   const description = `Licensed ${svc.label.toLowerCase()} serving ${townName}, Camden County NJ. ${svc.pricing} \u2014 free estimate, same-day service available.`;
   return {
+    robots: { index: false, follow: true },
     title: { absolute: title },
     description,
     alternates: { canonical: `${SITE_URL}/get-a-quote/${service}/${town}/` },

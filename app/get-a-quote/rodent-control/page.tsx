@@ -3,6 +3,7 @@ import LeadForm from '@/components/forms/LeadForm';
 import { PHONE, PHONE_HREF, SITE_URL } from '@/site.config';
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: true },
   title: { absolute: 'Free Rodent Control Quote | Camden County, NJ' },
   description:
     'Licensed rodent exterminators in Camden County, NJ. Mice & rat removal plus exclusion work. Free quote — same-day service available.',

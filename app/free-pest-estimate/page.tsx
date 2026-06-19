@@ -3,6 +3,7 @@ import Link from 'next/link';
 import TrustBar from '@/components/sections/TrustBar';
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: true },
   title: 'Free Pest Estimate Camden County NJ | No Obligation',
   description:
     'Get a free pest estimate for your Camden County NJ home. No obligation, no hidden fees. All pests covered, all 16 towns served. Call (856) 600-0812.',

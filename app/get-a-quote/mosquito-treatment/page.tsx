@@ -3,6 +3,7 @@ import LeadForm from '@/components/forms/LeadForm';
 import { PHONE, PHONE_HREF, SITE_URL } from '@/site.config';
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: true },
   title: { absolute: 'Free Mosquito Treatment Quote | Camden County, NJ' },
   description:
     'Licensed mosquito control in Camden County, NJ. Seasonal yard treatments from $125–$150/visit. Free quote — same-day service available.',
