@@ -2,33 +2,8 @@ import type { MetadataRoute } from 'next';
 import { SERVICES } from '@/lib/services';
 import { REGIONS } from '@/hub.config';
 import { getAllBlogPosts } from '@/data/blog-posts';
-import townsData from '@/data/towns.json';
 
 const BASE_URL = 'https://pestcontrolcamdencounty.com';
-
-const QUOTE_SERVICES = [
-  'ant-control',
-  'bed-bug-treatment',
-  'cockroach-treatment',
-  'mosquito-treatment',
-  'rodent-control',
-  'termite-treatment',
-  'wasp-removal',
-];
-
-// Town-level get-a-quote FUNNEL vocabulary = SERVICES_MAP keys in
-// app/get-a-quote/[service]/[town]/page.tsx. Intentionally DIFFERENT from
-// QUOTE_SERVICES above (the static service-landing vocabulary). Both are live —
-// do not harmonize. Keep in sync with SERVICES_MAP keys in the funnel route.
-const FUNNEL_SERVICES = [
-  'bed-bug-treatment',
-  'ant-exterminator',
-  'rodent-control',
-  'cockroach-exterminator',
-  'mosquito-treatment',
-  'wasp-hornet-removal',
-  'termite-treatment',
-];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date().toISOString();
@@ -70,12 +45,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: now,
       changeFrequency: 'weekly',
       priority: 0.7,
-    },
-    {
-      url: `${BASE_URL}/get-a-quote/`,
-      lastModified: now,
-      changeFrequency: 'monthly',
-      priority: 0.9,
     },
     {
       url: `${BASE_URL}/privacy/`,
@@ -127,18 +96,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
-      url: `${BASE_URL}/free-pest-inspection/`,
-      lastModified: now,
-      changeFrequency: 'weekly',
-      priority: 0.8,
-    },
-    {
-      url: `${BASE_URL}/free-pest-estimate/`,
-      lastModified: now,
-      changeFrequency: 'weekly',
-      priority: 0.8,
-    },
-    {
       url: `${BASE_URL}/bed-bug-exterminator/`,
       lastModified: now,
       changeFrequency: 'monthly',
@@ -164,27 +121,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/wildlife-removal/`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${BASE_URL}/property-management-pest-control/`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
   ];
-
-  // Get-a-quote sub-pages
-  const quotePages: MetadataRoute.Sitemap = QUOTE_SERVICES.map((slug) => ({
-    url: `${BASE_URL}/get-a-quote/${slug}/`,
-    lastModified: now,
-    changeFrequency: 'monthly' as const,
-    priority: 0.8,
-  }));
-
-  // Town-level get-a-quote funnel pages (service × town).
-  // Towns from townsData.regions[0].towns to match the funnel route's
-  // generateStaticParams 1:1.
-  const funnelTowns = (townsData as { regions: { towns: { slug: string }[] }[] }).regions[0].towns;
-  const funnelPages: MetadataRoute.Sitemap = FUNNEL_SERVICES.flatMap((service) =>
-    funnelTowns.map((town) => ({
-      url: `${BASE_URL}/get-a-quote/${service}/${town.slug}/`,
-      lastModified: now,
-      changeFrequency: 'monthly' as const,
-      priority: 0.8,
-    }))
-  );
 
   // Service pages
   const servicePages: MetadataRoute.Sitemap = SERVICES.map((service) => ({
@@ -248,5 +184,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  return [...staticPages, ...quotePages, ...funnelPages, ...servicePages, ...countyPages, ...townPages, ...blogPages, ...commercialPages];
+  return [...staticPages, ...servicePages, ...countyPages, ...townPages, ...blogPages, ...commercialPages];
 }

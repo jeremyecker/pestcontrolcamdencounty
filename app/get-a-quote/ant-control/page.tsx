@@ -3,6 +3,7 @@ import LeadForm from '@/components/forms/LeadForm';
 import { PHONE, PHONE_HREF, SITE_URL } from '@/site.config';
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: true },
   title: { absolute: 'Free Ant Control Quote | Camden County, NJ' },
   description:
     'Licensed ant exterminators serving Camden County. Free same-day quote for carpenter ants, pavement ants, odorous house ants & more.',

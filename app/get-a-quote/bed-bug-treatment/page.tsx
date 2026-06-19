@@ -3,6 +3,7 @@ import LeadForm from '@/components/forms/LeadForm';
 import { PHONE, PHONE_HREF, SITE_URL } from '@/site.config';
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: true },
   title: { absolute: 'Free Bed Bug Treatment Quote | Camden County, NJ' },
   description:
     'Licensed bed bug exterminators in Camden County. Heat treatment & chemical options. Free inspection quote — same-day service available.',

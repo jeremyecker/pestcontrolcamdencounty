@@ -3,6 +3,7 @@ import LeadForm from '@/components/forms/LeadForm';
 import { PHONE, PHONE_HREF, SITE_URL } from '@/site.config';
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: true },
   title: { absolute: 'Free Cockroach Treatment Quote | Camden County, NJ' },
   description:
     'Licensed cockroach exterminators in Camden County, NJ. Same-day service for German roaches, American cockroaches & more. Free quote.',
