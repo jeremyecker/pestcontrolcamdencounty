@@ -22,6 +22,9 @@ export async function POST(req: NextRequest) {
       pest_type,
       source,
       regionSlug,
+      sms_consent,
+      zip,
+      property_type,
     } = body;
 
   // === BLOCKLIST CHECK ===
@@ -69,6 +72,9 @@ export async function POST(req: NextRequest) {
       pest_type: pest_type || null,
       source: source || 'website',
       region_slug: regionSlug || null,
+      sms_consent: sms_consent === true,
+      zip: zip || null,
+      property_type: property_type || null,
       site_domain: BRAND.domain,
       created_at: new Date().toISOString(),
     };
