@@ -76,6 +76,10 @@ export async function POST(req: NextRequest) {
       zip: zip || null,
       property_type: property_type || null,
       site_domain: BRAND.domain,
+      page_url: body.page_url || null,
+      consentTimestamp: body.consentTimestamp || body.consent_timestamp || null,
+      consentPageUrl: body.consentPageUrl || body.consent_page_url || null,
+      consentTextVersion: body.consentTextVersion || body.consent_text_version || null,
       created_at: new Date().toISOString(),
     };
 
