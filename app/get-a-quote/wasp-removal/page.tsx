@@ -52,7 +52,7 @@ export default function WaspRemovalQuotePage() {
               Get a Free Wasp & Hornet Removal Quote in Camden County, NJ
             </h1>
             <p className="text-blue-100 text-lg mb-6">
-              Don&rsquo;t risk getting stung — wasp and hornet nests need professional treatment. Our licensed technicians handle paper wasps, yellow jackets, bald-faced hornets, and European hornets safely throughout Camden County.
+              Don&rsquo;t risk getting stung — wasp and hornet nests need professional treatment. Our technicians — licensed or working under the direct supervision of a licensed applicator — handle paper wasps, yellow jackets, bald-faced hornets, and European hornets safely throughout Camden County.
             </p>
             <div className="mt-4 bg-blue-800/50 rounded-lg p-4 border border-blue-700">
               <p className="text-orange-300 font-semibold text-sm mb-1">Typical Cost</p>

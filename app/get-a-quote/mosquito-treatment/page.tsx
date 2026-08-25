@@ -52,7 +52,7 @@ export default function MosquitoTreatmentQuotePage() {
               Get a Free Mosquito Treatment Quote in Camden County, NJ
             </h1>
             <p className="text-blue-100 text-lg mb-6">
-              Take back your yard this season. Our licensed technicians provide barrier spray treatments that dramatically reduce mosquito populations on your property throughout the summer.
+              Take back your yard this season. Our technicians — licensed or working under the direct supervision of a licensed applicator — provide barrier spray treatments that dramatically reduce mosquito populations on your property throughout the summer.
             </p>
             <div className="mt-4 bg-blue-800/50 rounded-lg p-4 border border-blue-700">
               <p className="text-orange-300 font-semibold text-sm mb-1">Typical Cost</p>

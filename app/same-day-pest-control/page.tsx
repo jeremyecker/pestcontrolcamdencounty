@@ -382,7 +382,7 @@ export default function SameDayPestControl() {
                 <h3 className="font-semibold text-[#1A365D]">We Arrive and Solve the Problem</h3>
                 <p className="text-gray-700">
                   Your NJDEP-licensed technician arrives at the scheduled time, inspects the property, confirms the
-                  pest and treatment plan, provides a written quote, and begins treatment — all in the same visit.
+                  pest and treatment plan, provides a clear price verbally, and begins treatment — all in the same visit.
                   No waiting around for a second appointment just to get started.
                 </p>
               </div>
@@ -430,18 +430,16 @@ export default function SameDayPestControl() {
               <p className="text-gray-700">
                 No. Our pricing for same-day pest control is the same as our standard pricing for scheduled
                 appointments. We do not charge premium rates for same-day availability. You receive the same
-                NJDEP-licensed technician, the same professional-grade treatments, and the same satisfaction
-                guarantee regardless of when you book. The only difference is speed of response.
+                NJDEP-licensed technician, the same professional-grade treatments, and the same commitment to quality
+                regardless of when you book. The only difference is speed of response.
               </p>
             </div>
             <div className="border-b border-gray-200 pb-6">
               <h3 className="text-lg font-semibold text-[#1A365D] mb-2">Can I get a free inspection on a same-day call?</h3>
               <p className="text-gray-700">
                 Yes. Our{' '}
-                <Link href="/free-pest-inspection" className="text-[#2B6CB0] hover:underline">free pest inspection</Link>{' '}
-                is available on same-day appointments. Your technician will inspect the property, identify the pest,
-                and provide a written quote before any treatment begins. There is no charge for the inspection and no
-                obligation to proceed with treatment if you are not satisfied with the plan.
+                <Link href="/free-pest-inspection" className="text-[#2B6CB0] hover:underline">free phone assessment</Link>{' '}
+                is available any time you call. A licensed representative will discuss your situation and provide a verbal quote over the phone. If you decide to book, we can often dispatch a technician for same-day treatment.
               </p>
             </div>
             <div className="border-b border-gray-200 pb-6">
@@ -461,9 +459,9 @@ export default function SameDayPestControl() {
               <h3 className="text-lg font-semibold text-[#1A365D] mb-2">What if the pest problem is more serious than expected?</h3>
               <p className="text-gray-700">
                 If our technician arrives and discovers a larger or more complex infestation than described, we will
-                perform the same-day inspection, explain exactly what we found, and provide a revised written quote
+                perform the same-day inspection, explain exactly what we found, and provide a revised price verbally
                 for a comprehensive treatment plan. You are never committed to a treatment until you have reviewed
-                and agreed to a written estimate. For complex situations requiring multiple visits, we schedule
+                and agreed to the price. For complex situations requiring multiple visits, we schedule
                 follow-up appointments at the same visit so you do not have to call back.
               </p>
             </div>
@@ -610,7 +608,7 @@ export default function SameDayPestControl() {
                     name: 'Can I get a free inspection on a same-day call?',
                     acceptedAnswer: {
                       '@type': 'Answer',
-                      text: 'Yes. Our free pest inspection is available on same-day appointments. Your technician will inspect, identify the pest, and provide a written quote before any treatment begins, with no obligation to proceed.',
+                      text: 'Yes. Our free phone assessment is available any time you call. A licensed representative will discuss your situation and provide a verbal quote over the phone. If you decide to book, we can often dispatch a technician for same-day treatment.',
                     },
                   },
                 ],

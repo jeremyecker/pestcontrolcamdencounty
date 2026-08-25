@@ -303,8 +303,7 @@ export default function FastResponsePestControl() {
                   After the treatment, we develop a follow-up plan to ensure the problem is fully resolved
                   and does not recur. For bed bugs, this typically includes a comprehensive heat or chemical treatment
                   protocol. For rodents, it includes exclusion and long-term trapping. For wildlife, it includes
-                  full exclusion after all animals have been removed. We schedule follow-up visits and stand behind our
-                  work with a satisfaction guarantee.
+                  full exclusion after all animals have been removed. We schedule follow-up visits as part of our wildlife exclusion service to ensure the work is completed thoroughly.
                 </p>
               </div>
             </div>

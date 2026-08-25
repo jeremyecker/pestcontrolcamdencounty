@@ -200,7 +200,7 @@ export default async function ServiceTownPage({ params }: { params: Promise<{ re
         </div>
 
         <h2 className="text-2xl font-bold text-gray-900 mb-4">Our {SERVICE_NAME} Service in {town!.name}</h2>
-        <p className="text-gray-600 mb-8">{SERVICE_DESC}. Our licensed Camden County exterminators use proven barrier spray methods tailored to the specific mosquito pressures found in {town!.name}, NJ.</p>
+        <p className="text-gray-600 mb-8">{SERVICE_DESC}. Our Camden County exterminators — licensed or working under the direct supervision of a licensed applicator — use proven barrier spray methods tailored to the specific mosquito pressures found in {town!.name}, NJ.</p>
 
         <div className="bg-gray-50 rounded-lg p-5 mb-10">
           <h3 className="font-bold text-gray-900 mb-3">Related Services</h3>

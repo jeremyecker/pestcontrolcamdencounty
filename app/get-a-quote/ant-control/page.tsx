@@ -26,7 +26,7 @@ const FAQS = [
   },
   {
     q: "Will one treatment get rid of ants permanently?",
-    a: "For most ant species, one treatment plus exclusion recommendations does the job. Carpenter ants may require a follow-up. We stand behind our work with a re-service guarantee.",
+    a: "For most ant species, one treatment plus exclusion recommendations does the job. Carpenter ants may require a follow-up as part of your treatment plan.",
   },
   {
     q: "Do I need to leave my home during ant treatment?",

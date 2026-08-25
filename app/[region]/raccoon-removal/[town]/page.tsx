@@ -97,7 +97,7 @@ export default async function ServiceTownPage({ params }: { params: Promise<{ re
     },
     {
       q: `Do you offer a warranty on ${SERVICE_NAME.toLowerCase()} in ${town.name}?`,
-      a: `We offer a 30-day re-service guarantee on most pest treatments. Ask about our protection plans for ongoing coverage.`,
+      a: `Many treatment plans include scheduled follow-up visits as part of the service. Ask about our protection plans for ongoing coverage.`,
     },
     {
       q: `What areas of ${town.name} do you serve?`,
@@ -169,7 +169,7 @@ export default async function ServiceTownPage({ params }: { params: Promise<{ re
           {[
             { stat: 'Same-Day', label: 'Service Available' },
             { stat: 'Licensed', label: 'NJ Exterminators' },
-            { stat: '30-Day', label: 'Re-Service Guarantee' },
+            { stat: 'NJDEP', label: 'Licensed & Insured' },
           ].map(({ stat, label }) => (
             <div key={stat} className="bg-brand-light rounded-lg p-4 text-center">
               <div className="text-2xl font-bold text-brand-primary">{stat}</div>
@@ -200,7 +200,7 @@ export default async function ServiceTownPage({ params }: { params: Promise<{ re
         </div>
 
         <h2 className="text-2xl font-bold text-gray-900 mb-4">Our {SERVICE_NAME} Service in {town.name}</h2>
-        <p className="text-gray-600 mb-8">{SERVICE_DESC}. Our licensed Camden County exterminators use proven methods tailored to the specific pest pressures found in {town.name}, NJ.</p>
+        <p className="text-gray-600 mb-8">{SERVICE_DESC}. Our Camden County exterminators — licensed or working under the direct supervision of a licensed applicator — use proven methods tailored to the specific pest pressures found in {town.name}, NJ.</p>
 
         <div className="bg-gray-50 rounded-lg p-5 mb-10">
           <h3 className="font-bold text-gray-900 mb-3">Related Services</h3>

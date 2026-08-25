@@ -48,7 +48,7 @@ export default function FreePestEstimate() {
             Get a Free Pest Estimate — Camden County, NJ
           </h1>
           <p className="text-xl text-blue-100 mb-8">
-            Not sure what is bugging you? Our licensed technicians will assess your property, identify the pest,
+            Not sure what is bugging you? Our technicians — licensed or working under the direct supervision of a licensed applicator — will assess your property, identify the pest,
             and provide a detailed cost estimate — completely free, with zero obligation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

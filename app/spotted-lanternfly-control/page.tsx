@@ -33,7 +33,7 @@ const faqSchema = {
       "name": "What professional treatment options exist for spotted lanternfly?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Professional options include trunk injection (delivers systemic insecticide directly into the tree for season-long protection), systemic soil treatment (absorbed through roots), contact and residual spray for adult aggregations, and egg mass removal services. Our licensed NJ applicators recommend the right combination for each property."
+        "text": "Professional options include trunk injection (delivers systemic insecticide directly into the tree for season-long protection), systemic soil treatment (absorbed through roots), contact and residual spray for adult aggregations, and egg mass removal services. Our applicators — licensed or working under the direct supervision of a licensed applicator — recommend the right combination for each property."
       }
     },
     {
@@ -144,7 +144,7 @@ export default function SpottedLanternflyControlPage() {
               },
               {
                 q: "What professional treatment options exist for spotted lanternfly?",
-                a: "Trunk injection, systemic soil treatment, contact spray, and egg mass removal are all available. Our licensed NJ applicators recommend the right combination based on your property's plants and infestation level."
+                a: "Trunk injection, systemic soil treatment, contact spray, and egg mass removal are all available. Our applicators — licensed or working under the direct supervision of a licensed applicator — recommend the right combination based on your property's plants and infestation level."
               },
               {
                 q: "Does professional treatment fully eliminate spotted lanternfly?",

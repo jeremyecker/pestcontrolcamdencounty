@@ -34,7 +34,7 @@ const townCount = getTownCount();
 const homepageFAQs = [
   {
     question: 'Do your treatments pose any risk to children or pets?',
-    answer: `Not at all. We rely on EPA-approved formulations and Integrated Pest Management strategies designed to target pests while remaining safe around kids, dogs, cats, and other household members.`,
+    answer: `Not at all. We rely on EPA-registered formulations and Integrated Pest Management strategies designed to target pests while remaining safe around kids, dogs, cats, and other household members.`,
   },
   {
     question: `Which neighborhoods and towns in ${GEO.region} do you service?`,
@@ -50,7 +50,7 @@ const homepageFAQs = [
   },
   {
     question: 'What happens if pests show up again between visits?',
-    answer: `Our satisfaction guarantee means we come back at zero additional charge. Just give us a call and we'll schedule a follow-up visit — no questions asked.`,
+    answer: `If your service plan includes scheduled follow-up visits, those are already part of what you've paid for. Just give us a call and we'll get your next visit on the calendar.`,
   },
   {
     question: 'Are you a locally owned business or part of a franchise?',

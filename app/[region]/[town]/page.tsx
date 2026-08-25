@@ -76,7 +76,7 @@ export default async function TownPage({ params }: { params: Promise<{ region: s
     },
     {
       q: 'Is there a warranty on your pest control services?',
-      a: 'We offer a 30-day re-service guarantee on most pest treatments. Termite protection plans include annual inspections.',
+      a: 'Many treatment plans include scheduled follow-up visits as part of the service. Termite protection plans include annual inspections.',
     },
   ];
 
@@ -126,7 +126,7 @@ export default async function TownPage({ params }: { params: Promise<{ region: s
           Pest Control in {townName}, NJ
         </h1>
         <p className="text-xl text-gray-600 mb-6">
-          {TOWN_OPENERS[townSlug] || `${region.pestContext} Our licensed Camden County exterminators serve ${townName} with same-day availability, transparent pricing, and family-friendly treatments.`}
+          {TOWN_OPENERS[townSlug] || `${region.pestContext} Our Camden County exterminators — licensed or working under the direct supervision of a licensed applicator — serve ${townName} with same-day availability, transparent pricing, and family-friendly treatments.`}
         </p>
 
         {/* Neighborhoods callout (major hubs only) */}

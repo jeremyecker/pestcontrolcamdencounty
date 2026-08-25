@@ -14,18 +14,18 @@ const SERVICES_MAP: Record<string, ServiceConfig> = {
   'bed-bug-treatment': {
     label: 'Bed Bug Treatment', h1Prefix: 'Free Bed Bug Treatment Quote in',
     pricing: '$1,200\u2013$4,500', pricingNote: 'heat or chemical treatment',
-    intro: (town) => `Bed bugs are one of the most stressful infestations \u2014 but they\u2019re 100% treatable. Our licensed technicians serve ${town} with proven heat and chemical treatment options, backed by a satisfaction guarantee.`,
+    intro: (town) => `Bed bugs are one of the most stressful infestations \u2014 but they\u2019re 100% treatable. Our technicians — licensed or working under the direct supervision of a licensed applicator — serve ${town} with proven heat and chemical treatment options, delivered by NJDEP-licensed technicians.`,
     faqs: [
-      { q: 'How much does bed bug treatment cost in Camden County?', a: 'Bed bug treatment ranges from $1,200\u2013$4,500 depending on home size and the method used. We provide a free inspection and detailed quote before any work begins.' },
+      { q: 'How much does bed bug treatment cost in Camden County?', a: 'Bed bug treatment ranges from $1,200\u2013$4,500 depending on home size and the method used. We provide a free phone assessment and a detailed quote before any work begins.' },
       { q: 'Heat treatment vs. chemical \u2014 which is better?', a: 'Heat treatment reaches 120\u00b0F+ and kills all life stages in one visit with no chemical residue. Chemical treatment uses EPA-registered pesticides over 1\u20132 visits. We recommend the best fit after your inspection.' },
-      { q: 'Do you guarantee your bed bug treatments?', a: 'Yes. We offer a re-service guarantee \u2014 if bed bugs return within the warranty period, we come back at no additional charge.' },
+      { q: 'Do you guarantee your bed bug treatments?', a: 'Bed bug treatment plans typically include multiple scheduled visits as part of the service. Our NJDEP-licensed technicians work thoroughly at every stage of treatment.' },
       { q: 'How do I prepare my home before treatment?', a: 'We provide a detailed prep checklist before your appointment. Our team walks you through every step to make sure treatment is as effective as possible.' },
     ],
   },
   'ant-exterminator': {
     label: 'Ant Control', h1Prefix: 'Free Ant Control Quote in',
     pricing: '$300\u2013$450', pricingNote: 'one-time treatment or seasonal plan',
-    intro: (town) => `Ants invade Camden County homes every spring \u2014 especially in ${town}. Our licensed technicians identify the colony, treat at the source, and protect your home from future invasions.`,
+    intro: (town) => `Ants invade Camden County homes every spring \u2014 especially in ${town}. Our technicians — licensed or working under the direct supervision of a licensed applicator — identify the colony, treat at the source, and protect your home from future invasions.`,
     faqs: [
       { q: 'How much does ant control cost in Camden County?', a: 'Ant control in Camden County typically runs $300\u2013$450 for a one-time service. Seasonal prevention plans are also available for year-round protection.' },
       { q: 'Why do I keep getting ants every year?', a: 'Most over-the-counter sprays only kill forager ants \u2014 they don\u2019t reach the colony. Our treatments target the source, including carpenter ant galleries and pavement ant nests.' },
@@ -79,10 +79,10 @@ const SERVICES_MAP: Record<string, ServiceConfig> = {
   },
   'termite-treatment': {
     label: 'Termite Treatment', h1Prefix: 'Free Termite Treatment Quote in',
-    pricing: '$800\u2013$2,500', pricingNote: 'free inspection included',
-    intro: (town) => `Termites cause billions of dollars in structural damage each year \u2014 and Camden County homes in ${town} are not immune. Our licensed technicians provide thorough inspections and proven treatments to protect your investment.`,
+    pricing: '$800\u2013$2,500', pricingNote: 'free phone assessment included',
+    intro: (town) => `Termites cause billions of dollars in structural damage each year \u2014 and Camden County homes in ${town} are not immune. Our technicians — licensed or working under the direct supervision of a licensed applicator — provide thorough inspections and proven treatments to protect your investment.`,
     faqs: [
-      { q: 'How much does termite treatment cost in Camden County?', a: 'Termite treatment in Camden County runs $800\u2013$2,500 depending on your home\u2019s size, construction type, and infestation level. We include a free inspection before any quote.' },
+      { q: 'How much does termite treatment cost in Camden County?', a: 'Termite treatment in Camden County runs $800\u2013$2,500 depending on your home\u2019s size, construction type, and infestation level. We include a free phone assessment before any quote.' },
       { q: 'What are signs of termites?', a: 'Common signs include mud tubes along foundation walls, hollow-sounding wood, discarded wings near windowsills, and frass (termite droppings) that resembles sawdust.' },
       { q: 'Liquid treatment vs. bait stations \u2014 which is better?', a: 'Liquid termiticide creates a chemical barrier in the soil around your foundation. Bait stations use slow-acting bait that workers carry back to the colony. We recommend the best option based on your home.' },
       { q: 'How long does termite treatment take?', a: 'Liquid treatments typically take 4\u20138 hours for a standard home. Bait station installation takes 2\u20133 hours, with ongoing monitoring visits every 3\u20136 months.' },

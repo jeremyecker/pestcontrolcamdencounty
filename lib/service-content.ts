@@ -49,7 +49,7 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
       { step: 'Comprehensive Inspection', description: 'We thoroughly inspect your foundation, crawl spaces, attic, and all wood structures to identify termite species, entry points, and damage extent.' },
       { step: 'Custom Treatment Plan', description: 'Based on the inspection, we design a targeted approach using liquid soil barriers, bait stations, or a combination for maximum protection.' },
       { step: 'Professional Treatment', description: 'Licensed technicians apply treatment to eliminate the active colony and create a continuous protective barrier around your entire home.' },
-      { step: 'Monitoring & Protection', description: 'Ongoing monitoring ensures termites stay gone. We stand behind our work with a satisfaction guarantee.' },
+      { step: 'Monitoring & Protection', description: 'Ongoing monitoring ensures termites stay gone. Our technicians complete every scheduled visit as part of your protection plan.' },
     ],
     prevention: [
       'Eliminate any wood-to-soil contact around your home\'s foundation',

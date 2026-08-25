@@ -52,7 +52,7 @@ export default function RodentControlQuotePage() {
               Get a Free Rodent Control Quote in Camden County, NJ
             </h1>
             <p className="text-blue-100 text-lg mb-6">
-              Mice and rats don&rsquo;t just cause property damage — they spread diseases and contaminate food. Our licensed technicians identify entry points, eliminate active infestations, and seal up your home so rodents can&rsquo;t return.
+              Mice and rats don&rsquo;t just cause property damage — they spread diseases and contaminate food. Our technicians — licensed or working under the direct supervision of a licensed applicator — identify entry points, eliminate active infestations, and seal up your home so rodents can&rsquo;t return.
             </p>
             <div className="mt-4 bg-blue-800/50 rounded-lg p-4 border border-blue-700">
               <p className="text-orange-300 font-semibold text-sm mb-1">Typical Cost</p>

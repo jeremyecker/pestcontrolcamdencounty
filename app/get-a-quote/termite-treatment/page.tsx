@@ -6,11 +6,11 @@ export const metadata: Metadata = {
   robots: { index: false, follow: true },
   title: { absolute: 'Free Termite Treatment Quote | Camden County, NJ' },
   description:
-    'Licensed termite exterminators in Camden County, NJ. Liquid barrier & bait station options. Free inspection — same-day service available.',
+    'Licensed termite exterminators in Camden County, NJ. Liquid barrier & bait station options. Free phone assessment — same-day service available.',
   alternates: { canonical: `${SITE_URL}/get-a-quote/termite-treatment/` },
   openGraph: {
     title: 'Free Termite Treatment Quote | Camden County, NJ',
-    description: 'Licensed termite exterminators in Camden County, NJ. Liquid barrier & bait station options. Free inspection — same-day service available.',
+    description: 'Licensed termite exterminators in Camden County, NJ. Liquid barrier & bait station options. Free phone assessment — same-day service available.',
     url: `${SITE_URL}/get-a-quote/termite-treatment/`,
   },
 };
@@ -18,11 +18,11 @@ export const metadata: Metadata = {
 const FAQS = [
   {
     q: "What types of termite treatment do you offer?",
-    a: "We offer liquid barrier treatment (Termidor® or equivalent) which creates a protection zone around your home's foundation, and bait station systems which eliminate the colony over time. We'll recommend the best option after a free inspection.",
+    a: "We offer liquid barrier treatment (Termidor® or equivalent) which creates a protection zone around your home's foundation, and bait station systems which eliminate the colony over time. We'll recommend the best option after a free phone assessment.",
   },
   {
     q: "How much does termite treatment cost in Camden County?",
-    a: "Termite treatment in Camden County typically costs $800–$2,500 depending on your home's size, construction type, and infestation severity. We provide a free inspection and detailed quote before any work begins.",
+    a: "Termite treatment in Camden County typically costs $800–$2,500 depending on your home's size, construction type, and infestation severity. We provide a free phone assessment and a detailed quote before any work begins.",
   },
   {
     q: "Do I need to leave my home during termite treatment?",
@@ -34,7 +34,7 @@ const FAQS = [
   },
   {
     q: "Does homeowner's insurance cover termite damage?",
-    a: "Most standard homeowner's policies do NOT cover termite damage — it's considered a preventable pest issue. This is why early treatment and annual inspections are so important. We can provide documentation for your records.",
+    a: "Most standard homeowner's policies do NOT cover termite damage — it's considered a preventable pest issue. This is why early treatment matters. If you need a formal WDI (Wood Destroying Insect) report for a real estate transaction or insurance purposes, that's available as a separate paid service.",
   },
 ];
 
@@ -52,12 +52,12 @@ export default function TermiteTreatmentQuotePage() {
               Get a Free Termite Treatment Quote in Camden County, NJ
             </h1>
             <p className="text-blue-100 text-lg mb-6">
-              Termites cause billions of dollars in structural damage every year — and most homeowners don&rsquo;t realize they have an infestation until it&rsquo;s already serious. Our licensed technicians offer both liquid barrier treatment and bait station systems for Camden County homes.
+              Termites cause billions of dollars in structural damage every year — and most homeowners don&rsquo;t realize they have an infestation until it&rsquo;s already serious. Our technicians — licensed or working under the direct supervision of a licensed applicator — offer both liquid barrier treatment and bait station systems for Camden County homes.
             </p>
             <div className="mt-4 bg-blue-800/50 rounded-lg p-4 border border-blue-700">
               <p className="text-orange-300 font-semibold text-sm mb-1">Typical Cost</p>
               <p className="text-2xl font-bold text-white">$800–$2,500</p>
-              <p className="text-blue-200 text-sm">free inspection before any quote &middot; free estimate before any work</p>
+              <p className="text-blue-200 text-sm">free phone assessment before any quote &middot; no obligation before any work</p>
             </div>
             <div className="mt-6 pt-4 border-t border-blue-700">
               <p className="text-blue-200 text-sm mb-1">Prefer to call?</p>
