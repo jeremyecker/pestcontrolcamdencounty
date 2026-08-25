@@ -52,7 +52,7 @@ export default function ThankYouPage() {
               <div className="text-4xl mb-4">🛡️</div>
               <h3 className="font-bold text-lg mb-2 text-gray-900">3. We Solve the Problem</h3>
               <p className="text-gray-600">
-                Our licensed technicians arrive on time, treat the issue thoroughly, and make sure your home is protected.
+                Our technicians — licensed or working under the direct supervision of a licensed applicator — arrive on time, treat the issue thoroughly, and make sure your home is protected.
               </p>
             </div>
           </div>

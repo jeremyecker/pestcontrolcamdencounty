@@ -113,7 +113,7 @@ export default function TermiteInspection() {
             </h1>
             <p className="text-xl text-orange-100 mb-8">
               Eastern subterranean termites cause billions in damage across South Jersey every year.
-              Our NJDEP-licensed technicians provide free termite inspections that protect your investment.
+              Our technicians — licensed or working under the direct supervision of a licensed applicator — provide free termite inspections that protect your investment.
               WDI reports available for real estate transactions.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -364,7 +364,7 @@ export default function TermiteInspection() {
               Termite Inspection in Camden County — Schedule Your Free Assessment Today
             </h2>
             <p className="text-gray-700 text-lg mb-6">
-              Early detection prevents thousands in structural repairs. Our NJDEP-licensed technicians provide
+              Early detection prevents thousands in structural repairs. Our technicians — licensed or working under the direct supervision of a licensed applicator — provide
               comprehensive free termite inspections throughout Camden County. Call now.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

@@ -7,7 +7,7 @@ export const revalidate = 86400;
 export const metadata: Metadata = {
   title: 'Bed Bug Exterminator Camden County NJ | Heat Treatment & Removal',
   description:
-    'Professional bed bug exterminators serving Camden County, NJ. Licensed technicians, heat treatment and chemical options, free inspections. Call (856) 600-0812 for same-day response.',
+    'Professional bed bug exterminators serving Camden County, NJ. Heat treatment and chemical options, free phone assessment available. Call (856) 600-0812 for same-day response.',
   keywords:
     'bed bug exterminator Camden County, bed bug removal NJ, bed bug treatment Cherry Hill, exterminator near me bed bugs',
 };
@@ -31,12 +31,12 @@ export default function BedBugExterminator() {
     {
       question: 'How do I know if I have bed bugs in my Camden County home?',
       answer:
-        'The most reliable signs of bed bugs include: small reddish-brown insects (about the size of an apple seed) visible in mattress seams, bed frames, or behind headboards; dark rusty-brown staining from excrement on mattresses or box springs; tiny white eggs or pale shed skins in mattress seams and furniture cracks; and waking up with itchy red welts in lines or clusters on exposed skin. In Cherry Hill, Voorhees, and Collingswood apartment buildings, you may also receive notice from neighboring units. If you suspect bed bugs, contact Camden County Pest Control for a free inspection immediately — early treatment is far less costly than treating a widespread infestation.',
+        'The most reliable signs of bed bugs include: small reddish-brown insects (about the size of an apple seed) visible in mattress seams, bed frames, or behind headboards; dark rusty-brown staining from excrement on mattresses or box springs; tiny white eggs or pale shed skins in mattress seams and furniture cracks; and waking up with itchy red welts in lines or clusters on exposed skin. In Cherry Hill, Voorhees, and Collingswood apartment buildings, you may also receive notice from neighboring units. If you suspect bed bugs, contact Camden County Pest Control for a free phone assessment immediately — early treatment is far less costly than treating a widespread infestation.',
     },
     {
       question: 'What is the difference between heat treatment and chemical treatment for bed bugs in NJ?',
       answer:
-        'Heat treatment raises the temperature of all infested rooms and contents to 120-135°F for several hours, killing bed bugs at every life stage — including eggs — in a single treatment. It leaves no chemical residue and requires no post-treatment waiting period beyond cooling. Chemical treatment uses NJDEP-approved insecticides applied to baseboards, bed frames, cracks, and crevices in multiple visits (typically 2-3 sessions spaced 2 weeks apart). Heat treatment is faster and more thorough; chemical treatment costs less for smaller or early-stage infestations. Our Camden County technicians will recommend the right approach after a free inspection.',
+        'Heat treatment raises the temperature of all infested rooms and contents to 120-135°F for several hours, killing bed bugs at every life stage — including eggs — in a single treatment. It leaves no chemical residue and requires no post-treatment waiting period beyond cooling. Chemical treatment uses NJDEP-approved insecticides applied to baseboards, bed frames, cracks, and crevices in multiple visits (typically 2-3 sessions spaced 2 weeks apart). Heat treatment is faster and more thorough; chemical treatment costs less for smaller or early-stage infestations. Our Camden County technicians will recommend the right approach after a paid, on-site bed bug inspection.',
     },
     {
       question: 'How did bed bugs get into my Cherry Hill or Voorhees home?',
@@ -66,7 +66,7 @@ export default function BedBugExterminator() {
     {
       question: 'How much does bed bug treatment cost in Camden County?',
       answer:
-        'Bed bug treatment in Camden County typically costs $1,200–$4,500 depending on property size, number of rooms affected, and treatment method. Heat treatment for a single bedroom starts around $1,200; whole-home heat treatment can reach $4,500. Chemical treatment programs (2–3 visits) range from $1,200–$2,500. We provide a detailed written quote after a free inspection — no obligation. Call (856) 430-6244.',
+        'Bed bug treatment in Camden County typically costs $1,200–$4,500 depending on property size, number of rooms affected, and treatment method. Heat treatment for a single bedroom starts around $1,200; whole-home heat treatment can reach $4,500. Chemical treatment programs (2–3 visits) range from $1,200–$2,500. Call for a free phone assessment, or book a paid on-site bed bug inspection where our technician will examine the property and discuss findings and pricing with you directly. Call (856) 600-0812.',
     },
   ];
 
@@ -111,7 +111,7 @@ export default function BedBugExterminator() {
             </h1>
             <p className="text-xl text-blue-100 mb-8">
               Professional bed bug treatment for homes and businesses throughout Camden County.
-              Heat treatment and chemical options, NJDEP-licensed technicians, free inspections.
+              Heat treatment and chemical options, NJDEP-licensed & insured, free phone assessment available.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -155,7 +155,7 @@ export default function BedBugExterminator() {
             </p>
             <p className="text-gray-700 text-lg leading-relaxed mb-4">
               Camden County Pest Control has treated bed bug infestations across all 16 towns in Camden
-              County for years. Our NJDEP-licensed technicians are trained in the most current and effective
+              County for years. Our technicians — licensed or working under the direct supervision of a licensed applicator — are trained in the most current and effective
               treatment protocols, including thermal heat treatment and targeted chemical application.
               Whether you are dealing with a single infested bedroom in a{' '}
               <Link href="/camden-county/haddonfield" className="text-[#2B6CB0] hover:underline">Haddonfield</Link>{' '}
@@ -172,7 +172,7 @@ export default function BedBugExterminator() {
             </p>
             <p className="text-gray-700 text-lg leading-relaxed">
               If you suspect bed bugs in your Camden County home or business, call us now for a free
-              inspection. The sooner we assess the infestation, the less costly and disruptive the treatment.
+              phone assessment. The sooner we discuss the situation, the less costly and disruptive the treatment is likely to be.
             </p>
           </section>
 
@@ -207,7 +207,7 @@ export default function BedBugExterminator() {
               Many Camden County bed bug infestations benefit from a combination approach — heat treatment
               for immediate whole-room elimination followed by targeted chemical application for residual
               protection against any surviving eggs or newly hatched nymphs in extremely difficult-to-reach
-              harborage points. Our technicians will recommend the right strategy after a free inspection.
+              harborage points. Our technicians will recommend the right strategy after a paid, on-site bed bug inspection.
             </p>
           </section>
 
@@ -285,7 +285,7 @@ export default function BedBugExterminator() {
                   home in luggage or clothing — are among the most common sources of bed bug introductions
                   we see in Camden County single-family homes. If you have recently traveled or hosted
                   guests from out of the area and are experiencing unexplained bites or insect sightings
-                  in your bedroom, call for a free inspection immediately.
+                  in your bedroom, call for a free phone assessment immediately.
                 </p>
               </div>
             </div>
@@ -311,8 +311,8 @@ export default function BedBugExterminator() {
               identify all harborage points, and carry no accountability for failed treatments.
             </p>
             <p className="text-gray-700 text-lg leading-relaxed">
-              When you hire Camden County Pest Control, you have our NJDEP license number, insurance
-              information, and written treatment guarantee before any work begins. We are a fully compliant,
+              When you hire Camden County Pest Control, you have our NJDEP license number and insurance
+              information before any work begins, and a clear price before any treatment starts. We are a fully compliant,
               professional operation serving{' '}
               <Link href="/camden-county/cherry-hill" className="text-[#2B6CB0] hover:underline">Cherry Hill</Link>,{' '}
               <Link href="/camden-county/voorhees" className="text-[#2B6CB0] hover:underline">Voorhees</Link>,{' '}
@@ -331,15 +331,15 @@ export default function BedBugExterminator() {
               <div className="flex gap-4 items-start">
                 <div className="bg-[#DD6B20] text-white font-bold rounded-full w-10 h-10 flex items-center justify-center shrink-0">1</div>
                 <div>
-                  <h3 className="text-lg font-semibold text-[#1A365D]">Free Inspection</h3>
-                  <p className="text-gray-700">An NJDEP-licensed technician inspects every room in the property, focusing on all bed bug harborage areas — mattress seams, box springs, bed frames, baseboards, headboards, electrical outlets, and furniture. You receive a full written report of findings.</p>
+                  <h3 className="text-lg font-semibold text-[#1A365D]">Paid Bed Bug Inspection</h3>
+                  <p className="text-gray-700">An NJDEP-licensed technician visits your property and inspects every room, focusing on all bed bug harborage areas — mattress seams, box springs, bed frames, baseboards, headboards, electrical outlets, and furniture. Findings are discussed with you verbally on site.</p>
                 </div>
               </div>
               <div className="flex gap-4 items-start">
                 <div className="bg-[#DD6B20] text-white font-bold rounded-full w-10 h-10 flex items-center justify-center shrink-0">2</div>
                 <div>
                   <h3 className="text-lg font-semibold text-[#1A365D]">Treatment Recommendation</h3>
-                  <p className="text-gray-700">Based on the inspection, we recommend the most effective treatment approach — heat, chemical, or combination — and provide a clear, written estimate. No work begins until you approve the plan and price.</p>
+                  <p className="text-gray-700">Based on the inspection, we recommend the most effective treatment approach — heat, chemical, or combination — and provide a clear price verbally. No work begins until you approve the plan and price.</p>
                 </div>
               </div>
               <div className="flex gap-4 items-start">
@@ -353,7 +353,7 @@ export default function BedBugExterminator() {
                 <div className="bg-[#DD6B20] text-white font-bold rounded-full w-10 h-10 flex items-center justify-center shrink-0">4</div>
                 <div>
                   <h3 className="text-lg font-semibold text-[#1A365D]">Follow-Up & Confirmation</h3>
-                  <p className="text-gray-700">We schedule follow-up inspections to confirm complete elimination. If bed bugs are found during the warranty period, we return at no additional charge. Your satisfaction and peace of mind are our final product.</p>
+                  <p className="text-gray-700">We schedule follow-up visits to confirm results as part of your treatment plan. Our technicians work thoroughly at every stage to address the infestation completely.</p>
                 </div>
               </div>
             </div>
@@ -398,9 +398,9 @@ export default function BedBugExterminator() {
                   <div className="text-gray-600 text-sm">2–3 visits included</div>
                 </div>
               </div>
-              <p className="text-gray-700 text-sm mb-4">Pricing depends on property size, infestation severity, and treatment method. We provide a free, no-obligation written estimate before any work begins.</p>
-              <a href="tel:+18564306244" className="inline-block bg-[#DD6B20] hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-lg transition-colors">
-                📞 Get Free Estimate — (856) 430-6244
+              <p className="text-gray-700 text-sm mb-4">Pricing depends on property size, infestation severity, and treatment method. Call for a free phone assessment where we discuss your situation and provide a verbal quote with no obligation.</p>
+              <a href="tel:+18566000812" className="inline-block bg-[#DD6B20] hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-lg transition-colors">
+                📞 Get Free Estimate — (856) 600-0812
               </a>
             </div>
           </section>
@@ -426,8 +426,8 @@ export default function BedBugExterminator() {
               Bed Bugs in Your Camden County Home? Call Us Today.
             </h2>
             <p className="text-gray-700 text-lg mb-6">
-              Camden County Pest Control provides free bed bug inspections and professional treatment
-              throughout all 16 towns in Camden County. Early treatment costs less and resolves faster —
+              Camden County Pest Control offers a free phone assessment and professional, paid on-site bed bug
+              treatment throughout all 16 towns in Camden County. Early treatment costs less and resolves faster —
               call now.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -452,7 +452,7 @@ export default function BedBugExterminator() {
           <div className="max-w-4xl mx-auto px-4 text-center">
             <h2 className="text-3xl font-bold mb-4">Camden County&apos;s Bed Bug Specialists</h2>
             <p className="text-blue-200 text-lg mb-6">
-              NJDEP-licensed technicians. Heat treatment & chemical options. Free inspections.
+              NJDEP-licensed technicians. Heat treatment & chemical options. Free phone assessment available.
             </p>
             <a
               href="tel:+18566000812"
@@ -476,7 +476,7 @@ export default function BedBugExterminator() {
                   telephone: '(856) 600-0812',
                   url: 'https://pestcontrolcamdencounty.com/bed-bug-exterminator',
                   description:
-                    'Professional bed bug exterminator serving all 16 towns in Camden County, NJ. Heat treatment and chemical options, NJDEP-licensed technicians, free inspections.',
+                    'Professional bed bug exterminator serving all 16 towns in Camden County, NJ. Heat treatment and chemical options, NJDEP-licensed & insured, free phone assessment available.',
                   areaServed: {
                     '@type': 'County',
                     name: 'Camden County',
@@ -492,7 +492,7 @@ export default function BedBugExterminator() {
                     itemListElement: [
                       { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Bed Bug Heat Treatment' } },
                       { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Bed Bug Chemical Treatment' } },
-                      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Free Bed Bug Inspection' } },
+                      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Paid On-Site Bed Bug Inspection' } },
                       { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Multi-Unit Bed Bug Treatment' } },
                     ],
                   },
@@ -505,7 +505,7 @@ export default function BedBugExterminator() {
                       name: 'How do I know if I have bed bugs in my Camden County home?',
                       acceptedAnswer: {
                         '@type': 'Answer',
-                        text: 'The most reliable signs of bed bugs include: small reddish-brown insects visible in mattress seams or bed frames; dark rusty-brown staining from excrement on mattresses; tiny white eggs or shed skins in mattress seams; and waking up with itchy red welts in lines or clusters. Call Camden County Pest Control for a free inspection if you suspect an infestation.',
+                        text: 'The most reliable signs of bed bugs include: small reddish-brown insects visible in mattress seams or bed frames; dark rusty-brown staining from excrement on mattresses; tiny white eggs or shed skins in mattress seams; and waking up with itchy red welts in lines or clusters. Call Camden County Pest Control for a free phone assessment if you suspect an infestation.',
                       },
                     },
                     {

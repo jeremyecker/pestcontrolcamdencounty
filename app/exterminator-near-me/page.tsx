@@ -7,7 +7,7 @@ import TrustBar from '@/components/sections/TrustBar';
 export const metadata: Metadata = {
   title: 'Exterminator Near Me in Camden County NJ | Licensed & Insured',
   description:
-    'Looking for a licensed exterminator near you in Camden County NJ? NJDEP-certified professionals serving Cherry Hill, Voorhees, Haddonfield & more. Call (856) 600-0812.',
+    'Looking for a licensed exterminator near you in Camden County NJ? NJDEP-licensed & insured serving Cherry Hill, Voorhees, Haddonfield & more. Call (856) 600-0812.',
   keywords:
     'exterminator near me, exterminator Camden County NJ, licensed exterminator Cherry Hill, pest exterminator Voorhees, NJ exterminator',
 };
@@ -216,8 +216,8 @@ export default function ExterminatorNearMe() {
                 exterior walls. We look for active pest activity, entry points, conducive conditions (moisture, food
                 sources, harborage areas), and evidence of previous infestations. For{' '}
                 <Link href="/termite-inspection" className="text-[#2B6CB0] hover:underline">termite inspections</Link>,
-                we use specialized moisture meters and probing tools to check for hidden damage. This inspection is
-                included with your <Link href="/free-pest-inspection" className="text-[#2B6CB0] hover:underline">free pest inspection</Link>.
+                we use specialized moisture meters and probing tools to check for hidden damage. This on-site inspection takes
+                place once you've booked service — it is separate from the free phone assessment described below.
               </p>
             </div>
             <div className="border-l-4 border-[#DD6B20] pl-6">
@@ -234,7 +234,7 @@ export default function ExterminatorNearMe() {
               <h3 className="text-xl font-semibold text-[#1A365D] mb-2">4. Treatment Plan &amp; Transparent Pricing</h3>
               <p className="text-gray-700">
                 Before any treatment begins, you receive a detailed explanation of the recommended approach, the products
-                to be used, any preparation needed on your part, safety precautions, and a written price quote. We
+                to be used, any preparation needed on your part, safety precautions, and a clear price quoted verbally. We
                 believe in full transparency — no hidden fees, no bait-and-switch, and absolutely no pressure to agree
                 to services you do not need.
               </p>
@@ -252,8 +252,7 @@ export default function ExterminatorNearMe() {
               <h3 className="text-xl font-semibold text-[#1A365D] mb-2">6. Follow-Up &amp; Guarantee</h3>
               <p className="text-gray-700">
                 Most treatments include one or more follow-up visits to monitor results, re-treat if necessary, and
-                confirm the infestation is fully resolved. We stand behind our work — if the pests come back between
-                treatments, so do we, at no additional cost.
+                confirm the infestation is fully resolved. Our NJDEP-licensed technicians take pride in completing every job thoroughly.
               </p>
             </div>
           </div>
@@ -451,11 +450,9 @@ export default function ExterminatorNearMe() {
             <div className="border-b border-gray-200 pb-6">
               <h3 className="text-lg font-semibold text-[#1A365D] mb-2">Do you offer a free inspection before treatment?</h3>
               <p className="text-gray-700">
-                Yes. Our{' '}
-                <Link href="/free-pest-inspection" className="text-[#2B6CB0] hover:underline">free pest inspection</Link>{' '}
-                is available to all Camden County homeowners and businesses. A licensed technician inspects your
-                property, identifies the pest, maps entry points, and provides a written assessment and quote — all at
-                no charge and with zero obligation to proceed with treatment.
+                Yes. We offer a{' '}
+                <Link href="/free-pest-inspection" className="text-[#2B6CB0] hover:underline">free phone assessment</Link>{' '}
+                to all Camden County homeowners and businesses. A licensed representative will discuss your pest situation, answer your questions, and provide a verbal quote — all over the phone with zero obligation to proceed.
               </p>
             </div>
             <div className="border-b border-gray-200 pb-6">
@@ -514,7 +511,7 @@ export default function ExterminatorNearMe() {
             Hire a Licensed Camden County Exterminator Today
           </h2>
           <p className="text-gray-700 text-lg mb-6">
-            Do not trust your home to an unlicensed operator. Call Camden County Pest Control for a free inspection
+            Do not trust your home to an unlicensed operator. Call Camden County Pest Control for a free phone assessment
             from a fully licensed, insured, and experienced exterminator.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -539,7 +536,7 @@ export default function ExterminatorNearMe() {
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to Get Started?</h2>
           <p className="text-blue-200 text-lg mb-6">
-            NJDEP-licensed exterminators serving all of Camden County. Free inspections, proven results.
+            NJDEP-licensed exterminators serving all of Camden County. Free phone assessment, proven results.
           </p>
           <a
             href="tel:+18566000812"
@@ -563,7 +560,7 @@ export default function ExterminatorNearMe() {
                 telephone: '(856) 600-0812',
                 url: 'https://pestcontrolcamdencounty.com/exterminator-near-me',
                 description:
-                  'Licensed exterminator near you in Camden County, NJ. NJDEP-certified professionals serving all 16 towns.',
+                  'Licensed exterminator near you in Camden County, NJ. NJDEP-licensed & insured serving all 16 towns.',
                 areaServed: {
                   '@type': 'County',
                   name: 'Camden County',
@@ -614,7 +611,7 @@ export default function ExterminatorNearMe() {
                     name: 'Do you offer a free inspection before treatment?',
                     acceptedAnswer: {
                       '@type': 'Answer',
-                      text: 'Yes. Our free pest inspection is available to all Camden County homeowners and businesses. A licensed technician inspects your property, identifies the pest, maps entry points, and provides a written assessment and quote at no charge.',
+                      text: 'Yes. We offer a free phone assessment to all Camden County homeowners and businesses. A licensed representative will discuss your pest situation, answer your questions, and provide a verbal quote over the phone with zero obligation.',
                     },
                   },
                 ],

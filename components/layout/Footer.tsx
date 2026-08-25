@@ -23,6 +23,9 @@ export default function Footer() {
               Your trusted local pest control experts serving all of {GEO.region}, {GEO.stateCode}.
               Licensed, insured, and committed to protecting your home.
             </p>
+            <p className="text-gray-400 text-sm mb-4">
+              Locally owned and operated — a Rest Easy Pest Control brand.
+            </p>
             <a
               href={PHONE_HREF}
               className="inline-flex items-center gap-2 text-brand-accent font-bold text-lg hover:text-orange-400 transition-colors"

@@ -70,6 +70,10 @@ export default function Hero({
               {subtitle || defaultSubtitle}
             </p>
 
+            <p className="text-sm text-white/80 mb-6 max-w-xl">
+              Locally owned and operated — a Rest Easy Pest Control brand.
+            </p>
+
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
               <a
                 href={PHONE_HREF}

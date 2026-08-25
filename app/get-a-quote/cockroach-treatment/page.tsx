@@ -52,7 +52,7 @@ export default function CockroachTreatmentQuotePage() {
               Get a Free Cockroach Treatment Quote in Camden County, NJ
             </h1>
             <p className="text-blue-100 text-lg mb-6">
-              Cockroaches are a serious health hazard — they contaminate food, trigger asthma, and spread bacteria. Our licensed technicians use targeted gel baits, IGRs, and crack & crevice treatments to eliminate infestations fast in Camden County homes and businesses.
+              Cockroaches are a serious health hazard — they contaminate food, trigger asthma, and spread bacteria. Our technicians — licensed or working under the direct supervision of a licensed applicator — use targeted gel baits, IGRs, and crack & crevice treatments to eliminate infestations fast in Camden County homes and businesses.
             </p>
             <div className="mt-4 bg-blue-800/50 rounded-lg p-4 border border-blue-700">
               <p className="text-orange-300 font-semibold text-sm mb-1">Typical Cost</p>

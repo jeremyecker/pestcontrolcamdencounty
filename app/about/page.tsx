@@ -38,7 +38,7 @@ export default function AboutPage() {
             3 a.m., we&apos;ve handled every scenario Camden County can throw at a homeowner.
           </p>
           <p>
-            Safety shapes every decision we make on the job. We select EPA-approved products
+            Safety shapes every decision we make on the job. We select EPA-registered products
             and apply Integrated Pest Management methods that zero in on the problem without
             creating new risks for your children, pets, or garden. Before we treat a single
             room, we walk you through the plan so there are no surprises.
@@ -73,14 +73,7 @@ export default function AboutPage() {
               a wasp nest above the back door, you shouldn&apos;t have to wait until next week.
             </li>
             <li>
-              <strong>Transparent, pressure-free pricing:</strong> We quote a clear price before
-              starting any work. Every inspection is free, every estimate is honest, and there
-              are never hidden add-ons after the fact.
-            </li>
-            <li>
-              <strong>Guaranteed results:</strong> If pests reappear between scheduled treatments,
-              we return and re-treat at no extra charge. One phone call is all it takes to get
-              us back on your doorstep.
+              <strong>Transparent pricing:</strong> We provide clear, upfront pricing during your free phone assessment. No hidden fees, no surprise charges — just honest quotes from a local company you can trust.
             </li>
             <li>
               <strong>Low-profile service:</strong> We understand that pest problems can feel
@@ -109,9 +102,12 @@ export default function AboutPage() {
           <p>
             If something is crawling, buzzing, or gnawing where it shouldn&apos;t be, pick up
             the phone and dial <a href={PHONE_HREF} className="font-bold">{PHONE}</a>.
-            We&apos;ll talk through what you&apos;re seeing, answer every question, and set up
-            a free estimate at a time that works for you. No hard sell, no gimmicks — just
+            We&apos;ll talk through what you&apos;re seeing, answer every question, and give
+            you a free estimate right over the phone. No hard sell, no gimmicks — just
             straightforward help from a team that genuinely cares about this community.
+          </p>
+          <p className="text-gray-600">
+            Locally owned and operated — a Rest Easy Pest Control brand.
           </p>
         </div>
       </section>

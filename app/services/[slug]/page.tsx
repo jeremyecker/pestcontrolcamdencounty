@@ -64,7 +64,7 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
             {slug === 'ant-control' && (
               <div className="mt-6 p-5 bg-green-50 border border-green-100 rounded-xl">
                 <h3 className="text-lg font-bold text-gray-900 mb-2">Ant Control in Gloucester Township & Gloucester City</h3>
-                <p className="text-gray-700">Gloucester Township and Gloucester City are among the most active areas for ant infestations in Camden County — particularly carpenter ants in older wood-framed homes near wooded lots, and odorous house ants in residential kitchens. Our licensed NJ exterminators serve both communities with targeted treatments and long-term prevention plans. If you're in the Gloucester area and dealing with ants, we're your local Camden County solution.</p>
+                <p className="text-gray-700">Gloucester Township and Gloucester City are among the most active areas for ant infestations in Camden County — particularly carpenter ants in older wood-framed homes near wooded lots, and odorous house ants in residential kitchens. Our exterminators — licensed or working under the direct supervision of a licensed applicator — serve both communities with targeted treatments and long-term prevention plans. If you're in the Gloucester area and dealing with ants, we're your local Camden County solution.</p>
               </div>
             )}
           </div>

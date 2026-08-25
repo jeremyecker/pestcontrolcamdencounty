@@ -41,9 +41,9 @@ export default async function AboutPage({ params }: { params: Promise<{ region: 
           <ul>
             <li>Local experts who know {region.name}&apos;s pest pressures</li>
             <li>Same-day service availability</li>
-            <li>Family-safe, EPA-approved treatments</li>
+            <li>Family-safe, EPA-registered treatments</li>
             <li>Transparent pricing — no surprise charges</li>
-            <li>We stand behind our work</li>
+            <li>NJDEP-licensed and fully insured</li>
           </ul>
           <h2>Our Commitment</h2>
           <p>
