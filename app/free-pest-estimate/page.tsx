@@ -4,9 +4,9 @@ import TrustBar from '@/components/sections/TrustBar';
 
 export const metadata: Metadata = {
   robots: { index: false, follow: true },
-  title: 'Free Pest Estimate Camden County NJ | No Obligation',
+  title: 'Free Pest Estimate | Camden County, NJ',
   description:
-    'Get a free pest estimate for your Camden County NJ home. No obligation, no hidden fees. All pests covered, all 16 towns served. Call (856) 600-0812.',
+    'Call (856) 600-0812 for a free, no-obligation pest estimate in Camden County. Speak with a licensed rep and get pricing on the spot.',
   keywords:
     'free pest estimate, pest estimate Camden County, free exterminator estimate, free termite quote NJ, pest estimate Cherry Hill',
 };
@@ -24,6 +24,33 @@ const localBusinessSchema = {
     addressCountry: 'US',
   },
 };
+
+const faqData = [
+  {
+    question: `Is the estimate really free with no obligation?`,
+    answer: `Yes, completely. There's no charge for the phone assessment, and you're under no obligation to book service afterward. We provide pricing and information so you can make the decision that's right for you — no pressure.`,
+  },
+  {
+    question: `What happens on the call? How is the estimate provided?`,
+    answer: `When you call, you'll speak with a licensed Rest Easy representative. You'll describe your pest concern and share details about your property. Based on that conversation, we'll discuss your situation, explain factors that may be contributing to the issue, and give you a price for service — all during that same phone call.`,
+  },
+  {
+    question: `What types of pests are covered?`,
+    answer: `Our team handles a wide range of common household and property pests, including ants, roaches, mice, rats, spiders, wasps, hornets, and many others. When you call, let us know what you're dealing with and we'll confirm how we can help.`,
+  },
+  {
+    question: `Can I get an estimate for a rental or commercial property?`,
+    answer: `Absolutely. Whether you're a homeowner, landlord, property manager, or business owner, we're happy to provide a free phone estimate for residential and commercial properties alike.`,
+  },
+  {
+    question: `Do you offer WDI reports for real estate transactions?`,
+    answer: `Yes, we do — but this is a separate paid service, not part of the free phone estimate. A WDI (Wood Destroying Insect) report requires a scheduled on-site inspection after booking and payment, and it results in an official written report. Contact us to learn more about pricing and scheduling.`,
+  },
+  {
+    question: `What about bed bugs?`,
+    answer: `Bed bug concerns are addressed through a separate paid, on-site inspection — not the free phone estimate. During that visit, a technician examines the area and discusses findings with you verbally on site. No written report or photographs are produced from a bed bug inspection. Call us to ask questions or to schedule.`,
+  },
+];
 
 export default function FreePestEstimate() {
   return (
@@ -45,24 +72,23 @@ export default function FreePestEstimate() {
       <section className="bg-gradient-to-br from-[#1A365D] to-[#2B6CB0] text-white py-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Get a Free Pest Estimate — Camden County, NJ
+            {`Free Pest Control Estimate in Camden County, NJ`}
           </h1>
           <p className="text-xl text-blue-100 mb-8">
-            Not sure what is bugging you? Our technicians — licensed or working under the direct supervision of a licensed applicator — will assess your property, identify the pest,
-            and provide a detailed cost estimate — completely free, with zero obligation.
+            {`Get a straightforward answer about your pest problem—without waiting for a home visit. Call Rest Easy Pest Control for a free phone assessment with a licensed representative. Describe your situation, get a price on the spot, and decide if you'd like to book. No obligation, no pressure, no hassle.`}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="tel:+18566000812"
               className="bg-[#DD6B20] hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors"
             >
-              📞 Call (856) 600-0812
+              📞 {`Call (856) 600-0812 Now`}
             </a>
             <Link
               href="/contact"
               className="bg-white text-[#1A365D] font-bold py-4 px-8 rounded-lg text-xl hover:bg-gray-100 transition-colors"
             >
-              Schedule Free Estimate
+              {`Get Your Free Estimate`}
             </Link>
           </div>
         </div>
@@ -71,235 +97,81 @@ export default function FreePestEstimate() {
       {/* Main Content */}
       <main className="max-w-4xl mx-auto px-4 py-16">
 
-        {/* What's Included */}
+        {/* How It Works */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-[#1A365D] mb-6">
-            What Is Included in Our Free Pest Estimate
+            {`How Your Free Estimate Works`}
           </h2>
-          <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            Our free pest estimate is not a quick glance and a sales pitch. It is a genuine, thorough evaluation of
-            your property performed by a NJDEP-licensed pest control technician. We offer this service because we
-            believe you deserve to understand exactly what is happening in your home before you spend a single dollar
-            on treatment. There is no obligation to purchase services after the estimate — the information we provide
-            is yours to keep regardless of your decision.
-          </p>
-          <p className="text-gray-700 text-lg leading-relaxed mb-6">
-            We have performed hundreds of free estimates throughout Camden County — in{' '}
-            <Link href="/camden-county/cherry-hill" className="text-[#2B6CB0] hover:underline">Cherry Hill</Link> colonials,{' '}
-            <Link href="/camden-county/haddonfield" className="text-[#2B6CB0] hover:underline">Haddonfield</Link> Victorians,{' '}
-            <Link href="/camden-county/collingswood" className="text-[#2B6CB0] hover:underline">Collingswood</Link> bungalows,{' '}
-            <Link href="/camden-county/voorhees" className="text-[#2B6CB0] hover:underline">Voorhees</Link> suburban homes,
-            commercial properties in <Link href="/camden-county/pennsauken" className="text-[#2B6CB0] hover:underline">Pennsauken</Link>{' '}
-            and <Link href="/camden-county/bellmawr" className="text-[#2B6CB0] hover:underline">Bellmawr</Link>, and rental
-            units throughout the county. Every estimate is performed to the same professional standard regardless of
-            property size or type.
-          </p>
           <div className="space-y-6">
             <div className="flex gap-4 items-start">
-              <div className="bg-green-600 text-white font-bold rounded-full w-10 h-10 flex items-center justify-center shrink-0">✓</div>
+              <div className="bg-green-600 text-white font-bold rounded-full w-10 h-10 flex items-center justify-center shrink-0">1</div>
               <div>
-                <h3 className="text-lg font-semibold text-[#1A365D]">Complete Exterior Property Assessment</h3>
-                <p className="text-gray-700">
-                  Our technician walks the entire perimeter of your home, examining the foundation, exterior walls,
-                  roofline, soffits, fascia, gutters, window frames, door frames, garage, shed, deck, and landscaping.
-                  We look for pest entry points, harborage areas, conducive conditions (moisture, wood-to-soil contact,
-                  dense vegetation against the structure), and evidence of active pest activity.
-                </p>
+                <h3 className="text-lg font-semibold text-[#1A365D]">{`Reach Out`}</h3>
+                <p className="text-gray-700">{`Call us or submit the online form to connect with a licensed Rest Easy Pest Control representative. We're here to listen and ready to help.`}</p>
               </div>
             </div>
             <div className="flex gap-4 items-start">
-              <div className="bg-green-600 text-white font-bold rounded-full w-10 h-10 flex items-center justify-center shrink-0">✓</div>
+              <div className="bg-green-600 text-white font-bold rounded-full w-10 h-10 flex items-center justify-center shrink-0">2</div>
               <div>
-                <h3 className="text-lg font-semibold text-[#1A365D]">Thorough Interior Assessment</h3>
-                <p className="text-gray-700">
-                  Inside your home, we assess the kitchen, bathrooms, basement, attic, crawl space (if accessible),
-                  utility areas, and any rooms where pest activity has been observed. We check behind appliances,
-                  under sinks, in utility voids, along baseboards, in storage areas, and anywhere else pests are
-                  likely to harbor or travel.
-                </p>
+                <h3 className="text-lg font-semibold text-[#1A365D]">{`Describe Your Situation`}</h3>
+                <p className="text-gray-700">{`Tell us about the pest issue you're experiencing and share relevant details about your property—the type of structure, where you've noticed activity, and anything else that might be helpful.`}</p>
               </div>
             </div>
             <div className="flex gap-4 items-start">
-              <div className="bg-green-600 text-white font-bold rounded-full w-10 h-10 flex items-center justify-center shrink-0">✓</div>
+              <div className="bg-green-600 text-white font-bold rounded-full w-10 h-10 flex items-center justify-center shrink-0">3</div>
               <div>
-                <h3 className="text-lg font-semibold text-[#1A365D]">Pest Identification</h3>
-                <p className="text-gray-700">
-                  Accurate pest identification is more important than most homeowners realize. Carpenter ants and
-                  odorous house ants require completely different treatment strategies. German cockroaches and American
-                  cockroaches have different harborage preferences. Our technicians are trained to identify all common
-                  Camden County pests accurately — not just category-level identification but species-level when treatment depends on it.
-                </p>
+                <h3 className="text-lg font-semibold text-[#1A365D]">{`Get Expert Guidance`}</h3>
+                <p className="text-gray-700">{`Based on what you describe, our representative will discuss your situation, explain what may be contributing to the problem, and answer your questions—all over the phone.`}</p>
               </div>
             </div>
             <div className="flex gap-4 items-start">
-              <div className="bg-green-600 text-white font-bold rounded-full w-10 h-10 flex items-center justify-center shrink-0">✓</div>
+              <div className="bg-green-600 text-white font-bold rounded-full w-10 h-10 flex items-center justify-center shrink-0">4</div>
               <div>
-                <h3 className="text-lg font-semibold text-[#1A365D]">Conducive Conditions Assessment</h3>
-                <p className="text-gray-700">
-                  Beyond identifying active pests, we document all conditions that are making your property vulnerable
-                  to infestation — poor drainage, wood-to-soil contact, gaps in the building envelope, improperly
-                  stored firewood, standing water, overgrown landscaping, and other factors. Addressing conducive
-                  conditions is often the most important long-term step in pest prevention.
-                </p>
-              </div>
-            </div>
-            <div className="flex gap-4 items-start">
-              <div className="bg-green-600 text-white font-bold rounded-full w-10 h-10 flex items-center justify-center shrink-0">✓</div>
-              <div>
-                <h3 className="text-lg font-semibold text-[#1A365D]">Written Estimate &amp; Report</h3>
-                <p className="text-gray-700">
-                  At the end of the estimate, our technician provides a written report documenting all findings,
-                  photographs of significant items, and a detailed treatment recommendation with pricing if treatment
-                  is warranted. You receive this report whether or not you decide to proceed with service. The report
-                  is yours to keep.
-                </p>
+                <h3 className="text-lg font-semibold text-[#1A365D]">{`Receive Your Price and Decide`}</h3>
+                <p className="text-gray-700">{`On that same call, you'll receive a clear price for service. From there, you can book an appointment or simply take time to think it over. There's no obligation and no pressure either way.`}</p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Common Findings */}
+        {/* Why Phone Assessment */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-[#1A365D] mb-6">
-            Common Findings in Camden County Home Estimates
+            {`Why We Provide Estimates by Phone`}
           </h2>
-          <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            After hundreds of free estimates throughout Camden County, our technicians have identified the most
-            common pest problems and conducive conditions specific to different communities and property types in the
-            region. Here is what we regularly find:
-          </p>
-
-          <div className="space-y-6 mb-6">
-            <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-[#1A365D] mb-3">Older Homes (Pre-1980)</h3>
-              <p className="text-gray-700 mb-2">
-                Historic homes in Haddonfield, Collingswood, Audubon, and Barrington frequently present pest challenges:
-              </p>
-              <ul className="text-gray-700 space-y-1 text-sm">
-                <li>→ Eastern subterranean termite mud tubes on crawl space walls and sill plates</li>
-                <li>→ Carpenter ant colonies in moisture-damaged wood around windows and roof eaves</li>
-                <li>→ Mouse activity through gaps in stone or brick foundations</li>
-                <li>→ Bat entry through gaps in older soffits, gable vents, and brick mortar joints</li>
-                <li>→ Moisture damage and fungal rot creating conducive conditions for wood-destroying insects</li>
-              </ul>
-            </div>
-
-            <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-[#1A365D] mb-3">Suburban Homes (1980–2005)</h3>
-              <p className="text-gray-700 mb-2">
-                Mid-age suburban homes in Cherry Hill, Voorhees, and Mount Laurel present distinct pest challenges:
-              </p>
-              <ul className="text-gray-700 space-y-1 text-sm">
-                <li>→ Ant trails from landscaping through slab cracks into kitchens and bathrooms</li>
-                <li>→ Rodent entry via gaps around HVAC penetrations and dryer vents</li>
-                <li>→ Yellow jacket or hornet nests in eaves and wall voids</li>
-                <li>→ Termite activity around deck-to-foundation connections</li>
-                <li>→ Squirrel access through deteriorated roof-to-soffit junctions</li>
-              </ul>
-            </div>
-
-            <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-[#1A365D] mb-3">Newer Homes (Post-2005)</h3>
-              <p className="text-gray-700 mb-2">
-                Even new construction in southern Camden County presents predictable pest pressures:
-              </p>
-              <ul className="text-gray-700 space-y-1 text-sm">
-                <li>→ Termite activity at concrete slab cold joints and garage gaps</li>
-                <li>→ Tick and mosquito pressure from wooded buffers and retention ponds</li>
-                <li>→ Deer tick habitat in ornamental landscaping</li>
-                <li>→ Wildlife pressure as construction displaces raccoon and opossum populations</li>
-                <li>→ Ant and spider infiltration through gaps around windows and doors</li>
-              </ul>
-            </div>
-
-            <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-[#1A365D] mb-3">Commercial Properties</h3>
-              <p className="text-gray-700 mb-2">
-                Commercial properties along Route 130, Route 42, and other commercial corridors have distinct profiles:
-              </p>
-              <ul className="text-gray-700 space-y-1 text-sm">
-                <li>→ Cockroach activity in food service establishments</li>
-                <li>→ Rodent entry through loading dock gaps and utility penetrations</li>
-                <li>→ Bird nesting on HVAC units and loading dock canopies</li>
-                <li>→ Fly pressure near food waste areas and exterior dumpsters</li>
-              </ul>
-            </div>
-          </div>
+          <p className="text-gray-700 text-lg leading-relaxed mb-4">{`We know your time is valuable. That's why our free estimates are handled over the phone rather than requiring you to schedule and wait for a home visit before you've even decided to move forward.`}</p>
+          <p className="text-gray-700 text-lg leading-relaxed mb-4">{`When you call, you speak directly with a licensed representative who can assess your situation based on what you describe, answer your questions, and provide pricing—all in one conversation. You get the information you need right away, without carving time out of your day for an appointment.`}</p>
+          <p className="text-gray-700 text-lg leading-relaxed mb-4">{`If you choose to book service, that's when our technicians come to your property to do the hands-on work. But there's no need to commit to a visit just to find out what things might cost.`}</p>
         </section>
 
-        {/* How to Prepare */}
-        <section className="mb-12">
-          <h2 className="text-3xl font-bold text-[#1A365D] mb-6">
-            How to Prepare for Your Free Pest Estimate
+        {/* WDI Callout — separate paid product, never bundled with the free estimate */}
+        <section className="mb-12 bg-amber-50 border border-amber-200 rounded-xl p-8">
+          <h2 className="text-2xl font-bold text-[#1A365D] mb-4">
+            {`Need a Wood Destroying Insect Report for a Real Estate Transaction?`}
           </h2>
-          <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            Preparing your home for an estimate takes only a few minutes and helps our technician conduct the
-            most thorough assessment possible.
-          </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
-            <div className="border border-green-200 rounded-lg p-5">
-              <h3 className="font-semibold text-green-800 mb-2">✓ Do These Things</h3>
-              <ul className="text-gray-700 text-sm space-y-2">
-                <li>→ Provide clear access to the crawl space, basement, and attic if possible</li>
-                <li>→ Clear items away from foundation walls in the basement or crawl space</li>
-                <li>→ Move items stored against exterior walls so we can see the wall surface</li>
-                <li>→ Write down when and where you have seen pest activity</li>
-                <li>→ Note any specific concerns (damaged wood, soft floors, unusual odors)</li>
-                <li>→ Make sure pets are secure so they do not interfere with the estimate</li>
-              </ul>
-            </div>
-            <div className="border border-red-200 rounded-lg p-5">
-              <h3 className="font-semibold text-red-800 mb-2">✗ Do Not Do These</h3>
-              <ul className="text-gray-700 text-sm space-y-2">
-                <li>→ Do not spray pesticides before the estimate — this scatters pests</li>
-                <li>→ Do not deep-clean areas of concern — evidence of pest activity is helpful</li>
-                <li>→ Do not attempt to seal entry points — we need to see them</li>
-                <li>→ Do not throw away pest evidence before we arrive</li>
-              </ul>
-            </div>
-          </div>
-          <p className="text-gray-700 text-lg leading-relaxed">
-            For termite estimates specifically, please ensure access to the crawl space or basement and clear a path along the interior
-            foundation walls if possible.
-          </p>
+          <p className="text-gray-700 text-lg leading-relaxed mb-4">{`If you're buying, selling, or refinancing a property and need an official WDI (Wood Destroying Insect) report, Rest Easy Pest Control offers this as a separate paid service.`}</p>
+          <p className="text-gray-700 text-lg leading-relaxed mb-4">{`A WDI report involves a thorough on-site inspection conducted by a licensed technician after the service is booked and paid for. You'll receive a genuine written report documenting the findings—the kind of official documentation that lenders and real estate professionals require.`}</p>
+          <p className="text-gray-700 text-lg leading-relaxed mb-4">{`Please note: The WDI report is a distinct service from our free phone estimate. It is not included in, and should not be confused with, the no-cost assessment described on this page.`}</p>
+          <p className="text-gray-700 text-lg leading-relaxed">{`Contact us to learn more or to schedule your WDI inspection.`}</p>
         </section>
 
-        {/* Why Free Section */}
-        <section className="mb-12">
-          <h2 className="text-3xl font-bold text-[#1A365D] mb-6">
-            Why Do We Offer Free Pest Estimates?
+        {/* Bed Bug Note — separate paid, on-site, verbal findings only */}
+        <section className="mb-12 bg-rose-50 border border-rose-200 rounded-xl p-8">
+          <h2 className="text-2xl font-bold text-[#1A365D] mb-4">
+            {`A Note About Bed Bug Concerns`}
           </h2>
-          <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            Many Camden County homeowners are surprised that our pest estimates are genuinely free — not a "free estimate with a required annual contract." Our free estimate is exactly what it says: a professional evaluation with no cost, no pressure, and no
-            commitment required.
-          </p>
-          <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            We offer free estimates for a straightforward reason: we are a locally owned Camden County business,
-            and our reputation in this community is built on trust and transparency. We believe that informed customers
-            make better decisions, and we are confident that when you see the quality of our work — the thoroughness
-            of our estimate, the clarity of our reporting, and the professionalism of our technicians — you will
-            choose to work with us.
-          </p>
-          <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            Free estimates also serve the community. Termite damage, rodent infestations, and other pest problems
-            that go undetected for years cause far more damage — and far more expense — than early detection and
-            treatment. By making professional estimates accessible and free, we help Camden County homeowners
-            catch problems early, before they become expensive repairs.
-          </p>
-          <p className="text-gray-700 text-lg leading-relaxed">
-            For real estate transactions, our estimates include formal WDI (Wood Destroying Insect) reports
-            when requested, supporting buyers and sellers throughout Camden County.
-          </p>
+          <p className="text-gray-700 text-lg leading-relaxed mb-4">{`If you suspect a bed bug issue, we understand the urgency. Bed bug situations are handled through a paid, on-site inspection—not through our free phone estimate.`}</p>
+          <p className="text-gray-700 text-lg leading-relaxed mb-4">{`During this visit, a trained technician examines the affected areas and discusses the findings with you verbally, right there on site. This allows for a direct conversation about what's been found and what steps may be appropriate.`}</p>
+          <p className="text-gray-700 text-lg leading-relaxed">{`Please be aware that no written report or photographs are produced from a bed bug inspection. If you have questions about scheduling a bed bug inspection, give us a call.`}</p>
         </section>
 
         {/* Towns Section */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-[#1A365D] mb-6">
-            Free Pest Estimate Serving All of Camden County
+            Free Estimate Serving All of Camden County
           </h2>
           <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            We provide free pest estimates throughout all 16 municipalities in Camden County, NJ. No matter where
-            you are located, we can usually schedule an estimate same-day or next-day:
+            We provide free phone estimates throughout all 16 municipalities in Camden County, NJ. {`No matter where you are located in the county, we can provide a free estimate over the phone:`}
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-6">
             {[
@@ -330,7 +202,7 @@ export default function FreePestEstimate() {
             ))}
           </div>
           <p className="text-gray-700 text-lg leading-relaxed">
-            For same-day estimate appointments, call before noon at{' '}
+            For same-day service, call before noon at{' '}
             <a href="tel:+18566000812" className="text-[#2B6CB0] font-semibold hover:underline">(856) 600-0812</a>.
           </p>
         </section>
@@ -338,62 +210,15 @@ export default function FreePestEstimate() {
         {/* FAQ Section */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-[#1A365D] mb-6">
-            Frequently Asked Questions — Free Pest Estimate in Camden County
+            {`Frequently Asked Questions — Free Estimate in Camden County`}
           </h2>
           <div className="space-y-6">
-            <div className="border-b border-gray-200 pb-6">
-              <h3 className="text-lg font-semibold text-[#1A365D] mb-2">Is the estimate really free with no obligation?</h3>
-              <p className="text-gray-700">
-                Yes, completely. Our free pest estimate includes a full interior and exterior property assessment,
-                pest identification, conducive conditions assessment, written report with photographs, and a treatment
-                quote if treatment is warranted. There is no charge for the estimate and you are under no obligation to proceed.
-              </p>
-            </div>
-            <div className="border-b border-gray-200 pb-6">
-              <h3 className="text-lg font-semibold text-[#1A365D] mb-2">How long does a free pest estimate take?</h3>
-              <p className="text-gray-700">
-                For a typical Camden County single-family home, a thorough free estimate takes between 45
-                minutes and 1.5 hours. Larger properties or those with accessible crawl spaces, full basements, or
-                large attics may take longer. Our technician will not rush the estimate.
-              </p>
-            </div>
-            <div className="border-b border-gray-200 pb-6">
-              <h3 className="text-lg font-semibold text-[#1A365D] mb-2">What pests do you assess for?</h3>
-              <p className="text-gray-700">
-                Our free estimate covers all common pests found in Camden County homes and businesses: termites, ants,
-                cockroaches, bed bugs, mice, rats, wasps, hornets, yellow jackets, spiders, fleas, ticks, mosquitoes, and wildlife.
-              </p>
-            </div>
-            <div className="border-b border-gray-200 pb-6">
-              <h3 className="text-lg font-semibold text-[#1A365D] mb-2">Can I get a free estimate for a rental property?</h3>
-              <p className="text-gray-700">
-                Yes. We perform free estimates for rental properties, apartment buildings, and commercial
-                properties throughout Camden County. For tenants who have reported pest problems, we coordinate directly
-                with the property owner or manager for the estimate.
-              </p>
-            </div>
-            <div className="border-b border-gray-200 pb-6">
-              <h3 className="text-lg font-semibold text-[#1A365D] mb-2">Do you provide a written report after the estimate?</h3>
-              <p className="text-gray-700">
-                Yes. Every free estimate includes a written report documenting all findings — including photographs,
-                pest identification, conducive conditions noted, and recommended treatment with pricing. This report meets
-                the requirements for a NJ WDI (Wood Destroying Insect) report when requested.
-              </p>
-            </div>
-            <div className="border-b border-gray-200 pb-6">
-              <h3 className="text-lg font-semibold text-[#1A365D] mb-2">What if pests are found during the estimate?</h3>
-              <p className="text-gray-700">
-                If our estimate reveals an active pest infestation, we explain the findings in detail, discuss
-                treatment options, and provide a written quote. You can proceed with treatment immediately or take the
-                report and call back at your convenience. There is never any pressure.
-              </p>
-            </div>
-            <div className="border-b border-gray-200 pb-6">
-              <h3 className="text-lg font-semibold text-[#1A365D] mb-2">Can you schedule the estimate the same day I call?</h3>
-              <p className="text-gray-700">
-                In most cases, yes. For calls received before noon, we can typically schedule a same-day estimate anywhere in Camden County.
-              </p>
-            </div>
+            {faqData.map((item) => (
+              <div key={item.question} className="border-b border-gray-200 pb-6">
+                <h3 className="text-lg font-semibold text-[#1A365D] mb-2">{item.question}</h3>
+                <p className="text-gray-700">{item.answer}</p>
+              </div>
+            ))}
           </div>
         </section>
 
@@ -404,8 +229,12 @@ export default function FreePestEstimate() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <Link href="/termite-inspection" className="block bg-amber-50 hover:bg-amber-100 rounded-lg p-5 transition-colors">
-              <h3 className="font-semibold text-[#1A365D] mb-1">Termite Inspection →</h3>
-              <p className="text-gray-600 text-sm">Specialized termite assessment and WDI reports for Camden County</p>
+              <h3 className="font-semibold text-[#1A365D] mb-1">WDI Reports &amp; Termite Service →</h3>
+              <p className="text-gray-600 text-sm">Official WDI reports and termite treatment for Camden County</p>
+            </Link>
+            <Link href="/free-pest-inspection" className="block bg-blue-50 hover:bg-blue-100 rounded-lg p-5 transition-colors">
+              <h3 className="font-semibold text-[#1A365D] mb-1">Free Pest Inspection →</h3>
+              <p className="text-gray-600 text-sm">Free phone estimate for any pest issue in Camden County</p>
             </Link>
             <Link href="/same-day-pest-control" className="block bg-green-50 hover:bg-green-100 rounded-lg p-5 transition-colors">
               <h3 className="font-semibold text-[#1A365D] mb-1">Same-Day Service →</h3>
@@ -429,11 +258,13 @@ export default function FreePestEstimate() {
         {/* Final CTA */}
         <section className="bg-blue-50 border border-blue-200 rounded-xl p-8 text-center">
           <h2 className="text-2xl font-bold text-[#1A365D] mb-4">
-            Schedule Your Free Pest Estimate Today
+            {`Ready to Get Your Free Estimate?`}
           </h2>
           <p className="text-gray-700 text-lg mb-6">
-            No cost. No obligation. No pressure. Just a thorough, professional assessment from a NJDEP-licensed
-            Camden County pest control team.
+            {`If you're dealing with a pest problem in Camden County, Rest Easy Pest Control is here to help. Call us at (856) 600-0812 or submit the form on this page to speak with a licensed representative.`}
+          </p>
+          <p className="text-gray-700 text-lg mb-6">
+            {`There's no cost, no obligation, and no pressure—just honest answers and clear pricing so you can decide what's right for you.`}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -452,22 +283,6 @@ export default function FreePestEstimate() {
         </section>
       </main>
 
-      {/* CTA Banner */}
-      <section className="bg-[#1A365D] text-white py-12">
-        <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4">Free Pest Estimate — All of Camden County, NJ</h2>
-          <p className="text-blue-200 text-lg mb-6">
-            Truly free. NJDEP licensed. No obligation. Serving all 16 towns.
-          </p>
-          <a
-            href="tel:+18566000812"
-            className="inline-block bg-[#DD6B20] hover:bg-orange-600 text-white font-bold py-4 px-10 rounded-lg text-xl transition-colors"
-          >
-            📞 Call (856) 600-0812
-          </a>
-        </div>
-      </section>
-
       {/* JSON-LD Schema */}
       <script
         type="application/ld+json"
@@ -477,11 +292,11 @@ export default function FreePestEstimate() {
             '@graph': [
               {
                 '@type': 'PestControlService',
-                name: 'Camden County Pest Control — Free Pest Estimate',
+                name: 'Camden County Pest Control — Free Estimate',
                 telephone: '(856) 600-0812',
                 url: 'https://pestcontrolcamdencounty.com/free-pest-estimate',
                 description:
-                  'Free pest estimate in Camden County, NJ. No obligation, no hidden fees. NJDEP-licensed technicians serving all 16 towns. Written report included.',
+                  `Free pest control estimate in Camden County — no obligation. Call (856) 600-0812 to describe your problem and get a price on the spot.`,
                 areaServed: {
                   '@type': 'County',
                   name: 'Camden County',
@@ -490,13 +305,24 @@ export default function FreePestEstimate() {
                     name: 'New Jersey',
                   },
                 },
-                serviceType: 'Free Pest Estimate',
+                serviceType: 'Free Estimate',
                 offers: {
                   '@type': 'Offer',
                   price: '0',
                   priceCurrency: 'USD',
-                  description: 'Free pest estimate — no obligation',
+                  description: 'Free phone estimate — no obligation',
                 },
+              },
+              {
+                '@type': 'FAQPage',
+                mainEntity: faqData.map((item) => ({
+                  '@type': 'Question',
+                  name: item.question,
+                  acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: item.answer,
+                  },
+                })),
               },
             ],
           }),
