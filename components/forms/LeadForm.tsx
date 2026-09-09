@@ -335,15 +335,13 @@ export default function LeadForm({
                 type="checkbox"
                 id="hero-sms"
                 name="sms_consent"
-                required
                 checked={formData.sms_consent}
                 onChange={handleChange}
                 className="mt-0.5 h-4 w-4 rounded border-gray-300 text-brand-primary focus:ring-brand-primary shrink-0"
               />
               <label htmlFor="hero-sms" className="text-[10px] text-gray-500 leading-relaxed">
                 I agree to receive text messages from {SITE_NAME} at the phone number provided.{' '}
-                Message and data rates may apply. Message frequency varies. Reply STOP to opt out.{' '}
-                <span className="text-red-500">*</span>
+                Consent is not a condition of purchase. Message and data rates may apply. Message frequency varies. Reply STOP to opt out.
               </label>
             </div>
 
@@ -514,15 +512,13 @@ export default function LeadForm({
                 type="checkbox"
                 id="lead-sms"
                 name="sms_consent"
-                required
                 checked={formData.sms_consent}
                 onChange={handleChange}
                 className="mt-1 h-4 w-4 rounded border-gray-300 text-brand-primary focus:ring-brand-primary"
               />
               <label htmlFor="lead-sms" className="text-xs text-gray-600 leading-relaxed">
                 I agree to receive text messages from {SITE_NAME} at the phone number provided.
-                Message and data rates may apply. Message frequency varies. Reply STOP to opt out.{' '}
-                <span className="text-red-500">*</span>
+                Consent is not a condition of purchase. Message and data rates may apply. Message frequency varies. Reply STOP to opt out.
               </label>
             </div>
 
