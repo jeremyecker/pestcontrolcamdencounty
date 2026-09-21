@@ -6,7 +6,7 @@ import CTABanner from '@/components/sections/CTABanner';
 
 const SERVICE_NAME = 'Bee Removal';
 const SERVICE_SLUG = 'bee-removal';
-const SERVICE_DESC = 'Safe bee, wasp & hornet nest removal';
+const SERVICE_DESC = 'Professional wasp, hornet, and yellow jacket removal. Honeybee colonies referred to licensed beekeepers';
 
 export async function generateMetadata({ params }: { params: Promise<{ region: string }> }): Promise<Metadata> {
   const { region } = await params;

@@ -68,7 +68,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     slug: 'cockroach-control-cherry-hill-nj',
-    title: 'Cockroach Control in Cherry Hill, NJ: Signs, Causes &amp; Solutions',
+    title: 'Cockroach Control in Cherry Hill, NJ: Signs, Causes & Solutions',
     excerpt: 'Cockroaches in Cherry Hill and across Camden County are more than a nuisance. Discover the warning signs, what attracts them, and how professional treatment eliminates infestations for good.',
     date: '2025-03-05',
     category: 'Cockroaches',
@@ -148,7 +148,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: 'stink-bug-prevention-nj',
     title: 'Stink Bug Prevention: A Guide for South Jersey Homeowners',
-    excerpt: 'Brown marmorated stink bugs invade Camden County homes every fall in massive numbers. Here is what actually works to keep them out &mdash; and what to do when they are already inside.',
+    excerpt: 'Brown marmorated stink bugs invade Camden County homes every fall in massive numbers. Here is what actually works to keep them out — and what to do when they are already inside.',
     date: '2025-03-15',
     category: 'Stink Bugs',
     readTime: '5 min read',
@@ -307,7 +307,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: 'wasp-hornet-removal-gloucester-township',
     title: 'Wasp and Hornet Nest Removal in Gloucester Township',
-    excerpt: 'Gloucester Township&apos;s large wooded lots and suburban yards make it one of Camden County&apos;s most active areas for wasp and hornet nests. Learn what species to expect and why professional removal is essential.',
+    excerpt: 'Gloucester Township’s large wooded lots and suburban yards make it one of Camden County’s most active areas for wasp and hornet nests. Learn what species to expect and why professional removal is essential.',
     date: '2025-04-05',
     category: 'Wasps',
     readTime: '6 min read',
@@ -338,8 +338,8 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     slug: 'wildlife-removal-winslow-township',
-    title: 'Wildlife Removal in Winslow Township: Raccoons, Squirrels &amp; More',
-    excerpt: 'Winslow Township&apos;s proximity to the Pine Barrens brings raccoons, squirrels, and other wildlife into attics and crawl spaces. Learn how professional wildlife removal works and why exclusion is the lasting solution.',
+    title: 'Wildlife Removal in Winslow Township: Raccoons, Squirrels & More',
+    excerpt: 'Winslow Township’s proximity to the Pine Barrens brings raccoons, squirrels, and other wildlife into attics and crawl spaces. Learn how professional wildlife removal works and why exclusion is the lasting solution.',
     date: '2025-04-10',
     category: 'Wildlife',
     readTime: '6 min read',
@@ -357,8 +357,8 @@ export const BLOG_POSTS: BlogPost[] = [
 <p><strong>Flying squirrels</strong> are nocturnal and often undetected until populations grow large. They enter through much smaller gaps than gray squirrels and are common in wooded Winslow Township neighborhoods near the pines.</p>
 <p><strong>Groundhogs</strong> burrow under decks, sheds, and outbuildings across the more rural sections of Winslow Township, undermining foundations over time.</p>
 
-<h2>Why You Cannot Simply Trap and Relocate</h2>
-<p>New Jersey Division of Fish and Wildlife regulations govern the capture and relocation of nuisance wildlife. Improper trapping, handling, and relocation of certain species without proper licensing is illegal and can result in fines. Beyond the legal issue, trapping without exclusion work simply removes the current animal &mdash; the entry point remains open for the next wildlife resident within weeks.</p>
+<h2>Why You Cannot Simply Trap the Animal Yourself</h2>
+<p>New Jersey Division of Fish and Wildlife regulations govern the capture and handling of nuisance wildlife. Improper trapping and handling of certain species without proper licensing is illegal and can result in fines. Beyond the legal issue, trapping without exclusion work simply removes the current animal &mdash; the entry point remains open for the next wildlife resident within weeks.</p>
 
 <h2>The Professional Wildlife Removal Process</h2>
 <p>Effective wildlife management in Winslow Township and across Camden County follows a specific sequence: inspection to identify all entry points and assess damage, humane trapping and removal, exclusion repair using professional-grade materials (galvanized steel mesh, heavy-gauge hardware cloth, metal flashing), and decontamination of affected areas when feces or urine contamination requires it. Only addressing all three phases produces lasting results.</p>
@@ -371,7 +371,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: 'pest-control-older-homes-camden-county',
     title: 'Pest Control Challenges in Older Camden County Homes',
-    excerpt: 'Camden County&apos;s historic homes in Haddonfield, Collingswood, Audubon, and Barrington face unique pest vulnerabilities. Here is what homeowners of older properties need to know.',
+    excerpt: 'Camden County’s historic homes in Haddonfield, Collingswood, Audubon, and Barrington face unique pest vulnerabilities. Here is what homeowners of older properties need to know.',
     date: '2025-04-15',
     category: 'Prevention',
     readTime: '6 min read',
@@ -486,7 +486,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: 'termite-swarm-season-south-jersey',
     title: 'What to Do When You See Termite Swarmers in South Jersey',
-    excerpt: 'Termite swarmers emerging inside your Camden County home are not a minor nuisance &mdash; they are proof of an active colony nearby. Here is exactly what to do the moment you spot them.',
+    excerpt: 'Termite swarmers emerging inside your Camden County home are not a minor nuisance — they are proof of an active colony nearby. Here is exactly what to do the moment you spot them.',
     date: '2025-05-01',
     category: 'Termites',
     readTime: '5 min read',
@@ -532,7 +532,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: 'carpenter-ant-damage-camden-county',
     title: 'Carpenter Ants vs. Termites: How to Tell the Difference in Camden County Homes',
-    excerpt: 'Both carpenter ants and termites damage wood &mdash; but they require completely different treatments. Here is how Camden County homeowners can tell them apart and what to do next.',
+    excerpt: 'Both carpenter ants and termites damage wood — but they require completely different treatments. Here is how Camden County homeowners can tell them apart and what to do next.',
     date: '2025-05-05',
     category: 'Ants',
     readTime: '6 min read',
@@ -658,7 +658,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: 'bed-bug-treatment-options-nj',
     title: 'Bed Bug Treatment Options in New Jersey: Heat vs. Chemical',
-    excerpt: 'Bed bug infestations in Camden County require professional treatment &mdash; but which method is right for your situation? Here is an honest comparison of heat treatment vs. chemical protocols.',
+    excerpt: 'Bed bug infestations in Camden County require professional treatment — but which method is right for your situation? Here is an honest comparison of heat treatment vs. chemical protocols.',
     date: '2025-05-20',
     category: 'Bed Bugs',
     readTime: '6 min read',
@@ -806,7 +806,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: 'wildlife-nuisance-winslow-gibbsboro',
     title: 'Nuisance Wildlife in Rural Camden County: Winslow and Gibbsboro',
-    excerpt: 'The rural and semi-rural communities of Winslow Township and Gibbsboro sit at the edge of the Pine Barrens &mdash; and that means ongoing nuisance wildlife challenges that suburban pest control does not address.',
+    excerpt: 'The rural and semi-rural communities of Winslow Township and Gibbsboro sit at the edge of the Pine Barrens — and that means ongoing nuisance wildlife challenges that suburban pest control does not address.',
     date: '2025-06-10',
     category: 'Wildlife',
     readTime: '6 min read',
@@ -826,7 +826,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <p><strong>Opossums and skunks</strong> take up residence under decks and in crawl spaces throughout both communities. Skunks in crawl spaces create odor problems that permeate the entire home and can persist for weeks without professional remediation.</p>
 
 <h2>Legal Considerations for Wildlife Removal in New Jersey</h2>
-<p>New Jersey Division of Fish and Wildlife regulations govern the capture, handling, and relocation of most nuisance wildlife species. Certain species require depredation permits for legal removal. Improper trapping methods, relocation to inappropriate habitat, and handling of rabies vector species (raccoons, skunks, foxes, bats) without proper licensing are all regulated activities. Working with a licensed wildlife control operator is not only more effective &mdash; it protects homeowners from legal exposure.</p>
+<p>New Jersey Division of Fish and Wildlife regulations govern the capture and handling of most nuisance wildlife species. Improper trapping methods and handling of rabies vector species (raccoons, skunks, foxes, bats) without proper licensing are all regulated activities. Working with a licensed wildlife control operator is not only more effective &mdash; it protects homeowners from legal exposure.</p>
 
 <h2>The Exclusion Solution: Why Trapping Alone Is Not Enough</h2>
 <p>Removing a raccoon or squirrel from an attic without sealing the entry point guarantees a new occupant within weeks. The entry point is the problem &mdash; the individual animal is incidental. Proper wildlife exclusion for Winslow and Gibbsboro homes uses galvanized steel mesh (minimum 1/2-inch hardware cloth), metal flashing at roof intersections, and commercial-grade vent covers designed to withstand determined wildlife pressure. These materials hold where plastic and aluminum alternatives fail.</p>
@@ -886,7 +886,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: 'spider-control-cherry-hill-voorhees',
     title: 'Spider Control in Cherry Hill and Voorhees: What Species Are Dangerous?',
-    excerpt: 'Not every spider in your Cherry Hill or Voorhees home is dangerous &mdash; but knowing which ones are, and why they&apos;re there in the first place, can make all the difference. Here&apos;s what South Jersey homeowners need to know.',
+    excerpt: 'Not every spider in your Cherry Hill or Voorhees home is dangerous — but knowing which ones are, and why they’re there in the first place, can make all the difference. Here’s what South Jersey homeowners need to know.',
     date: '2025-07-01',
     category: 'Spiders',
     readTime: '6 min read',
@@ -919,7 +919,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: 'carpenter-bee-damage-collingswood-haddon',
     title: 'Carpenter Bee Damage in Collingswood and Haddon Township: Protecting Wood Decks and Trim',
-    excerpt: 'Carpenter bees bore perfectly round holes into fascia boards, deck railings, and window trim across Collingswood and Haddon Township every spring. Here&apos;s how to protect your home&apos;s wood before the damage adds up.',
+    excerpt: 'Carpenter bees bore perfectly round holes into fascia boards, deck railings, and window trim across Collingswood and Haddon Township every spring. Here’s how to protect your home’s wood before the damage adds up.',
     date: '2025-07-07',
     category: 'Carpenter Bees',
     readTime: '6 min read',
@@ -953,7 +953,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: 'silverfish-moisture-pests-camden-county',
     title: 'Silverfish and Moisture Pests in Camden County Homes: What They Tell You',
-    excerpt: 'Finding silverfish, springtails, or booklice in your Audubon or Merchantville home isn&apos;t just a pest problem &mdash; it&apos;s a moisture problem in disguise. Here&apos;s how to read the signs and fix the real issue.',
+    excerpt: 'Finding silverfish, springtails, or booklice in your Audubon or Merchantville home isn’t just a pest problem — it’s a moisture problem in disguise. Here’s how to read the signs and fix the real issue.',
     date: '2025-07-14',
     category: 'Moisture Pests',
     readTime: '6 min read',
@@ -991,7 +991,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: 'pest-control-bellmawr-runnemede-mount-ephraim',
     title: 'Pest Control in Bellmawr, Runnemede, and Mount Ephraim: What South Jersey\'s Smaller Boroughs Deal With',
-    excerpt: 'Bellmawr, Runnemede, and Mount Ephraim face concentrated pest pressure from dense housing, busy commercial corridors, and proximity to Philadelphia &mdash; here&apos;s what residents and landlords need to know.',
+    excerpt: 'Bellmawr, Runnemede, and Mount Ephraim face concentrated pest pressure from dense housing, busy commercial corridors, and proximity to Philadelphia — here’s what residents and landlords need to know.',
     date: '2025-07-21',
     category: 'General',
     readTime: '7 min read',
@@ -1028,7 +1028,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: 'pest-control-lindenwold-somerdale-stratford',
     title: 'Pest Control Services in Lindenwold, Somerdale, and Stratford, NJ',
-    excerpt: 'Sitting at the transition between suburban and rural Camden County, Lindenwold, Somerdale, and Stratford face pest pressure from both directions &mdash; here&apos;s what your local pest control team sees and how we handle it.',
+    excerpt: 'Sitting at the transition between suburban and rural Camden County, Lindenwold, Somerdale, and Stratford face pest pressure from both directions — here’s what your local pest control team sees and how we handle it.',
     date: '2025-07-28',
     category: 'General',
     readTime: '7 min read',

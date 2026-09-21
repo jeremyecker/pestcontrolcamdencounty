@@ -43,7 +43,7 @@ export function getServiceDescription(slug: string): string {
     'flea-tick-treatment':
       'Flea and tick treatment for Camden County homes and yards. Protect your family and pets with our comprehensive indoor and outdoor treatment programs.',
     'wildlife-removal':
-      'Humane wildlife removal services in Camden County, NJ. We safely trap and relocate raccoons, squirrels, opossums, skunks, and other nuisance wildlife from your property.',
+      'Humane wildlife removal services in Camden County, NJ. We safely trap and remove raccoons, squirrels, opossums, skunks, and other nuisance wildlife from your property.',
     'commercial-pest-control':
       'Commercial pest control services for Camden County businesses. We provide customized IPM programs for restaurants, offices, warehouses, healthcare facilities, and retail stores.',
     'raccoon-removal':

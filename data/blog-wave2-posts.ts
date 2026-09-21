@@ -43,7 +43,7 @@ export const BLOG_POSTS_WAVE2: BlogPost[] = [
   {
     slug: 'tick-control-cooper-river-greenway',
     title: 'Tick Safety Near the Cooper River Greenway: What Camden County Residents Need to Know',
-    excerpt: 'The Cooper River Greenway brings outdoor enjoyment &mdash; and tick exposure. Learn about deer tick risk along the trail, post-hike checks, and professional yard treatment for adjacent properties.',
+    excerpt: 'The Cooper River Greenway brings outdoor enjoyment — and tick exposure. Learn about deer tick risk along the trail, post-hike checks, and professional yard treatment for adjacent properties.',
     date: '2026-02-08',
     category: 'Ticks',
     readTime: '6 min read',
