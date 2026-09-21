@@ -105,7 +105,7 @@ export const BLOG_POSTS_WAVE3: BlogPost[] = [
   },
   {
     slug: 'bed-bug-treatment-camden-county-apartments',
-    title: 'Bed Bug Treatment in Camden County NJ Apartments &mdash; Cherry Hill, Voorhees',
+    title: 'Bed Bug Treatment in Camden County NJ Apartments — Cherry Hill, Voorhees',
     excerpt: `Apartments and multi-unit buildings in Cherry Hill and Voorhees are among the highest-risk settings for bed bug infestations in Camden County. Learn how professional treatment works in shared-wall housing and what tenants and landlords need to know.`,
     date: '2026-04-19',
     category: 'Bed Bugs',

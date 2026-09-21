@@ -8,7 +8,7 @@ import { CITY_LAYER7 } from '@/data/layer7-data';
 
 const SERVICE_NAME = 'Bee Removal';
 const SERVICE_SLUG = 'bee-removal';
-const SERVICE_DESC = 'Safe bee, wasp & hornet nest removal';
+const SERVICE_DESC = 'Professional wasp, hornet, and yellow jacket removal. Honeybee colonies referred to licensed beekeepers';
 
 const TOWNS = [
   { name: 'Cherry Hill', slug: 'cherry-hill' },
