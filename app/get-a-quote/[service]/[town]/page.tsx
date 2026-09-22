@@ -29,7 +29,7 @@ const SERVICES_MAP: Record<string, ServiceConfig> = {
     faqs: [
       { q: 'How much does ant control cost in Camden County?', a: 'Ant control in Camden County typically runs $300\u2013$450 for a one-time service. Seasonal prevention plans are also available for year-round protection.' },
       { q: 'Why do I keep getting ants every year?', a: 'Most over-the-counter sprays only kill forager ants \u2014 they don\u2019t reach the colony. Our treatments target the source, including carpenter ant galleries and pavement ant nests.' },
-      { q: 'Are your ant treatments safe for kids and pets?', a: 'We use EPA-registered products applied by licensed technicians. We\u2019ll advise you on any precautions needed before and after treatment.' },
+      { q: 'What products do you use, and what precautions should I take?', a: 'We use EPA-registered products applied by licensed technicians. We\u2019ll advise you on any precautions needed before and after treatment.' },
       { q: 'How long does ant treatment take?', a: 'Most ant treatments take 45\u201390 minutes. We treat interior entry points and the exterior perimeter for complete coverage.' },
     ],
   },
@@ -58,11 +58,11 @@ const SERVICES_MAP: Record<string, ServiceConfig> = {
   'mosquito-treatment': {
     label: 'Mosquito Treatment', h1Prefix: 'Free Mosquito Treatment Quote in',
     pricing: '$125\u2013$150/visit', pricingNote: 'seasonal program available',
-    intro: (town) => `Camden County\u2019s wetlands and creeks create ideal mosquito breeding conditions near ${town}. Our family-friendly barrier treatments knock down populations fast and protect your yard all season long.`,
+    intro: (town) => `Camden County\u2019s wetlands and creeks create ideal mosquito breeding conditions near ${town}. Our seasonal barrier treatments knock down populations fast and protect your yard all season long.`,
     faqs: [
       { q: 'How much does mosquito treatment cost in Camden County?', a: 'Mosquito barrier treatments run $125\u2013$150 per visit. Most homeowners choose our seasonal program \u2014 monthly treatments from May through September for consistent protection.' },
       { q: 'How does mosquito barrier treatment work?', a: 'We apply a botanical or synthetic barrier spray to shrubs, trees, and grass where mosquitoes rest. Treatments typically remain effective for 3\u20134 weeks.' },
-      { q: 'Is mosquito treatment safe for kids and pets?', a: 'We use EPA-registered products and follow all label instructions. We recommend keeping people and pets off treated areas for 30\u201360 minutes while the treatment dries.' },
+      { q: 'What products do you use, and what precautions should I take?', a: 'We use EPA-registered products and follow all label instructions. We recommend keeping people and pets off treated areas for 30\u201360 minutes while the treatment dries.' },
       { q: 'When should I start mosquito treatments?', a: 'We recommend starting in late April or early May before mosquito season peaks. Early treatments dramatically reduce the population throughout the season.' },
     ],
   },

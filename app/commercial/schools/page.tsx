@@ -52,7 +52,7 @@ export default function SchoolsPestControl() {
             School Pest Control — Camden County, NJ
           </h1>
           <p className="text-xl text-blue-100 mb-8">
-            NJ IPM Act-compliant programs for Cherry Hill East/West, Camden City schools, Eastern Regional, and every school in the county. Notification-compliant, child-safe, and thoroughly documented.
+            NJ IPM Act-compliant programs for Cherry Hill East/West, Camden City schools, Eastern Regional, and every school in the county. Notification-compliant and thoroughly documented.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:+18566000812" className="bg-[#DD6B20] hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">

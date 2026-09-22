@@ -17,7 +17,7 @@ const faqSchema = {
       "name": "What pests are most common in Camden City, NJ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Camden City's dense row homes, aging apartments, and shared walls make cockroaches, bed bugs, and rodents (mice and rats) the most common pest problems. German cockroaches thrive in kitchens and utility areas of older housing stock. Bed bugs spread quickly through multi-unit buildings. Mice and rats enter through gaps in foundations and utility penetrations, especially near the Delaware River waterfront."
+        "text": "Cockroaches, bed bugs, and rodents are the most common pest problems in Camden City's dense row homes and apartments. German cockroaches thrive in kitchens of older housing. Bed bugs spread through shared walls and hallways. Mice and rats enter through foundation gaps, especially near the Delaware River waterfront."
       }
     },
     {
@@ -25,7 +25,7 @@ const faqSchema = {
       "name": "How much does pest control cost in Camden City NJ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "General pest control in Camden City typically ranges from $300–$450. Cockroach treatments run $300–$450. Rodent control (including exclusion) is $300–$450. Bed bug treatment ranges from $1,200–$4,500 depending on infestation size and whether heat or chemical treatment is used. Call (856) 600-0812 for a free estimate."
+        "text": "General pest control runs $300\u2013$450. Cockroach treatments are $300\u2013$450. Rodent control (including exclusion) is $300\u2013$450. Bed bug treatment ranges from $1,200\u2013$4,500 depending on infestation size. Call (856) 600-0812 for a free estimate."
       }
     },
     {
@@ -33,7 +33,7 @@ const faqSchema = {
       "name": "Can you treat apartments and rental units in Camden City?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes — we serve both tenants and landlords throughout Camden City. We work discreetly, schedule around your availability, and can coordinate multi-unit treatments for landlords managing rowhomes or apartment buildings. Same-day service is available."
+        "text": "Yes \u2014 we serve both tenants and landlords. We work discreetly, schedule around your availability, and can coordinate multi-unit treatments for landlords managing rowhomes or apartment buildings."
       }
     },
     {
@@ -41,7 +41,7 @@ const faqSchema = {
       "name": "How quickly can an exterminator come to Camden City?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "We offer same-day and next-day exterminator service throughout Camden City, NJ — including all neighborhoods: North Camden, Parkside, Cramer Hill, East Camden, Fairview, Waterfront South, and Liberty Park. Call (856) 600-0812 to book the next available slot."
+        "text": "Same-day and next-day service is available throughout Camden City, including North Camden, Parkside, Cramer Hill, East Camden, Fairview, Waterfront South, and Liberty Park. Call (856) 600-0812 to book."
       }
     }
   ]
@@ -168,7 +168,7 @@ export default function CamdenCityPage() {
             <li>&#x2705; Same-day service available throughout Camden City</li>
             <li>&#x2705; Discreet &mdash; no marked vehicles, no noise</li>
             <li>&#x2705; Tenant and landlord programs available</li>
-            <li>&#x2705; Family and pet-friendly treatments</li>
+            <li>&#x2705; EPA-registered products and clear post-treatment instructions</li>
             <li>&#x2705; Free, no-obligation estimates</li>
           </ul>
         </div>

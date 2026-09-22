@@ -17,7 +17,7 @@ const faqSchema = {
       "name": "What tick species are present in Camden County, NJ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Camden County has three primary tick species: the deer tick (black-legged tick), which is the Lyme disease vector and most common near wooded areas in Winslow Township and along the Cooper River Greenway; the American dog tick, common in lawn borders and open areas throughout Cherry Hill and Voorhees; and the lone star tick, which is expanding northward into South Jersey and has been documented in Camden County."
+        "text": "Camden County has three primary tick species: deer ticks (the Lyme disease vector, most common in wooded areas near Winslow Township and the Cooper River Greenway), American dog ticks (common in lawn borders throughout Cherry Hill and Voorhees), and lone star ticks (expanding northward into South Jersey)."
       }
     },
     {
@@ -25,15 +25,15 @@ const faqSchema = {
       "name": "How often should I treat my yard for ticks in Camden County?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "For effective tick suppression in Camden County, we recommend monthly barrier spray treatments from April through October. Homes adjacent to wooded conservation areas, deer trails, or the Cooper River Greenway may benefit from additional treatment frequency during peak spring and fall tick activity windows."
+        "text": "We recommend monthly barrier spray treatments from April through October. Homes adjacent to wooded conservation areas, deer trails, or the Cooper River Greenway may benefit from additional frequency during peak spring and fall tick windows."
       }
     },
     {
       "@type": "Question",
-      "name": "Is tick treatment safe for children and pets?",
+      "name": "What should I expect after a tick treatment?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. Our tick treatments use EPA-registered products applied to vegetation and lawn borders — not indoor living areas. We provide a re-entry time (typically 30-60 minutes after treatment dries) after which the treated area is safe for children and pets. We also offer biological tick control options using entomopathogenic fungi."
+        "text": "Treatments are applied to vegetation and lawn borders, not indoor areas. We use EPA-registered products, and a standard re-entry window of 30 to 60 minutes after the product dries applies; your technician will tell you when to resume normal use of treated areas. We also offer biological tick control options using entomopathogenic fungi."
       }
     },
     {
@@ -41,7 +41,7 @@ const faqSchema = {
       "name": "Do you offer tick treatment near the Cooper River Greenway?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. We serve all communities along the Cooper River watershed including Cherry Hill, Pennsauken, Collingswood, Haddon Township, and Haddonfield. Yards backing up to the Greenway trail system or adjacent wooded areas receive our highest-priority tick management recommendations."
+        "text": "Yes. We serve all communities along the Cooper River watershed including Cherry Hill, Pennsauken, Collingswood, Haddon Township, and Haddonfield. Greenway-adjacent yards receive priority tick management recommendations."
       }
     }
   ]
@@ -137,8 +137,8 @@ export default function TickControlPage() {
                 a: "We recommend monthly barrier spray treatments from April through October. Homes adjacent to wooded conservation areas, deer trails, or the Cooper River Greenway may benefit from additional frequency during peak spring and fall tick windows."
               },
               {
-                q: "Is tick treatment safe for children and pets?",
-                a: "Yes. Treatments are applied to vegetation and lawn borders, not indoor areas. A standard re-entry window of 30 to 60 minutes after the product dries applies, after which treated areas are safe for children and pets."
+                q: "What should I expect after a tick treatment?",
+                a: "Treatments are applied to vegetation and lawn borders, not indoor areas. We use EPA-registered products, and a standard re-entry window of 30 to 60 minutes after the product dries applies; your technician will tell you when to resume normal use of treated areas. We also offer biological tick control options using entomopathogenic fungi."
               },
               {
                 q: "Do you offer tick treatment near the Cooper River Greenway?",

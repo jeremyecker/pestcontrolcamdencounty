@@ -415,12 +415,12 @@ export default function EmergencyPestControl() {
               </p>
             </div>
             <div className="border-b border-gray-200 pb-6">
-              <h3 className="text-lg font-semibold text-[#1A365D] mb-2">Is emergency pest control treatment family-friendly?</h3>
+              <h3 className="text-lg font-semibold text-[#1A365D] mb-2">What products do you use, and what precautions should I take?</h3>
               <p className="text-gray-700">
-                Yes. Even in emergency situations, we use EPA-registered products applied by NJDEP-licensed technicians
+                Even in emergency situations, we use EPA-registered products applied by NJDEP-licensed technicians
                 according to label requirements. We will always advise you on any necessary precautions — such as
                 temporarily vacating a treated area or keeping pets away from a treated surface — before we apply any
-                product. Our emergency treatments are both family-friendly and effective.
+                product.
               </p>
             </div>
           </div>
@@ -530,7 +530,7 @@ export default function EmergencyPestControl() {
                     name: 'What counts as a pest control emergency in New Jersey?',
                     acceptedAnswer: {
                       '@type': 'Answer',
-                      text: 'A pest emergency is any situation posing an immediate health, safety, or public health risk. This includes bed bug outbreaks, large wasp or hornet nests near children, rodent infestations with active food contamination, bats in living spaces, and wildlife inside the home.',
+                      text: "A pest emergency is any situation posing an immediate health, safety, or public health risk that cannot wait for a scheduled appointment. In Camden County, this includes: bed bug outbreaks in occupied residences, large wasp or hornet nests near children or people with allergies, rodent infestations with active food contamination, bats found in living spaces, wildlife inside the home, and cockroach or rodent infestations in food service businesses facing regulatory scrutiny. If you are unsure whether your situation qualifies, call us — we will assess it honestly.",
                     },
                   },
                   {
@@ -538,7 +538,7 @@ export default function EmergencyPestControl() {
                     name: 'How fast can you respond to an emergency in Camden County?',
                     acceptedAnswer: {
                       '@type': 'Answer',
-                      text: 'For calls received during business hours (7 AM to 7 PM), we typically dispatch a technician within 1-2 hours to Cherry Hill, Camden, Pennsauken, and Gloucester Township. We also offer evening and weekend emergency response.',
+                      text: "For calls received during business hours (7 AM – 7 PM), we typically dispatch a technician within 1-2 hours to Cherry Hill, Camden, Pennsauken, and Gloucester Township. We offer evening and weekend response for genuine emergencies. Call our emergency line at (856) 600-0812 and we will give you an honest ETA based on current technician availability.",
                     },
                   },
                   {
@@ -546,7 +546,7 @@ export default function EmergencyPestControl() {
                     name: 'Can you treat a wasp nest the same day I call?',
                     acceptedAnswer: {
                       '@type': 'Answer',
-                      text: 'Yes. Wasp, hornet, and yellow jacket nest removal is one of our most common same-day emergency calls. Our technicians carry specialized protective equipment and professional-grade products on every vehicle.',
+                      text: "Yes. Wasp, hornet, and yellow jacket nest removal is one of our most common same-day emergency calls. Our technicians carry the specialized protective equipment and professional-grade wasp/hornet products on every vehicle. We can typically remove nests of any size — paper wasp nests, bald-faced hornet aerial nests, and ground-nesting yellow jacket colonies — in a single visit.",
                     },
                   },
                   {
@@ -554,15 +554,15 @@ export default function EmergencyPestControl() {
                     name: 'What should I do if I find a bat in my bedroom in NJ?',
                     acceptedAnswer: {
                       '@type': 'Answer',
-                      text: 'Do not release the bat outside. Per NJ Department of Health guidelines, a bat found in a sleeping area should be captured for rabies testing. Contain the bat by closing doors and call us immediately. We will respond as an emergency and coordinate with local health authorities if needed.',
+                      text: "Do not release the bat outside. Per New Jersey Department of Health guidelines, a bat found in a room where people were sleeping should be captured for rabies testing if there is any possibility of exposure (particularly for sleeping people, children, or anyone who cannot reliably report a bite). Contain the bat in the room by closing doors, and call us immediately. We will respond as an emergency and coordinate with local health authorities if rabies testing is required. This is an extremely time-sensitive situation.",
                     },
                   },
                   {
                     '@type': 'Question',
-                    name: 'Is emergency pest control treatment family-friendly?',
+                    name: 'What products do you use, and what precautions should I take?',
                     acceptedAnswer: {
                       '@type': 'Answer',
-                      text: 'Yes. Even in emergency situations, we use EPA-registered products applied by NJDEP-licensed technicians. We advise on precautions before applying any product. Our emergency treatments are family-friendly and effective.',
+                      text: 'Even in emergency situations, we use EPA-registered products applied by NJDEP-licensed technicians according to label requirements. We will always advise you on any necessary precautions — such as temporarily vacating a treated area or keeping pets away from a treated surface — before we apply any product.',
                     },
                   },
                 ],

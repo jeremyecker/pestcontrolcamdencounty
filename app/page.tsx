@@ -33,8 +33,8 @@ const townCount = getTownCount();
 
 const homepageFAQs = [
   {
-    question: 'Do your treatments pose any risk to children or pets?',
-    answer: `Not at all. We rely on EPA-registered formulations and Integrated Pest Management strategies designed to target pests while remaining safe around kids, dogs, cats, and other household members.`,
+    question: 'What products do you use, and what precautions should I take?',
+    answer: `We rely on EPA-registered formulations and Integrated Pest Management strategies designed to target pests, and we explain the application and any precautions to your household before we begin.`,
   },
   {
     question: `Which neighborhoods and towns in ${GEO.region} do you service?`,

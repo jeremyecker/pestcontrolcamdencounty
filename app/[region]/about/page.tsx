@@ -35,13 +35,13 @@ export default async function AboutPage({ params }: { params: Promise<{ region: 
           </p>
           <p>
             Our technicians are licensed, insured, and trained in the latest Integrated Pest Management (IPM) 
-            techniques — approaches that are effective against pests while being safe for your family and pets.
+            techniques — approaches that are effective against pests.
           </p>
           <h2>Why {region.name} Homeowners Choose Us</h2>
           <ul>
             <li>Local experts who know {region.name}&apos;s pest pressures</li>
             <li>Same-day service availability</li>
-            <li>Family-safe, EPA-registered treatments</li>
+            <li>EPA-registered treatments</li>
             <li>Transparent pricing — no surprise charges</li>
             <li>NJDEP-licensed and fully insured</li>
           </ul>

@@ -17,7 +17,7 @@ const faqSchema = {
       "name": "What ant species does your Camden County exterminator treat?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Our Camden County ant exterminators treat all common NJ ant species: carpenter ants (the most structurally damaging — they excavate wood in older Camden County homes), odorous house ants (small, brown, smell like coconut when crushed — common kitchen invaders), and pavement ants (nest under driveways and patios). Each species requires a different treatment approach for lasting results."
+        "text": "Carpenter ants, odorous house ants, and pavement ants are the most common in Camden County. We also treat fire ants and other species on request. Each requires a different treatment approach."
       }
     },
     {
@@ -25,7 +25,7 @@ const faqSchema = {
       "name": "How much does an ant exterminator cost in Camden County NJ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Ant exterminator costs in Camden County typically range from $300–$450 for a standard treatment. Pricing depends on the species, severity, and size of your home. We offer free, no-obligation estimates — call (856) 600-0812 for an accurate quote."
+        "text": "Ant exterminator costs in Camden County typically range from $300\u2013$450. Pricing depends on the species, severity, and size of your home. Call (856) 600-0812 for a free estimate."
       }
     },
     {
@@ -33,15 +33,7 @@ const faqSchema = {
       "name": "How quickly can an ant exterminator come to my Camden County home?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "We offer same-day and next-day ant exterminator service throughout Camden County, including Cherry Hill, Voorhees, Gloucester Township, Haddonfield, Pennsauken, and all surrounding communities."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why do ants keep coming back after treatment in Camden County?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Store-bought sprays kill forager ants but leave the colony — and the queen — intact. Professional ant extermination uses colony-targeting gel bait that workers carry back to eliminate the queen and all brood. For carpenter ants, our exterminators also locate and treat the parent outdoor colony, which is the source of indoor satellite colonies."
+        "text": "We offer same-day and next-day service throughout Camden County, including Cherry Hill, Voorhees, Gloucester Township, Haddonfield, Pennsauken, and all surrounding areas."
       }
     }
   ]
@@ -158,7 +150,7 @@ export default function AntExterminatorPage() {
             <li>✅ Licensed & insured NJ exterminators</li>
             <li>✅ Same-day ant exterminator service available</li>
             <li>✅ Colony elimination — not just surface spraying</li>
-            <li>✅ Family and pet-friendly treatments</li>
+            <li>✅ EPA-registered products and clear post-treatment instructions</li>
             <li>✅ Free, no-obligation estimates</li>
             <li>✅ Serving all 16 municipalities in Camden County</li>
           </ul>
