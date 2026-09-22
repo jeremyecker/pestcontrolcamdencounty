@@ -17,7 +17,7 @@ const faqSchema = {
       "name": "How does mosquito barrier spray work in Camden County?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Mosquito barrier spray is applied to the perimeter vegetation of your yard — shrubs, ornamental beds, grass borders, and shaded resting areas. The treatment kills resting adult mosquitoes on contact and leaves a residual effect that continues reducing mosquito activity for three to four weeks. Monthly applications maintain protection throughout the May through September mosquito season in Camden County."
+        "text": "Mosquito barrier spray targets the perimeter vegetation and shaded resting areas of your yard. It kills resting adult mosquitoes on contact and leaves a residual effect for three to four weeks. Monthly applications maintain protection throughout Camden County's May through September mosquito season."
       }
     },
     {
@@ -25,7 +25,7 @@ const faqSchema = {
       "name": "Why do yards near the Cooper River have more mosquitoes?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The Cooper River and its tributary system through Cherry Hill, Pennsauken, Collingswood, and Haddon Township creates natural mosquito breeding habitat. Standing water in storm drainage areas, floodplains, and ornamental features near the river supports large mosquito populations that spread into adjacent residential yards. Professional yard treatment and larvicide application in these areas provides meaningful relief."
+        "text": "The Cooper River system through Cherry Hill, Pennsauken, Collingswood, and Haddon Township creates natural breeding habitat. Professional yard treatment and standing water larvicide application provides meaningful relief for yards in these areas."
       }
     },
     {
@@ -33,7 +33,7 @@ const faqSchema = {
       "name": "How soon can mosquito control service start in Camden County?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "We offer same-week mosquito treatment scheduling throughout Camden County, including Cherry Hill, Voorhees, Gloucester Township, Haddonfield, Pennsauken, and all surrounding communities. Call (856) 600-0812 to schedule your first treatment."
+        "text": "We offer same-week scheduling throughout Camden County including Cherry Hill, Voorhees, Gloucester Township, and all surrounding communities. Call (856) 600-0812 to get started."
       }
     },
     {

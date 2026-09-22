@@ -17,7 +17,7 @@ const faqSchema = {
       "name": "What tick species are present in Camden County, NJ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Camden County has three primary tick species: the deer tick (black-legged tick), which is the Lyme disease vector and most common near wooded areas in Winslow Township and along the Cooper River Greenway; the American dog tick, common in lawn borders and open areas throughout Cherry Hill and Voorhees; and the lone star tick, which is expanding northward into South Jersey and has been documented in Camden County."
+        "text": "Camden County has three primary tick species: deer ticks (the Lyme disease vector, most common in wooded areas near Winslow Township and the Cooper River Greenway), American dog ticks (common in lawn borders throughout Cherry Hill and Voorhees), and lone star ticks (expanding northward into South Jersey)."
       }
     },
     {
@@ -25,7 +25,7 @@ const faqSchema = {
       "name": "How often should I treat my yard for ticks in Camden County?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "For effective tick suppression in Camden County, we recommend monthly barrier spray treatments from April through October. Homes adjacent to wooded conservation areas, deer trails, or the Cooper River Greenway may benefit from additional treatment frequency during peak spring and fall tick activity windows."
+        "text": "We recommend monthly barrier spray treatments from April through October. Homes adjacent to wooded conservation areas, deer trails, or the Cooper River Greenway may benefit from additional frequency during peak spring and fall tick windows."
       }
     },
     {
@@ -41,7 +41,7 @@ const faqSchema = {
       "name": "Do you offer tick treatment near the Cooper River Greenway?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. We serve all communities along the Cooper River watershed including Cherry Hill, Pennsauken, Collingswood, Haddon Township, and Haddonfield. Yards backing up to the Greenway trail system or adjacent wooded areas receive our highest-priority tick management recommendations."
+        "text": "Yes. We serve all communities along the Cooper River watershed including Cherry Hill, Pennsauken, Collingswood, Haddon Township, and Haddonfield. Greenway-adjacent yards receive priority tick management recommendations."
       }
     }
   ]

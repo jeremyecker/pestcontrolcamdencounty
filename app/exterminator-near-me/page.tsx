@@ -579,7 +579,7 @@ export default function ExterminatorNearMe() {
                     name: 'Do NJ exterminators need to be licensed by the NJDEP?',
                     acceptedAnswer: {
                       '@type': 'Answer',
-                      text: 'Yes — it is required by New Jersey state law under the New Jersey Pesticide Control Act. Anyone applying pesticides commercially must hold a valid NJDEP license.',
+                      text: "Yes — it is required by New Jersey state law. Anyone applying pesticides commercially in New Jersey must hold a valid license issued by the New Jersey Department of Environmental Protection (NJDEP) under the New Jersey Pesticide Control Act. Always ask to see an exterminator's NJDEP license before allowing them to treat your home or business. You can verify NJ pest control licenses through the NJDEP online portal. All Camden County Pest Control technicians are fully licensed and carry their credentials on every job.",
                     },
                   },
                   {
@@ -587,7 +587,7 @@ export default function ExterminatorNearMe() {
                     name: 'What is the difference between an exterminator and a pest control company?',
                     acceptedAnswer: {
                       '@type': 'Answer',
-                      text: 'Traditionally, an exterminator focused on killing pests through chemical application. Modern pest control companies practice Integrated Pest Management (IPM), which includes inspection, identification, targeted treatment, exclusion, and prevention.',
+                      text: "Traditionally, an exterminator focused on killing pests through chemical application. Modern pest control companies practice Integrated Pest Management (IPM), which includes inspection, accurate species identification, targeted treatment, exclusion work, and ongoing prevention. Camden County Pest Control combines the decisive action of extermination with the thoroughness of full IPM — giving you both immediate results and long-term protection.",
                     },
                   },
                   {
@@ -595,7 +595,7 @@ export default function ExterminatorNearMe() {
                     name: 'How soon can a Camden County exterminator come to my home?',
                     acceptedAnswer: {
                       '@type': 'Answer',
-                      text: 'We typically offer same-day service for calls received before noon. For emergencies, we offer priority response including evenings and weekends.',
+                      text: "Because our team is based throughout Camden County, we typically offer same-day service for calls received before noon. For emergencies — wasps, rodents in living spaces, bats, bed bugs — we offer priority emergency pest control response including evenings and weekends. We serve Cherry Hill, Collingswood, Bellmawr, Barrington, Runnemede, and all surrounding towns.",
                     },
                   },
                   {
@@ -611,7 +611,7 @@ export default function ExterminatorNearMe() {
                     name: 'Do you offer a free inspection before treatment?',
                     acceptedAnswer: {
                       '@type': 'Answer',
-                      text: 'Yes. We offer a free phone assessment to all Camden County homeowners and businesses. A licensed representative will discuss your pest situation, answer your questions, and provide a verbal quote over the phone with zero obligation.',
+                      text: "Yes. We offer a free phone assessment to all Camden County homeowners and businesses. A licensed representative will discuss your pest situation, answer your questions, and provide a verbal quote — all over the phone with zero obligation to proceed.",
                     },
                   },
                 ],
