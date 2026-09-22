@@ -168,7 +168,7 @@ export default function CamdenCityPage() {
             <li>&#x2705; Same-day service available throughout Camden City</li>
             <li>&#x2705; Discreet &mdash; no marked vehicles, no noise</li>
             <li>&#x2705; Tenant and landlord programs available</li>
-            <li>&#x2705; Family and pet-friendly treatments</li>
+            <li>&#x2705; EPA-registered products and clear post-treatment instructions</li>
             <li>&#x2705; Free, no-obligation estimates</li>
           </ul>
         </div>

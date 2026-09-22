@@ -92,8 +92,8 @@ export default async function ServiceTownPage({ params }: { params: Promise<{ re
       a: `We offer same-day and next-morning service throughout Camden County including ${town.name}. Call before noon for same-day availability.`,
     },
     {
-      q: `Are your ${SERVICE_NAME.toLowerCase()} treatments safe for my family?`,
-      a: `Yes. We use EPA-registered products applied by licensed NJ exterminators. Most treatments have a re-entry period of 1-4 hours.`,
+      q: `What products do you use, and what precautions should I take?`,
+      a: `We use EPA-registered products applied by licensed NJ exterminators. Most treatments have a re-entry period of 1-4 hours.`,
     },
     {
       q: `Do you offer a warranty on ${SERVICE_NAME.toLowerCase()} in ${town.name}?`,
@@ -151,7 +151,7 @@ export default async function ServiceTownPage({ params }: { params: Promise<{ re
           {SERVICE_NAME} in {town.name}, NJ
         </h1>
         <p className="text-xl text-gray-600 mb-6">
-          {opener || `Licensed ${SERVICE_NAME.toLowerCase()} serving ${town.name} and all of Camden County. Our NJ-licensed exterminators deliver same-day service with family-friendly treatments.`}
+          {opener || `Licensed ${SERVICE_NAME.toLowerCase()} serving ${town.name} and all of Camden County. Our NJ-licensed exterminators deliver same-day service.`}
         </p>
 
         {neighborhoods && (

@@ -38,10 +38,10 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      "name": "Is mosquito treatment safe for my family and pets?",
+      "name": "What should I expect after a mosquito treatment?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. Our mosquito barrier treatments are applied to exterior vegetation and use EPA-registered products. A standard re-entry window of 30 minutes after the product dries applies. We also offer biological control options using Bacillus thuringiensis israelensis (Bti) for standing water features — completely safe for pets, birds, and beneficial insects."
+        "text": "Barrier treatments use EPA-registered products applied to exterior vegetation. A 30-minute re-entry window after the product dries applies; your technician will tell you when to resume normal use of treated areas. We also offer biological larvicide (Bti) options for standing water features."
       }
     }
   ]
@@ -141,8 +141,8 @@ export default function MosquitoControlPage() {
                 a: "We offer same-week scheduling throughout Camden County including Cherry Hill, Voorhees, Gloucester Township, and all surrounding communities. Call (856) 600-0812 to get started."
               },
               {
-                q: "Is mosquito treatment safe for my family and pets?",
-                a: "Yes. Barrier treatments use EPA-registered products applied to exterior vegetation. A 30-minute re-entry window after the product dries applies. Biological larvicide (Bti) used in water features is completely safe for pets, fish, birds, and beneficial insects."
+                q: "What should I expect after a mosquito treatment?",
+                a: "Barrier treatments use EPA-registered products applied to exterior vegetation. A 30-minute re-entry window after the product dries applies; your technician will tell you when to resume normal use of treated areas. We also offer biological larvicide (Bti) options for standing water features."
               }
             ].map((faq, i) => (
               <div key={i} className="border border-gray-200 rounded-lg p-5 bg-white">

@@ -67,8 +67,8 @@ export default async function TownPage({ params }: { params: Promise<{ region: s
       a: `We offer same-day and next-morning service throughout Camden County, including ${townName}. Call before noon for same-day availability.`,
     },
     {
-      q: 'Are your treatments family-friendly?',
-      a: `Yes. We use EPA-registered products applied by licensed NJ exterminators. Most treatments are clear to re-enter within 1-4 hours.`,
+      q: 'What products do you use, and what precautions should I take?',
+      a: `We use EPA-registered products applied by licensed NJ exterminators. Most treatments are clear to re-enter within 1-4 hours.`,
     },
     {
       q: 'Do you treat termites in Camden County?',
@@ -126,7 +126,7 @@ export default async function TownPage({ params }: { params: Promise<{ region: s
           Pest Control in {townName}, NJ
         </h1>
         <p className="text-xl text-gray-600 mb-6">
-          {TOWN_OPENERS[townSlug] || `${region.pestContext} Our Camden County exterminators — licensed or working under the direct supervision of a licensed applicator — serve ${townName} with same-day availability, transparent pricing, and family-friendly treatments.`}
+          {TOWN_OPENERS[townSlug] || `${region.pestContext} Our Camden County exterminators — licensed or working under the direct supervision of a licensed applicator — serve ${townName} with same-day availability and transparent pricing.`}
         </p>
 
         {/* Neighborhoods callout (major hubs only) */}

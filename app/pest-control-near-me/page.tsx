@@ -39,9 +39,9 @@ export default function PestControlNearMe() {
         'Yes. Every residential and commercial property in Camden County qualifies for a free phone assessment. A licensed representative will discuss your pest situation, answer your questions, and provide a verbal quote right on the call — no obligation.',
     },
     {
-      question: 'Are your pest control treatments family-friendly?',
+      question: 'What products do you use, and what precautions should I take?',
       answer:
-        'Absolutely. We use EPA-registered products applied according to label directions by licensed technicians. Our Integrated Pest Management approach minimizes chemical use, and we always provide specific safety instructions for your household before and after treatment. Our methods are family-friendly and effective.',
+        'We use EPA-registered products applied according to label directions by licensed technicians. Our Integrated Pest Management approach minimizes chemical use, and we always provide specific safety instructions for your household before and after treatment.',
     },
     {
       question: 'What areas of Camden County do you serve?',
@@ -636,10 +636,10 @@ export default function PestControlNearMe() {
                   },
                   {
                     '@type': 'Question',
-                    name: 'Are your pest control treatments family-friendly?',
+                    name: 'What products do you use, and what precautions should I take?',
                     acceptedAnswer: {
                       '@type': 'Answer',
-                      text: 'Absolutely. We use EPA-registered products applied according to label directions by licensed technicians. Our Integrated Pest Management approach minimizes chemical use, and we always provide specific safety instructions for your household before and after treatment. Our methods are family-friendly and effective.',
+                      text: 'We use EPA-registered products applied according to label directions by licensed technicians. Our Integrated Pest Management approach minimizes chemical use, and we always provide specific safety instructions for your household before and after treatment.',
                     },
                   },
                   {

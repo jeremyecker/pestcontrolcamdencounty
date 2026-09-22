@@ -30,10 +30,10 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      "name": "Is tick treatment safe for children and pets?",
+      "name": "What should I expect after a tick treatment?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. Our tick treatments use EPA-registered products applied to vegetation and lawn borders — not indoor living areas. We provide a re-entry time (typically 30-60 minutes after treatment dries) after which the treated area is safe for children and pets. We also offer biological tick control options using entomopathogenic fungi."
+        "text": "Treatments are applied to vegetation and lawn borders, not indoor areas. We use EPA-registered products, and a standard re-entry window of 30 to 60 minutes after the product dries applies; your technician will tell you when to resume normal use of treated areas. We also offer biological tick control options using entomopathogenic fungi."
       }
     },
     {
@@ -137,8 +137,8 @@ export default function TickControlPage() {
                 a: "We recommend monthly barrier spray treatments from April through October. Homes adjacent to wooded conservation areas, deer trails, or the Cooper River Greenway may benefit from additional frequency during peak spring and fall tick windows."
               },
               {
-                q: "Is tick treatment safe for children and pets?",
-                a: "Yes. Treatments are applied to vegetation and lawn borders, not indoor areas. A standard re-entry window of 30 to 60 minutes after the product dries applies, after which treated areas are safe for children and pets."
+                q: "What should I expect after a tick treatment?",
+                a: "Treatments are applied to vegetation and lawn borders, not indoor areas. We use EPA-registered products, and a standard re-entry window of 30 to 60 minutes after the product dries applies; your technician will tell you when to resume normal use of treated areas. We also offer biological tick control options using entomopathogenic fungi."
               },
               {
                 q: "Do you offer tick treatment near the Cooper River Greenway?",

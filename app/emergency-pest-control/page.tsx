@@ -415,12 +415,12 @@ export default function EmergencyPestControl() {
               </p>
             </div>
             <div className="border-b border-gray-200 pb-6">
-              <h3 className="text-lg font-semibold text-[#1A365D] mb-2">Is emergency pest control treatment family-friendly?</h3>
+              <h3 className="text-lg font-semibold text-[#1A365D] mb-2">What products do you use, and what precautions should I take?</h3>
               <p className="text-gray-700">
-                Yes. Even in emergency situations, we use EPA-registered products applied by NJDEP-licensed technicians
+                Even in emergency situations, we use EPA-registered products applied by NJDEP-licensed technicians
                 according to label requirements. We will always advise you on any necessary precautions — such as
                 temporarily vacating a treated area or keeping pets away from a treated surface — before we apply any
-                product. Our emergency treatments are both family-friendly and effective.
+                product.
               </p>
             </div>
           </div>
@@ -559,10 +559,10 @@ export default function EmergencyPestControl() {
                   },
                   {
                     '@type': 'Question',
-                    name: 'Is emergency pest control treatment family-friendly?',
+                    name: 'What products do you use, and what precautions should I take?',
                     acceptedAnswer: {
                       '@type': 'Answer',
-                      text: 'Yes. Even in emergency situations, we use EPA-registered products applied by NJDEP-licensed technicians. We advise on precautions before applying any product. Our emergency treatments are family-friendly and effective.',
+                      text: 'Even in emergency situations, we use EPA-registered products applied by NJDEP-licensed technicians according to label requirements. We will always advise you on any necessary precautions — such as temporarily vacating a treated area or keeping pets away from a treated surface — before we apply any product.',
                     },
                   },
                 ],

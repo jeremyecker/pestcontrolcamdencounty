@@ -21,7 +21,7 @@ export default function Hero({
   const yearsInBusiness = BRAND.yearFounded ? currentYear - BRAND.yearFounded : 0;
 
   const defaultTitle = `Protecting ${GEO.region} Homes & Families from Pests`;
-  const defaultSubtitle = `Your neighbors trust us — families across ${GEO.region} have trusted ${SITE_NAME} for expert pest control. Family-friendly treatments for homes with kids and pets.`;
+  const defaultSubtitle = `Your neighbors trust us — families across ${GEO.region} have trusted ${SITE_NAME} for expert pest control. EPA-registered products applied according to label directions.`;
 
   const heroBadge = yearsInBusiness > 0
     ? `${yearsInBusiness}+ Years Serving the ${GEO.region}`

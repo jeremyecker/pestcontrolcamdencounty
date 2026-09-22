@@ -96,8 +96,8 @@ export default async function ServiceTownPage({ params }: { params: Promise<{ re
       a: `Most customers in ${town!.name} benefit from treatments every 3–4 weeks throughout the season (May–October). Ask about our seasonal mosquito programs for the best value.`,
     },
     {
-      q: `Are mosquito treatments safe for kids and pets in ${town!.name}?`,
-      a: `Yes. We use EPA-registered products applied by licensed NJ exterminators. Keep children and pets off treated areas for about 30 minutes after application.`,
+      q: `What should I expect after a mosquito treatment in ${town!.name}?`,
+      a: `We use EPA-registered products applied by licensed NJ exterminators. Keep children and pets off treated areas for about 30 minutes after application.`,
     },
     {
       q: `What areas of ${town!.name} do you serve?`,

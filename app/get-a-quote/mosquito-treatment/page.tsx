@@ -25,8 +25,8 @@ const FAQS = [
     a: "Individual treatments cost $125–$150/visit. Many customers opt for seasonal programs for the best value and consistent protection throughout the summer.",
   },
   {
-    q: "Is the mosquito spray safe for kids and pets?",
-    a: "Yes — once the spray has dried (typically 30–45 minutes), treated areas are safe for children and pets. We use EPA-registered products applied by licensed technicians.",
+    q: "What should I expect after a mosquito treatment?",
+    a: "The spray typically dries within 30–45 minutes. We use EPA-registered products applied by licensed technicians, and your technician will tell you when to resume normal use of treated areas.",
   },
   {
     q: "What does your mosquito treatment cover?",

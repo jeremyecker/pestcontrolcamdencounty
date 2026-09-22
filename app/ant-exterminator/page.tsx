@@ -158,7 +158,7 @@ export default function AntExterminatorPage() {
             <li>✅ Licensed & insured NJ exterminators</li>
             <li>✅ Same-day ant exterminator service available</li>
             <li>✅ Colony elimination — not just surface spraying</li>
-            <li>✅ Family and pet-friendly treatments</li>
+            <li>✅ EPA-registered products and clear post-treatment instructions</li>
             <li>✅ Free, no-obligation estimates</li>
             <li>✅ Serving all 16 municipalities in Camden County</li>
           </ul>

@@ -439,12 +439,12 @@ export default function ExterminatorNearMe() {
               </p>
             </div>
             <div className="border-b border-gray-200 pb-6">
-              <h3 className="text-lg font-semibold text-[#1A365D] mb-2">Are exterminator treatments family-friendly and effective?</h3>
+              <h3 className="text-lg font-semibold text-[#1A365D] mb-2">What products do you use, and what precautions should I take?</h3>
               <p className="text-gray-700">
-                Yes. We use EPA-registered products applied by NJDEP-licensed technicians according to strict label
+                We use EPA-registered products applied by NJDEP-licensed technicians according to strict label
                 requirements. Our IPM approach minimizes chemical use while maximizing effectiveness. Before any
-                treatment, we provide specific instructions for your family and pets. Our methods are both
-                family-friendly and highly effective against Camden County&apos;s most common pests.
+                treatment, we provide specific instructions for your family and pets. Our methods are
+                highly effective against Camden County&apos;s most common pests.
               </p>
             </div>
             <div className="border-b border-gray-200 pb-6">
@@ -600,10 +600,10 @@ export default function ExterminatorNearMe() {
                   },
                   {
                     '@type': 'Question',
-                    name: 'Are exterminator treatments family-friendly and effective?',
+                    name: 'What products do you use, and what precautions should I take?',
                     acceptedAnswer: {
                       '@type': 'Answer',
-                      text: 'Yes. We use EPA-registered products applied by NJDEP-licensed technicians. Our IPM approach minimizes chemical use while maximizing effectiveness. Our methods are family-friendly and highly effective.',
+                      text: "We use EPA-registered products applied by NJDEP-licensed technicians according to strict label requirements. Our IPM approach minimizes chemical use while maximizing effectiveness. Before any treatment, we provide specific instructions for your family and pets. Our methods are highly effective against Camden County's most common pests.",
                     },
                   },
                   {

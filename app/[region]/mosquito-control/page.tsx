@@ -83,10 +83,10 @@ export default async function ServiceIndexPage({ params }: { params: Promise<{ r
           },
           {
             '@type': 'Question',
-            name: 'Is mosquito treatment safe for kids and pets?',
+            name: 'What should I expect after a mosquito treatment?',
             acceptedAnswer: {
               '@type': 'Answer',
-              text: `Yes. We use EPA-registered products and Bti (Bacillus thuringiensis israelensis) for standing water treatment. A 30-minute re-entry period after spraying is all that is required before children and pets can safely return to the yard.`,
+              text: `We use EPA-registered products and Bti (Bacillus thuringiensis israelensis) for standing water treatment. A 30-minute re-entry period after spraying applies; your technician will tell you when to resume normal use of the yard.`,
             },
           },
         ],
@@ -104,8 +104,8 @@ export default async function ServiceIndexPage({ params }: { params: Promise<{ r
       answer: `We recommend starting treatments in early May before mosquito populations peak. Treatments run through September, covering the full May\u2013September active season in South Jersey.`,
     },
     {
-      question: `Is mosquito treatment safe for kids and pets?`,
-      answer: `Yes. We use EPA-registered products and Bti (Bacillus thuringiensis israelensis) for standing water treatment. A 30-minute re-entry period after spraying is all that is required before children and pets can safely return to the yard.`,
+      question: `What should I expect after a mosquito treatment?`,
+      answer: `We use EPA-registered products and Bti (Bacillus thuringiensis israelensis) for standing water treatment. A 30-minute re-entry period after spraying applies; your technician will tell you when to resume normal use of the yard.`,
     },
   ];
 
