@@ -72,7 +72,7 @@ export default async function TownPage({ params }: { params: Promise<{ region: s
     },
     {
       q: 'Do you treat termites in Camden County?',
-      a: `Termites are one of the most common threats in South Jersey. We offer liquid barrier treatments, Sentricon bait systems, and pre-construction pre-treats throughout ${townName} and surrounding areas.`,
+      a: `Termites are one of the most common threats in South Jersey. We offer liquid barrier treatments, bait systems, and pre-construction pre-treats throughout ${townName} and surrounding areas.`,
     },
     {
       q: 'Is there a warranty on your pest control services?',
