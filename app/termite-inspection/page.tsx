@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     'Free termite assessment for Camden County homeowners. Call (856) 600-0812 — no obligation, no pressure. Get answers by phone today.',
   keywords:
-    'termite inspection Camden County NJ, free termite assessment, termite inspection Cherry Hill, WDI report New Jersey, termite treatment NJ, Sentricon Camden County',
+    'termite inspection Camden County NJ, free termite assessment, termite inspection Cherry Hill, WDI report New Jersey, termite treatment NJ',
 };
 
 const localBusinessSchema = {

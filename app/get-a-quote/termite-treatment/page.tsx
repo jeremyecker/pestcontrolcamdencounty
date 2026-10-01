@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 const FAQS = [
   {
     q: "What types of termite treatment do you offer?",
-    a: "We offer liquid barrier treatment (Termidor® or equivalent) which creates a protection zone around your home's foundation, and bait station systems which eliminate the colony over time. We'll recommend the best option after a free phone assessment.",
+    a: "We offer liquid barrier treatment which creates a protection zone around your home's foundation, and bait station systems which eliminate the colony over time. We'll recommend the best option after a free phone assessment.",
   },
   {
     q: "How much does termite treatment cost in Camden County?",
@@ -30,7 +30,7 @@ const FAQS = [
   },
   {
     q: "How long does termite treatment last?",
-    a: "Liquid barrier treatments like Termidor® remain effective for 5+ years. Bait station systems provide ongoing protection with annual monitoring. We recommend annual inspections regardless of treatment type.",
+    a: "Liquid barrier treatments remain effective for 5+ years. Bait station systems provide ongoing protection with annual monitoring. We recommend annual inspections regardless of treatment type.",
   },
   {
     q: "Does homeowner's insurance cover termite damage?",
