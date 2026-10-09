@@ -56,7 +56,7 @@ export default function PestControlNearMe() {
     {
       question: 'Are your technicians licensed by the NJDEP?',
       answer:
-        'Every technician on our team holds a valid New Jersey Department of Environmental Protection (NJDEP) pesticide applicator license. We also carry full general liability and workers\u2019 compensation insurance. We are a fully compliant, professional operation serving all of Camden County.',
+        'Every technician on our team is certified or working under the supervision of a certified applicator, as the New Jersey Department of Environmental Protection (NJDEP) requires. We also carry full general liability and workers\u2019 compensation insurance. We are a fully compliant, professional operation serving all of Camden County.',
     },
     {
       question: 'What are the most common pests in Camden County, NJ?',
@@ -146,7 +146,7 @@ export default function PestControlNearMe() {
             same speed and professionalism, because we know the territory.
           </p>
           <p className="text-gray-700 text-lg leading-relaxed">
-            Every technician on our team is licensed by the New Jersey Department of Environmental Protection (NJDEP) and
+            Every technician on our team is certified or working under the supervision of a certified applicator, and
             trained in Integrated Pest Management (IPM) — the gold standard approach that targets the root cause of
             infestations rather than simply spraying chemicals. Whether you are dealing with ants marching across your
             kitchen counter, a rat scratching in the wall at 2 a.m., or a wasp nest over your front door, we have the
@@ -337,8 +337,8 @@ export default function PestControlNearMe() {
               <div>
                 <h3 className="text-xl font-semibold text-[#1A365D]">NJDEP Licensed &amp; Fully Insured</h3>
                 <p className="text-gray-700">
-                  Every technician holds a valid New Jersey Department of Environmental Protection pesticide applicator
-                  license. We carry full general liability and workers&apos; compensation insurance. When you hire us, you
+                  Every technician is certified or working under the supervision of a certified applicator, as the New Jersey Department of Environmental Protection
+                  requires. We carry full general liability and workers&apos; compensation insurance. When you hire us, you
                   are hiring a fully compliant, professional operation — not someone working out of the back of a pickup
                   truck with off-the-shelf products from a hardware store.
                 </p>
@@ -655,7 +655,7 @@ export default function PestControlNearMe() {
                     name: 'Are your technicians licensed by the NJDEP?',
                     acceptedAnswer: {
                       '@type': 'Answer',
-                      text: "Every technician on our team holds a valid New Jersey Department of Environmental Protection (NJDEP) pesticide applicator license. We also carry full general liability and workers’ compensation insurance. We are a fully compliant, professional operation serving all of Camden County.",
+                      text: "Every technician on our team is certified or working under the supervision of a certified applicator, as the New Jersey Department of Environmental Protection (NJDEP) requires. We also carry full general liability and workers’ compensation insurance. We are a fully compliant, professional operation serving all of Camden County.",
                     },
                   },
                 ],

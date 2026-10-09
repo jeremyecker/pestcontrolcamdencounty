@@ -381,7 +381,7 @@ export default function SameDayPestControl() {
               <div>
                 <h3 className="font-semibold text-[#1A365D]">We Arrive and Solve the Problem</h3>
                 <p className="text-gray-700">
-                  Your NJDEP-licensed technician arrives at the scheduled time, inspects the property, confirms the
+                  Your technician arrives at the scheduled time, inspects the property, confirms the
                   pest and treatment plan, provides a clear price verbally, and begins treatment — all in the same visit.
                   No waiting around for a second appointment just to get started.
                 </p>
@@ -430,7 +430,7 @@ export default function SameDayPestControl() {
               <p className="text-gray-700">
                 No. Our pricing for same-day pest control is the same as our standard pricing for scheduled
                 appointments. We do not charge premium rates for same-day availability. You receive the same
-                NJDEP-licensed technician, the same professional-grade treatments, and the same commitment to quality
+                technician, the same professional-grade treatments, and the same commitment to quality
                 regardless of when you book. The only difference is speed of response.
               </p>
             </div>

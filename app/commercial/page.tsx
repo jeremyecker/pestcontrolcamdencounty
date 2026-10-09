@@ -172,7 +172,7 @@ export default function CommercialPage() {
           </h2>
           <div className="space-y-4">
             {[
-              { icon: '📋', title: 'NJDEP Licensed & Fully Insured', text: 'Every technician holds a valid NJ Department of Environmental Protection pesticide applicator license. We carry full general liability and workers\' compensation insurance for every commercial account.' },
+              { icon: '📋', title: 'NJDEP Licensed & Fully Insured', text: 'Every technician is certified or working under the supervision of a certified applicator, as the NJ Department of Environmental Protection requires. We carry full general liability and workers\' compensation insurance for every commercial account.' },
               { icon: '📊', title: 'Detailed Service Documentation', text: 'We provide written service reports after every visit — pest activity levels, treatments applied, conducive conditions noted, and recommendations. Documentation your auditors and inspectors expect.' },
               { icon: '🔄', title: 'Recurring Service Contracts', text: 'Commercial pest control requires consistency. Our monthly, bi-monthly, and quarterly contracts provide scheduled visits, priority response between visits, and the continuity that protects your facility year-round.' },
               { icon: '🌿', title: 'IPM-Based Programs', text: 'Integrated Pest Management is the standard for commercial facilities. We use inspection, monitoring, and targeted treatments to minimize chemical use while maximizing effectiveness — essential for food service, healthcare, and schools.' },
