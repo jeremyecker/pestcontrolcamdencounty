@@ -36,7 +36,7 @@ export default function BedBugExterminator() {
     {
       question: 'What is the difference between heat treatment and chemical treatment for bed bugs in NJ?',
       answer:
-        'Heat treatment raises the temperature of all infested rooms and contents to 120-135°F for several hours, killing bed bugs at every life stage — including eggs — in a single treatment. It leaves no chemical residue and requires no post-treatment waiting period beyond cooling. Chemical treatment uses NJDEP-approved insecticides applied to baseboards, bed frames, cracks, and crevices in multiple visits (typically 2-3 sessions spaced 2 weeks apart). Heat treatment is faster and more thorough; chemical treatment costs less for smaller or early-stage infestations. Our Camden County technicians will recommend the right approach after a paid, on-site bed bug inspection.',
+        'Heat treatment raises the temperature of all infested rooms and contents to 120-135°F for several hours, killing bed bugs at every life stage — including eggs — in a single treatment. It requires no post-treatment waiting period beyond cooling. Chemical treatment uses NJDEP-approved insecticides applied to baseboards, bed frames, cracks, and crevices in multiple visits (typically 2-3 sessions spaced 2 weeks apart). Heat treatment is faster and more thorough; chemical treatment costs less for smaller or early-stage infestations. Our Camden County technicians will recommend the right approach after a paid, on-site bed bug inspection.',
     },
     {
       question: 'How did bed bugs get into my Cherry Hill or Voorhees home?',
@@ -187,9 +187,9 @@ export default function BedBugExterminator() {
                 <ul className="text-gray-700 space-y-2 text-sm">
                   <li><strong>How it works:</strong> Professional heat equipment raises all infested rooms to 120-135°F, killing bed bugs and eggs at every hiding location in a single treatment session.</li>
                   <li><strong>One-day elimination:</strong> No need for multiple visits — all life stages are killed in one treatment.</li>
-                  <li><strong>Chemical-free:</strong> No residue, no odor, effective for families and pets after the cooling period.</li>
+                  
                   <li><strong>Penetrates everything:</strong> Heat reaches inside walls, mattresses, electronics, and furniture where sprays cannot.</li>
-                  <li><strong>Best for:</strong> Severe or widespread infestations, multi-unit situations, clients preferring chemical-free treatment.</li>
+                  <li><strong>Best for:</strong> Severe or widespread infestations and multi-unit situations.</li>
                 </ul>
               </div>
               <div className="bg-blue-50 rounded-xl p-6">
@@ -223,7 +223,7 @@ export default function BedBugExterminator() {
               </p>
               <h3 className="text-xl font-bold text-[#1A365D] mt-6 mb-3">How We Treat Bed Bugs in Camden County</h3>
               <ul className="text-gray-700 space-y-3 mb-4">
-                <li><strong>Heat treatment (120-135°F)</strong> — Kills all life stages in a single full-day treatment; no chemical residue; effective even in difficult-to-reach harborage areas; requires minimal preparation from the homeowner.</li>
+                <li><strong>Heat treatment (120-135°F)</strong> — Kills all life stages in a single full-day treatment; effective even in difficult-to-reach harborage areas; requires minimal preparation from the homeowner.</li>
                 <li><strong>Non-repellent gel baiting</strong> — Worker bed bugs consume bait and share the active ingredient with the colony, eventually eliminating the entire population including the queen; slower than heat but more affordable for early-stage infestations.</li>
                 <li><strong>Residual spray application</strong> — NJDEP-approved insecticides applied to baseboards, bed frames, furniture cracks, and electrical outlets; multiple applications spaced 2 weeks apart; workers contact treated surfaces and bring the active ingredient back to the colony.</li>
                 <li><strong>Multi-unit coordination</strong> — For rowhouses and apartment buildings throughout Collingswood, Pennsauken, and Lindenwold, simultaneous treatment of all affected units prevents re-infestation from neighboring units; we work with landlords and property managers to ensure compliance with NJ bed bug disclosure law (N.J.S.A. 46:8-50).</li>
@@ -511,7 +511,7 @@ export default function BedBugExterminator() {
                       name: 'What is the difference between heat treatment and chemical treatment for bed bugs?',
                       acceptedAnswer: {
                         '@type': 'Answer',
-                        text: 'Heat treatment raises room temperatures to 120-135°F, killing all life stages in a single session with no chemical residue. Chemical treatment uses NJDEP-approved insecticides in 2-3 visits. Heat is faster and more thorough; chemical is more affordable for small infestations.',
+                        text: 'Heat treatment raises room temperatures to 120-135°F, killing all life stages in a single session. Chemical treatment uses NJDEP-approved insecticides in 2-3 visits. Heat is faster and more thorough; chemical is more affordable for small infestations.',
                       },
                     },
                     {

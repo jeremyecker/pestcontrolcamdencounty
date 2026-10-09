@@ -17,7 +17,7 @@ const SERVICES_MAP: Record<string, ServiceConfig> = {
     intro: (town) => `Bed bugs are one of the most stressful infestations \u2014 but they\u2019re 100% treatable. Our technicians — licensed or working under the direct supervision of a licensed applicator — serve ${town} with proven heat and chemical treatment options, delivered by NJDEP-licensed technicians.`,
     faqs: [
       { q: 'How much does bed bug treatment cost in Camden County?', a: 'Bed bug treatment ranges from $1,200\u2013$4,500 depending on home size and the method used. We provide a free phone assessment and a detailed quote before any work begins.' },
-      { q: 'Heat treatment vs. chemical \u2014 which is better?', a: 'Heat treatment reaches 120\u00b0F+ and kills all life stages in one visit with no chemical residue. Chemical treatment uses EPA-registered pesticides over 1\u20132 visits. We recommend the best fit after your inspection.' },
+      { q: 'Heat treatment vs. chemical \u2014 which is better?', a: 'Heat treatment reaches 120\u00b0F+ and kills all life stages in one visit. Chemical treatment uses EPA-registered pesticides over 1\u20132 visits. We recommend the best fit after your inspection.' },
       { q: 'Do you guarantee your bed bug treatments?', a: 'Bed bug treatment plans typically include multiple scheduled visits as part of the service. Our NJDEP-licensed technicians work thoroughly at every stage of treatment.' },
       { q: 'How do I prepare my home before treatment?', a: 'We provide a detailed prep checklist before your appointment. Our team walks you through every step to make sure treatment is as effective as possible.' },
     ],

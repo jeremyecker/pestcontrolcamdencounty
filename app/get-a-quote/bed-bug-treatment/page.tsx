@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 const FAQS = [
   {
     q: "What's the difference between heat and chemical treatment?",
-    a: "Heat treatment raises room temperature to 120°F+, killing all life stages in one visit with no chemical residue. Chemical treatment uses EPA-registered pesticides applied over 1–2 visits. We'll recommend the best option based on your infestation.",
+    a: "Heat treatment raises room temperature to 120°F+, killing all life stages in one visit. Chemical treatment uses EPA-registered pesticides applied over 1–2 visits. We'll recommend the best option based on your infestation.",
   },
   {
     q: "How much does bed bug treatment cost in Camden County?",

@@ -676,7 +676,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <ul>
   <li>Kills all life stages &mdash; adults, nymphs, and eggs &mdash; in a single treatment visit</li>
   <li>Penetrates mattresses, furniture, and wall voids that chemical treatments may not fully reach</li>
-  <li>No chemical residue in the home after treatment</li>
+  
   <li>Effective against insecticide-resistant bed bug populations, which are increasingly common in South Jersey</li>
   <li>Allows re-occupancy the same day treatment is completed</li>
 </ul>

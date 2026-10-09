@@ -13,11 +13,11 @@ export const metadata: Metadata = {
 const faqItems = [
   {
     question: 'What does "zero-tolerance" pest control mean for healthcare facilities?',
-    answer: 'Zero-tolerance means that a single pest sighting in a patient area, sterile supply room, or food service area is treated as an emergency requiring immediate response, not a scheduled service visit. It means that monitoring is designed to detect pest activity at the absolute earliest stage — before patients or staff ever see a pest. And it means that all treatment protocols are designed to eliminate pests without creating any chemical exposure risk to medically vulnerable patients.',
+    answer: 'Zero-tolerance means that a single pest sighting in a patient area, sterile supply room, or food service area is treated as an emergency requiring immediate response, not a scheduled service visit. It means that monitoring is designed to detect pest activity at the absolute earliest stage — before patients or staff ever see a pest.',
   },
   {
     question: 'How do you handle pest control in patient areas and operating rooms?',
-    answer: 'Patient rooms, ICUs, and operating theaters require treatments that use no chemical products with any potential airborne exposure risk. In these areas, we rely exclusively on non-chemical IPM tools: physical exclusion, tamper-resistant monitoring devices, pheromone traps, and glue boards placed out of patient and staff reach. Any corrective treatment requiring chemical application is performed during scheduled facility downtime, with full coordination with your infection control and facilities management teams.',
+    answer: 'In these areas, we rely exclusively on non-chemical IPM tools: physical exclusion, tamper-resistant monitoring devices, pheromone traps, and glue boards placed out of patient and staff reach. Any corrective treatment requiring chemical application is performed during scheduled facility downtime, with full coordination with your infection control and facilities management teams.',
   },
   {
     question: 'Are your programs JCAHO compliant?',
