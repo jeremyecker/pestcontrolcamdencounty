@@ -218,7 +218,7 @@ export default function EmergencyPestControl() {
           <p className="text-gray-700 text-lg leading-relaxed">
             Camden County Pest Control maintains emergency response capacity specifically because we understand these
             stakes. We are not a 9-to-5 operation that sends you to voicemail after hours. When you call our emergency
-            line, you reach a licensed technician who can assess your situation immediately and respond that same day —
+            line, you reach a technician who can assess your situation immediately and respond that same day —
             including evenings, weekends, and holidays.
           </p>
         </section>
@@ -287,7 +287,7 @@ export default function EmergencyPestControl() {
               <div>
                 <h3 className="text-lg font-semibold text-[#1A365D]">Same-Day Dispatch</h3>
                 <p className="text-gray-700">
-                  We dispatch the closest available licensed technician to your location in Camden County.
+                  We dispatch the closest available technician to your location in Camden County.
                   Our coverage of Cherry Hill, Camden, Pennsauken, and Gloucester Township means we can reach
                   most locations within 1-2 hours during business hours. Evening and weekend response times may
                   vary depending on technician availability, but we always prioritize true emergencies.

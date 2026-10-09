@@ -150,7 +150,7 @@ export default function FreePestEstimate() {
             {`Need a Wood Destroying Insect Report for a Real Estate Transaction?`}
           </h2>
           <p className="text-gray-700 text-lg leading-relaxed mb-4">{`If you're buying, selling, or refinancing a property and need an official WDI (Wood Destroying Insect) report, Rest Easy Pest Control offers this as a separate paid service.`}</p>
-          <p className="text-gray-700 text-lg leading-relaxed mb-4">{`A WDI report involves a thorough on-site inspection conducted by a licensed technician after the service is booked and paid for. You'll receive a genuine written report documenting the findings—the kind of official documentation that lenders and real estate professionals require.`}</p>
+          <p className="text-gray-700 text-lg leading-relaxed mb-4">{`A WDI report involves a thorough on-site inspection conducted by a licensed inspector after the service is booked and paid for. You'll receive a genuine written report documenting the findings—the kind of official documentation that lenders and real estate professionals require.`}</p>
           <p className="text-gray-700 text-lg leading-relaxed mb-4">{`Please note: The WDI report is a distinct service from our free phone estimate. It is not included in, and should not be confused with, the no-cost assessment described on this page.`}</p>
           <p className="text-gray-700 text-lg leading-relaxed">{`Contact us to learn more or to schedule your WDI inspection.`}</p>
         </section>
