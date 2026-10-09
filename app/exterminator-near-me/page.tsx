@@ -121,7 +121,7 @@ export default function ExterminatorNearMe() {
             not optional — it is state law under the New Jersey Pesticide Control Act (N.J.S.A. 13:1F-1 et seq.). A
             licensed exterminator has passed rigorous examinations demonstrating knowledge of pesticide chemistry,
             application methods, safety protocols, integrated pest management, and New Jersey environmental regulations.
-            Every technician at Camden County Pest Control holds a current NJDEP pesticide applicator license, and we
+            Every Camden County Pest Control technician is certified or working under the supervision of a certified applicator, and we
             maintain all required business permits and insurance coverage.
           </p>
           <p className="text-gray-700 text-lg leading-relaxed mb-4">
@@ -183,8 +183,7 @@ export default function ExterminatorNearMe() {
           <p className="text-gray-700 text-lg leading-relaxed">
             <strong>Always ask to see credentials.</strong> A legitimate exterminator will gladly show you their NJDEP
             license, business permit, and proof of insurance. If they hesitate, that is a major red flag. At Camden County
-            Pest Control, our licensing information is available upon request, and every technician carries their license
-            card on every job. We are fully transparent because we have nothing to hide.
+            Pest Control, our licensing information is available upon request. We are fully transparent because we have nothing to hide.
           </p>
         </section>
 
@@ -413,7 +412,7 @@ export default function ExterminatorNearMe() {
                 hold a valid license issued by the New Jersey Department of Environmental Protection (NJDEP) under the
                 New Jersey Pesticide Control Act. Always ask to see an exterminator&apos;s NJDEP license before allowing them
                 to treat your home or business. You can verify NJ pest control licenses through the NJDEP online portal.
-                All Camden County Pest Control technicians are fully licensed and carry their credentials on every job.
+                All Camden County Pest Control technicians are fully licensed.
               </p>
             </div>
             <div className="border-b border-gray-200 pb-6">
@@ -579,7 +578,7 @@ export default function ExterminatorNearMe() {
                     name: 'Do NJ exterminators need to be licensed by the NJDEP?',
                     acceptedAnswer: {
                       '@type': 'Answer',
-                      text: "Yes — it is required by New Jersey state law. Anyone applying pesticides commercially in New Jersey must hold a valid license issued by the New Jersey Department of Environmental Protection (NJDEP) under the New Jersey Pesticide Control Act. Always ask to see an exterminator's NJDEP license before allowing them to treat your home or business. You can verify NJ pest control licenses through the NJDEP online portal. All Camden County Pest Control technicians are fully licensed and carry their credentials on every job.",
+                      text: "Yes — it is required by New Jersey state law. Anyone applying pesticides commercially in New Jersey must hold a valid license issued by the New Jersey Department of Environmental Protection (NJDEP) under the New Jersey Pesticide Control Act. Always ask to see an exterminator's NJDEP license before allowing them to treat your home or business. You can verify NJ pest control licenses through the NJDEP online portal. All Camden County Pest Control technicians are fully licensed.",
                     },
                   },
                   {

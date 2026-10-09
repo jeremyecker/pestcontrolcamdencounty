@@ -56,7 +56,7 @@ export default function BedBugExterminator() {
     {
       question: 'Are your bed bug technicians licensed by the NJDEP?',
       answer:
-        'Every Camden County Pest Control technician holds a valid license issued by the New Jersey Department of Environmental Protection (NJDEP) under the New Jersey Pesticide Control Act. Additionally, our technicians are trained and certified by the New Jersey Department of Community Affairs standards for bed bug treatment in residential properties. We carry full general liability and workers\'s compensation insurance. Hiring an unlicensed operator for bed bug treatment in New Jersey puts your family and your investment at risk.',
+        'Every Camden County Pest Control technician is certified or working under the supervision of a certified applicator, as the New Jersey Pesticide Control Act requires. Additionally, our technicians are trained for bed bug treatment in residential properties. We carry full general liability and workers\'s compensation insurance. Hiring an unlicensed operator for bed bug treatment in New Jersey puts your family and your investment at risk.',
     },
     {
       question: 'How long does bed bug treatment take and when can I return to my bedroom?',
@@ -85,7 +85,7 @@ export default function BedBugExterminator() {
                 { '@type': 'Question', 'name': 'What is the difference between heat treatment and chemical treatment for bed bugs?', 'acceptedAnswer': { '@type': 'Answer', 'text': 'Heat treatment kills all bed bugs in a single visit at 120-135°F. Chemical treatment uses NJDEP-approved insecticides in 2-3 visits spaced 2 weeks apart.' } },
                 { '@type': 'Question', 'name': 'Do bed bugs spread between units in Camden County apartment complexes?', 'acceptedAnswer': { '@type': 'Answer', 'text': 'Yes. Bed bugs travel between units via wall voids, electrical outlets, and plumbing penetrations. Multi-unit coordination is essential.' } },
                 { '@type': 'Question', 'name': 'How long does bed bug treatment take?', 'acceptedAnswer': { '@type': 'Answer', 'text': 'Heat treatment is one day. Chemical treatment requires 2-3 visits over 4-6 weeks. Follow-up inspections confirm eradication.' } },
-                { '@type': 'Question', 'name': 'Are your bed bug technicians licensed?', 'acceptedAnswer': { '@type': 'Answer', 'text': 'Every technician holds a valid NJDEP pesticide applicator license and carries full insurance.' } },
+                { '@type': 'Question', 'name': 'Are your bed bug technicians licensed?', 'acceptedAnswer': { '@type': 'Answer', 'text': 'Every technician is certified or working under the supervision of a certified applicator, and carries full insurance.' } },
               ]
             })
           }}
@@ -299,9 +299,7 @@ export default function BedBugExterminator() {
             <p className="text-gray-700 text-lg leading-relaxed mb-4">
               In New Jersey, every commercial pesticide applicator must hold a valid license issued by
               the New Jersey Department of Environmental Protection (NJDEP) under the New Jersey Pesticide
-              Control Act (N.J.S.A. 13:1F-1 et seq.). Bed bug treatment additionally requires specific
-              training under the New Jersey Department of Community Affairs guidelines for residential
-              pest control. Every Camden County Pest Control technician holds all required credentials and
+              Control Act (N.J.S.A. 13:1F-1 et seq.). Every Camden County Pest Control technician is certified or working under the supervision of a certified applicator, and
               carries full general liability and workers&apos; compensation insurance.
             </p>
             <p className="text-gray-700 text-lg leading-relaxed mb-4">
@@ -332,7 +330,7 @@ export default function BedBugExterminator() {
                 <div className="bg-[#DD6B20] text-white font-bold rounded-full w-10 h-10 flex items-center justify-center shrink-0">1</div>
                 <div>
                   <h3 className="text-lg font-semibold text-[#1A365D]">Paid Bed Bug Inspection</h3>
-                  <p className="text-gray-700">An NJDEP-licensed technician visits your property and inspects every room, focusing on all bed bug harborage areas — mattress seams, box springs, bed frames, baseboards, headboards, electrical outlets, and furniture. Findings are discussed with you verbally on site.</p>
+                  <p className="text-gray-700">A technician visits your property and inspects every room, focusing on all bed bug harborage areas — mattress seams, box springs, bed frames, baseboards, headboards, electrical outlets, and furniture. Findings are discussed with you verbally on site.</p>
                 </div>
               </div>
               <div className="flex gap-4 items-start">
@@ -346,7 +344,7 @@ export default function BedBugExterminator() {
                 <div className="bg-[#DD6B20] text-white font-bold rounded-full w-10 h-10 flex items-center justify-center shrink-0">3</div>
                 <div>
                   <h3 className="text-lg font-semibold text-[#1A365D]">Professional Treatment</h3>
-                  <p className="text-gray-700">Our licensed technician carries out the treatment using professional-grade equipment and NJDEP-approved products. We provide detailed preparation instructions before treatment and safety guidelines for re-entry afterward.</p>
+                  <p className="text-gray-700">Our technician carries out the treatment using professional-grade equipment and NJDEP-approved products. We provide detailed preparation instructions before treatment and safety guidelines for re-entry afterward.</p>
                 </div>
               </div>
               <div className="flex gap-4 items-start">
@@ -521,7 +519,7 @@ export default function BedBugExterminator() {
                       name: 'Are your bed bug technicians licensed by the NJDEP?',
                       acceptedAnswer: {
                         '@type': 'Answer',
-                        text: "Every Camden County Pest Control technician holds a valid NJDEP pesticide applicator license under the New Jersey Pesticide Control Act. We carry full general liability and workers' compensation insurance and provide our license number and insurance information before any work begins.",
+                        text: "Every Camden County Pest Control technician is certified or working under the supervision of a certified applicator, as the New Jersey Pesticide Control Act requires. We carry full general liability and workers' compensation insurance and provide our license number and insurance information before any work begins.",
                       },
                     },
                     {
