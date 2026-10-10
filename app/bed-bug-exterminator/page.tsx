@@ -36,7 +36,7 @@ export default function BedBugExterminator() {
     {
       question: 'What is the difference between heat treatment and chemical treatment for bed bugs in NJ?',
       answer:
-        'Heat treatment raises the temperature of all infested rooms and contents to 120-135°F for several hours, killing bed bugs at every life stage — including eggs — in a single treatment. It requires no post-treatment waiting period beyond cooling. Chemical treatment uses NJDEP-approved insecticides applied to baseboards, bed frames, cracks, and crevices in multiple visits (typically 2-3 sessions spaced 2 weeks apart). Heat treatment is faster and more thorough; chemical treatment costs less for smaller or early-stage infestations. Our Camden County technicians will recommend the right approach after a paid, on-site bed bug inspection.',
+        'Heat treatment raises the temperature of all infested rooms and contents to 120-135°F for several hours, killing bed bugs at every life stage — including eggs — in a single treatment. It requires no post-treatment waiting period beyond cooling. Chemical treatment uses EPA-registered insecticides applied to baseboards, bed frames, cracks, and crevices in multiple visits (typically 2-3 sessions spaced 2 weeks apart). Heat treatment is faster and more thorough; chemical treatment costs less for smaller or early-stage infestations. Our Camden County technicians will recommend the right approach after a paid, on-site bed bug inspection.',
     },
     {
       question: 'How did bed bugs get into my Cherry Hill or Voorhees home?',
@@ -82,7 +82,7 @@ export default function BedBugExterminator() {
               '@type': 'FAQPage',
               'mainEntity': [
                 { '@type': 'Question', 'name': 'How do I know if I have bed bugs in my Camden County home?', 'acceptedAnswer': { '@type': 'Answer', 'text': 'The most reliable signs include small reddish-brown insects in mattress seams, dark rusty staining from excrement, tiny white eggs, and red welts on exposed skin.' } },
-                { '@type': 'Question', 'name': 'What is the difference between heat treatment and chemical treatment for bed bugs?', 'acceptedAnswer': { '@type': 'Answer', 'text': 'Heat treatment kills all bed bugs in a single visit at 120-135°F. Chemical treatment uses NJDEP-approved insecticides in 2-3 visits spaced 2 weeks apart.' } },
+                { '@type': 'Question', 'name': 'What is the difference between heat treatment and chemical treatment for bed bugs?', 'acceptedAnswer': { '@type': 'Answer', 'text': 'Heat treatment kills all bed bugs in a single visit at 120-135°F. Chemical treatment uses EPA-registered insecticides in 2-3 visits spaced 2 weeks apart.' } },
                 { '@type': 'Question', 'name': 'Do bed bugs spread between units in Camden County apartment complexes?', 'acceptedAnswer': { '@type': 'Answer', 'text': 'Yes. Bed bugs travel between units via wall voids, electrical outlets, and plumbing penetrations. Multi-unit coordination is essential.' } },
                 { '@type': 'Question', 'name': 'How long does bed bug treatment take?', 'acceptedAnswer': { '@type': 'Answer', 'text': 'Heat treatment is one day. Chemical treatment requires 2-3 visits over 4-6 weeks. Follow-up inspections confirm eradication.' } },
                 { '@type': 'Question', 'name': 'Are your bed bug technicians licensed?', 'acceptedAnswer': { '@type': 'Answer', 'text': 'Every technician is certified or working under the supervision of a certified applicator, and carries full insurance.' } },
@@ -195,7 +195,7 @@ export default function BedBugExterminator() {
               <div className="bg-blue-50 rounded-xl p-6">
                 <h3 className="text-xl font-semibold text-[#1A365D] mb-3">🧪 Chemical Treatment</h3>
                 <ul className="text-gray-700 space-y-2 text-sm">
-                  <li><strong>How it works:</strong> NJDEP-approved insecticides applied precisely to bed frames, baseboards, cracks, and crevices with multiple follow-up treatments.</li>
+                  <li><strong>How it works:</strong> EPA-registered insecticides applied precisely to bed frames, baseboards, cracks, and crevices with multiple follow-up treatments.</li>
                   <li><strong>Multiple visits:</strong> 2-3 treatments spaced 2 weeks apart to catch all life stages as eggs hatch.</li>
                   <li><strong>Residual protection:</strong> Ongoing protection between visits helps catch newly hatched nymphs.</li>
                   <li><strong>Cost-effective:</strong> Lower cost than heat treatment, especially for smaller or early-stage infestations.</li>
@@ -225,7 +225,7 @@ export default function BedBugExterminator() {
               <ul className="text-gray-700 space-y-3 mb-4">
                 <li><strong>Heat treatment (120-135°F)</strong> — Kills all life stages in a single full-day treatment; effective even in difficult-to-reach harborage areas; requires minimal preparation from the homeowner.</li>
                 <li><strong>Non-repellent gel baiting</strong> — Worker bed bugs consume bait and share the active ingredient with the colony, eventually eliminating the entire population including the queen; slower than heat but more affordable for early-stage infestations.</li>
-                <li><strong>Residual spray application</strong> — NJDEP-approved insecticides applied to baseboards, bed frames, furniture cracks, and electrical outlets; multiple applications spaced 2 weeks apart; workers contact treated surfaces and bring the active ingredient back to the colony.</li>
+                <li><strong>Residual spray application</strong> — EPA-registered insecticides applied to baseboards, bed frames, furniture cracks, and electrical outlets; multiple applications spaced 2 weeks apart; workers contact treated surfaces and bring the active ingredient back to the colony.</li>
                 <li><strong>Multi-unit coordination</strong> — For rowhouses and apartment buildings throughout Collingswood, Pennsauken, and Lindenwold, simultaneous treatment of all affected units prevents re-infestation from neighboring units; we work with landlords and property managers to ensure compliance with NJ bed bug disclosure law (N.J.S.A. 46:8-50).</li>
               </ul>
             </div>
@@ -344,7 +344,7 @@ export default function BedBugExterminator() {
                 <div className="bg-[#DD6B20] text-white font-bold rounded-full w-10 h-10 flex items-center justify-center shrink-0">3</div>
                 <div>
                   <h3 className="text-lg font-semibold text-[#1A365D]">Professional Treatment</h3>
-                  <p className="text-gray-700">Our technician carries out the treatment using professional-grade equipment and NJDEP-approved products. We provide detailed preparation instructions before treatment and safety guidelines for re-entry afterward.</p>
+                  <p className="text-gray-700">Our technician carries out the treatment using professional-grade equipment and EPA-registered products. We provide detailed preparation instructions before treatment and safety guidelines for re-entry afterward.</p>
                 </div>
               </div>
               <div className="flex gap-4 items-start">
@@ -511,7 +511,7 @@ export default function BedBugExterminator() {
                       name: 'What is the difference between heat treatment and chemical treatment for bed bugs?',
                       acceptedAnswer: {
                         '@type': 'Answer',
-                        text: 'Heat treatment raises room temperatures to 120-135°F, killing all life stages in a single session. Chemical treatment uses NJDEP-approved insecticides in 2-3 visits. Heat is faster and more thorough; chemical is more affordable for small infestations.',
+                        text: 'Heat treatment raises room temperatures to 120-135°F, killing all life stages in a single session. Chemical treatment uses EPA-registered insecticides in 2-3 visits. Heat is faster and more thorough; chemical is more affordable for small infestations.',
                       },
                     },
                     {
