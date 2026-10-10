@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 
 const WHY_US = [
   { icon: '⚡', title: 'Same-Day Service', body: 'Many jobs booked and treated the same day you call — no waiting around for a pest problem to get worse.' },
-  { icon: '✅', title: 'Licensed & Insured', body: 'Fully licensed in New Jersey. Every technician is background-checked and trained for safe, effective treatments.' },
+  { icon: '✅', title: 'Licensed & Insured', body: 'Fully licensed in New Jersey. Every technician is background-checked and trained for effective treatments.' },
   { icon: '🔒', title: 'Discreet Visits', body: 'Unmarked vehicles available on request. We respect your privacy and your neighbors\' curiosity.' },
   { icon: '💯', title: 'Professional Workmanship', body: 'NJDEP-licensed technicians committed to doing the job right the first time.' },
   { icon: '📞', title: 'Real People Answer', body: 'Call or submit this form and a real person follows up — usually within minutes during business hours.' },

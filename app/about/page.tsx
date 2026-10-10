@@ -63,11 +63,6 @@ export default function AboutPage() {
               every treatment.
             </li>
             <li>
-              <strong>Safe for the whole household:</strong> Every product we bring into your home
-              is vetted for safety around kids and pets. We&apos;ll explain what&apos;s being applied,
-              where it goes, and when it&apos;s safe to resume normal activity.
-            </li>
-            <li>
               <strong>Rapid response times:</strong> Because we&apos;re based in Camden County —
               not a distant warehouse — we frequently offer same-day visits. When you discover
               a wasp nest above the back door, you shouldn&apos;t have to wait until next week.

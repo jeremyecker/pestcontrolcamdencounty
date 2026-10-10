@@ -30,7 +30,7 @@ const FAQS = [
   },
   {
     q: "Do I need to leave my home during ant treatment?",
-    a: "No — for most ant treatments you can stay home. We use targeted applications that are safe once dry. Our technicians will advise you on any specific precautions.",
+    a: "No — for most ant treatments you can stay home. We use targeted applications; treated areas are clear to re-enter once dry. Our technicians will advise you on any specific precautions.",
   },
   {
     q: "How do I prevent ants from coming back?",
