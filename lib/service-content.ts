@@ -407,6 +407,6 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
       'Remove old nests promptly outside of protected nesting periods',
       'Consider ongoing bird management contracts for commercial properties',
     ],
-    whyPro: 'Effective bird control requires species identification, knowledge of federal migratory bird laws, and experience with commercial-grade deterrent systems installed at height. Improper deterrent placement wastes money and fails to solve the problem. Our Camden County bird control technicians design and install proven systems backed by warranties, ensuring long-term results.',
+    whyPro: 'Effective bird control requires species identification, knowledge of federal migratory bird laws, and experience with commercial-grade deterrent systems installed at height. Improper deterrent placement wastes money and fails to solve the problem. Our Camden County bird control technicians design and install proven systems backed by a service agreement, designed for long-term results.',
   },
 };

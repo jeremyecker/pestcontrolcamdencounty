@@ -14,7 +14,7 @@ const SERVICES_MAP: Record<string, ServiceConfig> = {
   'bed-bug-treatment': {
     label: 'Bed Bug Treatment', h1Prefix: 'Free Bed Bug Treatment Quote in',
     pricing: '$1,200\u2013$4,500', pricingNote: 'heat or chemical treatment',
-    intro: (town) => `Bed bugs are one of the most stressful infestations \u2014 but they\u2019re 100% treatable. Our technicians — licensed or working under the direct supervision of a licensed applicator — serve ${town} with proven heat and chemical treatment options, delivered by NJDEP-licensed technicians.`,
+    intro: (town) => `Bed bugs are one of the most stressful infestations \u2014 but they\u2019re treatable. Our technicians — licensed or working under the direct supervision of a licensed applicator — serve ${town} with proven heat and chemical treatment options, delivered by NJDEP-licensed technicians.`,
     faqs: [
       { q: 'How much does bed bug treatment cost in Camden County?', a: 'Bed bug treatment ranges from $1,200\u2013$4,500 depending on home size and the method used. We provide a free phone assessment and a detailed quote before any work begins.' },
       { q: 'Heat treatment vs. chemical \u2014 which is better?', a: 'Heat treatment reaches 120\u00b0F+ and kills all life stages in one visit. Chemical treatment uses EPA-registered pesticides over 1\u20132 visits. We recommend the best fit after your inspection.' },
@@ -36,7 +36,7 @@ const SERVICES_MAP: Record<string, ServiceConfig> = {
   'rodent-control': {
     label: 'Rodent Control', h1Prefix: 'Free Rodent Control Quote in',
     pricing: '$300\u2013$450', pricingNote: 'removal + exclusion included',
-    intro: (town) => `Mice and rats seek warmth in Camden County homes every fall \u2014 especially in ${town}. Our rodent control service includes removal, exclusion (sealing entry points), and a follow-up inspection to keep them out for good.`,
+    intro: (town) => `Mice and rats seek warmth in Camden County homes every fall \u2014 especially in ${town}. Our rodent control service includes removal, exclusion (sealing entry points), and a follow-up inspection to keep them out.`,
     faqs: [
       { q: 'How much does rodent control cost in Camden County?', a: 'Rodent control in Camden County runs $300\u2013$450 and includes both removal and exclusion work \u2014 sealing the entry points mice and rats use to get inside.' },
       { q: 'How do mice get into homes?', a: 'Mice can squeeze through gaps as small as a dime. Common entry points include gaps around pipes, foundation cracks, dryer vents, and gaps under doors. Our exclusion service seals all of these.' },

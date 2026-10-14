@@ -69,7 +69,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: 'cockroach-control-cherry-hill-nj',
     title: 'Cockroach Control in Cherry Hill, NJ: Signs, Causes & Solutions',
-    excerpt: 'Cockroaches in Cherry Hill and across Camden County are more than a nuisance. Discover the warning signs, what attracts them, and how professional treatment eliminates infestations for good.',
+    excerpt: 'Cockroaches in Cherry Hill and across Camden County are more than a nuisance. Discover the warning signs, what attracts them, and how professional treatment eliminates infestations.',
     date: '2025-03-05',
     category: 'Cockroaches',
     readTime: '5 min read',
@@ -99,7 +99,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <h2>The Professional Treatment Process</h2>
 <p>Effective cockroach control in Cherry Hill and across Camden County requires inspection to identify all harborage zones, targeted gel bait application in cracks and crevices, insecticidal dust treatment in wall voids, and follow-up visits to confirm the colony has collapsed. Sanitation and moisture corrections made during treatment prevent re-infestation.</p>
 
-<p>If you are seeing cockroaches in your Cherry Hill, Voorhees, or Haddon Township home, do not wait for the problem to grow. Call Camden County Pest Control at <strong>(856) 600-0812</strong> for a thorough inspection and a treatment plan designed to clear your home of cockroaches for good.</p>`,
+<p>If you are seeing cockroaches in your Cherry Hill, Voorhees, or Haddon Township home, do not wait for the problem to grow. Call Camden County Pest Control at <strong>(856) 600-0812</strong> for a thorough inspection and a treatment plan designed to clear your home of cockroaches.</p>`,
   },
   {
     slug: 'rodent-proofing-camden-county-winter',

@@ -202,7 +202,7 @@ export default function PestControlNearMe() {
             <div className="flex gap-3 items-start">
               <span className="text-[#DD6B20] font-bold text-xl">→</span>
               <div>
-                <strong className="text-[#1A365D]">Clear Pricing and Guarantee:</strong>{' '}
+                <strong className="text-[#1A365D]">Clear Pricing and Service Agreement:</strong>{' '}
                 <span className="text-gray-700">Never agree to pest control service without a clear price up front. A professional company explains the treatment plan clearly and stands behind the work with a warranty.</span>
               </div>
             </div>

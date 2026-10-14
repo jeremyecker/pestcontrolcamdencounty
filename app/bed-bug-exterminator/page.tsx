@@ -185,7 +185,7 @@ export default function BedBugExterminator() {
               <div className="bg-blue-50 rounded-xl p-6">
                 <h3 className="text-xl font-semibold text-[#1A365D] mb-3">🌡️ Heat Treatment</h3>
                 <ul className="text-gray-700 space-y-2 text-sm">
-                  <li><strong>How it works:</strong> Professional heat equipment raises all infested rooms to 120-135°F, killing bed bugs and eggs at every hiding location in a single treatment session.</li>
+                  <li><strong>How it works:</strong> Professional heat equipment raises all infested rooms to 120-135°F, killing bed bugs and eggs in their hiding locations, typically in a single treatment session.</li>
                   <li><strong>One-day elimination:</strong> No need for multiple visits — all life stages are killed in one treatment.</li>
                   
                   <li><strong>Penetrates everything:</strong> Heat reaches inside walls, mattresses, electronics, and furniture where sprays cannot.</li>
@@ -224,7 +224,6 @@ export default function BedBugExterminator() {
               <h3 className="text-xl font-bold text-[#1A365D] mt-6 mb-3">How We Treat Bed Bugs in Camden County</h3>
               <ul className="text-gray-700 space-y-3 mb-4">
                 <li><strong>Heat treatment (120-135°F)</strong> — Kills all life stages in a single full-day treatment; effective even in difficult-to-reach harborage areas; requires minimal preparation from the homeowner.</li>
-                <li><strong>Non-repellent gel baiting</strong> — Worker bed bugs consume bait and share the active ingredient with the colony, eventually eliminating the entire population including the queen; slower than heat but more affordable for early-stage infestations.</li>
                 <li><strong>Residual spray application</strong> — EPA-registered insecticides applied to baseboards, bed frames, furniture cracks, and electrical outlets; multiple applications spaced 2 weeks apart; workers contact treated surfaces and bring the active ingredient back to the colony.</li>
                 <li><strong>Multi-unit coordination</strong> — For rowhouses and apartment buildings throughout Collingswood, Pennsauken, and Lindenwold, simultaneous treatment of all affected units prevents re-infestation from neighboring units; we work with landlords and property managers to ensure compliance with NJ bed bug disclosure law (N.J.S.A. 46:8-50).</li>
               </ul>
@@ -238,7 +237,7 @@ export default function BedBugExterminator() {
               {[
                 { q: 'Why are bed bugs more common in multi-unit housing in Camden County?', a: 'Bed bugs easily travel between units through shared wall voids, electrical conduits, and pipe chases. In rowhouses and apartment complexes throughout Collingswood and Pennsauken, a single untreated unit can serve as a source for adjacent units. Professional treatment must coordinate across multiple units to be effective.' },
                 { q: 'How do I protect my Camden County home from bed bugs while traveling?', a: 'Inspect your luggage and belongings before returning home from travel. Keep suitcases off bedroom floors. Immediately wash all travel clothing in hot water and dry on high heat. Inspect hotel mattresses and furniture before placing your belongings on them. Keep luggage in the bathtub (an island protected from bed bug access) while staying in hotels.' },
-                { q: 'Can I treat bed bugs myself with over-the-counter products in NJ?', a: 'Over-the-counter bed bug sprays are generally ineffective and often counterproductive — they scatter bed bugs deeper into walls without reaching the colony. Professional NJDEP-licensed treatment is far more likely to achieve complete elimination. Early professional treatment is more cost-effective than months of failed DIY attempts.' },
+                { q: 'Can I treat bed bugs myself with over-the-counter products in NJ?', a: 'Over-the-counter bed bug sprays are generally ineffective and often counterproductive — they scatter bed bugs deeper into walls without reaching the colony. Professional NJDEP-licensed treatment is far more likely to eliminate the infestation. Early professional treatment is more cost-effective than months of failed DIY attempts.' },
               ].map((faq, i) => (
                 <div key={i} className="border border-gray-200 rounded-lg p-5 bg-white">
                   <h3 className="font-bold text-gray-900 mb-2">{faq.q}</h3>
@@ -337,7 +336,7 @@ export default function BedBugExterminator() {
                 <div className="bg-[#DD6B20] text-white font-bold rounded-full w-10 h-10 flex items-center justify-center shrink-0">2</div>
                 <div>
                   <h3 className="text-lg font-semibold text-[#1A365D]">Treatment Recommendation</h3>
-                  <p className="text-gray-700">Based on the inspection, we recommend the most effective treatment approach — heat, chemical, or combination — and provide a clear price verbally. No work begins until you approve the plan and price.</p>
+                  <p className="text-gray-700">Based on the inspection, we recommend an effective treatment approach — heat, chemical, or combination — and provide a clear price verbally. No work begins until you approve the plan and price.</p>
                 </div>
               </div>
               <div className="flex gap-4 items-start">
