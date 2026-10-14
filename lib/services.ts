@@ -31,7 +31,7 @@ export function getServiceDescription(slug: string): string {
     'bed-bug-removal':
       'Complete bed bug removal services in Camden County. Our heat treatment and chemical solutions eliminate bed bugs at every life stage for proven results.',
     'rodent-control':
-      'Effective rodent control for mice and rats in Camden County homes and businesses. We provide trapping, exclusion, and prevention services to keep rodents out for good.',
+      'Effective rodent control for mice and rats in Camden County homes and businesses. We provide trapping, exclusion, and prevention services to keep rodents out.',
     'cockroach-control':
       'Professional cockroach extermination in Camden County. We treat German cockroaches, American cockroaches, and Oriental cockroaches with targeted treatments that work.',
     'mosquito-control':

@@ -46,7 +46,7 @@ export const BLOG_POSTS_WAVE6: BlogPost[] = [
 
 <p>Second, preparation requirements overlap significantly. Both ant and bed bug treatments benefit from decluttering, moving furniture away from walls, and ensuring access to baseboards and corners. Completing this preparation once for a combination service is far less burdensome than preparing twice for separate treatments.</p>
 
-<p>Third, the treatment timing works synergistically. Ant treatments applied in early May intercept colonies during their expansion phase, preventing establishment of satellite nests that would require additional treatment later in summer. Bed bug treatments conducted before populations explode with warmer weather are more likely to achieve complete elimination with fewer follow-up visits.</p>
+<p>Third, the treatment timing works synergistically. Ant treatments applied in early May intercept colonies during their expansion phase, preventing establishment of satellite nests that would require additional treatment later in summer. Bed bug treatments conducted before populations explode with warmer weather are more likely to eliminate the infestation with fewer follow-up visits.</p>
 
 <p>For Bellmawr and Gloucester Township homeowners managing tight budgets, combination treatments also offer cost efficiencies. Service calls carry baseline costs regardless of which pests are being treated, so addressing multiple pest pressures in a single visit reduces overall expense compared to separate treatments.</p>
 

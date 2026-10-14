@@ -38,7 +38,7 @@ export default function ThankYouPage() {
               <div className="text-4xl mb-4">📋</div>
               <h3 className="font-bold text-lg mb-2 text-gray-900">1. We Review Your Request</h3>
               <p className="text-gray-600">
-                Our team reviews every inquiry personally to understand your pest situation and provide the best solution.
+                Our team reviews every inquiry personally to understand your pest situation and provide an effective solution.
               </p>
             </div>
             <div className="text-center">

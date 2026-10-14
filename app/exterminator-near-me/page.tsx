@@ -248,7 +248,7 @@ export default function ExterminatorNearMe() {
               </p>
             </div>
             <div className="border-l-4 border-[#DD6B20] pl-6">
-              <h3 className="text-xl font-semibold text-[#1A365D] mb-2">6. Follow-Up &amp; Guarantee</h3>
+              <h3 className="text-xl font-semibold text-[#1A365D] mb-2">6. Follow-Up &amp; Service Agreement</h3>
               <p className="text-gray-700">
                 Most treatments include one or more follow-up visits to monitor results, re-treat if necessary, and
                 confirm the infestation is fully resolved. Our NJDEP-licensed technicians take pride in completing every job thoroughly.
@@ -395,7 +395,7 @@ export default function ExterminatorNearMe() {
             <Link href="/camden-county/mount-laurel" className="text-[#2B6CB0] hover:underline">Mount Laurel</Link>, and{' '}
             <Link href="/camden-county/marlton" className="text-[#2B6CB0] hover:underline">Marlton</Link> create
             ideal habitat for wildlife, ticks, and mosquitoes. Our local knowledge means we arrive at your door already
-            knowing the most likely pests and the most effective treatment strategies for your specific neighborhood.
+            knowing the most likely pests and effective treatment strategies for your specific neighborhood.
           </p>
         </section>
 
@@ -422,7 +422,7 @@ export default function ExterminatorNearMe() {
                 companies practice Integrated Pest Management (IPM), which includes inspection, accurate species
                 identification, targeted treatment, exclusion work, and ongoing prevention. Camden County Pest Control
                 combines the decisive action of extermination with the thoroughness of full IPM — giving you both
-                immediate results and long-term protection.
+                results that typically begin right away and long-term protection.
               </p>
             </div>
             <div className="border-b border-gray-200 pb-6">
@@ -586,7 +586,7 @@ export default function ExterminatorNearMe() {
                     name: 'What is the difference between an exterminator and a pest control company?',
                     acceptedAnswer: {
                       '@type': 'Answer',
-                      text: "Traditionally, an exterminator focused on killing pests through chemical application. Modern pest control companies practice Integrated Pest Management (IPM), which includes inspection, accurate species identification, targeted treatment, exclusion work, and ongoing prevention. Camden County Pest Control combines the decisive action of extermination with the thoroughness of full IPM — giving you both immediate results and long-term protection.",
+                      text: "Traditionally, an exterminator focused on killing pests through chemical application. Modern pest control companies practice Integrated Pest Management (IPM), which includes inspection, accurate species identification, targeted treatment, exclusion work, and ongoing prevention. Camden County Pest Control combines the decisive action of extermination with the thoroughness of full IPM — giving you both results that typically begin right away and long-term protection.",
                     },
                   },
                   {
