@@ -208,7 +208,7 @@ export default async function ServiceTownPage({ params }: { params: Promise<{ re
             <li><Link href="/pest-control-near-me/" className="text-brand-primary hover:underline">Pest Control Near Me — Camden County</Link></li>
             <li><Link href="/exterminator-near-me/" className="text-brand-primary hover:underline">Exterminator Near Me — Camden County NJ</Link></li>
             <li><Link href={`/camden-county/${townSlug}/`} className="text-brand-primary hover:underline">General Pest Control in {town.name}</Link></li>
-            <li><Link href="/termite-inspection/" className="text-brand-primary hover:underline">Free Termite Inspection — South Jersey</Link></li>
+            <li><Link href="/termite-inspection/" className="text-brand-primary hover:underline">Free Termite Estimate — South Jersey</Link></li>
           </ul>
         </div>
 

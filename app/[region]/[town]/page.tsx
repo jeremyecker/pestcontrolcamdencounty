@@ -199,7 +199,7 @@ export default async function TownPage({ params }: { params: Promise<{ region: s
           <ul className="space-y-2 text-sm">
             <li><Link href="/pest-control-near-me/" className="text-brand-primary hover:underline">Pest Control Near Me — Camden County</Link></li>
             <li><Link href="/exterminator-near-me/" className="text-brand-primary hover:underline">Exterminator Near Me — Camden County NJ</Link></li>
-            <li><Link href="/termite-inspection/" className="text-brand-primary hover:underline">Free Termite Inspection — South Jersey</Link></li>
+            <li><Link href="/termite-inspection/" className="text-brand-primary hover:underline">Free Termite Estimate — South Jersey</Link></li>
             <li><Link href="/same-day-pest-control/" className="text-brand-primary hover:underline">Same Day Pest Control — Camden County</Link></li>
           </ul>
         </div>
