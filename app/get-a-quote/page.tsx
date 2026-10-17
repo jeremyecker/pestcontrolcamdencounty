@@ -183,7 +183,7 @@ export default function GetAQuotePage() {
 
       {/* Bottom CTA */}
       <section className="bg-[#1A365D] py-14 px-4 text-center text-white">
-        <h2 className="text-3xl font-bold mb-3">Ready to Get Rid of Pests for Good?</h2>
+        <h2 className="text-3xl font-bold mb-3">Ready to Get Rid of Pests?</h2>
         <p className="text-blue-200 mb-6">
           Call now or submit the form above — same-day service available throughout Camden County.
         </p>
