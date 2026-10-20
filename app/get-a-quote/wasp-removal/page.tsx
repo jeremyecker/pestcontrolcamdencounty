@@ -6,11 +6,11 @@ export const metadata: Metadata = {
   robots: { index: false, follow: true },
   title: { absolute: 'Free Wasp & Hornet Removal Quote | Camden County, NJ' },
   description:
-    'Licensed wasp & hornet exterminators in Camden County, NJ. Safe nest removal — same-day service available. Free quote.',
+    'Licensed wasp & hornet exterminators in Camden County, NJ. Nest removal — same-day service available. Free quote.',
   alternates: { canonical: `${SITE_URL}/get-a-quote/wasp-removal/` },
   openGraph: {
     title: 'Free Wasp & Hornet Removal Quote | Camden County, NJ',
-    description: 'Licensed wasp & hornet exterminators in Camden County, NJ. Safe nest removal — same-day service available. Free quote.',
+    description: 'Licensed wasp & hornet exterminators in Camden County, NJ. Nest removal — same-day service available. Free quote.',
     url: `${SITE_URL}/get-a-quote/wasp-removal/`,
   },
 };
