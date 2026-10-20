@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 const FAQS = [
   {
     q: "What types of termite treatment do you offer?",
-    a: "We offer liquid barrier treatment which creates a protection zone around your home's foundation, and bait station systems which eliminate the colony over time. We'll recommend the best option after a free phone assessment.",
+    a: "We offer liquid barrier treatment which creates a protection zone around your home's foundation, and bait station systems which eliminate the colony over time. We'll recommend a treatment option after a free phone assessment.",
   },
   {
     q: "How much does termite treatment cost in Camden County?",
