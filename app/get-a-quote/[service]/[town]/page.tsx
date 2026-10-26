@@ -84,7 +84,7 @@ const SERVICES_MAP: Record<string, ServiceConfig> = {
     faqs: [
       { q: 'How much does termite treatment cost in Camden County?', a: 'Termite treatment in Camden County runs $800\u2013$2,500 depending on your home\u2019s size, construction type, and infestation level. We include a free phone assessment before any quote.' },
       { q: 'What are signs of termites?', a: 'Common signs include mud tubes along foundation walls, hollow-sounding wood, discarded wings near windowsills, and frass (termite droppings) that resembles sawdust.' },
-      { q: 'Liquid treatment vs. bait stations \u2014 which is better?', a: 'Liquid termiticide creates a chemical barrier in the soil around your foundation. Bait stations use slow-acting bait that workers carry back to the colony. We recommend the best option based on your home.' },
+      { q: 'Liquid treatment vs. bait stations \u2014 which is better?', a: 'Liquid termiticide creates a chemical barrier in the soil around your foundation. Bait stations use slow-acting bait that workers carry back to the colony. We recommend a treatment option based on your home.' },
       { q: 'How long does termite treatment take?', a: 'Liquid treatments typically take 4\u20138 hours for a standard home. Bait station installation takes 2\u20133 hours, with ongoing monitoring visits every 3\u20136 months.' },
     ],
   },
