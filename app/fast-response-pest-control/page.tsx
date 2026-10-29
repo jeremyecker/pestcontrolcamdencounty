@@ -1,8 +1,10 @@
 import type { Metadata } from 'next';
+import { SITE_URL } from '@/site.config';
 import Link from 'next/link';
 import TrustBar from '@/components/sections/TrustBar';
 
 export const metadata: Metadata = {
+  alternates: { canonical: `${SITE_URL}/fast-response-pest-control/` },
   title: 'Fast Response Pest Control Camden County NJ | Same-Day Service',
   description:
     'Fast response pest control in Camden County NJ. Same-day service available for bed bugs, wasps, rodents, and other urgent pest situations. Call (856) 600-0812 now.',

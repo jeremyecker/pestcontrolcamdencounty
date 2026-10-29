@@ -1,4 +1,5 @@
 import { notFound } from 'next/navigation';
+import { SITE_URL } from '@/site.config';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getRegion } from '@/lib/regions';
@@ -10,6 +11,7 @@ export async function generateMetadata({ params }: { params: Promise<{ region: s
   const region = getRegion(regionSlug);
   if (!region) return {};
   return {
+    alternates: { canonical: `${SITE_URL}/${regionSlug}/services/` },
     title: `Pest Control Services in ${region.name}`,
     description: `Full pest control services for ${region.name} homeowners and businesses. ${region.pestContext}.`,
   };

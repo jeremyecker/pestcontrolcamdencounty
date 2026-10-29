@@ -1,8 +1,10 @@
 import type { Metadata } from 'next';
+import { SITE_URL } from '@/site.config';
 import Link from 'next/link';
 import TrustBar from '@/components/sections/TrustBar';
 
 export const metadata: Metadata = {
+  alternates: { canonical: `${SITE_URL}/commercial/` },
   title: 'Commercial Pest Control — Camden County, NJ | Licensed & Insured',
   description:
     'Professional commercial pest control for restaurants, offices, warehouses, healthcare, schools & more across Camden County, NJ. NJDEP-licensed. Call (856) 600-0812.',

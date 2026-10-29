@@ -1,10 +1,11 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import { REGIONS } from '@/hub.config';
-import { SITE_NAME, GEO } from '@/site.config';
+import { SITE_NAME, GEO, SITE_URL } from '@/site.config';
 import CTABanner from '@/components/sections/CTABanner';
 
 export const metadata: Metadata = {
+  alternates: { canonical: `${SITE_URL}/service-areas/` },
   title: 'All Service Areas',
   description: `${SITE_NAME} serves ${GEO.totalTowns}+ communities. Find your town.`,
 };

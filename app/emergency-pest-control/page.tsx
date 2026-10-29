@@ -1,10 +1,12 @@
 import type { Metadata } from 'next';
+import { SITE_URL } from '@/site.config';
 import Link from 'next/link';
 import { BRAND, REGIONS } from '@/hub.config';
 import { SERVICES } from '@/lib/services';
 import TrustBar from '@/components/sections/TrustBar';
 
 export const metadata: Metadata = {
+  alternates: { canonical: `${SITE_URL}/emergency-pest-control/` },
   title: 'Emergency Pest Control Camden County NJ | 24/7 Response',
   description:
     'Emergency pest control in Camden County NJ. Same-day response for bed bugs, wasps, rodents, and other urgent pest situations. Call (856) 600-0812 now.',

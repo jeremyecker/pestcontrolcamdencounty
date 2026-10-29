@@ -1,10 +1,12 @@
 import type { Metadata } from 'next';
+import { SITE_URL } from '@/site.config';
 import Link from 'next/link';
 import { BRAND, REGIONS } from '@/hub.config';
 import { SERVICES } from '@/lib/services';
 import TrustBar from '@/components/sections/TrustBar';
 
 export const metadata: Metadata = {
+  alternates: { canonical: `${SITE_URL}/same-day-pest-control/` },
   title: 'Same Day Pest Control Camden County NJ | Book Before Noon',
   description:
     'Same-day pest control in Camden County NJ. Call before noon for a same-day appointment in Cherry Hill, Voorhees, Haddon Heights, Haddon Township, Collingswood & all 16 towns. (856) 600-0812.',

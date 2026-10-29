@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { SITE_URL } from '@/site.config';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { BRAND, REGIONS } from '@/hub.config';
@@ -12,6 +13,7 @@ export async function generateMetadata({ params }: { params: Promise<{ region: s
   const { region } = await params;
   if (region !== 'camden-county') return {};
   return {
+    alternates: { canonical: `${SITE_URL}/${region}/${SERVICE_SLUG}/` },
     title: { absolute: `${SERVICE_NAME} in Camden County, NJ | ${BRAND.name}` },
     description: `Professional ${SERVICE_NAME.toLowerCase()} serving all 35 Camden County communities. ${SERVICE_DESC}. Licensed NJ exterminators. Call ${BRAND.phoneFormatted}.`,
     openGraph: {

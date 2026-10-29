@@ -1,8 +1,10 @@
 import type { Metadata } from 'next';
+import { SITE_URL } from '@/site.config';
 import Link from 'next/link';
 import TrustBar from '@/components/sections/TrustBar';
 
 export const metadata: Metadata = {
+  alternates: { canonical: `${SITE_URL}/commercial/property-management/` },
   title: 'Property Management Pest Control — Camden County, NJ | Multi-Unit Programs',
   description:
     'Pest control programs for property managers in Camden County NJ. Bed bug protocols, tenant notification compliance, recurring contracts for rental housing. Call (856) 600-0812.',

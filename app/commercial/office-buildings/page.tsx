@@ -1,8 +1,10 @@
 import type { Metadata } from 'next';
+import { SITE_URL } from '@/site.config';
 import Link from 'next/link';
 import TrustBar from '@/components/sections/TrustBar';
 
 export const metadata: Metadata = {
+  alternates: { canonical: `${SITE_URL}/commercial/office-buildings/` },
   title: 'Office Building Pest Control — Camden County, NJ | Discreet & Scheduled',
   description:
     'Professional pest control for office buildings, business parks & corporate campuses across Cherry Hill, Pennsauken & Camden County NJ. Quarterly contracts. Call (856) 600-0812.',

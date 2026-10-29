@@ -1,10 +1,12 @@
 import type { Metadata } from 'next';
+import { SITE_URL } from '@/site.config';
 import Link from 'next/link';
 import SeasonalAlert from '@/components/sections/SeasonalAlert';
 
 export const revalidate = 86400;
 
 export const metadata: Metadata = {
+  alternates: { canonical: `${SITE_URL}/bed-bug-exterminator/` },
   title: 'Bed Bug Exterminator Camden County NJ | Heat Treatment & Removal',
   description:
     'Professional bed bug exterminators serving Camden County, NJ. Heat treatment and chemical options, free phone assessment available. Call (856) 600-0812 for same-day response.',
