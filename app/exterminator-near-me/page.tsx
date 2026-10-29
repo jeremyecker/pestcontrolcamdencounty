@@ -1,10 +1,12 @@
 import type { Metadata } from 'next';
+import { SITE_URL } from '@/site.config';
 import Link from 'next/link';
 import { BRAND, REGIONS } from '@/hub.config';
 import { SERVICES } from '@/lib/services';
 import TrustBar from '@/components/sections/TrustBar';
 
 export const metadata: Metadata = {
+  alternates: { canonical: `${SITE_URL}/exterminator-near-me/` },
   title: 'Exterminator Near Me in Camden County NJ | Licensed & Insured',
   description:
     'Looking for licensed exterminators near you in Camden County NJ? NJDEP-licensed & insured serving Cherry Hill, Voorhees, Haddonfield & more. Call (856) 600-0812.',
