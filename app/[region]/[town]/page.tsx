@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
+import { SITE_URL } from '@/site.config';
 import Link from 'next/link';
 import { getRegion } from '@/lib/regions';
 import { BRAND, SERVICE_TOWN_ROUTES } from '@/hub.config';
@@ -13,6 +14,9 @@ export async function generateMetadata({ params }: { params: Promise<{ region: s
   if (!region) return {};
   const townName = townSlug.replace(/-/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase());
   return {
+    ...(regionSlug === 'camden-county' && townSlug === 'cherry-hill'
+      ? { alternates: { canonical: `${SITE_URL}/camden-county/cherry-hill/` } }
+      : {}),
     title: `Pest Control in ${townName}, NJ`,
     description: `Licensed pest control in ${townName}, NJ. Termites, rodents, ants, cockroaches & more. Same-day service available. Call ${BRAND.phoneFormatted}.`,
     openGraph: {

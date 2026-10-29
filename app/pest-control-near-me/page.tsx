@@ -1,10 +1,12 @@
 import type { Metadata } from 'next';
+import { SITE_URL } from '@/site.config';
 import Link from 'next/link';
 import { BRAND, REGIONS } from '@/hub.config';
 import { SERVICES } from '@/lib/services';
 import TrustBar from '@/components/sections/TrustBar';
 
 export const metadata: Metadata = {
+  alternates: { canonical: `${SITE_URL}/pest-control-near-me/` },
   title: 'Pest Control Near Me in Camden County NJ | Same-Day Service',
   description:
     'Searching for pest control near me in Camden County? Local, licensed exterminators serving Cherry Hill, Voorhees, Haddonfield & all 16 towns. Call (856) 600-0812 for a free estimate.',
