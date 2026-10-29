@@ -1,8 +1,10 @@
 import type { Metadata } from 'next';
+import { SITE_URL } from '@/site.config';
 import Link from 'next/link';
 import TrustBar from '@/components/sections/TrustBar';
 
 export const metadata: Metadata = {
+  alternates: { canonical: `${SITE_URL}/commercial/retail/` },
   title: 'Retail Pest Control — Camden County, NJ | Cherry Hill Mall & Shopping Centers',
   description:
     'Professional pest control for retail stores, shopping centers & malls across Camden County NJ. Cherry Hill Mall, Voorhees Town Center, Marlton Crossing & more. Call (856) 600-0812.',

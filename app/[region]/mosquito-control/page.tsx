@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { SITE_URL } from '@/site.config';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { BRAND, REGIONS } from '@/hub.config';
@@ -11,6 +12,7 @@ export async function generateMetadata({ params }: { params: Promise<{ region: s
   const { region } = await params;
   if (region !== 'camden-county') return {};
   return {
+    alternates: { canonical: `${SITE_URL}/${region}/${SERVICE_SLUG}/` },
     title: { absolute: 'Mosquito Control Camden County, NJ | Camden County Pest Control' },
     description: `Professional mosquito yard treatment for Camden County NJ. Cherry Hill, Voorhees, Pennsauken, Haddonfield. Monthly barrier spray programs. Same-week scheduling. Call ${BRAND.phoneFormatted}.`,
     openGraph: {

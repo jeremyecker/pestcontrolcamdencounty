@@ -1,8 +1,10 @@
 import type { Metadata } from 'next';
+import { SITE_URL } from '@/site.config';
 import Link from 'next/link';
 import TrustBar from '@/components/sections/TrustBar';
 
 export const metadata: Metadata = {
+  alternates: { canonical: `${SITE_URL}/commercial/schools/` },
   title: 'School Pest Control — Camden County, NJ | NJ IPM Act Compliant',
   description:
     'NJ IPM Act-compliant pest control for public and private schools across Camden County NJ. Parent notification, summer treatments, Cherry Hill, Camden City & Voorhees schools. Call (856) 600-0812.',

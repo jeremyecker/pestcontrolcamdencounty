@@ -1,4 +1,5 @@
 import { notFound } from 'next/navigation';
+import { SITE_URL } from '@/site.config';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getRegion } from '@/lib/regions';
@@ -9,6 +10,7 @@ export async function generateMetadata({ params }: { params: Promise<{ region: s
   const region = getRegion(regionSlug);
   if (!region) return {};
   return {
+    alternates: { canonical: `${SITE_URL}/${regionSlug}/service-areas/` },
     title: `Service Areas in ${region.name}`,
     description: `${BRAND.name} serves all towns across ${region.name}. Find your town below.`,
   };

@@ -55,13 +55,11 @@ const TOWNS = [
 ];
 
 export async function generateMetadata({ params }: { params: Promise<{ region: string; town: string }> }): Promise<Metadata> {
-  const { town: townSlug } = await params;
+  const { region, town: townSlug } = await params;
   const town = TOWNS.find(t => t.slug === townSlug);
   if (!town) return {};
   return {
-    ...(townSlug === 'cherry-hill'
-      ? { alternates: { canonical: `${SITE_URL}/camden-county/${SERVICE_SLUG}/cherry-hill/` } }
-      : {}),
+    alternates: { canonical: `${SITE_URL}/${region}/${SERVICE_SLUG}/${town.slug}/` },
     title: { absolute: `${SERVICE_NAME} in ${town.name}, NJ | Camden County Pest Control` },
     description: `Professional ${SERVICE_NAME.toLowerCase()} in ${town.name}, NJ. ${SERVICE_DESC}. Licensed NJ exterminators. Call ${BRAND.phoneFormatted}.`,
     openGraph: {

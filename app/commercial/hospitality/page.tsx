@@ -1,8 +1,10 @@
 import type { Metadata } from 'next';
+import { SITE_URL } from '@/site.config';
 import Link from 'next/link';
 import TrustBar from '@/components/sections/TrustBar';
 
 export const metadata: Metadata = {
+  alternates: { canonical: `${SITE_URL}/commercial/hospitality/` },
   title: 'Hotel Pest Control — Camden County, NJ | Bed Bug Prevention Programs',
   description:
     'Bed bug prevention, guest room inspection protocols & fast-response pest control for hotels along Route 70/38 in Cherry Hill & Camden County NJ. Call (856) 600-0812.',

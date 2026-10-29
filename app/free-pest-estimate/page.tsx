@@ -1,8 +1,10 @@
 import type { Metadata } from 'next';
+import { SITE_URL } from '@/site.config';
 import Link from 'next/link';
 import TrustBar from '@/components/sections/TrustBar';
 
 export const metadata: Metadata = {
+  alternates: { canonical: `${SITE_URL}/free-pest-estimate/` },
   robots: { index: false, follow: true },
   title: 'Free Pest Estimate | Camden County, NJ',
   description:

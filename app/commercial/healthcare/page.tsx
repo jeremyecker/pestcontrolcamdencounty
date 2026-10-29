@@ -1,8 +1,10 @@
 import type { Metadata } from 'next';
+import { SITE_URL } from '@/site.config';
 import Link from 'next/link';
 import TrustBar from '@/components/sections/TrustBar';
 
 export const metadata: Metadata = {
+  alternates: { canonical: `${SITE_URL}/commercial/healthcare/` },
   title: 'Healthcare Pest Control — Camden County, NJ | Zero-Tolerance IPM',
   description:
     'JCAHO-compliant, zero-tolerance pest control for hospitals, urgent care centers & medical offices in Cherry Hill, Voorhees & Camden County NJ. Call (856) 600-0812.',

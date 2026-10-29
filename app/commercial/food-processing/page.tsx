@@ -1,8 +1,10 @@
 import type { Metadata } from 'next';
+import { SITE_URL } from '@/site.config';
 import Link from 'next/link';
 import TrustBar from '@/components/sections/TrustBar';
 
 export const metadata: Metadata = {
+  alternates: { canonical: `${SITE_URL}/commercial/food-processing/` },
   title: 'Food Processing Pest Control — Camden County, NJ | FDA/FSMA Compliant',
   description:
     "FDA/FSMA-compliant pest control for food processing facilities in Pennsauken & Camden County NJ. HACCP support, zero-tolerance programs. Call (856) 600-0812.",

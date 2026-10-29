@@ -1,8 +1,10 @@
 import type { Metadata } from 'next';
+import { SITE_URL } from '@/site.config';
 import Link from 'next/link';
 import TrustBar from '@/components/sections/TrustBar';
 
 export const metadata: Metadata = {
+  alternates: { canonical: `${SITE_URL}/commercial/warehouses/` },
   title: 'Warehouse Pest Control — Camden County, NJ | Rodent Exclusion Specialists',
   description:
     'Rodent exclusion, dock door sealing & comprehensive pest control for warehouses in Pennsauken Industrial Park, Gloucester City port & Winslow Township. Call (856) 600-0812.',

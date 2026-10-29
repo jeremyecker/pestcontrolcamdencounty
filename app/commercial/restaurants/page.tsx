@@ -1,8 +1,10 @@
 import type { Metadata } from 'next';
+import { SITE_URL } from '@/site.config';
 import Link from 'next/link';
 import TrustBar from '@/components/sections/TrustBar';
 
 export const metadata: Metadata = {
+  alternates: { canonical: `${SITE_URL}/commercial/restaurants/` },
   title: 'Restaurant Pest Control — Camden County, NJ | Health Code Compliant',
   description:
     'NJ Health Code-compliant restaurant pest control for Cherry Hill, Voorhees & all of Camden County. IPM programs, cockroach & rodent control, health inspection prep. Call (856) 600-0812.',

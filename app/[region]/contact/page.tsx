@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { getRegion, getRegionGMB } from '@/lib/regions';
-import { SITE_NAME, PHONE, PHONE_HREF, REGIONS, HOURS } from '@/site.config';
+import { SITE_NAME, PHONE, PHONE_HREF, REGIONS, HOURS, SITE_URL } from '@/site.config';
 import LeadForm from '@/components/forms/LeadForm';
 
 export async function generateMetadata({ params }: { params: Promise<{ region: string }> }): Promise<Metadata> {
@@ -9,6 +9,7 @@ export async function generateMetadata({ params }: { params: Promise<{ region: s
   const region = getRegion(regionSlug);
   if (!region) return {};
   return {
+    alternates: { canonical: `${SITE_URL}/${regionSlug}/contact/` },
     title: `Contact Us — ${region.name} Pest Control`,
     description: `Get a free estimate in ${region.name}. Call or fill out our form — fast response, no pressure.`,
   };

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { SITE_URL } from '@/site.config';
 import Link from 'next/link';
 import TrustBar from '@/components/sections/TrustBar';
 import SeasonalAlert from '@/components/sections/SeasonalAlert';
@@ -6,6 +7,7 @@ import SeasonalAlert from '@/components/sections/SeasonalAlert';
 export const revalidate = 86400;
 
 export const metadata: Metadata = {
+  alternates: { canonical: `${SITE_URL}/termite-inspection/` },
   title: 'Termite Inspection Camden County NJ | Free Phone Assessment',
   description:
     'Free phone assessment for Camden County homeowners. Call (856) 600-0812 — no obligation, no pressure. Get answers by phone today.',

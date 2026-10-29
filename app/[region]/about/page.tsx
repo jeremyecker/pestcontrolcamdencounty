@@ -1,4 +1,5 @@
 import { notFound } from 'next/navigation';
+import { SITE_URL } from '@/site.config';
 import type { Metadata } from 'next';
 import { getRegion } from '@/lib/regions';
 import { BRAND } from '@/hub.config';
@@ -9,6 +10,7 @@ export async function generateMetadata({ params }: { params: Promise<{ region: s
   const region = getRegion(regionSlug);
   if (!region) return {};
   return {
+    alternates: { canonical: `${SITE_URL}/${regionSlug}/about/` },
     title: `About Us — ${region.name}`,
     description: `Learn about ${BRAND.name} and our commitment to pest-free ${region.name} homes.`,
   };
