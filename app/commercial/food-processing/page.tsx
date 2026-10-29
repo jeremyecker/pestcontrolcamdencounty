@@ -5,7 +5,7 @@ import TrustBar from '@/components/sections/TrustBar';
 export const metadata: Metadata = {
   title: 'Food Processing Pest Control — Camden County, NJ | FDA/FSMA Compliant',
   description:
-    'FDA/FSMA-compliant pest control for food processing facilities in Pennsauken & Camden County NJ. HACCP support, zero-tolerance programs & detailed audit documentation. Call (856) 600-0812.',
+    "FDA/FSMA-compliant pest control for food processing facilities in Pennsauken & Camden County NJ. HACCP support, zero-tolerance programs. Call (856) 600-0812.",
   keywords:
     'food processing pest control Camden County NJ, FDA FSMA pest control NJ, HACCP pest management, food plant pest control Pennsauken, food safety pest control South Jersey',
 };
@@ -17,7 +17,7 @@ const faqItems = [
   },
   {
     question: 'What is HACCP and how does your pest control program support it?',
-    answer: 'Hazard Analysis and Critical Control Points (HACCP) is a systematic approach to food safety that identifies biological, chemical, and physical hazards in food production. Pest management is a fundamental prerequisite program (PRP) that supports HACCP by preventing pest-related contamination before it can reach critical control points. Our HACCP support includes written pest management procedures, monitoring records formatted for HACCP documentation, and corrective action reports that demonstrate your team\'s response to any pest findings.',
+    answer: "Hazard Analysis and Critical Control Points (HACCP) is a systematic approach to food safety that identifies biological, chemical, and physical hazards in food production. Pest management is a fundamental prerequisite program (PRP) that supports HACCP by preventing pest-related contamination before it can reach critical control points.",
   },
   {
     question: 'What documentation do you provide for third-party food safety audits?',
@@ -25,7 +25,7 @@ const faqItems = [
   },
   {
     question: 'How do you handle allergen concerns in food processing facilities?',
-    answer: 'Rodent and insect contamination in a food processing facility can create allergen cross-contact risk if pest activity occurs in allergen-containing ingredients or finished product areas. Our programs designate allergen zones and ensure that any pest activity in these areas receives immediate response, thorough documentation, and notification to your food safety team. Product hold and recall decisions are yours to make — our role is to provide complete, accurate documentation of any pest findings.',
+    answer: "Rodent and insect contamination in a food processing facility can create allergen cross-contact risk if pest activity occurs in allergen-containing ingredients or finished product areas. Our programs designate allergen zones and ensure that any pest activity in these areas receives immediate response and notification to your food safety team.",
   },
   {
     question: 'Do you provide pest control for food processing facilities operating on a 24-hour schedule?',
@@ -80,7 +80,7 @@ export default function FoodProcessingPestControl() {
             The FDA Food Safety Modernization Act (FSMA), fully implemented since 2016, requires food facilities to have written preventive controls for pest management as part of their Food Safety Plan. Your pest control program is no longer just an operational necessity — it is a regulatory requirement with specific documentation, monitoring, corrective action, and verification obligations. An FDA inspector who finds evidence of pest activity without adequate documentation of your pest management program's response can issue a Warning Letter that creates significant regulatory burden.
           </p>
           <p className="text-gray-700 text-lg leading-relaxed">
-            Our food processing pest control programs are designed to meet FSMA requirements from day one. We provide the written IPM program document, service records formatted for food safety documentation systems, corrective action reports, and trend analysis reports that your food safety team needs to demonstrate compliance during FDA inspections and third-party audits.
+            Our food processing pest control programs are designed to meet FSMA requirements from day one. 
           </p>
         </section>
 
@@ -106,17 +106,9 @@ export default function FoodProcessingPestControl() {
 
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-[#1A365D] mb-6">FSMA Documentation & Audit Readiness</h2>
-          <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            Our food facility pest control programs provide the complete documentation package required for FSMA compliance and third-party audit readiness:
-          </p>
+          
           <div className="space-y-3">
             {[
-              'Written IPM Program document covering scope, procedures, responsibilities, and verification activities',
-              'Service reports after every visit with standardized activity ratings, treatments applied, and product use logs (EPA reg. numbers, application rates, target areas)',
-              'Numbered station maps showing placement of all monitoring devices throughout the facility',
-              'Pest activity trending reports showing population trends over time',
-              'Corrective action reports for any pest findings, documenting immediate response, root cause investigation, and verification of effectiveness',
-              'Annual program review documentation',
               'Pre-audit review meetings with your food safety team upon request',
             ].map((item, i) => (
               <div key={i} className="flex gap-3 items-start">
@@ -163,7 +155,7 @@ export default function FoodProcessingPestControl() {
 
         <section className="bg-orange-50 border border-orange-200 rounded-xl p-8 text-center">
           <h2 className="text-2xl font-bold text-[#1A365D] mb-4">FSMA-Compliant Food Facility Pest Programs</h2>
-          <p className="text-gray-700 text-lg mb-6">Free site assessment for Camden County food processing facilities. We work with your food safety team from day one.</p>
+          <p className="text-gray-700 text-lg mb-6">Free phone assessment for Camden County food processing facilities. We work with your food safety team from day one.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:+18566000812" className="bg-[#DD6B20] hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">
               📞 Call (856) 600-0812

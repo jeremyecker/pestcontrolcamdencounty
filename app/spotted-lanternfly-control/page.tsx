@@ -72,7 +72,7 @@ export default function SpottedLanternflyControlPage() {
           {[
             { stat: 'Confirmed', label: 'In Camden County' },
             { stat: 'Licensed', label: 'NJ Applicators' },
-            { stat: 'Free', label: 'Property Assessments' },
+            { stat: 'Free', label: "Phone Assessments" },
           ].map(({ stat, label }) => (
             <div key={stat} className="bg-brand-light rounded-lg p-4 text-center">
               <div className="text-2xl font-bold text-brand-primary">{stat}</div>
@@ -167,7 +167,7 @@ export default function SpottedLanternflyControlPage() {
             <li>✅ Egg mass removal to reduce next-season populations</li>
             <li>✅ Quarantine compliance guidance available</li>
             <li>✅ Serving all Camden County communities in the quarantine zone</li>
-            <li>✅ Free property assessments</li>
+            <li>✅ Free phone assessments</li>
           </ul>
         </div>
 

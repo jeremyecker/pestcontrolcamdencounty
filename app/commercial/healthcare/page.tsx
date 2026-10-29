@@ -21,7 +21,7 @@ const faqItems = [
   },
   {
     question: 'Are your programs JCAHO compliant?',
-    answer: 'Yes. The Joint Commission on Accreditation of Healthcare Organizations (JCAHO) expects healthcare facilities to maintain a pest-free environment and to have documented pest management protocols. Our healthcare programs provide the written IPM plan, service documentation, corrective action records, and audit-ready reporting that JCAHO surveyors expect. We coordinate with your Environment of Care (EOC) team to ensure our program aligns with your accreditation documentation.',
+    answer: "Yes. The Joint Commission on Accreditation of Healthcare Organizations (JCAHO) expects healthcare facilities to maintain a pest-free environment and to have documented pest management protocols. We coordinate with your Environment of Care (EOC) team to ensure our program aligns with your accreditation documentation.",
   },
   {
     question: 'What notification do you give before treating a healthcare facility?',
@@ -52,7 +52,7 @@ export default function HealthcarePestControl() {
             Healthcare Pest Control — Camden County, NJ
           </h1>
           <p className="text-xl text-blue-100 mb-8">
-            Zero-tolerance IPM programs for hospitals, urgent care centers, and medical offices throughout Cherry Hill, Voorhees, and Camden County. JCAHO-compliant documentation.
+            Zero-tolerance IPM programs for hospitals, urgent care centers, and medical offices throughout Cherry Hill, Voorhees, and Camden County. 
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:+18566000812" className="bg-[#DD6B20] hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">
@@ -77,7 +77,7 @@ export default function HealthcarePestControl() {
             Pest control in healthcare settings demands a fundamentally different approach than commercial pest management in other industries. The patients served by healthcare facilities include immunocompromised individuals, surgical patients, neonates, and others for whom a pest-related pathogen exposure or an inappropriate chemical application could have serious health consequences. This reality drives everything about how we design and execute healthcare pest management programs — from the products we select (and equally, the ones we refuse to use) to the notification protocols we follow before every treatment.
           </p>
           <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            The New Jersey Department of Health (NJDOH) has specific guidelines for pest management in licensed healthcare facilities that align with the broader federal infection control framework. The Joint Commission on Accreditation of Healthcare Organizations (JCAHO) includes pest management in its Environment of Care standards — and surveyors who find evidence of pest activity or inadequate pest management documentation during accreditation surveys can issue findings that jeopardize a facility's accreditation status. Our programs are designed to produce the documentation and operational outcomes that satisfy both NJDOH and JCAHO expectations.
+            The New Jersey Department of Health (NJDOH) has specific guidelines for pest management in licensed healthcare facilities that align with the broader federal infection control framework. The Joint Commission on Accreditation of Healthcare Organizations (JCAHO) includes pest management in its Environment of Care standards — and surveyors who find evidence of pest activity or inadequate pest management documentation during accreditation surveys can issue findings that jeopardize a facility's accreditation status. 
           </p>
           <p className="text-gray-700 text-lg leading-relaxed">
             Every healthcare pest control program we develop begins with a comprehensive facility assessment coordinated with your infection control officer, facilities director, and Environment of Care committee. We map every area of your facility, assign risk classifications (patient care areas, sterile supply, food service, administrative, exterior), and build a program that matches the treatment approach to the risk level of each zone.
@@ -113,8 +113,7 @@ export default function HealthcarePestControl() {
             {[
               { title: 'Zone-Based Treatment Approach', desc: 'We classify your facility into treatment zones based on patient vulnerability and regulatory requirements. Patient care areas receive non-chemical IPM only. Support areas receive targeted treatments with advance coordination. Exterior and administrative areas can receive standard commercial treatments.' },
               { title: 'Patient Area Restrictions', desc: 'No chemical applications in patient rooms, ICUs, operating rooms, NICU, sterile supply, or pharmacy areas. Physical exclusion, tamper-resistant monitoring, and cultural controls (sanitation, waste management) are the tools for these zones.' },
-              { title: 'Pre-Treatment Notification', desc: 'All chemical treatments require advance coordination with your infection control and facilities teams, SDS sheet provision, appropriate wait times before patient and staff re-entry, and post-treatment documentation.' },
-              { title: 'JCAHO Documentation', desc: 'Written IPM plan, service reports, pest activity trending, corrective action records, and product use logs maintained in audit-ready format for Environment of Care committee review and JCAHO surveys.' },
+              { title: 'Pre-Treatment Notification', desc: "All chemical treatments require advance coordination with your infection control and facilities teams, SDS sheet provision and appropriate wait times before patient and staff re-entry." },
               { title: 'Emergency Response Protocol', desc: 'Any pest sighting in a patient care area triggers same-day emergency response. We maintain priority scheduling for all healthcare facility clients with defined response time commitments.' },
             ].map((item, i) => (
               <div key={i} className="flex gap-3 items-start">
@@ -164,7 +163,7 @@ export default function HealthcarePestControl() {
 
         <section className="bg-orange-50 border border-orange-200 rounded-xl p-8 text-center">
           <h2 className="text-2xl font-bold text-[#1A365D] mb-4">Healthcare Pest Control — Camden County</h2>
-          <p className="text-gray-700 text-lg mb-6">Contact us to schedule a free healthcare facility assessment and discuss a JCAHO-compliant IPM program for your facility.</p>
+          <p className="text-gray-700 text-lg mb-6">Contact us to schedule a free phone assessment and discuss a JCAHO-compliant IPM program for your facility.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:+18566000812" className="bg-[#DD6B20] hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">
               📞 Call (856) 600-0812

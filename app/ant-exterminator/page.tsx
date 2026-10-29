@@ -4,7 +4,7 @@ import { SITE_NAME, PHONE, PHONE_HREF, SITE_URL } from '@/site.config';
 
 export const metadata: Metadata = {
   title: { absolute: `Ant Exterminator Camden County NJ | Same-Day | ${SITE_NAME}` },
-  description: `Licensed ant exterminator serving all of Camden County, NJ. Carpenter ants, pavement ants & odorous house ants. Colony elimination at the source. Same-day service available. Call (856) 600-0812.`,
+  description: `Licensed ant exterminators serving all of Camden County, NJ. Carpenter ants, pavement ants & odorous house ants. Colony elimination at the source. Same-day service available. Call (856) 600-0812.`,
   alternates: { canonical: `${SITE_URL}/ant-exterminator/` },
 };
 
@@ -57,13 +57,13 @@ export default function AntExterminatorPage() {
           🐜 Ant Exterminator Camden County, NJ
         </h1>
         <p className="text-xl text-gray-600 mb-8">
-          Licensed ant exterminator serving all of Camden County &mdash; Cherry Hill, Voorhees, Gloucester Township, Haddonfield, Pennsauken, Collingswood & more. We eliminate ant colonies at the source. Same-day service available.
+          Licensed ant exterminators serving all of Camden County &mdash; Cherry Hill, Voorhees, Gloucester Township, Haddonfield, Pennsauken, Collingswood & more. We eliminate ant colonies at the source. Same-day service available.
         </p>
 
         <div className="grid grid-cols-3 gap-4 mb-8">
           {[
             { stat: 'Same-Day', label: 'Service Available' },
-            { stat: 'Licensed', label: 'NJ Exterminator' },
+            { stat: 'Licensed', label: "NJ Exterminators" },
             { stat: 'Free', label: 'Estimates' },
           ].map(({ stat, label }) => (
             <div key={stat} className="bg-brand-light rounded-lg p-4 text-center">
@@ -151,7 +151,7 @@ export default function AntExterminatorPage() {
             <li>✅ Same-day ant exterminator service available</li>
             <li>✅ Colony elimination — not just surface spraying</li>
             <li>✅ EPA-registered products and clear post-treatment instructions</li>
-            <li>✅ Free, no-obligation estimates</li>
+            <li>✅ Free estimates</li>
             <li>✅ Serving all 16 municipalities in Camden County</li>
           </ul>
         </div>

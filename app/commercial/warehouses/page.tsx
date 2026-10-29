@@ -13,11 +13,11 @@ export const metadata: Metadata = {
 const faqItems = [
   {
     question: 'How do rodents get into warehouses so easily?',
-    answer: 'Loading dock doors are the primary entry point. Even a properly functioning dock door leaves gaps at the floor, sides, and corners that mice can exploit. Norway rats can squeeze through a gap the diameter of a quarter; house mice need only a dime-sized opening. Beyond dock doors, utility penetrations, floor drains, damaged wall panels, and gaps at the base of overhead doors all provide entry. Our exclusion assessments document every potential entry point in your facility.',
+    answer: "Loading dock doors are the primary entry point. Even a properly functioning dock door leaves gaps at the floor, sides, and corners that mice can exploit. Norway rats can squeeze through a gap the diameter of a quarter; house mice need only a dime-sized opening. Beyond dock doors, utility penetrations, floor drains, damaged wall panels, and gaps at the base of overhead doors all provide entry.",
   },
   {
     question: 'What pallet storage practices reduce pest risk?',
-    answer: 'Pallets stored directly on the floor create ideal rodent harborage. We recommend storing pallets on racks at least six inches off the floor, rotating pallet stock to eliminate stagnant storage areas, inspecting incoming pallets for egg cases or live pests before moving them into the facility, and establishing a clear buffer zone between stored product and exterior walls. We provide written sanitation and storage recommendations as part of every warehouse assessment.',
+    answer: "Pallets stored directly on the floor create ideal rodent harborage. We recommend storing pallets on racks at least six inches off the floor, rotating pallet stock to eliminate stagnant storage areas, inspecting incoming pallets for egg cases or live pests before moving them into the facility, and establishing a clear buffer zone between stored product and exterior walls.",
   },
   {
     question: 'Do you handle pest control for temperature-controlled warehouses and cold storage facilities?',
@@ -90,7 +90,7 @@ export default function WarehousesPestControl() {
             {[
               {
                 title: 'Rodent Exclusion in Large Structures',
-                detail: 'Large warehouse buildings have hundreds of linear feet of foundation perimeter, multiple dock doors, utility penetrations, and expansion joint gaps. Our exclusion assessments document every potential entry point. We seal gaps with appropriate materials — copper mesh, hardware cloth, commercial rodent-proof door sweeps, and expandable foam — and install exterior rodent monitoring stations at regular intervals around the perimeter.'
+                detail: "Large warehouse buildings have hundreds of linear feet of foundation perimeter, multiple dock doors, utility penetrations, and expansion joint gaps. We seal gaps with appropriate materials — copper mesh, hardware cloth, commercial rodent-proof door sweeps, and expandable foam — and install exterior rodent monitoring stations at regular intervals around the perimeter."
               },
               {
                 title: 'Dock Door Sealing & Management',
@@ -98,7 +98,7 @@ export default function WarehousesPestControl() {
               },
               {
                 title: 'Pallet & Storage Protocols',
-                detail: 'Improper pallet storage is one of the top harborage contributors in warehouse facilities. We provide written storage protocol recommendations — minimum floor clearance, rotation schedules, incoming pallet inspection procedures, and buffer zone maintenance — and work with your operations team to implement practices that reduce pest risk without disrupting throughput.'
+                detail: "Improper pallet storage is one of the top harborage contributors in warehouse facilities."
               },
               {
                 title: 'Interior Rodent Program',
@@ -120,7 +120,7 @@ export default function WarehousesPestControl() {
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-[#1A365D] mb-6">Why Regular Service Contracts Are Essential for Warehouses</h2>
           <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            Warehouse pest control requires ongoing vigilance because the operational dynamics of a distribution facility change constantly — new product lines arrive, dock door configurations change, seasonal employee increases create new food waste sources, and the surrounding landscape shifts with development. A recurring service contract ensures that your pest management program adapts to these changes with regular inspections, updated monitoring placement, and documented trending data.
+            Warehouse pest control requires ongoing vigilance because the operational dynamics of a distribution facility change constantly — new product lines arrive, dock door configurations change, seasonal employee increases create new food waste sources, and the surrounding landscape shifts with development. A recurring service contract ensures that your pest management program adapts to these changes with regular inspections and updated monitoring placement.
           </p>
           <p className="text-gray-700 text-lg leading-relaxed mb-4">
             For warehouses subject to third-party food safety audits (AIB, SQF, BRC, or customer-specific audits), a documented pest control program is not optional — it is a prerequisite for certification. Auditors expect to see current service contracts, recent service reports, pest activity trending records, and corrective action documentation. Our warehouse programs are designed with audit readiness built in.
@@ -166,7 +166,7 @@ export default function WarehousesPestControl() {
 
         <section className="bg-orange-50 border border-orange-200 rounded-xl p-8 text-center">
           <h2 className="text-2xl font-bold text-[#1A365D] mb-4">Get a Warehouse Pest Control Assessment</h2>
-          <p className="text-gray-700 text-lg mb-6">Free site assessment for Camden County warehouses and distribution facilities. Call or contact us today.</p>
+          <p className="text-gray-700 text-lg mb-6">Free phone assessment for Camden County warehouses and distribution facilities. Call or contact us today.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:+18566000812" className="bg-[#DD6B20] hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">
               📞 Call (856) 600-0812

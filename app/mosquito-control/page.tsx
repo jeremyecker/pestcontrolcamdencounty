@@ -161,7 +161,7 @@ export default function MosquitoControlPage() {
             <li>✅ Biological larvicide for standing water features</li>
             <li>✅ 75&ndash;90% mosquito reduction with consistent monthly service</li>
             <li>✅ Serving all Cooper River watershed communities</li>
-            <li>✅ Free mosquito yard assessments</li>
+            <li>✅ Free phone assessments</li>
           </ul>
         </div>
 

@@ -125,14 +125,14 @@ export default async function ServicePage({ params }: { params: Promise<{ region
             <li>✅ Licensed and insured technicians</li>
             <li>✅ EPA-registered products and clear post-treatment instructions</li>
             <li>✅ Same-day service available</li>
-            <li>✅ Free, no-obligation estimates</li>
+            <li>✅ Free estimates</li>
             <li>✅ Serving all of {fullArea}</li>
           </ul>
         </div>
 
         <div className="text-center mb-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Ready to Get Started?</h2>
-          <p className="text-gray-600 mb-6">Get a free, no-obligation estimate for {service.name.toLowerCase()} in {region.name}.</p>
+          <p className="text-gray-600 mb-6">Get a free estimate for {service.name.toLowerCase()} in {region.name}.</p>
           <a
             href={`tel:+1${BRAND.phone.replace(/\D/g, '')}`}
             className="inline-block bg-brand-primary hover:bg-brand-secondary text-white font-bold py-4 px-10 rounded-lg text-xl transition-colors mr-4 mb-3"

@@ -303,7 +303,7 @@ export default function FastResponsePestControl() {
                   After the treatment, we develop a follow-up plan to ensure the problem is fully resolved
                   and does not recur. For bed bugs, this typically includes a comprehensive heat or chemical treatment
                   protocol. For rodents, it includes exclusion and long-term trapping. For wildlife, it includes
-                  full exclusion after all animals have been removed. We schedule follow-up visits as part of our wildlife exclusion service to ensure the work is completed thoroughly.
+                  full exclusion after all animals have been removed. 
                 </p>
               </div>
             </div>
@@ -352,7 +352,7 @@ export default function FastResponsePestControl() {
           </h2>
           <p className="text-gray-700 text-lg mb-6">
             Every hour matters when you are dealing with an urgent pest situation in Camden County. Call now for immediate
-            response from a licensed, local pest control professional.
+            response from licensed, local pest control professionals.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

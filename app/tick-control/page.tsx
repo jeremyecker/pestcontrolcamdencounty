@@ -72,7 +72,7 @@ export default function TickControlPage() {
           {[
             { stat: 'Monthly', label: 'Barrier Programs' },
             { stat: 'Licensed', label: 'NJ Applicators' },
-            { stat: 'Free', label: 'Yard Assessments' },
+            { stat: 'Free', label: "Phone Assessments" },
           ].map(({ stat, label }) => (
             <div key={stat} className="bg-brand-light rounded-lg p-4 text-center">
               <div className="text-2xl font-bold text-brand-primary">{stat}</div>
@@ -161,7 +161,7 @@ export default function TickControlPage() {
             <li>✅ Targeted treatment of actual tick zones, not broadcast lawn spraying</li>
             <li>✅ Deer tick, dog tick, and lone star tick control</li>
             <li>✅ Serving Cooper River Greenway communities and Pinelands-border townships</li>
-            <li>✅ Free yard tick assessments available</li>
+            <li>✅ Free phone assessments available</li>
           </ul>
         </div>
 

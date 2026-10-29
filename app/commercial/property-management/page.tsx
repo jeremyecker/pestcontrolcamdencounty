@@ -17,11 +17,11 @@ const faqItems = [
   },
   {
     question: 'What are the notification requirements for pest control in NJ rental properties?',
-    answer: 'New Jersey requires landlords to provide tenants with advance notice before a pesticide application in a rental unit or common area. The specific notice requirement depends on the lease terms and the type of treatment. We provide model tenant notification language for all treatments and can assist with your notification compliance documentation. For properties subject to public housing regulations, additional federal notification requirements may apply.',
+    answer: "New Jersey requires landlords to provide tenants with advance notice before a pesticide application in a rental unit or common area. The specific notice requirement depends on the lease terms and the type of treatment. For properties subject to public housing regulations, additional federal notification requirements may apply.",
   },
   {
     question: 'How do you handle bed bug treatment coordination in an occupied multi-unit building?',
-    answer: 'Bed bug programs in multi-unit buildings require coordination across multiple fronts: tenant notification and preparation instructions, inspection of adjacent units to assess spread, treatment scheduling that complies with notification requirements, documentation of findings and treatments, and follow-up inspections to verify effectiveness. We have extensive experience managing these programs in Cherry Hill, Collingswood, and Camden City apartment complexes. We work with your property management team to minimize tenant disruption and maximize program effectiveness.',
+    answer: "Bed bug programs in multi-unit buildings require coordination across multiple fronts: tenant notification and preparation instructions, inspection of adjacent units to assess spread, treatment scheduling that complies with notification requirements, and follow-up inspections to verify effectiveness. We have extensive experience managing these programs in Cherry Hill, Collingswood, and Camden City apartment complexes. We work with your property management team to minimize tenant disruption and maximize program effectiveness.",
   },
   {
     question: 'How do pests spread between units in apartment buildings?',
@@ -77,7 +77,7 @@ export default function PropertyManagementPestControl() {
             For property managers overseeing this rental housing stock — whether a single duplex or a portfolio of hundreds of units — pest control presents challenges that are fundamentally different from owner-occupied residential service. The multi-unit nature of most rental properties means that pest activity in one unit can and does spread to adjacent units through shared walls, plumbing chases, and electrical systems. Tenant behavior — food storage practices, sanitation habits, the introduction of used furniture — directly affects pest pressure in ways that property managers cannot fully control. And New Jersey's tenant protection laws create legal and documentation requirements that must be navigated carefully.
           </p>
           <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            Our property management pest control programs are designed for the realities of rental property management. We work with your property management team, not just with individual tenants, to develop programs that address the full building ecosystem rather than treating units in isolation. We provide documentation that satisfies NJ legal notification requirements. And we build service contracts that provide the consistency and cost predictability that property portfolios require.
+            Our property management pest control programs are designed for the realities of rental property management. We work with your property management team, not just with individual tenants, to develop programs that address the full building ecosystem rather than treating units in isolation.  And we build service contracts that provide the consistency and cost predictability that property portfolios require.
           </p>
           <p className="text-gray-700 text-lg leading-relaxed">
             The most important principle in multi-unit pest control is whole-building thinking. Treating a single cockroach-infested unit while leaving the adjacent units uninspected and untreated virtually guarantees re-infestation within weeks. Our programs inspect affected units and all immediately adjacent units, treat based on actual findings, and monitor the entire treated zone for re-infestation. This approach costs more upfront than treating a single unit — but it actually solves the problem.
@@ -93,10 +93,7 @@ export default function PropertyManagementPestControl() {
             {[
               { step: 'Tenant Report Response', desc: 'We provide same-day or next-day inspection response to all bed bug reports. Early identification is critical to limiting spread.' },
               { step: 'Multi-Unit Inspection', desc: 'Infested unit plus all units sharing walls, floors, or ceilings (up to 5 adjacent units minimum) are inspected as part of every bed bug response.' },
-              { step: 'Treatment Planning', desc: 'Written treatment plan specifying affected units, treatment method (heat, chemical, or combination), preparation requirements for tenants, and scheduling.' },
-              { step: 'Tenant Notification Compliance', desc: 'Model notification language, advance notice periods, and documentation maintained for all NJ-required notices.' },
               { step: 'Follow-Up Verification', desc: '14-day and 30-day follow-up inspections to verify treatment effectiveness and confirm no re-introduction.' },
-              { step: 'Documentation Package', desc: 'Complete service documentation for each incident including inspection findings, treatment records, and follow-up results — valuable for any legal questions about the property\'s pest management history.' },
             ].map((item, i) => (
               <div key={i} className="flex gap-3 items-start">
                 <span className="text-[#DD6B20] font-bold text-xl">→</span>
@@ -163,7 +160,7 @@ export default function PropertyManagementPestControl() {
 
         <section className="bg-orange-50 border border-orange-200 rounded-xl p-8 text-center">
           <h2 className="text-2xl font-bold text-[#1A365D] mb-4">Property Management Pest Control — Camden County</h2>
-          <p className="text-gray-700 text-lg mb-6">Free assessment for property managers and landlords across Camden County. We protect your properties and your tenants.</p>
+          <p className="text-gray-700 text-lg mb-6">Free phone assessment for property managers and landlords across Camden County. We protect your properties and your tenants.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:+18566000812" className="bg-[#DD6B20] hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">
               📞 Call (856) 600-0812

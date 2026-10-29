@@ -21,11 +21,11 @@ const faqItems = [
   },
   {
     question: 'Can you service a multi-tenant office building with different tenants on different floors?',
-    answer: 'Yes. We work with property managers and building engineers to develop programs covering common areas (lobbies, hallways, server rooms, mechanical spaces, loading docks) and coordinate with individual tenants for suite-level service as needed. All service is documented and reported to building management.',
+    answer: "Yes. We work with property managers and building engineers to develop programs covering common areas (lobbies, hallways, server rooms, mechanical spaces, loading docks) and coordinate with individual tenants for suite-level service as needed.",
   },
   {
     question: 'What does a quarterly office pest control contract include?',
-    answer: 'Our standard quarterly contract includes four scheduled visits per year, interior and exterior inspection, monitoring device placement and servicing, treatment of any active pest activity, written service reports after each visit, and priority response for any pest issues between scheduled visits. We tailor frequency based on your building\'s pest history and risk profile.',
+    answer: "Our standard quarterly contract includes four scheduled visits per year, interior and exterior inspection, monitoring device placement and servicing, treatment of any active pest activity, and priority response for any pest issues between scheduled visits. We tailor frequency based on your building's pest history and risk profile.",
   },
   {
     question: 'Do you provide pest control for Camden waterfront office developments?',
@@ -52,7 +52,7 @@ export default function OfficeBuildingsPestControl() {
             Office Building Pest Control — Camden County, NJ
           </h1>
           <p className="text-xl text-blue-100 mb-8">
-            Discreet, scheduled pest management for Cherry Hill office parks, Pennsauken business districts, and Camden waterfront developments. Quarterly contracts with detailed documentation.
+            Discreet, scheduled pest management for Cherry Hill office parks, Pennsauken business districts, and Camden waterfront developments. 
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:+18566000812" className="bg-[#DD6B20] hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">
@@ -80,7 +80,7 @@ export default function OfficeBuildingsPestControl() {
             Rodents are the second most common office pest complaint across the county. House mice enter through gaps at the base of exterior walls, around utility penetrations, and beneath loading dock doors. Once inside, they establish nesting sites in drop ceiling voids, mechanical rooms, and storage areas. Norway rats are less common in upper-floor offices but regularly affect ground-floor suites and basement mechanical spaces in older buildings throughout Cherry Hill and Pennsauken. Our rodent programs combine exclusion — permanently sealing entry points — with interior trapping and monitoring.
           </p>
           <p className="text-gray-700 text-lg leading-relaxed">
-            For property managers overseeing multi-tenant buildings, pest control documentation is increasingly important for tenant relations and lease agreements. We provide written service reports after every visit and maintain a service history that demonstrates the property's commitment to professional building management.
+            For property managers overseeing multi-tenant buildings, pest control documentation is increasingly important for tenant relations and lease agreements. 
           </p>
         </section>
 
@@ -117,7 +117,6 @@ export default function OfficeBuildingsPestControl() {
               'Targeted treatment of any active pest activity using IPM-appropriate products',
               'Exterior perimeter treatment to reduce migration pressure from landscaped areas and parking lots',
               'Rodent exclusion recommendations and sealing of identified entry points',
-              'Written service reports after each visit for property manager records',
               'Priority response for any pest complaints between scheduled visits',
             ].map((item, i) => (
               <div key={i} className="flex gap-3 items-start">
@@ -176,7 +175,7 @@ export default function OfficeBuildingsPestControl() {
 
         <section className="bg-orange-50 border border-orange-200 rounded-xl p-8 text-center">
           <h2 className="text-2xl font-bold text-[#1A365D] mb-4">Schedule Your Office Building Assessment</h2>
-          <p className="text-gray-700 text-lg mb-6">Free commercial site assessment for Camden County office buildings. Same-day response for urgent situations.</p>
+          <p className="text-gray-700 text-lg mb-6">Free phone assessment for Camden County office buildings. Same-day response for urgent situations.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:+18566000812" className="bg-[#DD6B20] hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">
               📞 Call (856) 600-0812
