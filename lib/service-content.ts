@@ -23,7 +23,6 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
       { step: 'Inspection', description: 'We identify the ant species, locate nests and entry points, and assess the extent of the infestation throughout your home.' },
       { step: 'Targeted Treatment', description: 'Species-specific baits and professional-grade treatments are applied to eliminate the colony at its source — not just the ants you can see.' },
       { step: 'Entry Point Sealing', description: 'We seal cracks, gaps, and common entry points around your foundation, windows, and utility lines to cut off access.' },
-      { step: 'Follow-Up', description: 'A follow-up visit ensures the colony is fully eliminated and your home stays ant-free long-term.' },
     ],
     prevention: [
       'Keep kitchen surfaces clean and free of crumbs and spills',
@@ -127,7 +126,6 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
       { step: 'Species Identification', description: 'We identify the cockroach species — German, American, and Oriental roaches each require different treatment strategies for effective control.' },
       { step: 'Targeted Treatment', description: 'Professional-grade gel baits, residual treatments, and insect growth regulators target roaches where they actually live and breed.' },
       { step: 'Harborage Elimination', description: 'We treat every crack, crevice, void, and harborage area to reach the hidden populations that you never see.' },
-      { step: 'Monitoring & Follow-Up', description: 'Sticky monitors and follow-up treatments verify elimination and prevent re-infestation.' },
     ],
     prevention: [
       'Keep kitchens and bathrooms clean and dry at all times',
@@ -281,7 +279,6 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
       { step: 'Facility Assessment', description: 'We conduct a thorough assessment of your entire facility — identifying current pest issues, high-risk areas, and structural vulnerabilities.' },
       { step: 'Custom IPM Program', description: 'We design an Integrated Pest Management program specific to your industry, facility layout, and any regulatory or compliance requirements.' },
       { step: 'Scheduled Service', description: 'Regular service visits are scheduled around your business hours to provide consistent protection with zero disruption to your operations.' },
-      { step: 'Documentation & Compliance', description: 'We provide detailed service reports, treatment logs, and compliance documentation to support health inspections and audits.' },
     ],
     prevention: [
       'Maintain strict cleanliness standards in break rooms, kitchens, and food storage areas',
@@ -291,7 +288,7 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
       'Train staff to identify and immediately report any pest sightings',
       'Schedule regular professional inspections to catch emerging issues before they become problems',
     ],
-    whyPro: `Commercial pest control is fundamentally different from residential service — the stakes are higher, the regulations stricter, and the consequences of failure more severe. Our commercial programs use Integrated Pest Management (IPM) principles that emphasize prevention, monitoring, and targeted treatment to protect your business while minimizing chemical exposure. We work discreetly around your schedule and provide complete documentation for every visit.`,
+    whyPro: "Commercial pest control is fundamentally different from residential service — the stakes are higher, the regulations stricter, and the consequences of failure more severe. Our commercial programs use Integrated Pest Management (IPM) principles that emphasize prevention, monitoring, and targeted treatment to protect your business while minimizing chemical exposure.",
   },
 
   'raccoon-removal': {
@@ -339,7 +336,6 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
       { step: 'Full Inspection', description: 'Thorough inspection of the entire roofline, soffits, gable vents, ridge vents, and plumbing/electrical penetrations to map all current and potential entry points.' },
       { step: 'One-Way Exclusion', description: 'Installation of one-way exclusion devices at primary entry points, allowing squirrels to exit but preventing re-entry — a humane, stress-free method.' },
       { step: 'Sealing', description: 'Complete sealing of all secondary entry points and vulnerabilities using galvanized steel mesh, metal flashing, and chew-proof materials.' },
-      { step: 'Follow-Up', description: 'Follow-up inspection within 7–10 days to confirm all squirrels have vacated, remove exclusion devices, and permanently seal the final openings.' },
     ],
     prevention: [
       'Trim all tree branches so they end at least 6–8 feet from your roofline, walls, and utility lines',

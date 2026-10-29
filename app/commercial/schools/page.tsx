@@ -17,7 +17,7 @@ const faqItems = [
   },
   {
     question: 'How does parent and staff notification work for school pest control?',
-    answer: 'Under the NJ IPM Act, schools must provide at least 72 hours advance notice before any pesticide application to any parent or staff member who has requested notification. Schools must also maintain a registry of individuals requesting notification and post notices in common areas. We provide model notification language, maintain treatment records for your IPM coordinator\'s files, and can assist with your annual reporting obligations.',
+    answer: "Under the NJ IPM Act, schools must provide at least 72 hours advance notice before any pesticide application to any parent or staff member who has requested notification. Schools must also maintain a registry of individuals requesting notification and post notices in common areas.",
   },
   {
     question: 'When is the best time to treat a school for pest problems?',
@@ -52,7 +52,7 @@ export default function SchoolsPestControl() {
             School Pest Control — Camden County, NJ
           </h1>
           <p className="text-xl text-blue-100 mb-8">
-            NJ IPM Act-compliant programs for Cherry Hill East/West, Camden City schools, Eastern Regional, and every school in the county. Notification-compliant and thoroughly documented.
+            NJ IPM Act-compliant programs for Cherry Hill East/West, Camden City schools, Eastern Regional, and every school in the county. Notification-compliant.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:+18566000812" className="bg-[#DD6B20] hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">
@@ -77,7 +77,7 @@ export default function SchoolsPestControl() {
             Every public school in New Jersey is governed by the NJ Integrated Pest Management in Schools Act, which establishes specific requirements for how pest management must be conducted in school buildings. The Act requires an IPM approach that prioritizes non-chemical methods, mandates advance notification to parents and staff before any pesticide application, requires annual reporting to the NJDEP, and holds school IPM coordinators responsible for compliance. Failure to comply can result in NJDEP enforcement action and the kind of parent and community concern that no school administration wants to manage.
           </p>
           <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            Our school pest control programs are built from the ground up to satisfy NJ IPM Act requirements. We work with your designated IPM coordinator to establish all required documentation, notification procedures, and reporting protocols. Our technicians understand that school environments — with their mix of cafeterias, classrooms, locker rooms, gymnasiums, athletic storage areas, and mechanical spaces — create unique pest habitats that require zone-specific treatment approaches rather than generic pest control.
+            Our school pest control programs are built from the ground up to satisfy NJ IPM Act requirements.  Our technicians understand that school environments — with their mix of cafeterias, classrooms, locker rooms, gymnasiums, athletic storage areas, and mechanical spaces — create unique pest habitats that require zone-specific treatment approaches rather than generic pest control.
           </p>
           <p className="text-gray-700 text-lg leading-relaxed">
             The concentration of Camden County's larger school buildings — Cherry Hill East and West, Voorhees, and Eastern Regional — creates particular challenges because of building age, campus size, and the volume of student movement that brings pest introductions from hundreds of households into a single building every day. Our programs for these campuses are scaled to match the complexity of the facilities.
@@ -118,7 +118,6 @@ export default function SchoolsPestControl() {
               'Stinging insect nest removal and treatment from all identified nesting sites on the building exterior and athletic structures',
               'Locker room and restroom drain treatment for fly breeding source elimination',
               'Attic and crawl space inspection and exclusion for wildlife entry (common in older Camden County school buildings)',
-              'Full facility documentation update for your IPM coordinator\'s annual NJDEP reporting',
             ].map((item, i) => (
               <div key={i} className="flex gap-3 items-start">
                 <span className="text-[#DD6B20] font-bold">✓</span>
@@ -164,7 +163,7 @@ export default function SchoolsPestControl() {
 
         <section className="bg-orange-50 border border-orange-200 rounded-xl p-8 text-center">
           <h2 className="text-2xl font-bold text-[#1A365D] mb-4">NJ IPM Act-Compliant School Pest Programs</h2>
-          <p className="text-gray-700 text-lg mb-6">Contact us to schedule a free school facility assessment. We work with your IPM coordinator to build a fully compliant program.</p>
+          <p className="text-gray-700 text-lg mb-6">Contact us to schedule a free phone assessment. We work with your IPM coordinator to build a fully compliant program.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:+18566000812" className="bg-[#DD6B20] hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">
               📞 Call (856) 600-0812

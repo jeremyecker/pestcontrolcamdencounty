@@ -126,15 +126,14 @@ export default function RestaurantsPestControl() {
             Our Restaurant Pest Control Treatment Protocols
           </h2>
           <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            Every restaurant pest control program begins with a comprehensive site assessment. Our technician maps your entire facility — kitchen, prep areas, storage, receiving dock, dining room, bar, and exterior perimeter — identifying active pest activity, conducive conditions, and structural vulnerabilities. This assessment becomes the basis of a written IPM plan customized for your operation.
+            Every restaurant pest control program begins with a comprehensive site assessment. Our technician maps your entire facility — kitchen, prep areas, storage, receiving dock, dining room, bar, and exterior perimeter — identifying active pest activity, conducive conditions, and structural vulnerabilities. 
           </p>
           <div className="space-y-4 mb-6">
             {[
-              { step: 'Monitoring & Inspection', desc: 'Glue traps and pheromone monitors are placed in high-risk areas. Population trends are tracked and documented at every visit, giving you data to demonstrate compliance and identifying emerging problems before they become violations.' },
+              { step: 'Monitoring & Inspection', desc: "Glue traps and pheromone monitors are placed in high-risk areas." },
               { step: 'Cockroach Control', desc: 'Gel bait applications in harborage areas (behind equipment, inside wall voids, under sinks), insect growth regulators to interrupt the breeding cycle, and targeted crack-and-crevice treatments. No broadcast sprays in food prep areas.' },
               { step: 'Rodent Exclusion & Control', desc: 'Identification and sealing of entry points (gaps around pipes, floor drains, dock doors), interior tamper-resistant bait stations in non-food areas, and snap trap programs in kitchen and storage areas as appropriate.' },
               { step: 'Fly Management', desc: 'Drain treatments with bacterial digesters and enzyme cleaners to eliminate breeding sources, exterior fly bait in dumpster areas, and UV light trap placement recommendations for dining and prep areas.' },
-              { step: 'Documentation', desc: 'Written service reports after every visit, a pest control log binder maintained on-site for health inspector review, and a corrective action report when structural or sanitation conditions require attention.' },
             ].map((item, i) => (
               <div key={i} className="flex gap-3 items-start">
                 <span className="text-[#DD6B20] font-bold text-xl">→</span>
@@ -156,7 +155,7 @@ export default function RestaurantsPestControl() {
             Reactive pest control — calling when you see a cockroach — is the most expensive and least effective approach for a restaurant. By the time you see a German cockroach in your dining room, there are hundreds more in your kitchen wall voids. By the time a customer spots a mouse, your storage area has already been contaminated. A scheduled service contract shifts your pest management from reactive to proactive.
           </p>
           <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            Regular service visits maintain continuous monitoring that catches pest activity before populations establish. They provide the documented service history that health inspectors expect to see. They include priority response between scheduled visits for any urgent issues. And they provide the kind of ongoing technician familiarity with your facility that allows our team to spot structural changes — a new delivery dock door that does not seal properly, a broken floor drain cover, a refrigeration unit relocated near a wall void — before they create pest entry opportunities.
+            Regular service visits maintain continuous monitoring that catches pest activity before populations establish.  They include priority response between scheduled visits for any urgent issues. And they provide the kind of ongoing technician familiarity with your facility that allows our team to spot structural changes — a new delivery dock door that does not seal properly, a broken floor drain cover, a refrigeration unit relocated near a wall void — before they create pest entry opportunities.
           </p>
           <p className="text-gray-700 text-lg leading-relaxed">
             Most Camden County restaurants on our service contract program experience fewer health inspection issues, lower overall pest control costs, and better peace of mind. Contact us to discuss a contract frequency that fits your operation and budget.
@@ -207,7 +206,7 @@ export default function RestaurantsPestControl() {
             Protect Your Restaurant Before the Next Inspection
           </h2>
           <p className="text-gray-700 text-lg mb-6">
-            Call now to schedule a free restaurant pest assessment for your Camden County food service establishment.
+            Call now to schedule a free phone assessment for your Camden County food service establishment.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

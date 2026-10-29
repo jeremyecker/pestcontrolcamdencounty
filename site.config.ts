@@ -12,7 +12,7 @@ export const SITE_NAME = 'Camden County Pest Control';
 export const SITE_DOMAIN = 'pestcontrolcamdencounty.com';
 export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://pestcontrolcamdencounty.com';
 export const SITE_TAGLINE = 'Trusted Pest Control for Camden County, New Jersey';
-export const SITE_DESCRIPTION = 'Licensed exterminator serving Camden County, NJ — Cherry Hill, Voorhees, Gloucester Township, Haddonfield & more. Same-day service available. Call (856) 600-0812.';
+export const SITE_DESCRIPTION = 'Licensed exterminators serving Camden County, NJ — Cherry Hill, Voorhees, Gloucester Township, Haddonfield & more. Same-day service available. Call (856) 600-0812.';
 
 export const SITE = {
   name: 'Camden County Pest Control',

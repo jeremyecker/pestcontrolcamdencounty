@@ -51,7 +51,7 @@ const verticals = [
     title: 'Food Processing',
     slug: 'food-processing',
     icon: '🏗️',
-    desc: 'FDA/FSMA-compliant pest management, HACCP support, and detailed documentation for food facilities in Pennsauken and Camden.',
+    desc: "FDA/FSMA-compliant pest management and HACCP support for food facilities in Pennsauken and Camden.",
   },
   {
     title: 'Property Management',
@@ -127,7 +127,7 @@ export default function CommercialPage() {
             Camden County Pest Control has built industry-specific programs for every major commercial sector in the county. Our technicians — licensed or working under the direct supervision of a licensed applicator — understand the regulatory environment each business operates in — from the New Jersey Health Code requirements that govern food service establishments to the NJ IPM Act protocols that apply to public schools to the JCAHO compliance standards that healthcare facilities must maintain. We do not just eliminate pests; we build programs that protect your facility, your license, your reputation, and your bottom line.
           </p>
           <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            The Cherry Hill commercial corridor along Routes 38 and 70 is one of the densest retail and dining concentrations in South Jersey. Hundreds of restaurants, office buildings, retail centers, and service businesses operate within a few square miles of the Haddonfield Road intersection, creating intense competition for resources and significant pest pressure from shared infrastructure, neighboring properties, and heavy vehicular and foot traffic. Our team serves every business category in this corridor with the frequency and documentation standards that commercial operators demand.
+            The Cherry Hill commercial corridor along Routes 38 and 70 is one of the densest retail and dining concentrations in South Jersey. Hundreds of restaurants, office buildings, retail centers, and service businesses operate within a few square miles of the Haddonfield Road intersection, creating intense competition for resources and significant pest pressure from shared infrastructure, neighboring properties, and heavy vehicular and foot traffic. 
           </p>
           <p className="text-gray-700 text-lg leading-relaxed mb-4">
             Camden City's industrial waterfront and the Pennsauken industrial zones present a different set of challenges. Warehouses, distribution centers, food processors, and manufacturing facilities in these areas deal with rodent pressure from the adjacent Delaware River corridor, high-traffic loading docks that create constant entry points, and the kind of large, complex structures that require systematic exclusion programs rather than reactive spot treatments. Our commercial team has the equipment and experience to manage pest pressure across buildings of any size.
@@ -136,7 +136,7 @@ export default function CommercialPage() {
             For property managers and apartment complex operators throughout Cherry Hill, Collingswood, and the rest of Camden County, the challenges are different again — shared walls that allow pests to migrate between units, tenant notification requirements under New Jersey law, and the complexity of coordinating treatments across multiple occupied units. Our property management program is specifically designed to address these multi-unit dynamics with minimum disruption and maximum compliance.
           </p>
           <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            Every commercial account we manage begins with a detailed site assessment. We walk your facility, identify existing pest activity and conducive conditions, review your operational processes for pest risk factors, and develop a written Integrated Pest Management plan. That plan becomes the foundation of your service contract, with treatment frequency, documentation standards, and communication protocols tailored to your specific industry and regulatory requirements.
+            Every commercial account we manage begins with a detailed site assessment. We walk your facility, identify existing pest activity and conducive conditions, and review your operational processes for pest risk factors. 
           </p>
           <p className="text-gray-700 text-lg leading-relaxed">
             Camden County's commercial businesses deserve pest control partners who understand their industry, not just their pest problems. Browse our vertical-specific programs below, or call <a href="tel:+18566000812" className="text-[#2B6CB0] font-semibold hover:underline">(856) 600-0812</a> to speak with a commercial pest control specialist today.
@@ -173,7 +173,6 @@ export default function CommercialPage() {
           <div className="space-y-4">
             {[
               { icon: '📋', title: 'NJDEP Licensed & Fully Insured', text: 'Every technician is certified or working under the supervision of a certified applicator, as the NJ Department of Environmental Protection requires. We carry full general liability and workers\' compensation insurance for every commercial account.' },
-              { icon: '📊', title: 'Detailed Service Documentation', text: 'We provide written service reports after every visit — pest activity levels, treatments applied, conducive conditions noted, and recommendations. Documentation your auditors and inspectors expect.' },
               { icon: '🔄', title: 'Recurring Service Contracts', text: 'Commercial pest control requires consistency. Our monthly, bi-monthly, and quarterly contracts provide scheduled visits, priority response between visits, and the continuity that protects your facility year-round.' },
               { icon: '🌿', title: 'IPM-Based Programs', text: 'Integrated Pest Management is the standard for commercial facilities. We use inspection, monitoring, and targeted treatments to minimize chemical use while maximizing effectiveness — essential for food service, healthcare, and schools.' },
               { icon: '⚡', title: 'Fast Emergency Response', text: 'A pest issue before a health inspection or during a guest stay cannot wait until next week. Our commercial clients receive priority scheduling and emergency response coverage for critical situations.' },
@@ -195,7 +194,7 @@ export default function CommercialPage() {
             Get a Commercial Pest Control Quote Today
           </h2>
           <p className="text-gray-700 text-lg mb-6">
-            Call or contact us online to schedule a free commercial site assessment. We serve every industry across all of Camden County, NJ.
+            Call or contact us online to schedule a free phone assessment. We serve every industry across all of Camden County, NJ.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

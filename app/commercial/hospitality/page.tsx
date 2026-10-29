@@ -17,7 +17,7 @@ const faqItems = [
   },
   {
     question: 'What does a bed bug prevention program for a hotel include?',
-    answer: 'Our hotel bed bug prevention program includes regular (monthly or quarterly) proactive inspections of all guest rooms using trained technicians and canine detection where available, staff training on identifying early bed bug signs during housekeeping, immediate response inspections for any guest report or housekeeping finding, treatment of confirmed infestations with heat or chemical treatment, adjacent room inspection and preventive treatment, and documentation of all inspections and treatments.',
+    answer: "Our hotel bed bug prevention program includes regular (monthly or quarterly) proactive inspections of all guest rooms using trained technicians and canine detection where available, staff training on identifying early bed bug signs during housekeeping, immediate response inspections for any guest report or housekeeping finding, treatment of confirmed infestations with heat or chemical treatment, and adjacent room inspection and preventive treatment.",
   },
   {
     question: 'Can you train our housekeeping staff to identify bed bugs?',
@@ -90,10 +90,9 @@ export default function HospitalityPestControl() {
             {[
               { title: 'Proactive Room Inspections', detail: 'Regular inspection of all guest rooms on a rotating schedule — focusing on highest-risk areas (headboards, box springs, nightstand joints, luggage racks, upholstered furniture seams). Early detection dramatically reduces the scope and cost of treatment when infestations are found.' },
               { title: 'Housekeeping Staff Training', detail: 'Housekeeping teams are the front line of pest detection. We provide practical training on identifying early bed bug indicators, the most important areas to check during room turnover, and the reporting protocol for any suspicious findings.' },
-              { title: 'Guest Complaint Response', detail: 'Same-day inspection and treatment planning for any guest bed bug report. We provide documentation of our response for guest relations and risk management purposes.' },
+              { title: 'Guest Complaint Response', detail: "Same-day inspection and treatment planning for any guest bed bug report." },
               { title: 'Adjacent Room Protocols', detail: 'Confirmed bed bug infestations trigger inspection of all immediately adjacent rooms (above, below, and both sides). Preventive treatment of adjacent rooms based on inspection findings reduces spread risk significantly.' },
               { title: 'Food Service & Back-of-House', detail: 'Hotel food service operations, vending areas, laundry facilities, and mechanical spaces receive regular IPM service to manage cockroaches, rodents, flies, and other non-bed-bug pests that affect guest experience.' },
-              { title: 'Brand Audit Documentation', detail: 'Complete service records, inspection logs, treatment documentation, and pest trending reports maintained for brand standard compliance and property condition assessment reviews.' },
             ].map((item, i) => (
               <div key={i} className="bg-gray-50 rounded-lg p-5">
                 <h3 className="font-bold text-[#1A365D] text-lg mb-2">{item.title}</h3>
@@ -149,7 +148,7 @@ export default function HospitalityPestControl() {
 
         <section className="bg-orange-50 border border-orange-200 rounded-xl p-8 text-center">
           <h2 className="text-2xl font-bold text-[#1A365D] mb-4">Protect Your Hotel's Reputation</h2>
-          <p className="text-gray-700 text-lg mb-6">Free hospitality pest assessment for Camden County hotels. Same-day emergency response for active issues.</p>
+          <p className="text-gray-700 text-lg mb-6">Free phone assessment for Camden County hotels. Same-day emergency response for active issues.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:+18566000812" className="bg-[#DD6B20] hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">
               📞 Call (856) 600-0812

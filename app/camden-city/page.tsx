@@ -3,8 +3,8 @@ import Link from 'next/link';
 import { PHONE, PHONE_HREF, SITE_URL } from '@/site.config';
 
 export const metadata: Metadata = {
-  title: { absolute: 'Pest Control Camden City NJ | Licensed Exterminator' },
-  description: `Licensed exterminator serving Camden City, NJ. Cockroaches, bed bugs, mice & rats in row homes and apartments. Same-day service available. Call (856) 600-0812.`,
+  title: { absolute: 'Pest Control Camden City NJ | Free Pest Estimate' },
+  description: `Licensed exterminators serving Camden City, NJ. Cockroaches, bed bugs, mice & rats in row homes and apartments. Same-day service available. Call (856) 600-0812.`,
   alternates: { canonical: `${SITE_URL}/camden-city/` },
 };
 
@@ -65,13 +65,13 @@ export default function CamdenCityPage() {
           Pest Control Camden City, NJ
         </h1>
         <p className="text-xl text-gray-600 mb-8">
-          Licensed exterminator serving Camden City &mdash; row homes, apartments, and multi-unit buildings. Cockroaches, bed bugs, mice, and rats eliminated fast. Same-day service available.
+          Licensed exterminators serving Camden City &mdash; row homes, apartments, and multi-unit buildings. Cockroaches, bed bugs, mice, and rats eliminated fast. Same-day service available.
         </p>
 
         <div className="grid grid-cols-3 gap-4 mb-8">
           {[
             { stat: 'Same-Day', label: 'Service Available' },
-            { stat: 'Licensed', label: 'NJ Exterminator' },
+            { stat: 'Licensed', label: "NJ Exterminators" },
             { stat: 'Free', label: 'Estimates' },
           ].map(({ stat, label }) => (
             <div key={stat} className="bg-brand-light rounded-lg p-4 text-center">
@@ -169,7 +169,7 @@ export default function CamdenCityPage() {
             <li>&#x2705; Discreet &mdash; no marked vehicles, no noise</li>
             <li>&#x2705; Tenant and landlord programs available</li>
             <li>&#x2705; EPA-registered products and clear post-treatment instructions</li>
-            <li>&#x2705; Free, no-obligation estimates</li>
+            <li>&#x2705; Free estimates</li>
           </ul>
         </div>
 

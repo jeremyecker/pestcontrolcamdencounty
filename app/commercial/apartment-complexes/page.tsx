@@ -17,7 +17,7 @@ const faqItems = [
   },
   {
     question: 'What is the typical process for handling a cockroach infestation in a multi-unit building?',
-    answer: 'Our multi-unit cockroach program begins with a building-wide assessment to understand where activity is concentrated and how severe the infestation is in each affected unit. We then treat all infested units simultaneously, plus adjacent units based on structural risk. Treatment uses gel bait, insect growth regulators, and targeted crack-and-crevice applications. Follow-up inspections at 2 weeks and 4 weeks confirm that activity is declining. For buildings with chronic cockroach problems, we develop a whole-building IPM program that addresses structural conducive conditions in addition to treatment.',
+    answer: "Our multi-unit cockroach program begins with a building-wide assessment to understand where activity is concentrated and how severe the infestation is in each affected unit. We then treat all infested units simultaneously, plus adjacent units based on structural risk. Treatment uses gel bait, insect growth regulators, and targeted crack-and-crevice applications. For buildings with chronic cockroach problems, we develop a whole-building IPM program that addresses structural conducive conditions in addition to treatment.",
   },
   {
     question: 'How do you handle bed bug programs in an apartment building with resistant or uncooperative tenants?',
@@ -90,7 +90,7 @@ export default function ApartmentComplexesPestControl() {
             In any multi-family building, pests do not respect unit boundaries. They move freely through the structural pathways that connect all units: plumbing chase penetrations where water supply and drain pipes pass through shared walls and floor/ceiling assemblies; electrical conduit systems that run throughout the building infrastructure; gaps in the fireblocking between units; and under apartment entrance doors (particularly for German cockroaches and bed bugs, which are small enough to transit a quarter-inch gap).
           </p>
           <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            Our shared-wall pest transfer management approach includes physical exclusion of identified penetrations in affected areas, treatment of infested and adjacent units simultaneously, monitoring device placement in high-transfer-risk areas (near plumbing penetrations, utility closets), and structural assessment reports that document conducive conditions for your maintenance team to address.
+            Our shared-wall pest transfer management approach includes physical exclusion of identified penetrations in affected areas, treatment of infested and adjacent units simultaneously and monitoring device placement in high-transfer-risk areas (near plumbing penetrations, utility closets).
           </p>
         </section>
 
@@ -148,7 +148,7 @@ export default function ApartmentComplexesPestControl() {
 
         <section className="bg-orange-50 border border-orange-200 rounded-xl p-8 text-center">
           <h2 className="text-2xl font-bold text-[#1A365D] mb-4">Apartment Complex Pest Programs — Camden County</h2>
-          <p className="text-gray-700 text-lg mb-6">Free building assessment for apartment complex managers and owners across Camden County NJ. Call today.</p>
+          <p className="text-gray-700 text-lg mb-6">Free phone assessment for apartment complex managers and owners across Camden County NJ. Call today.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:+18566000812" className="bg-[#DD6B20] hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">
               📞 Call (856) 600-0812

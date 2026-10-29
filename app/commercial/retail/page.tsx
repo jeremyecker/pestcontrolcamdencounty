@@ -25,7 +25,7 @@ const faqItems = [
   },
   {
     question: 'How do I prevent pests from coming in with new merchandise deliveries?',
-    answer: 'Incoming deliveries are one of the most overlooked pest introduction vectors in retail. Cardboard boxes, wooden pallets, and soft goods shipments can all carry pest introductions. We provide written receiving area protocols including pallet inspection procedures, cardboard recycling practices, and staging area management guidelines that significantly reduce introduction risk.',
+    answer: "Incoming deliveries are one of the most overlooked pest introduction vectors in retail. Cardboard boxes, wooden pallets, and soft goods shipments can all carry pest introductions.",
   },
   {
     question: 'Do you service large-format retail (home improvement, grocery, sporting goods)?',
@@ -151,7 +151,7 @@ export default function RetailPestControl() {
 
         <section className="bg-orange-50 border border-orange-200 rounded-xl p-8 text-center">
           <h2 className="text-2xl font-bold text-[#1A365D] mb-4">Protect Your Retail Store from Pests</h2>
-          <p className="text-gray-700 text-lg mb-6">Free commercial assessment for Camden County retail locations. Call or contact us today.</p>
+          <p className="text-gray-700 text-lg mb-6">Free phone assessment for Camden County retail locations. Call or contact us today.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:+18566000812" className="bg-[#DD6B20] hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">
               📞 Call (856) 600-0812

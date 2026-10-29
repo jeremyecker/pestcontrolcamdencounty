@@ -152,7 +152,7 @@ const seasonalData: Record<'spring' | 'summer' | 'fall' | 'winter', SeasonData> 
         href: '/bed-bug-exterminator',
       },
     ],
-    tip: 'Winter is ideal for a free inspection — pests are concentrated indoors and easier to locate.',
+    tip: 'Winter is ideal for a free phone consultation — pests are concentrated indoors and easier to locate.',
   },
 };
 

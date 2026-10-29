@@ -314,7 +314,7 @@ export default function EmergencyPestControl() {
                   After the emergency treatment, we develop a follow-up plan to ensure the problem is fully resolved
                   and does not recur. For bed bugs, this typically includes a comprehensive heat or chemical treatment
                   protocol. For rodents, it includes exclusion and long-term trapping. For wildlife, it includes
-                  full exclusion after all animals have been removed. We schedule follow-up visits as part of our wildlife exclusion service to ensure the work is completed thoroughly.
+                  full exclusion after all animals have been removed. 
                 </p>
               </div>
             </div>
@@ -409,9 +409,7 @@ export default function EmergencyPestControl() {
                 Call us immediately at{' '}
                 <a href="tel:+18566000812" className="text-[#2B6CB0] font-semibold hover:underline">(856) 600-0812</a>.
                 We provide emergency pest control for food service establishments throughout Camden County and
-                understand the regulatory environment in NJ. We can respond same-day to implement trapping, exclusion,
-                and documentation of corrective action. We also provide service documentation that can support your
-                communication with the Camden County Health Department inspector.
+                understand the regulatory environment in NJ. We can respond same-day to implement trapping and exclusion. 
               </p>
             </div>
             <div className="border-b border-gray-200 pb-6">
@@ -445,8 +443,8 @@ export default function EmergencyPestControl() {
               <p className="text-gray-600 text-sm">Licensed, NJDEP-certified exterminators throughout Camden County</p>
             </Link>
             <Link href="/free-pest-inspection" className="block bg-blue-50 hover:bg-blue-100 rounded-lg p-5 transition-colors">
-              <h3 className="font-semibold text-[#1A365D] mb-1">Free Pest Inspection →</h3>
-              <p className="text-gray-600 text-sm">No-cost, no-obligation property inspection for Camden County</p>
+              <h3 className="font-semibold text-[#1A365D] mb-1">Free Pest Estimate →</h3>
+              <p className="text-gray-600 text-sm">Free, no-obligation phone quote for Camden County</p>
             </Link>
             <Link href="/services/bed-bug-removal" className="block bg-blue-50 hover:bg-blue-100 rounded-lg p-5 transition-colors">
               <h3 className="font-semibold text-[#1A365D] mb-1">Bed Bug Removal →</h3>
@@ -462,7 +460,7 @@ export default function EmergencyPestControl() {
           </h2>
           <p className="text-gray-700 text-lg mb-6">
             Every hour matters when you are dealing with a pest emergency in Camden County. Call now for immediate
-            response from a licensed, local pest control professional.
+            response from licensed, local pest control professionals.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

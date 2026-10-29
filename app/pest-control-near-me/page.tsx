@@ -36,7 +36,7 @@ export default function PestControlNearMe() {
     {
       question: 'Do you offer free estimates in Camden County, NJ?',
       answer:
-        'Yes. Every residential and commercial property in Camden County qualifies for a free phone assessment. A licensed representative will discuss your pest situation, answer your questions, and provide a verbal quote right on the call — no obligation.',
+        'Yes. Every residential and commercial property in Camden County qualifies for a free phone assessment. Licensed representatives will discuss your pest situation, answer your questions, and provide a verbal quote right on the call — no obligation.',
     },
     {
       question: 'What products do you use, and what precautions should I take?',
@@ -203,7 +203,7 @@ export default function PestControlNearMe() {
               <span className="text-[#DD6B20] font-bold text-xl">→</span>
               <div>
                 <strong className="text-[#1A365D]">Clear Pricing and Service Agreement:</strong>{' '}
-                <span className="text-gray-700">Never agree to pest control service without a clear price up front. A professional company explains the treatment plan clearly and stands behind the work with a warranty.</span>
+                <span className="text-gray-700">Never agree to pest control service without a clear price up front. A professional company explains the treatment plan clearly.</span>
               </div>
             </div>
           </div>
@@ -364,7 +364,7 @@ export default function PestControlNearMe() {
                 <h3 className="text-xl font-semibold text-[#1A365D]">Free Phone Assessment &amp; Honest Pricing</h3>
                 <p className="text-gray-700">
                   We offer a <Link href="/free-pest-inspection" className="text-[#2B6CB0] hover:underline">free phone assessment</Link>{' '}
-                  for all residential and commercial properties in Camden County. A licensed representative will discuss your pest situation, answer your questions, and provide a verbal quote right on the call. No hidden fees, no surprise charges, no pressure tactics. Just honest, transparent pricing from a local company that wants to earn your trust and your long-term business.
+                  for all residential and commercial properties in Camden County. Licensed representatives will discuss your pest situation, answer your questions, and provide a verbal quote right on the call. No hidden fees, no surprise charges, no pressure tactics. Just honest, transparent pricing from a local company that wants to earn your trust and your long-term business.
                 </p>
               </div>
             </div>
@@ -457,7 +457,7 @@ export default function PestControlNearMe() {
               <div>
                 <h3 className="text-lg font-semibold text-[#1A365D]">Free Phone Assessment</h3>
                 <p className="text-gray-700">
-                  A licensed representative discusses your pest situation over the phone, asks targeted questions to understand the scope of the problem, and provides a verbal quote based on what you describe. This assessment is completely free with no obligation.
+                  Licensed representatives discuss your pest situation over the phone, ask targeted questions to understand the scope of the problem, and provide a verbal quote based on what you describe. 
                 </p>
               </div>
             </div>
@@ -486,7 +486,7 @@ export default function PestControlNearMe() {
               <div>
                 <h3 className="text-lg font-semibold text-[#1A365D]">Follow-Up &amp; Prevention</h3>
                 <p className="text-gray-700">
-                  We schedule follow-up visits as needed to ensure the infestation is fully resolved. We also provide
+                  We also provide
                   detailed prevention recommendations and offer ongoing maintenance plans to keep pests from returning.
                 </p>
               </div>
@@ -513,12 +513,12 @@ export default function PestControlNearMe() {
               <p className="text-gray-600 text-sm">Book a same-day exterminator visit in Camden County</p>
             </Link>
             <Link href="/free-pest-inspection" className="block bg-blue-50 hover:bg-blue-100 rounded-lg p-5 transition-colors">
-              <h3 className="font-semibold text-[#1A365D] mb-1">Free Pest Inspection →</h3>
-              <p className="text-gray-600 text-sm">Schedule a no-cost, no-obligation inspection today</p>
+              <h3 className="font-semibold text-[#1A365D] mb-1">Free Pest Estimate →</h3>
+              <p className="text-gray-600 text-sm">Schedule a free, no-obligation phone quote today.</p>
             </Link>
             <Link href="/termite-inspection" className="block bg-blue-50 hover:bg-blue-100 rounded-lg p-5 transition-colors">
               <h3 className="font-semibold text-[#1A365D] mb-1">Termite Inspection →</h3>
-              <p className="text-gray-600 text-sm">Free termite assessment for Camden County homes</p>
+              <p className="text-gray-600 text-sm">Free phone assessment for Camden County homes.</p>
             </Link>
           </div>
         </section>
@@ -631,7 +631,7 @@ export default function PestControlNearMe() {
                     name: 'Do you offer free estimates in Camden County, NJ?',
                     acceptedAnswer: {
                       '@type': 'Answer',
-                      text: 'Yes. Every residential and commercial property in Camden County qualifies for a free phone assessment. A licensed representative will discuss your pest situation, answer your questions, and provide a verbal quote right on the call — no obligation.',
+                      text: 'Yes. Every residential and commercial property in Camden County qualifies for a free phone assessment. Licensed representatives will discuss your pest situation, answer your questions, and provide a verbal quote right on the call — no obligation.',
                     },
                   },
                   {

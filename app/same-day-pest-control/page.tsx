@@ -149,9 +149,7 @@ export default function SameDayPestControl() {
                 <h3 className="font-semibold text-[#1A365D]">A Business Faces an Imminent Health Inspection</h3>
                 <p className="text-gray-700">
                   Restaurants, food service businesses, and health care facilities in Camden County cannot afford to
-                  wait for a scheduled pest control appointment when facing a health inspection. Same-day service
-                  with documentation of corrective action can be the difference between passing an inspection and
-                  receiving a violation notice.
+                  wait for a scheduled pest control appointment when facing a health inspection. 
                 </p>
               </div>
             </div>
@@ -435,11 +433,11 @@ export default function SameDayPestControl() {
               </p>
             </div>
             <div className="border-b border-gray-200 pb-6">
-              <h3 className="text-lg font-semibold text-[#1A365D] mb-2">Can I get a free inspection on a same-day call?</h3>
+              <h3 className="text-lg font-semibold text-[#1A365D] mb-2">Can I get a free phone assessment on a same-day call?</h3>
               <p className="text-gray-700">
                 Yes. Our{' '}
                 <Link href="/free-pest-inspection" className="text-[#2B6CB0] hover:underline">free phone assessment</Link>{' '}
-                is available any time you call. A licensed representative will discuss your situation and provide a verbal quote over the phone. If you decide to book, we can often dispatch a technician for same-day treatment.
+                is available any time you call. Licensed representatives will discuss your situation and provide a verbal quote over the phone. If you decide to book, we can often dispatch a technician for same-day treatment.
               </p>
             </div>
             <div className="border-b border-gray-200 pb-6">
@@ -487,8 +485,8 @@ export default function SameDayPestControl() {
               <p className="text-gray-600 text-sm">Licensed exterminators throughout Camden County, NJ</p>
             </Link>
             <Link href="/free-pest-inspection" className="block bg-blue-50 hover:bg-blue-100 rounded-lg p-5 transition-colors">
-              <h3 className="font-semibold text-[#1A365D] mb-1">Free Pest Inspection →</h3>
-              <p className="text-gray-600 text-sm">No-cost, no-obligation property inspection — available same-day</p>
+              <h3 className="font-semibold text-[#1A365D] mb-1">Free Pest Estimate →</h3>
+              <p className="text-gray-600 text-sm">Free, no-obligation phone quote — available same-day</p>
             </Link>
             <Link href="/termite-inspection" className="block bg-blue-50 hover:bg-blue-100 rounded-lg p-5 transition-colors">
               <h3 className="font-semibold text-[#1A365D] mb-1">Termite Inspection →</h3>
@@ -504,7 +502,7 @@ export default function SameDayPestControl() {
           </h2>
           <p className="text-gray-700 text-lg mb-6">
             Same-day slots fill up fast across Camden County. Call before noon for a same-day visit from
-            a NJDEP-licensed pest control professional.
+            NJDEP-licensed pest control professionals.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -605,10 +603,10 @@ export default function SameDayPestControl() {
                   },
                   {
                     '@type': 'Question',
-                    name: 'Can I get a free inspection on a same-day call?',
+                    name: 'Can I get a free phone assessment on a same-day call?',
                     acceptedAnswer: {
                       '@type': 'Answer',
-                      text: 'Yes. Our free phone assessment is available any time you call. A licensed representative will discuss your situation and provide a verbal quote over the phone. If you decide to book, we can often dispatch a technician for same-day treatment.',
+                      text: 'Yes. Our free phone assessment is available any time you call. Licensed representatives will discuss your situation and provide a verbal quote over the phone. If you decide to book, we can often dispatch a technician for same-day treatment.',
                     },
                   },
                 ],
