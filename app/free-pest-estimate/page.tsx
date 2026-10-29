@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   robots: { index: false, follow: true },
   title: 'Free Pest Estimate | Camden County, NJ',
   description:
-    'Call (856) 600-0812 for a free, no-obligation pest estimate in Camden County. Speak with a licensed rep and get pricing on the spot.',
+    'Call (856) 600-0812 for a free, no-obligation phone quote in Camden County. Speak with licensed reps and get pricing on the spot.',
   keywords:
     'free pest estimate, pest estimate Camden County, free exterminator estimate, free termite quote NJ, pest estimate Cherry Hill',
 };
@@ -32,7 +32,7 @@ const faqData = [
   },
   {
     question: `What happens on the call? How is the estimate provided?`,
-    answer: `When you call, you'll speak with a licensed Rest Easy representative. You'll describe your pest concern and share details about your property. Based on that conversation, we'll discuss your situation, explain factors that may be contributing to the issue, and give you a price for service — all during that same phone call.`,
+    answer: `When you call, you'll speak with licensed Rest Easy representatives. You'll describe your pest concern and share details about your property. Based on that conversation, we'll discuss your situation, explain factors that may be contributing to the issue, and give you a price for service — all during that same phone call.`,
   },
   {
     question: `What types of pests are covered?`,
@@ -40,15 +40,15 @@ const faqData = [
   },
   {
     question: `Can I get an estimate for a rental or commercial property?`,
-    answer: `Absolutely. Whether you're a homeowner, landlord, property manager, or business owner, we're happy to provide a free phone estimate for residential and commercial properties alike.`,
+    answer: `Absolutely. Whether you're a homeowner, landlord, property manager, or business owner, we're happy to provide a free phone assessment for residential and commercial properties alike.`,
   },
   {
     question: `Do you offer WDI reports for real estate transactions?`,
-    answer: `Yes, we do — but this is a separate paid service, not part of the free phone estimate. A WDI (Wood Destroying Insect) report requires a scheduled on-site inspection after booking and payment, and it results in an official written report. Contact us to learn more about pricing and scheduling.`,
+    answer: `Yes, we do — but this is a separate paid service, not part of the free phone assessment. A WDI (Wood Destroying Insect) report requires a scheduled on-site inspection after booking and payment, and it results in an official written report. Contact us to learn more about pricing and scheduling.`,
   },
   {
     question: `What about bed bugs?`,
-    answer: `Bed bug concerns are addressed through a separate paid, on-site inspection — not the free phone estimate. During that visit, a technician examines the area and discusses findings with you verbally on site. No written report or photographs are produced from a bed bug inspection. Call us to ask questions or to schedule.`,
+    answer: `Bed bug concerns are addressed through a separate paid, on-site inspection — not the free phone assessment. During that visit, a technician examines the area and discusses findings with you verbally on site. No written report or photographs are produced from a bed bug inspection. Call us to ask questions or to schedule.`,
   },
 ];
 
@@ -72,10 +72,10 @@ export default function FreePestEstimate() {
       <section className="bg-gradient-to-br from-[#1A365D] to-[#2B6CB0] text-white py-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            {`Free Pest Control Estimate in Camden County, NJ`}
+            {`Free Pest Estimate in Camden County, NJ`}
           </h1>
           <p className="text-xl text-blue-100 mb-8">
-            {`Get a straightforward answer about your pest problem—without waiting for a home visit. Call Rest Easy Pest Control for a free phone assessment with a licensed representative. Describe your situation, get a price on the spot, and decide if you'd like to book. No obligation, no pressure, no hassle.`}
+            {`Get a straightforward answer about your pest problem—without waiting for a home visit. Call Rest Easy Pest Control for a free phone assessment with licensed representatives. Describe your situation, get a price on the spot, and decide if you'd like to book. No obligation, no pressure, no hassle.`}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -107,7 +107,7 @@ export default function FreePestEstimate() {
               <div className="bg-green-600 text-white font-bold rounded-full w-10 h-10 flex items-center justify-center shrink-0">1</div>
               <div>
                 <h3 className="text-lg font-semibold text-[#1A365D]">{`Reach Out`}</h3>
-                <p className="text-gray-700">{`Call us or submit the online form to connect with a licensed Rest Easy Pest Control representative. We're here to listen and ready to help.`}</p>
+                <p className="text-gray-700">{`Call us or submit the online form to connect with licensed Rest Easy Pest Control representatives. We're here to listen and ready to help.`}</p>
               </div>
             </div>
             <div className="flex gap-4 items-start">
@@ -140,7 +140,7 @@ export default function FreePestEstimate() {
             {`Why We Provide Estimates by Phone`}
           </h2>
           <p className="text-gray-700 text-lg leading-relaxed mb-4">{`We know your time is valuable. That's why our free estimates are handled over the phone rather than requiring you to schedule and wait for a home visit before you've even decided to move forward.`}</p>
-          <p className="text-gray-700 text-lg leading-relaxed mb-4">{`When you call, you speak directly with a licensed representative who can assess your situation based on what you describe, answer your questions, and provide pricing—all in one conversation. You get the information you need right away, without carving time out of your day for an appointment.`}</p>
+          <p className="text-gray-700 text-lg leading-relaxed mb-4">{`When you call, you speak directly with licensed representatives who can assess your situation based on what you describe, answer your questions, and provide pricing—all in one conversation. You get the information you need right away, without carving time out of your day for an appointment.`}</p>
           <p className="text-gray-700 text-lg leading-relaxed mb-4">{`If you choose to book service, that's when our technicians come to your property to do the hands-on work. But there's no need to commit to a visit just to find out what things might cost.`}</p>
         </section>
 
@@ -150,8 +150,8 @@ export default function FreePestEstimate() {
             {`Need a Wood Destroying Insect Report for a Real Estate Transaction?`}
           </h2>
           <p className="text-gray-700 text-lg leading-relaxed mb-4">{`If you're buying, selling, or refinancing a property and need an official WDI (Wood Destroying Insect) report, Rest Easy Pest Control offers this as a separate paid service.`}</p>
-          <p className="text-gray-700 text-lg leading-relaxed mb-4">{`A WDI report involves a thorough on-site inspection conducted by a licensed inspector after the service is booked and paid for. You'll receive a genuine written report documenting the findings—the kind of official documentation that lenders and real estate professionals require.`}</p>
-          <p className="text-gray-700 text-lg leading-relaxed mb-4">{`Please note: The WDI report is a distinct service from our free phone estimate. It is not included in, and should not be confused with, the no-cost assessment described on this page.`}</p>
+          <p className="text-gray-700 text-lg leading-relaxed mb-4">{`A WDI report involves a thorough on-site inspection conducted by licensed inspectors after the service is booked and paid for. You'll receive a genuine written report documenting the findings—the kind of official documentation that lenders and real estate professionals require.`}</p>
+          <p className="text-gray-700 text-lg leading-relaxed mb-4">{`Please note: The WDI report is a distinct service from our free phone assessment. It is not included in, and should not be confused with, the no-cost assessment described on this page.`}</p>
           <p className="text-gray-700 text-lg leading-relaxed">{`Contact us to learn more or to schedule your WDI inspection.`}</p>
         </section>
 
@@ -160,7 +160,7 @@ export default function FreePestEstimate() {
           <h2 className="text-2xl font-bold text-[#1A365D] mb-4">
             {`A Note About Bed Bug Concerns`}
           </h2>
-          <p className="text-gray-700 text-lg leading-relaxed mb-4">{`If you suspect a bed bug issue, we understand the urgency. Bed bug situations are handled through a paid, on-site inspection—not through our free phone estimate.`}</p>
+          <p className="text-gray-700 text-lg leading-relaxed mb-4">{`If you suspect a bed bug issue, we understand the urgency. Bed bug situations are handled through a paid, on-site inspection—not through our free phone assessment.`}</p>
           <p className="text-gray-700 text-lg leading-relaxed mb-4">{`During this visit, a trained technician examines the affected areas and discusses the findings with you verbally, right there on site. This allows for a direct conversation about what's been found and what steps may be appropriate.`}</p>
           <p className="text-gray-700 text-lg leading-relaxed">{`Please be aware that no written report or photographs are produced from a bed bug inspection. If you have questions about scheduling a bed bug inspection, give us a call.`}</p>
         </section>
@@ -171,7 +171,7 @@ export default function FreePestEstimate() {
             Free Estimate Serving All of Camden County
           </h2>
           <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            We provide free phone estimates throughout all 16 municipalities in Camden County, NJ. {`No matter where you are located in the county, we can provide a free estimate over the phone:`}
+            We provide free phone assessments throughout all 16 municipalities in Camden County, NJ. {`No matter where you are located in the county, we can provide a free estimate over the phone:`}
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-6">
             {[
@@ -233,8 +233,8 @@ export default function FreePestEstimate() {
               <p className="text-gray-600 text-sm">Official WDI reports and termite treatment for Camden County</p>
             </Link>
             <Link href="/free-pest-inspection" className="block bg-blue-50 hover:bg-blue-100 rounded-lg p-5 transition-colors">
-              <h3 className="font-semibold text-[#1A365D] mb-1">Free Pest Inspection →</h3>
-              <p className="text-gray-600 text-sm">Free phone estimate for any pest issue in Camden County</p>
+              <h3 className="font-semibold text-[#1A365D] mb-1">Free Pest Estimate →</h3>
+              <p className="text-gray-600 text-sm">Free phone assessment for any pest issue in Camden County</p>
             </Link>
             <Link href="/same-day-pest-control" className="block bg-green-50 hover:bg-green-100 rounded-lg p-5 transition-colors">
               <h3 className="font-semibold text-[#1A365D] mb-1">Same-Day Service →</h3>
@@ -261,7 +261,7 @@ export default function FreePestEstimate() {
             {`Ready to Get Your Free Estimate?`}
           </h2>
           <p className="text-gray-700 text-lg mb-6">
-            {`If you're dealing with a pest problem in Camden County, Rest Easy Pest Control is here to help. Call us at (856) 600-0812 or submit the form on this page to speak with a licensed representative.`}
+            {`If you're dealing with a pest problem in Camden County, Rest Easy Pest Control is here to help. Call us at (856) 600-0812 or submit the form on this page to speak with licensed representatives.`}
           </p>
           <p className="text-gray-700 text-lg mb-6">
             {`There's no cost, no obligation, and no pressure—just honest answers and clear pricing so you can decide what's right for you.`}
@@ -296,7 +296,7 @@ export default function FreePestEstimate() {
                 telephone: '(856) 600-0812',
                 url: 'https://pestcontrolcamdencounty.com/free-pest-estimate',
                 description:
-                  `Free pest control estimate in Camden County — no obligation. Call (856) 600-0812 to describe your problem and get a price on the spot.`,
+                  `Free Pest Estimate in Camden County — no obligation. Call (856) 600-0812 to describe your problem and get a price on the spot.`,
                 areaServed: {
                   '@type': 'County',
                   name: 'Camden County',
@@ -310,7 +310,7 @@ export default function FreePestEstimate() {
                   '@type': 'Offer',
                   price: '0',
                   priceCurrency: 'USD',
-                  description: 'Free phone estimate — no obligation',
+                  description: 'Free phone assessment — no obligation',
                 },
               },
               {
