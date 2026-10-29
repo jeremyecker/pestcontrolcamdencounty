@@ -6,11 +6,11 @@ import SeasonalAlert from '@/components/sections/SeasonalAlert';
 export const revalidate = 86400;
 
 export const metadata: Metadata = {
-  title: 'Termite Inspection Camden County NJ | Free Assessment',
+  title: 'Termite Inspection Camden County NJ | Free Phone Assessment',
   description:
-    'Free termite assessment for Camden County homeowners. Call (856) 600-0812 — no obligation, no pressure. Get answers by phone today.',
+    'Free phone assessment for Camden County homeowners. Call (856) 600-0812 — no obligation, no pressure. Get answers by phone today.',
   keywords:
-    'termite inspection Camden County NJ, free termite assessment, termite inspection Cherry Hill, WDI report New Jersey, termite treatment NJ',
+    'termite inspection Camden County NJ, free phone assessment, termite inspection Cherry Hill, WDI report New Jersey, termite treatment NJ',
 };
 
 const localBusinessSchema = {
@@ -34,19 +34,19 @@ const faqData = [
   },
   {
     question: `What happens on the call? How is the assessment provided?`,
-    answer: `You'll speak directly with a licensed Rest Easy representative. You describe what you've observed — signs of possible termite activity, conditions around your property, any concerns you have — and the representative discusses what those signs may indicate and what treatment options might apply. If treatment is appropriate, you'll get a price right there on the call.`,
+    answer: `You'll speak directly with licensed Rest Easy representatives. You describe what you've observed — signs of possible termite activity, conditions around your property, any concerns you have — and the representatives discuss what those signs may indicate and what treatment options might apply. If treatment is appropriate, you'll get a price right there on the call.`,
   },
   {
     question: `What are common signs of termite activity I should describe?`,
     answer: `Helpful things to mention include mud tubes on walls or foundations, discarded wings near windows or doors, wood that sounds hollow when tapped, visible damage to wood, wood-to-soil contact around your home, and any moisture issues like leaks or damp areas. The more detail you can share, the more useful the conversation will be.`,
   },
   {
-    question: `Is the free assessment done in person or by phone?`,
-    answer: `The free assessment is conducted entirely by phone. There's no on-site visit as part of the free assessment — that only happens if you decide to book and pay for treatment or another service afterward.`,
+    question: `Is the free phone assessment done in person or by phone?`,
+    answer: `The free phone assessment is conducted entirely by phone. There's no on-site visit as part of the free phone assessment — that only happens if you decide to book and pay for treatment or another service afterward.`,
   },
   {
     question: `Do you offer WDI reports for real estate transactions?`,
-    answer: `Yes, we offer official WDI (Wood Destroying Insect) reports for property purchases, sales, and refinances. This is a separate paid service that involves a real on-site inspection by a licensed inspector, producing a genuine written report. It is not included in or bundled with the free phone assessment.`,
+    answer: `Yes, we offer official WDI (Wood Destroying Insect) reports for property purchases, sales, and refinances. This is a separate paid service that involves a real on-site inspection by licensed inspectors, producing a genuine written report. It is not included in or bundled with the free phone assessment.`,
   },
   {
     question: `What termite treatment options are available?`,
@@ -98,10 +98,10 @@ export default function TermiteInspection() {
         <section className="bg-gradient-to-br from-orange-900 to-orange-700 text-white py-16">
           <div className="max-w-4xl mx-auto px-4 text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
-              {`Free Termite Assessment by Phone for Camden County, NJ Homeowners — Get Answers Today`}
+              {`Free Phone Assessment for Camden County, NJ Homeowners — Get Answers Today`}
             </h1>
             <p className="text-xl text-orange-100 mb-8">
-              {`Concerned about termites? Talk directly with a licensed Rest Easy Pest Control representative — no home visit required, no obligation to book anything. Call us, describe what you've observed, and get a straight answer plus pricing on the spot. It's that simple.`}
+              {`Concerned about termites? Talk directly with licensed Rest Easy Pest Control representatives — no home visit required, no obligation to book anything. Call us, describe what you've observed, and get a straight answer plus pricing on the spot. It's that simple.`}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -114,7 +114,7 @@ export default function TermiteInspection() {
                 href="/contact"
                 className="bg-white text-orange-900 font-bold py-4 px-8 rounded-lg text-xl hover:bg-gray-100 transition-colors"
               >
-                {`Get Your Free Assessment`}
+                {`Get Your Free Phone Assessment`}
               </Link>
             </div>
           </div>
@@ -128,7 +128,7 @@ export default function TermiteInspection() {
           {/* How It Works */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-[#1A365D] mb-6">
-              {`How Your Free Termite Assessment Works`}
+              {`How Your Free Phone Assessment Works`}
             </h2>
             <p className="text-gray-700 text-lg leading-relaxed mb-6">
               {`Getting answers about a potential termite problem doesn't have to mean waiting days for someone to come to your home. Here's exactly what happens when you reach out for your free phone assessment:`}
@@ -138,7 +138,7 @@ export default function TermiteInspection() {
                 <div className="bg-green-600 text-white font-bold rounded-full w-10 h-10 flex items-center justify-center shrink-0">1</div>
                 <div>
                   <h3 className="text-lg font-semibold text-[#1A365D]">{`Call Us or Submit the Online Form`}</h3>
-                  <p className="text-gray-700">{`Reach out however is most convenient for you. A licensed Rest Easy representative will be ready to speak with you — no automated phone trees, no waiting for a callback days later.`}</p>
+                  <p className="text-gray-700">{`Reach out however is most convenient for you. Licensed Rest Easy representatives will be ready to speak with you — no automated phone trees, no waiting for a callback days later.`}</p>
                 </div>
               </div>
               <div className="flex gap-4 items-start">
@@ -152,7 +152,7 @@ export default function TermiteInspection() {
                 <div className="bg-green-600 text-white font-bold rounded-full w-10 h-10 flex items-center justify-center shrink-0">3</div>
                 <div>
                   <h3 className="text-lg font-semibold text-[#1A365D]">{`Get a Professional Assessment Based on Your Description`}</h3>
-                  <p className="text-gray-700">{`Our licensed representative will discuss what those signs may indicate, what conditions might be contributing to the problem, and what treatment options typically apply — all based entirely on what you describe to us.`}</p>
+                  <p className="text-gray-700">{`Our licensed representatives will discuss what those signs may indicate, what conditions might be contributing to the problem, and what treatment options typically apply — all based entirely on what you describe to us.`}</p>
                 </div>
               </div>
               <div className="flex gap-4 items-start">
@@ -171,7 +171,7 @@ export default function TermiteInspection() {
               {`Why We Start With a Phone Assessment`}
             </h2>
             <p className="text-gray-700 text-lg leading-relaxed mb-4">{`You shouldn't have to wait days to schedule an appointment just to find out whether you might have a termite problem. That's why we've made the first step as fast and convenient as possible.`}</p>
-            <p className="text-gray-700 text-lg leading-relaxed mb-4">{`When you call for your free assessment, you speak directly with a licensed representative who can discuss what you're observing and give you real answers immediately — often within the same conversation. There's no need to rearrange your schedule, take time off work, or wait at home for a technician to arrive before you've even decided whether you want to move forward.`}</p>
+            <p className="text-gray-700 text-lg leading-relaxed mb-4">{`When you call for your free phone assessment, you speak directly with licensed representatives who can discuss what you're observing and give you real answers immediately — often within the same conversation. There's no need to rearrange your schedule, take time off work, or wait at home for a technician to arrive before you've even decided whether you want to move forward.`}</p>
             <p className="text-gray-700 text-lg leading-relaxed">{`This approach respects your time. You get information and pricing right away, and you can make an informed decision from there. If you do decide to book treatment or any other service, that's when we schedule time to come to your property and do the hands-on work.`}</p>
           </section>
 
@@ -206,7 +206,7 @@ export default function TermiteInspection() {
               </div>
             </div>
             <p className="text-gray-700 text-lg leading-relaxed">
-              {`When you call for your free assessment, describing these kinds of observations helps our representative give you the most useful information possible about what you may be dealing with.`}
+              {`When you call for your free phone assessment, describing these kinds of observations helps our representative give you the most useful information possible about what you may be dealing with.`}
             </p>
           </section>
 
@@ -239,7 +239,7 @@ export default function TermiteInspection() {
               {`Need a WDI Report for a Real Estate Transaction?`}
             </h2>
             <p className="text-gray-700 text-lg leading-relaxed mb-4">{`If you're buying, selling, or refinancing a property, you may need an official Wood Destroying Insect (WDI) report. This is a separate paid service — not included in the free phone assessment.`}</p>
-            <p className="text-gray-700 text-lg leading-relaxed mb-4">{`A WDI report involves a real on-site inspection performed by a licensed inspector after you book and pay for the service. The inspector examines the property in person and produces a genuine written report documenting the findings. This report is the kind of official documentation required by lenders, real estate agents, and title companies for property transactions.`}</p>
+            <p className="text-gray-700 text-lg leading-relaxed mb-4">{`A WDI report involves a real on-site inspection performed by licensed inspectors after you book and pay for the service. The inspectors examine the property in person and produce a genuine written report documenting the findings. This report is the kind of official documentation required by lenders, real estate agents, and title companies for property transactions.`}</p>
             <p className="text-gray-700 text-lg leading-relaxed mb-4">{`Rest Easy Pest Control offers WDI reports in New York, New Jersey, and Pennsylvania. This is the only written report our company provides for any service — it is a paid inspection with a formal written deliverable, and it is completely separate from the free phone assessment described on this page.`}</p>
             <p className="text-gray-700 text-lg leading-relaxed">{`If you need a WDI report, let us know when you call and we can explain how that process works.`}</p>
           </section>
@@ -271,7 +271,7 @@ export default function TermiteInspection() {
               </Link>
               <Link href="/free-pest-estimate" className="block bg-blue-50 hover:bg-blue-100 rounded-lg p-5 transition-colors">
                 <h3 className="font-semibold text-[#1A365D] mb-1">Free Pest Estimate →</h3>
-                <p className="text-gray-600 text-sm">Free phone estimate for any pest issue in Camden County</p>
+                <p className="text-gray-600 text-sm">Free phone assessment for any pest issue in Camden County</p>
               </Link>
             </div>
           </section>
@@ -282,7 +282,7 @@ export default function TermiteInspection() {
               {`Ready to Get Answers About Your Termite Concerns?`}
             </h2>
             <p className="text-gray-700 text-lg mb-6">
-              {`If you're a homeowner in Camden County, NJ, and you've noticed signs that concern you — or you just want peace of mind — we're here to help. Call Rest Easy Pest Control at (856) 600-0812 or request your free assessment online. There's no cost, no obligation, and no pressure. Just a straightforward conversation with a licensed representative who can help you understand what you're dealing with and what your options are.`}
+              {`If you're a homeowner in Camden County, NJ, and you've noticed signs that concern you — or you just want peace of mind — we're here to help. Call Rest Easy Pest Control at (856) 600-0812 or request your free phone assessment online. There's no cost, no obligation, and no pressure. Just a straightforward conversation with licensed representatives who can help you understand what you're dealing with and what your options are.`}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -295,7 +295,7 @@ export default function TermiteInspection() {
                 href="/contact"
                 className="bg-[#1A365D] hover:bg-[#2B6CB0] text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors"
               >
-                Get Your Free Assessment
+                Get Your Free Phone Assessment
               </Link>
             </div>
           </section>
@@ -328,7 +328,7 @@ export default function TermiteInspection() {
               telephone: '(856) 600-0812',
               url: 'https://pestcontrolcamdencounty.com/termite-inspection',
               description:
-                'Free termite phone assessment in Camden County NJ — no obligation. WDI reports available as a separate paid service for real estate transactions.',
+                'Free phone assessment in Camden County NJ — no obligation. WDI reports available as a separate paid service for real estate transactions.',
               areaServed: {
                 '@type': 'County',
                 name: 'Camden County',

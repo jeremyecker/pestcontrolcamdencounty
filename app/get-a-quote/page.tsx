@@ -4,14 +4,14 @@ import { PHONE, PHONE_HREF, GEO, SERVICES, SITE_URL } from '@/site.config';
 
 export const metadata: Metadata = {
   robots: { index: false, follow: true },
-  title: { absolute: 'Get a Free Pest Control Quote | Camden County, NJ' },
+  title: { absolute: 'Get a Free Pest Estimate | Camden County, NJ' },
   description:
-    'Request a free pest control estimate for your Camden County home or business. Licensed exterminator — same-day service available in Cherry Hill, Voorhees, Gloucester Township, and Haddonfield.',
+    'Request a free pest estimate for your Camden County home or business. Licensed exterminators — same-day service available in Cherry Hill, Voorhees, Gloucester Township, and Haddonfield.',
   alternates: { canonical: `${SITE_URL}/get-a-quote/` },
   openGraph: {
-    title: 'Get a Free Pest Control Quote | Camden County, NJ',
+    title: 'Get a Free Pest Estimate | Camden County, NJ',
     description:
-      'Request a free pest control estimate for your Camden County home or business. Same-day service available.',
+      'Request a free pest estimate for your Camden County home or business. Same-day service available.',
     url: `${SITE_URL}/get-a-quote/`,
   },
 };
@@ -72,7 +72,7 @@ export default function GetAQuotePage() {
               Free Estimate — No Obligation
             </p>
             <h1 className="text-3xl md:text-4xl font-bold leading-tight mb-4">
-              Get a Free Pest Control Quote in Camden County, NJ
+              Get a Free Pest Estimate in Camden County, NJ
             </h1>
             <p className="text-blue-100 text-lg mb-6">
               Same-day service available. Licensed, insured, and trusted by Camden County{' '}
