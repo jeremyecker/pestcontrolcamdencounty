@@ -36,7 +36,7 @@ const SERVICES_MAP: Record<string, ServiceConfig> = {
   'rodent-control': {
     label: 'Rodent Control', h1Prefix: 'Free Rodent Control Quote in',
     pricing: '$300\u2013$450', pricingNote: 'removal + exclusion included',
-    intro: (town) => `Mice and rats seek warmth in Camden County homes every fall \u2014 especially in ${town}. Our rodent control service includes removal, exclusion (sealing entry points), and a follow-up inspection to keep them out.`,
+    intro: (town) => `Mice and rats seek warmth in Camden County homes every fall \u2014 especially in ${town}. Our rodent control service includes removal and exclusion (sealing entry points).`,
     faqs: [
       { q: 'How much does rodent control cost in Camden County?', a: 'Rodent control in Camden County runs $300\u2013$450 and includes both removal and exclusion work \u2014 sealing the entry points mice and rats use to get inside.' },
       { q: 'How do mice get into homes?', a: 'Mice can squeeze through gaps as small as a dime. Common entry points include gaps around pipes, foundation cracks, dryer vents, and gaps under doors. Our exclusion service seals all of these.' },
@@ -110,7 +110,7 @@ export async function generateMetadata({ params }: { params: Promise<{ service: 
   if (!svc) return {};
   const townName = getTownName(town);
   const title = `Free ${svc.label} Quote in ${townName}, NJ`;
-  const description = `Licensed ${svc.label.toLowerCase()} serving ${townName}, Camden County NJ. ${svc.pricing} \u2014 free estimate, same-day service available.`;
+  const description = `Licensed ${svc.label.toLowerCase().replace("exterminator", "exterminators")} serving ${townName}, Camden County NJ. ${svc.pricing} \u2014 free estimate, same-day service available.`;
   return {
     robots: { index: false, follow: true },
     title: { absolute: title },

@@ -67,7 +67,7 @@ export const BLOG_POSTS_WAVE7: BlogPost[] = [
 </ul>
 
 <h2>Schedule a Rodent Inspection in Camden County</h2>
-<p>If you're seeing signs of rodent activity—or want to get ahead of a problem before it escalates—a professional assessment is the right starting point. A licensed exterminator familiar with Camden County's building stock and rodent pressure patterns can identify what you're dealing with and outline a plan suited to your property type.</p>
+<p>If you're seeing signs of rodent activity—or want to get ahead of a problem before it escalates—a professional assessment is the right starting point. Licensed exterminators familiar with Camden County's building stock and rodent pressure patterns can identify what you're dealing with and outline a plan suited to your property type.</p>
 <p>Call <a href="tel:+18566000812">(856) 600-0812</a> to schedule an inspection.</p>`,
   },
 ];

@@ -64,7 +64,7 @@ export async function generateMetadata({ params }: { params: Promise<{ region: s
     description: `Professional ${SERVICE_NAME.toLowerCase()} in ${town.name}, NJ. ${SERVICE_DESC}. Licensed NJ exterminators. Call ${BRAND.phoneFormatted}.`,
     openGraph: {
       title: `${SERVICE_NAME} in ${town.name}, NJ`,
-      description: `Licensed ${SERVICE_NAME.toLowerCase()} serving ${town.name} and all of Camden County, NJ.`,
+      description: `Licensed ${SERVICE_NAME.toLowerCase()}s serving ${town.name} and all of Camden County, NJ.`,
       url: `https://pestcontrolcamdencounty.com/camden-county/${SERVICE_SLUG}/${town.slug}/`,
       type: 'website',
       siteName: 'Camden County Pest Control',
@@ -153,7 +153,7 @@ export default async function ServiceTownPage({ params }: { params: Promise<{ re
           {SERVICE_NAME} in {town.name}, NJ
         </h1>
         <p className="text-xl text-gray-600 mb-6">
-          {opener || `Licensed ${SERVICE_NAME.toLowerCase()} serving ${town.name} and all of Camden County. Our NJ-licensed exterminators deliver same-day service.`}
+          {opener || `Licensed ${SERVICE_NAME.toLowerCase()}s serving ${town.name} and all of Camden County. Our NJ-licensed exterminators deliver same-day service.`}
         </p>
 
         {neighborhoods && (

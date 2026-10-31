@@ -475,7 +475,7 @@ export default function BedBugExterminator() {
                   telephone: '(856) 600-0812',
                   url: 'https://pestcontrolcamdencounty.com/bed-bug-exterminator',
                   description:
-                    'Professional bed bug exterminator serving all 16 towns in Camden County, NJ. Heat treatment and chemical options, NJDEP-licensed & insured, free phone assessment available.',
+                    'Professional bed bug exterminators serving all 16 towns in Camden County, NJ. Heat treatment and chemical options, NJDEP-licensed & insured, free phone assessment available.',
                   areaServed: {
                     '@type': 'County',
                     name: 'Camden County',

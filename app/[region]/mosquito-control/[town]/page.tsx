@@ -171,7 +171,6 @@ export default async function ServiceTownPage({ params }: { params: Promise<{ re
           {[
             { stat: '$125–$150', label: 'Per Visit' },
             { stat: 'Seasonal', label: 'Programs Available' },
-            { stat: '30-Day', label: 'Re-Service Guarantee' },
           ].map(({ stat, label }) => (
             <div key={stat} className="bg-brand-light rounded-lg p-4 text-center">
               <div className="text-2xl font-bold text-brand-primary">{stat}</div>

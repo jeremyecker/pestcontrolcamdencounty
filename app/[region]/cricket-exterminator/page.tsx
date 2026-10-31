@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: { params: Promise<{ region: s
     description: `Professional ${SERVICE_NAME.toLowerCase()} serving all 35 Camden County communities. ${SERVICE_DESC}. Licensed NJ exterminators. Call ${BRAND.phoneFormatted}.`,
     openGraph: {
       title: `${SERVICE_NAME} — Camden County, NJ`,
-      description: `Licensed ${SERVICE_NAME.toLowerCase()} serving Cherry Hill, Voorhees, Haddonfield & all of Camden County.`,
+      description: `Licensed ${SERVICE_NAME.toLowerCase()}s serving Cherry Hill, Voorhees, Haddonfield & all of Camden County.`,
     },
   };
 }
