@@ -129,7 +129,7 @@ export const CITY_LAYER7: Record<string, CityLayer7> = {
     faqs: [
       { q: 'What are the main pest issues in Camden City?', a: 'Camden City has dense row home neighborhoods with older housing stock, proximity to the Delaware River, and significant cockroach and rodent pressure typical of urban environments. American cockroaches enter through aging sewer lines; German cockroaches thrive in multi-unit housing; rodents are active year-round near food sources and the waterfront.' },
       { q: 'Do you serve residential and commercial properties in Camden?', a: 'Yes — we serve Camden City homes, apartment buildings, restaurants, and commercial properties throughout all neighborhoods.' },
-      { q: 'Are there pest control options for renters in Camden?', a: 'Yes. We work directly with renters and can coordinate with property owners. New Jersey tenant rights give renters recourse if landlords fail to address infestations — we can document conditions and provide treatment.' },
+      { q: 'Are there pest control options for renters in Camden?', a: 'Yes. We work directly with renters and can coordinate with property owners. New Jersey tenant rights give renters recourse if landlords fail to address infestations — we can provide treatment.' },
       { q: 'How do you handle bed bugs in Camden City apartments?', a: 'Bed bug treatment in multi-unit buildings requires coordinated inspection of adjacent units. We provide both chemical and heat treatment options and work with property managers to implement building-wide protocols.' },
     ],
     nearby: [
