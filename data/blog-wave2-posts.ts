@@ -75,7 +75,7 @@ export const BLOG_POSTS_WAVE2: BlogPost[] = [
 <p>If you find an attached tick, remove it promptly using fine-tipped tweezers, grasping as close to the skin as possible and pulling straight out. Clean the bite area with rubbing alcohol. Monitor for rash or fever in the days following a bite and consult your physician if symptoms develop.</p>
 
 <h2>Professional Yard Treatment for Greenway-Adjacent Properties</h2>
-<p>Homeowners with yards backing up to the Cooper River Greenway or adjacent wooded and brushy areas in Cherry Hill, Pennsauken, Haddon Township, and Collingswood face elevated tick pressure that extends from the trail into residential outdoor spaces. Professional barrier spray treatment targeting the vegetation border, landscape beds, and lawn edges reduces tick populations in the areas where families actually spend time by 75 percent or more with consistent monthly applications from April through October.</p>
+<p>Homeowners with yards backing up to the Cooper River Greenway or adjacent wooded and brushy areas in Cherry Hill, Pennsauken, Haddon Township, and Collingswood face elevated tick pressure that extends from the trail into residential outdoor spaces.</p>
 <p>Deer tick pressure in Camden County warrants professional yard treatment as a genuine public health measure, not just a comfort improvement. Winslow Township and Waterford Township properties bordering conservation land face the highest overall tick pressure in the county and benefit most from intensive seasonal programs.</p>
 
 <p>Call Camden County Pest Control at <strong>(856) 600-0812</strong> to schedule tick yard treatment for your Cooper River Greenway-adjacent property or anywhere in Camden County.</p>`,

@@ -61,7 +61,7 @@ export default function RestaurantsPestControl() {
             Restaurant Pest Control — Camden County, NJ
           </h1>
           <p className="text-xl text-blue-100 mb-8">
-            NJ Health Code-compliant IPM programs for Cherry Hill's dense restaurant corridor and every South Jersey food establishment. German cockroaches, rodents, drain flies — eliminated before your next inspection.
+            NJ Health Code-compliant IPM programs for Cherry Hill's dense restaurant corridor and every South Jersey food establishment.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
